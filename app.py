@@ -29,13 +29,14 @@ ui = {
     
     "sys_settings": "⚙️ System Settings" if is_en else "⚙️ 系統設定",
     "api_mode_title": "Select API Key Mode:" if is_en else "選擇 AI 金鑰模式：",
-    "api_mode_opts": ["🔴 Public Free Quota (1 outline/run)", "⚪ Own GitHub / AI Key (Unlimited)"] if is_en else ["🔴 使用公共免費額度 (單次 1 份大綱)", "⚪ 使用自備 GitHub / AI Key (無限制 & 高隱私)"],
+    "api_mode_opts": ["🔴 Public Free Quota (1 outline/run)", "⚪ Own GitHub Token (Unlimited)"] if is_en else ["🔴 使用公共免費額度 (單次 1 份大綱)", "⚪ 使用自備 GitHub Token (無限制)"],
     "pub_success": "🌱 **Public Resource Loaded (Trial).**" if is_en else "🌱 **公共資源已載入 (免費體驗)。**",
-    "pub_warn": "⚠️ **Security Notice:** This mode is for demonstration only. For boardroom-level data, please switch to 'Own Key'." if is_en else "⚠️ **資安提示**：此模式僅供演示。處理包含高度機密數據時，強烈建議切換為「自備 Key」。",
-    "own_key_label": "🔑 Enter your GitHub Personal Access Token" if is_en else "🔑 請輸入你的 GitHub Token (PAT)",
-    "own_key_info": "💡 **Privacy Guarantee:** Your key runs only in this session and is never stored." if is_en else "💡 **隱私保證**：自備 Key 僅於當前 Session 運行，系統絕不儲存。",
+    "pub_warn": "⚠️ **Security Notice:** This mode is for demonstration only. For boardroom-level data, please switch to 'Own Key'." if is_en else "⚠️ **資安提示**：此模式僅供演示。處理包含高度機密數據時，強烈建議切換為「自備 Token」。",
     
-    "target_tool_title": "### 🎯 Target AI Tool" if is_en else "### 🎯 目標 AI 工具",
+    "own_key_label": "🔑 Enter GitHub Token (PAT)" if is_en else "🔑 請輸入 GitHub Token (PAT)",
+    "own_key_info": "💡 **Privacy:** Key runs only in this session. \n\n🔗 [Click here to get a FREE Token](https://github.com/settings/tokens/new) *(No scopes required, just click Generate)*" if is_en else "💡 **隱私保證**：Token 僅於當前 Session 運行，系統絕不儲存。\n\n🔗 **未有 Token？** [👉 按此免費獲取](https://github.com/settings/tokens/new) *(無需勾選任何權限，拉到最底撳 Generate 即可)*",
+    
+    "target_tool_title": "🎯 Target AI Tool" if is_en else "🎯 目標 AI 工具",
     "tools": [
         "Gamma App (Card-by-Card / Markdown)", 
         "ChatGPT / Claude (VBA Code -> PowerPoint)", 
@@ -65,7 +66,7 @@ ui = {
     "add_info_ph": "e.g., Must cover AI governance frameworks..." if is_en else "例如：需涵蓋 AI 治理框架、風險管理標準...",
     
     "btn_generate": "🚀 Generate Outline & Prompt" if is_en else "🚀 開始生成大綱與專屬 Prompt",
-    "err_key": "❌ Please enter your API Key/GitHub Token in the sidebar." if is_en else "❌ 系統未能讀取 Key。請確保已在左側輸入。",
+    "err_key": "❌ Please enter your API Key/GitHub Token in the sidebar." if is_en else "❌ 系統未能讀取 Token。請確保已在左側輸入。",
     "err_topic": "Please enter a topic!" if is_en else "請填寫簡報主題！",
     "err_aud": "Please specify the audience!" if is_en else "請填寫目標聽眾！",
     "sp_loading": "Applying presentation frameworks..." if is_en else "AI 正在融合專業排版，為你打磨大綱與 Prompt...",
@@ -96,10 +97,9 @@ with st.sidebar:
         st.info(ui["own_key_info"])
         st.markdown("*(Engine: GitHub Models)*")
 
-    st.divider()
-    st.markdown(ui["target_tool_title"])
-    target_tool = st.selectbox("", ui["tools"], label_visibility="collapsed")
+st.divider()
 
+# 主要輸入區
 col1, col2 = st.columns(2)
 with col1:
     topic = st.text_input(ui["topic_label"], placeholder=ui["topic_ph"])
@@ -107,6 +107,8 @@ with col1:
     purpose = st.selectbox(ui["purpose_label"], ui["purpose_opts"])
     
 with col2:
+    # 移至右側的 AI 工具選擇
+    target_tool = st.selectbox(ui["target_tool_title"], ui["tools"])
     time_minutes = st.number_input(ui["time_label"], min_value=1, max_value=120, value=10)
     pace = st.selectbox(ui["pace_label"], ui["pace_opts"])
     tone = st.selectbox(ui["tone_label"], ui["tone_opts"])
@@ -132,7 +134,6 @@ if st.button(ui["btn_generate"], type="primary"):
             slides_count = time_minutes * 2  
 
         try:
-            # 使用 GitHub Models 的 Endpoint
             client = OpenAI(
                 base_url="https://models.inference.ai.azure.com",
                 api_key=github_token,
@@ -179,7 +180,7 @@ if st.button(ui["btn_generate"], type="primary"):
                         {"role": "system", "content": "You are an expert presentation consultant."},
                         {"role": "user", "content": prompt}
                     ],
-                    model="gpt-4o-mini", # GitHub Models 免費額度支援的預設模型
+                    model="gpt-4o-mini",
                     temperature=0.7,
                 )
                 
