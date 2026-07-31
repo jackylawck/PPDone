@@ -13,23 +13,32 @@ st.title("✅ 稿定 P.P.Done")
 st.subheader("「稿定大綱同 Prompt，PPT 輕鬆 Done！」")
 st.caption("內建管顧級大綱原則與專業排版美學！先為你打磨精準簡報架構，產生專屬 Prompt，複製貼上即可一鍵生成高品質 PPT。")
 
-# 優先從 Streamlit Secrets 讀取 API Key
-api_key = st.secrets.get("GEMINI_API_KEY", None)
+# 讀取 Secrets 中的 API Keys
+gemini_key = st.secrets.get("GEMINI_API_KEY", None)
 
 # 側邊欄設定
 with st.sidebar:
-    st.header("⚙️ 設定")
+    st.header("⚙️ API 與模型設定")
     
+    # 支援手動輸入或自動讀取
+    api_key = gemini_key
     if not api_key:
         api_key = st.text_input("請輸入 Gemini API Key", type="password", help="可至 Google AI Studio 免費申請")
     else:
-        st.success("🟢 系統 API Key 已連線 (免輸入 Key)")
-    
+        st.success("🟢 系統 Gemini API 已連線")
+
     st.divider()
     st.markdown("### 🎯 目標 AI 工具")
     target_tool = st.selectbox(
         "你打算用邊款 AI 工具生成 PPT？",
-        ["Gamma App (推薦，支援 Markdown)", "ChatGPT / Claude (生成 VBA 代碼)", "Microsoft Copilot"]
+        [
+            "Gamma App (推薦，支援 Markdown / 卡片生成)", 
+            "ChatGPT / Claude (生成 VBA 代碼 -> 匯入 PPT)", 
+            "ChatGPT / Claude (生成 Marp / Markdown 簡報)",
+            "Microsoft Copilot (PowerPoint 原生 AI)",
+            "Tome / Mindshow (AI 故事與簡報平台)",
+            "Canva AI / SlidesAI (設計類 AI 工具)"
+        ]
     )
 
 # 主要輸入區
@@ -71,28 +80,29 @@ if st.button("🚀 開始生成大綱與專屬 Prompt", type="primary"):
             genai.configure(api_key=api_key)
             model = genai.GenerativeModel('gemini-1.5-flash')
             
-            with st.spinner("AI 正在融合專業排版法則，為你打磨大綱與 Prompt..."):
+            with st.spinner("AI 正在融合專業排版與各平台特色，為你打磨大綱與 Prompt..."):
                 
-                # 針對不同工具融入視覺與排版法則 (加入 18pt, High Contrast, Arial/Calibri 規則)
+                # 針對不同工具優化 Prompt 指令
                 tool_specific_instruction = ""
                 if "Gamma" in target_tool:
                     tool_specific_instruction = """請輸出適合直接貼入 Gamma.app 的 Markdown 格式 Prompt。
-                    【視覺與排版要求】：
-                    1. 視覺衝擊：使用滿版的高解析度圖片，但確保圖形不會過多而干擾視覺。
-                    2. 高對比度 (High Contrast)：標題文字必須加上 40% 透明度的色塊襯底，確保文字在背景上清晰可見。
-                    3. 字體要求：整體設計風格請選用現代簡潔的無襯線字體。"""
+                    【Gamma 排版指令】：
+                    1. 採用 Card-by-Card 邏輯設計，強調標題與大圖對比。
+                    2. 標題加上 40% 透明度色塊襯底。
+                    3. 為每頁提供精準的 Image Prompt（英文）供 Gamma 圖像生成使用。"""
                 elif "VBA" in target_tool:
-                    tool_specific_instruction = """請輸出一個完整的 ChatGPT Prompt，要求 ChatGPT 根據大綱直接寫出可以放入 PowerPoint 執行的 VBA 程式碼。
-                    【VBA 排版嚴格要求】：
-                    1. 字體與大小：所有文字強制設定為 Arial 或 Calibri，且所有字體大小必須大於或等於 18 pt (>=18pt)。
-                    2. 高對比配色：強制設定淺色背景搭配深色文字，或深色背景搭配淺色文字。
-                    3. 排版：大標題置中，內文 Bullet points 不要啟動自動換行 (Text wrapping)。"""
-                else:
-                    tool_specific_instruction = """請輸出一個結構清晰的 Prompt，適合放入 Copilot 中。
-                    【排版指令要求】：
-                    1. 要求 Copilot 採用高對比度 (High Contrast) 的企業模板。
-                    2. 指定使用易讀的簡潔字體（如 Arial 或 Calibri），確保最小字體不低於 18 pt。
-                    3. 版面盡量採用 1:1 圖文搭配，並保持背景乾淨不干擾訊息。"""
+                    tool_specific_instruction = """請輸出一個完整的 ChatGPT/Claude Prompt，要求 AI 根據大綱寫出可複製到 PowerPoint 執行的 VBA 程式碼。
+                    【VBA 要求】：
+                    1. 所有文字設定 Arial 或 Calibri，字體 >= 18pt。
+                    2. 設定高對比度底色，標題自動放大置中。"""
+                elif "Marp" in target_tool:
+                    tool_specific_instruction = "請輸出適合直接複製到 Marp / Markdown 簡報工具的語法，包含 `---` 分頁符號與投影片樣式標籤。"
+                elif "Copilot" in target_tool:
+                    tool_specific_instruction = "請輸出適合 Microsoft Copilot 的 Prompt，要求其配合企業範本、採用高對比度、1:1 圖文排版及 18pt 以上字體生成。"
+                elif "Tome" in target_tool or "Mindshow" in target_tool:
+                    tool_specific_instruction = "請輸出適合 Tome / Mindshow 平台的視覺敘事型 Prompt，注重每一頁的故事動線與核心視覺提示。"
+                else: # Canva / SlidesAI
+                    tool_specific_instruction = "請輸出適合 Canva AI / SlidesAI 的條列式大綱與視覺風格提示，強調高對比配色與簡潔版面設計。"
 
                 prompt = f"""
                 你是一位資深的簡報架構師。請根據以下需求，輸出兩個部分：
