@@ -3,97 +3,131 @@ import google.generativeai as genai
 
 # 頁面基本設定
 st.set_page_config(
-    page_title="稿定 P.P.Done | AI 簡報大綱與 Prompt 生成器", 
+    page_title="P.P.Done | AI Presentation Builder", 
     page_icon="✅", 
     layout="wide"
 )
 
-# 標題與標語
-st.title("✅ 稿定 P.P.Done")
-st.subheader("「稿定大綱同 Prompt，PPT 輕鬆 Done！」")
-st.caption("內建管顧級大綱原則與專業排版美學！先為你打磨精準簡報架構，產生專屬 Prompt，複製貼上即可一鍵生成高品質 PPT。")
-
-# 側邊欄：系統設定與 API 雙軌模式
+# -------------------------
+# 1. 語言設定與 UI 字典
+# -------------------------
 with st.sidebar:
-    st.header("⚙️ 系統設定")
-    
-    # 選擇 AI 金鑰模式
-    api_mode = st.radio(
-        "選擇 AI 金鑰模式：",
-        ["🔴 使用系統公共免費額度", "⚪ 使用自備 AI API Key (無限制)"],
-        index=0,
-        label_visibility="collapsed"
-    )
-    
-    st.markdown("選擇 AI 金鑰模式：")
-    api_mode = st.radio(
+    st.markdown("### 🌐 界面與報告語言 (UI & Output Language)")
+    lang_choice = st.selectbox(
         "",
-        ["🔴 使用公共免費額度 (單次 1 份大綱)", "⚪ 使用自備 AI API Key (無限制 & 高隱私)"],
-        index=0,
+        ["繁體中文 (Traditional Chinese)", "English (Full)"],
         label_visibility="collapsed"
     )
 
+is_en = "English" in lang_choice
+
+# 根據選擇的語言設定 UI 文字
+ui = {
+    "main_title": "✅ P.P.Done Generator" if is_en else "✅ 稿定 P.P.Done",
+    "sub_title": '"Nail the Outline & Prompt, Get your PPT Done!"' if is_en else "「稿定大綱同 Prompt，PPT 輕鬆 Done！」",
+    "caption": "Built-in consultant-grade frameworks & design aesthetics! Generate precise outlines and tailored AI prompts to build high-quality presentations instantly." if is_en else "內建管顧級大綱原則與專業排版美學！先為你打磨精準簡報架構，產生專屬 Prompt，複製貼上即可一鍵生成高品質 PPT。",
+    
+    "sys_settings": "⚙️ System Settings" if is_en else "⚙️ 系統設定",
+    "api_mode_title": "Select API Key Mode:" if is_en else "選擇 AI 金鑰模式：",
+    "api_mode_opts": ["🔴 Public Free Quota (1 outline/run)", "⚪ Own AI API Key (Unlimited & Private)"] if is_en else ["🔴 使用公共免費額度 (單次 1 份大綱)", "⚪ 使用自備 AI API Key (無限制 & 高隱私)"],
+    "pub_success": "🌱 **Public Resource Loaded (Trial).**" if is_en else "🌱 **公共資源已載入 (免費體驗)。**",
+    "pub_warn": "⚠️ **Security Notice:** This mode is for demonstration only. For boardroom-level or highly sensitive corporate data, please switch to 'Own Key' for zero data retention." if is_en else "⚠️ **資安提示**：此模式僅供演示。處理包含高度機密、董事會級別或企業內部敏感數據時，強烈建議切換為「自備 Key」以落實零數據留存。",
+    "own_key_label": "🔑 Enter your Gemini API Key" if is_en else "🔑 請輸入你的 Gemini API Key",
+    "own_key_info": "💡 **Privacy Guarantee:** Your key runs only in this browser session. The system retains absolutely zero data." if is_en else "💡 **隱私保證**：自備 Key 僅會於當前瀏覽器 Session 運行，系統不會作任何儲存或紀錄，確保資料 100% 留存在你的掌控中。",
+    
+    "target_tool_title": "### 🎯 Target AI Tool" if is_en else "### 🎯 目標 AI 工具",
+    "tools": [
+        "Gamma App (Card-by-Card / Markdown)", 
+        "ChatGPT / Claude (VBA Code -> PowerPoint)", 
+        "ChatGPT / Claude (Marp / Markdown Slides)",
+        "Microsoft Copilot (Native PowerPoint AI)",
+        "Tome / Mindshow (Visual Storytelling)",
+        "Canva AI / SlidesAI (Design-centric)"
+    ],
+    
+    "topic_label": "Presentation Topic / Core Message" if is_en else "簡報主題 / 核心訊息",
+    "topic_ph": "e.g., ISO 42001 AI Management System Implementation" if is_en else "例如：ISO 42001 AI 管理系統導入計畫",
+    "audience_label": "Target Audience" if is_en else "目標聽眾",
+    "audience_ph": "e.g., Board of Directors, C-Suite, HR Team" if is_en else "例如：董事會成員、高階管理層、HR 團隊",
+    "purpose_label": "Presentation Purpose" if is_en else "簡報目的",
+    "purpose_opts": ["Inform (Status/Sync)", "Persuade (Pitch/Resource Request)", "Facilitate (Workshop/Brainstorming)"] if is_en else ["傳達資訊 (資訊同步/進度報告)", "說服他人 (提案 Pitch/爭取資源)", "引導討論 (工作坊/腦力激盪)"],
+    
+    "time_label": "Expected Duration (Minutes)" if is_en else "預計演講時間 (分鐘)",
+    "pace_label": "Pace (Auto-calculates slides)" if is_en else "簡報節奏 (自動推算頁數)",
+    "pace_opts": [
+        "Moderate: 1 slide/min (Balanced)" if is_en else "中節奏：1頁/分鐘 (適合平衡視覺與內容吸收)", 
+        "Slow: <1 slide/min (Deep dive)" if is_en else "慢節奏：<1頁/分鐘 (適合詳細解說與深度探討)", 
+        "Fast: 2-3 slides/min (Highly visual)" if is_en else "快節奏：2-3頁/分鐘 (適合高度視覺化、快速抓住目光)"
+    ],
+    "tone_label": "Presentation Tone" if is_en else "簡報風格",
+    "tone_opts": ["Boardroom / Executive", "Risk & Compliance Report", "Educational / Training", "High-Impact Pitch"] if is_en else ["專業商務 (Boardroom / Executive)", "風險評估與合規報告", "培訓教學 (Educational)", "提案 Pitch (高說服力)"],
+    "add_info_label": "Additional Context (Optional)" if is_en else "補充資料或重點內容 (選填)",
+    "add_info_ph": "e.g., Must cover AI governance frameworks, risk metrics..." if is_en else "例如：需涵蓋 AI 治理框架、風險管理標準，並提供企業落地案例...",
+    
+    "btn_generate": "🚀 Generate Outline & Prompt" if is_en else "🚀 開始生成大綱與專屬 Prompt",
+    "err_key": "❌ Please enter your API Key in the sidebar." if is_en else "❌ 系統未能讀取 API Key。請確保已在左側輸入。",
+    "err_topic": "Please enter a topic!" if is_en else "請填寫簡報主題！",
+    "err_aud": "Please specify the audience! (Audience-centric approach requires this)" if is_en else "請填寫目標聽眾！(以人為本的簡報需要明確聽眾)",
+    "sp_loading": "Applying presentation frameworks..." if is_en else "AI 正在融合專業排版與各平台特色，為你打磨大綱與 Prompt...",
+    "success_msg": "🎉 Done! Your outline and prompt are ready." if is_en else "🎉 搞定！已為你規劃好大綱與專屬 Prompt。"
+}
+
+# -------------------------
+# 2. 頁面渲染
+# -------------------------
+st.title(ui["main_title"])
+st.subheader(ui["sub_title"])
+st.caption(ui["caption"])
+
+with st.sidebar:
+    st.divider()
+    st.header(ui["sys_settings"])
+    
+    api_mode = st.radio(ui["api_mode_title"], ui["api_mode_opts"], index=0, label_visibility="collapsed")
     api_key = None
 
-    if "公共免費" in api_mode:
+    if "🔴" in api_mode:
         api_key = st.secrets.get("GEMINI_API_KEY", None)
-        
-        # 復刻截圖中的提示區塊
-        st.success("🌱 **公共資源已載入 (免費體驗)。**")
-        st.warning("⚠️ **資安提示**：此模式僅供系統功能演示與一般簡報生成。處理包含高度機密、董事會級別或企業內部敏感數據時，強烈建議切換為「自備 Key」以落實零數據留存與風險管理。")
+        st.success(ui["pub_success"])
+        st.warning(ui["pub_warn"])
         st.markdown("*(Engine: Gemini 1.5 Flash)*")
-        
     else:
-        api_key = st.text_input("🔑 請輸入你的 Gemini API Key", type="password")
-        st.info("💡 **隱私保證**：自備 Key 僅會於當前瀏覽器 Session 運行，系統不會作任何儲存或紀錄，確保資料 100% 留存在你的掌控中。")
+        api_key = st.text_input(ui["own_key_label"], type="password")
+        st.info(ui["own_key_info"])
         st.markdown("*(Engine: Gemini 1.5 Flash)*")
 
     st.divider()
+    st.markdown(ui["target_tool_title"])
+    target_tool = st.selectbox("", ui["tools"], label_visibility="collapsed")
 
-    st.markdown("### 🎯 目標 AI 工具")
-    target_tool = st.selectbox(
-        "你打算用邊款 AI 工具生成 PPT？",
-        [
-            "Gamma App (推薦，支援 Markdown / 卡片生成)", 
-            "ChatGPT / Claude (生成 VBA 代碼 -> 匯入 PPT)", 
-            "ChatGPT / Claude (生成 Marp / Markdown 簡報)",
-            "Microsoft Copilot (PowerPoint 原生 AI)",
-            "Tome / Mindshow (AI 故事與簡報平台)",
-            "Canva AI / SlidesAI (設計類 AI 工具)"
-        ]
-    )
-
-# 主要輸入區
 col1, col2 = st.columns(2)
-
 with col1:
-    topic = st.text_input("簡報主題 / 核心訊息", placeholder="例如：ISO 42001 AI 管理系統導入計畫")
-    audience = st.text_input("目標聽眾", placeholder="例如：董事會成員、高階管理層、HR 團隊")
-    purpose = st.selectbox("簡報目的", ["傳達資訊 (資訊同步/進度報告)", "說服他人 (提案 Pitch/爭取資源)", "引導討論 (工作坊/腦力激盪)"])
+    topic = st.text_input(ui["topic_label"], placeholder=ui["topic_ph"])
+    audience = st.text_input(ui["audience_label"], placeholder=ui["audience_ph"])
+    purpose = st.selectbox(ui["purpose_label"], ui["purpose_opts"])
     
 with col2:
-    time_minutes = st.number_input("預計演講時間 (分鐘)", min_value=1, max_value=120, value=10)
-    pace = st.selectbox("簡報節奏 (自動推算頁數)", [
-        "中節奏：1頁/分鐘 (適合平衡視覺與內容吸收)", 
-        "慢節奏：<1頁/分鐘 (適合詳細解說與深度探討)", 
-        "快節奏：2-3頁/分鐘 (適合高度視覺化、快速抓住目光)"
-    ])
-    tone = st.selectbox("簡報風格", ["專業商務 (Boardroom / Executive)", "風險評估與合規報告", "培訓教學 (Educational)", "提案 Pitch (高說服力)"])
+    time_minutes = st.number_input(ui["time_label"], min_value=1, max_value=120, value=10)
+    pace = st.selectbox(ui["pace_label"], ui["pace_opts"])
+    tone = st.selectbox(ui["tone_label"], ui["tone_opts"])
 
-additional_info = st.text_area("補充資料或重點內容 (選填)", placeholder="例如：需涵蓋 AI 治理框架、風險管理標準，並提供企業落地案例...")
+additional_info = st.text_area(ui["add_info_label"], placeholder=ui["add_info_ph"])
 
-# 生成按鈕
-if st.button("🚀 開始生成大綱與專屬 Prompt", type="primary"):
+# -------------------------
+# 3. 邏輯處理與 AI 生成
+# -------------------------
+if st.button(ui["btn_generate"], type="primary"):
     if not api_key:
-        st.error("❌ 系統未能讀取 API Key。如果你選擇了「自備 Key」，請確保已在左側輸入。")
+        st.error(ui["err_key"])
     elif not topic:
-        st.warning("請填寫簡報主題！")
+        st.warning(ui["err_topic"])
     elif not audience:
-        st.warning("請填寫目標聽眾！(以人為本的簡報需要明確聽眾)")
+        st.warning(ui["err_aud"])
     else:
-        if "中節奏" in pace:
+        # 計算頁數
+        if "1" in pace or "中" in pace:
             slides_count = time_minutes
-        elif "慢節奏" in pace:
+        elif "<1" in pace or "慢" in pace:
             slides_count = max(3, int(time_minutes * 0.4))  
         else:
             slides_count = time_minutes * 2  
@@ -102,68 +136,52 @@ if st.button("🚀 開始生成大綱與專屬 Prompt", type="primary"):
             genai.configure(api_key=api_key)
             model = genai.GenerativeModel('gemini-1.5-flash')
             
-            with st.spinner("AI 正在融合專業排版與各平台特色，為你打磨大綱與 Prompt..."):
+            with st.spinner(ui["sp_loading"]):
                 
-                tool_specific_instruction = ""
-                if "Gamma" in target_tool:
-                    tool_specific_instruction = """請輸出適合直接貼入 Gamma.app 的 Markdown 格式 Prompt。
-                    【Gamma 排版指令】：
-                    1. 採用 Card-by-Card 邏輯設計，強調標題與大圖對比。
-                    2. 標題加上 40% 透明度色塊襯底。
-                    3. 為每頁提供精準的 Image Prompt（英文）供 Gamma 圖像生成使用。"""
-                elif "VBA" in target_tool:
-                    tool_specific_instruction = """請輸出一個完整的 ChatGPT/Claude Prompt，要求 AI 根據大綱寫出可複製到 PowerPoint 執行的 VBA 程式碼。
-                    【VBA 要求】：
-                    1. 所有文字設定 Arial 或 Calibri，字體 >= 18pt。
-                    2. 設定高對比度底色，標題自動放大置中。"""
-                elif "Marp" in target_tool:
-                    tool_specific_instruction = "請輸出適合直接複製到 Marp / Markdown 簡報工具的語法，包含 `---` 分頁符號與投影片樣式標籤。"
-                elif "Copilot" in target_tool:
-                    tool_specific_instruction = "請輸出適合 Microsoft Copilot 的 Prompt，要求其配合企業範本、採用高對比度、1:1 圖文排版及 18pt 以上字體生成。"
-                elif "Tome" in target_tool or "Mindshow" in target_tool:
-                    tool_specific_instruction = "請輸出適合 Tome / Mindshow 平台的視覺敘事型 Prompt，注重每一頁的故事動線與核心視覺提示。"
-                else: 
-                    tool_specific_instruction = "請輸出適合 Canva AI / SlidesAI 的條列式大綱與視覺風格提示，強調高對比配色與簡潔版面設計。"
+                # 輸出語言控制
+                lang_instruction = "IMPORTANT: Please output ALL content (including the outline, bullet points, speaker notes, and the prompt itself) entirely in English." if is_en else "重要提示：請使用繁體中文 (Traditional Chinese) 輸出所有內容（包括大綱、重點、演講備註及 Prompt 指令）。"
 
                 prompt = f"""
-                你是一位資深的簡報架構師。請根據以下需求，輸出兩個部分：
-                
-                【需求資訊】
-                - 主題：{topic}
-                - 目標聽眾：{audience}
-                - 簡報目的：{purpose}
-                - 演講時間：{time_minutes} 分鐘 (建議頁數約 {slides_count} 頁)
-                - 風格：{tone}
-                - 補充背景：{additional_info}
-                - 目標 AI 工具：{target_tool}
+                You are a senior presentation architect and management consultant. 
+                {lang_instruction}
 
-                【大綱撰寫規則（嚴格遵守大師級法則）】
-                1. 聽眾本位：提供「{audience}」需要聽到的關鍵資訊，而不是塞滿所有細節。
-                2. 去贅字與極簡化：內容必須極度精簡，刪除不必要的冠詞或連接詞（如 a, the）。每個重點必須控制在【一行以內】，絕對不能換行 (No text wrapping)。
-                3. 事不過三：每頁投影片【最多只能有 3 個主要重點】。
-                4. 不要照稿讀 (Don't read the presentation)：投影片上的文字只是提示 (cue)，請在每一頁額外提供一段【演講備註 (Speaker Notes)】，寫出演講者實際該講的話。
+                【Context】
+                - Topic: {topic}
+                - Audience: {audience}
+                - Purpose: {purpose}
+                - Duration: {time_minutes} minutes (Target slides: ~{slides_count})
+                - Tone: {tone}
+                - Extra Info: {additional_info}
+                - Target AI Tool: {target_tool}
 
-                請輸出以下內容：
+                【Rules (Strictly follow consulting-grade principles)】
+                1. Audience-Centric: Focus ONLY on what '{audience}' needs to hear and decide.
+                2. Extreme Conciseness (No Text Wrapping): Eliminate filler words. Keep every bullet point strictly under ONE line.
+                3. Rule of Three: MAXIMUM 3 bullet points per slide.
+                4. Don't Read Slides: Provide specific 🗣️ Speaker Notes (2-3 sentences) for each slide.
+
+                Please output the following two sections:
                 
-                ### 第一部分：簡報結構大綱 (Slide-by-Slide Outline)
-                總共約 {slides_count} 頁，逐頁列出：
-                1. 頁頭主題 (Slide Title - 嚴格限制短標題)
-                2. 內容要點 (最多 3 個 Bullet points，符合極簡無贅字原則)
-                3. 🗣️ 演講備註 (Speaker Notes - 提供講者在此頁應該口述的完整內容，約 2-3 句)
+                ### Part 1: Slide-by-Slide Outline
+                For each of the ~{slides_count} slides, provide:
+                1. Slide Title (Very short & impactful)
+                2. Core Takeaways (Max 3 bullet points, extreme conciseness)
+                3. 🗣️ Speaker Notes (What the presenter should actually say)
 
                 ---
 
-                ### 第二部分：專屬 AI 提示詞 (Tailored Prompt for {target_tool})
-                {tool_specific_instruction}
-                請將這段 Prompt 放在 Markdown 的 Code Block 中，方便使用者一鍵複製。
+                ### Part 2: Tailored AI Prompt for {target_tool}
+                Generate a specific prompt for the user to copy-paste into {target_tool} to build this presentation.
+                - If Gamma: Demand Card-by-Card logic, 40% translucent text backing, high contrast, and include specific Image Prompts.
+                - If VBA/Copilot: Demand Arial/Calibri font >=18pt, high contrast background, center-aligned titles, and no text wrapping.
+                Put this prompt inside a Markdown Code Block.
                 """
                 
                 response = model.generate_content(prompt)
                 
-                st.success(f"🎉 搞定！已為你規劃約 {slides_count} 頁的大綱與專屬 Prompt。")
+                st.success(ui["success_msg"])
                 st.markdown("---")
-                
                 st.markdown(response.text)
                 
         except Exception as e:
-            st.error(f"生成失敗，錯誤訊息：{e}")
+            st.error(f"Error: {e}" if is_en else f"生成失敗，錯誤訊息：{e}")
