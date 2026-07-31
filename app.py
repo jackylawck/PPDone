@@ -1,5 +1,5 @@
 import streamlit as st
-from openai import OpenAI
+import google.generativeai as genai
 
 # 頁面基本設定
 st.set_page_config(
@@ -21,20 +21,19 @@ with st.sidebar:
 
 is_en = "English" in lang_choice
 
-# UI 文字字典
 ui = {
     "main_title": "✅ P.P.Done Generator" if is_en else "✅ 稿定 P.P.Done",
     "sub_title": '"Nail the Outline & Prompt, Get your PPT Done!"' if is_en else "「稿定大綱同 Prompt，PPT 輕鬆 Done！」",
-    "caption": "Built-in consultant-grade frameworks & ISO/Governance logic! Generate precise outlines and tailored AI prompts to build high-quality presentations instantly." if is_en else "內建管顧級大綱原則、ISO 管理體系與專業排版美學！先為你打磨精準簡報架構，產生專屬 Prompt，複製貼上即可一鍵生成高品質 PPT。",
+    "caption": "Built-in consultant-grade frameworks & ISO/Governance logic! Generate precise outlines and tailored AI prompts instantly." if is_en else "內建管顧級大綱原則、ISO 管理體系與專業排版美學！先為你打磨精準簡報架構，產生專屬 Prompt，複製貼上即可一鍵生成高品質 PPT。",
     
     "sys_settings": "⚙️ System Settings" if is_en else "⚙️ 系統設定",
     "api_mode_title": "Select API Key Mode:" if is_en else "選擇 AI 金鑰模式：",
-    "api_mode_opts": ["🔴 Public Free Quota (1 outline/run)", "⚪ Own GitHub Token (Unlimited)"] if is_en else ["🔴 使用公共免費額度 (單次 1 份大綱)", "⚪ 使用自備 GitHub Token (無限制)"],
+    "api_mode_opts": ["🔴 Public Free Quota (1 outline/run)", "⚪ Own Gemini API Key (Unlimited)"] if is_en else ["🔴 使用公共免費額度 (單次 1 份大綱)", "⚪ 使用自備 Gemini API Key (無限制)"],
     "pub_success": "🌱 **Public Resource Loaded (Trial).**" if is_en else "🌱 **公共資源已載入 (免費體驗)。**",
-    "pub_warn": "⚠️ **Security Notice:** This mode is for demonstration only. For boardroom-level data, please switch to 'Own Key'." if is_en else "⚠️ **資安提示**：此模式僅供演示。處理包含高度機密數據時，強烈建議切換為「自備 Token」。",
+    "pub_warn": "⚠️ **Security Notice:** This mode is for demonstration only. For boardroom-level data, please switch to 'Own Key'." if is_en else "⚠️ **資安提示**：此模式僅供演示。處理包含高度機密數據時，強烈建議切換為「自備 Key」。",
     
-    "own_key_label": "🔑 Enter GitHub Token (PAT)" if is_en else "🔑 請輸入 GitHub Token (PAT)",
-    "own_key_info": "💡 **Privacy:** Key runs only in this session. \n\n🔗 [Click here to get a FREE Token](https://github.com/settings/tokens/new) *(No scopes required, just click Generate)*" if is_en else "💡 **隱私保證**：Token 僅於當前 Session 運行，系統絕不儲存。\n\n🔗 **未有 Token？** [👉 按此免費獲取](https://github.com/settings/tokens/new) *(無需勾選任何權限，拉到最底撳 Generate 即可)*",
+    "own_key_label": "🔑 Enter Gemini API Key" if is_en else "🔑 請輸入 Gemini API Key",
+    "own_key_info": "💡 **Privacy:** Key runs only in this session. \n\n🔗 [Click here to get a FREE Key](https://aistudio.google.com/)" if is_en else "💡 **隱私保證**：Key 僅於當前 Session 運行，系統絕不儲存。\n\n🔗 **未有 Key？** [👉 按此免費獲取](https://aistudio.google.com/)",
     
     "target_tool_title": "🎯 Target AI Tool" if is_en else "🎯 目標 AI 工具",
     "tools": [
@@ -47,9 +46,9 @@ ui = {
     ],
     
     "topic_label": "Presentation Topic / Core Message" if is_en else "簡報主題 / 核心訊息",
-    "topic_ph": "e.g., ISO 42001 AI Management System (AIMS) Implementation Plan" if is_en else "例如：ISO 42001 AI 管理系統 (AIMS) 導入計畫與合規框架",
+    "topic_ph": "e.g., ISO 42001 AI Management System Implementation Plan" if is_en else "例如：ISO 42001 AI 管理系統導入計畫與合規框架",
     "audience_label": "Target Audience" if is_en else "目標聽眾",
-    "audience_ph": "e.g., Board of Directors, Audit Committee, C-Suite, Risk Team" if is_en else "例如：董事會成員、審計委員會、高階管理層、風險管理團隊",
+    "audience_ph": "e.g., Board of Directors, Audit Committee, C-Suite, HR Team" if is_en else "例如：董事會成員、審計委員會、高階管理層、HR 團隊",
     "purpose_label": "Presentation Purpose" if is_en else "簡報目的",
     "purpose_opts": ["Inform (Status/Sync)", "Persuade (Pitch/Resource Request)", "Facilitate (Workshop/Brainstorming)"] if is_en else ["傳達資訊 (資訊同步/進度報告)", "說服他人 (提案 Pitch/爭取資源)", "引導討論 (工作坊/腦力激盪)"],
     
@@ -65,17 +64,18 @@ ui = {
         "ISO 42001 / AI Governance & Risk Management" if is_en else "ISO 42001 / AI 治理與合規 (PDCA 框架)",
         "Boardroom / Executive Summary" if is_en else "董事會匯報 (Boardroom / Executive)",
         "ISO 31000 Risk Assessment & Internal Audit" if is_en else "ISO 31000 風險評估與內部稽核報告",
+        "Mediation & Conflict Resolution / Professional Training" if is_en else "專業調解與溝通 (Mediation & Conflict Resolution)",
         "Educational / Training" if is_en else "培訓教學 (Educational / Training)",
         "High-Impact Pitch" if is_en else "商業提案 Pitch (高說服力)"
     ],
     "add_info_label": "Additional Context (Optional)" if is_en else "補充資料或重點內容 (選填)",
-    "add_info_ph": "e.g., Must incorporate NIST AI RMF, ISO 27001, risk appetite, and implementation roadmap..." if is_en else "例如：需涵蓋 ISO 42001、NIST AI RMF 架構、風險胃納量與執行時程...",
+    "add_info_ph": "e.g., Must incorporate NIST AI RMF, mediation frameworks..." if is_en else "例如：需涵蓋調解技巧、溝通框架或 ISO 標準...",
     
     "btn_generate": "🚀 Generate Outline & Prompt" if is_en else "🚀 開始生成大綱與專屬 Prompt",
-    "err_key": "❌ Please enter your API Key/GitHub Token in the sidebar." if is_en else "❌ 系統未能讀取 Token。請確保已在左側輸入。",
+    "err_key": "❌ Please enter your API Key in the sidebar or check Secrets." if is_en else "❌ 系統未能讀取 API Key。請確保已在左側輸入或 Secrets 已正確設定。",
     "err_topic": "Please enter a topic!" if is_en else "請填寫簡報主題！",
     "err_aud": "Please specify the audience!" if is_en else "請填寫目標聽眾！",
-    "sp_loading": "Integrating ISO frameworks & presentation logic..." if is_en else "AI 正在融合 ISO 管理架構、風險思維與專業排版，打磨大綱與 Prompt...",
+    "sp_loading": "Integrating frameworks & presentation logic..." if is_en else "AI 正在融合專業架構與排版，打磨大綱與 Prompt...",
     "success_msg": "🎉 Done! Your outline and prompt are ready." if is_en else "🎉 搞定！已為你規劃好大綱與專屬 Prompt。"
 }
 
@@ -91,21 +91,20 @@ with st.sidebar:
     st.header(ui["sys_settings"])
     
     api_mode = st.radio(ui["api_mode_title"], ui["api_mode_opts"], index=0, label_visibility="collapsed")
-    github_token = None
+    gemini_key = None
 
     if "🔴" in api_mode:
-        github_token = st.secrets.get("GITHUB_TOKEN", None)
+        gemini_key = st.secrets.get("GEMINI_API_KEY", None)
         st.success(ui["pub_success"])
         st.warning(ui["pub_warn"])
-        st.markdown("*(Engine: GitHub Models / GPT-4o-mini)*")
+        st.markdown("*(Engine: Google Gemini 1.5 Flash)*")
     else:
-        github_token = st.text_input(ui["own_key_label"], type="password")
+        gemini_key = st.text_input(ui["own_key_label"], type="password")
         st.info(ui["own_key_info"])
-        st.markdown("*(Engine: GitHub Models)*")
+        st.markdown("*(Engine: Google Gemini 1.5 Flash)*")
 
 st.divider()
 
-# 主要輸入區
 col1, col2 = st.columns(2)
 with col1:
     topic = st.text_input(ui["topic_label"], placeholder=ui["topic_ph"])
@@ -121,10 +120,10 @@ with col2:
 additional_info = st.text_area(ui["add_info_label"], placeholder=ui["add_info_ph"])
 
 # -------------------------
-# 3. 邏輯處理與 AI 生成 (GitHub Models API)
+# 3. 邏輯處理與 AI 生成 (Gemini API)
 # -------------------------
 if st.button(ui["btn_generate"], type="primary"):
-    if not github_token:
+    if not gemini_key:
         st.error(ui["err_key"])
     elif not topic:
         st.warning(ui["err_topic"])
@@ -139,26 +138,15 @@ if st.button(ui["btn_generate"], type="primary"):
             slides_count = time_minutes * 2  
 
         try:
-            client = OpenAI(
-                base_url="https://models.inference.ai.azure.com",
-                api_key=github_token,
-            )
+            genai.configure(api_key=gemini_key)
+            model = genai.GenerativeModel('gemini-1.5-flash')
             
             with st.spinner(ui["sp_loading"]):
                 
                 lang_instruction = "IMPORTANT: Please output ALL content entirely in English." if is_en else "重要提示：請使用繁體中文 (Traditional Chinese) 輸出所有內容（包括大綱、重點、演講備註及 Prompt 指令）。"
 
-                iso_prompt_rule = ""
-                if "ISO" in tone or "Governance" in tone:
-                    iso_prompt_rule = """
-                    【ISO Management System & Governance Rules】
-                    1. Apply the PDCA (Plan-Do-Check-Act) logic or Risk-based Thinking across the slide flow.
-                    2. Include Risk Identification & Mitigation Controls where appropriate.
-                    3. Ensure professional ISO/Governance terminology is used (with English terms in brackets if in Chinese).
-                    """
-
                 prompt = f"""
-                You are a senior presentation architect, management consultant, and ISO Lead Auditor. 
+                You are a senior presentation architect and executive consultant. 
                 {lang_instruction}
 
                 【Context】
@@ -170,10 +158,8 @@ if st.button(ui["btn_generate"], type="primary"):
                 - Extra Info: {additional_info}
                 - Target AI Tool: {target_tool}
 
-                {iso_prompt_rule}
-
                 【Core Rules】
-                1. Audience-Centric: Focus ONLY on what '{audience}' needs to hear, decide, or approve.
+                1. Audience-Centric: Focus ONLY on what '{audience}' needs to hear, decide, or learn.
                 2. Extreme Conciseness: Keep every bullet point strictly under ONE line.
                 3. Rule of Three: MAXIMUM 3 bullet points per slide.
                 4. Speaker Notes: Provide specific 🗣️ Speaker Notes (2-3 sentences) for each slide.
@@ -181,7 +167,7 @@ if st.button(ui["btn_generate"], type="primary"):
                 Please output:
                 ### Part 1: Slide-by-Slide Outline (~{slides_count} slides)
                 For each slide:
-                1. Slide Title (Short & Professional)
+                1. Slide Title (Short & Impactful)
                 2. Core Takeaways (Max 3 bullet points, concise)
                 3. 🗣️ Speaker Notes (Executive narrative)
 
@@ -191,18 +177,11 @@ if st.button(ui["btn_generate"], type="primary"):
                 Generate a specific prompt for {target_tool}. Wrap it in a Markdown Code Block.
                 """
                 
-                response = client.chat.completions.create(
-                    messages=[
-                        {"role": "system", "content": "You are an expert presentation consultant and ISO governance auditor."},
-                        {"role": "user", "content": prompt}
-                    ],
-                    model="gpt-4o-mini",
-                    temperature=0.7,
-                )
+                response = model.generate_content(prompt)
                 
                 st.success(ui["success_msg"])
                 st.markdown("---")
-                st.markdown(response.choices[0].message.content)
+                st.markdown(response.text)
                 
         except Exception as e:
             st.error(f"Error: {e}" if is_en else f"生成失敗，錯誤訊息：{e}")
