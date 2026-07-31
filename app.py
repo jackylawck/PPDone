@@ -11,7 +11,7 @@ st.set_page_config(
 # 標題與標語
 st.title("✅ 稿定 P.P.Done")
 st.subheader("「稿定大綱同 Prompt，PPT 輕鬆 Done！」")
-st.caption("內建管顧級大綱原則與設計美學！先為你打磨精準簡報架構，產生專屬 Prompt，複製貼上即可一鍵生成高品質 PPT。")
+st.caption("內建管顧級大綱原則與專業排版美學！先為你打磨精準簡報架構，產生專屬 Prompt，複製貼上即可一鍵生成高品質 PPT。")
 
 # 優先從 Streamlit Secrets 讀取 API Key
 api_key = st.secrets.get("GEMINI_API_KEY", None)
@@ -60,7 +60,6 @@ if st.button("🚀 開始生成大綱與專屬 Prompt", type="primary"):
     elif not audience:
         st.warning("請填寫目標聽眾！(以人為本的簡報需要明確聽眾)")
     else:
-        # 根據節奏與時間自動推算建議的投影片張數
         if "中節奏" in pace:
             slides_count = time_minutes
         elif "慢節奏" in pace:
@@ -72,53 +71,60 @@ if st.button("🚀 開始生成大綱與專屬 Prompt", type="primary"):
             genai.configure(api_key=api_key)
             model = genai.GenerativeModel('gemini-1.5-flash')
             
-            with st.spinner("AI 正在融合管顧級法則，為你打磨大綱與 Prompt..."):
+            with st.spinner("AI 正在融合專業排版法則，為你打磨大綱與 Prompt..."):
                 
-                # 針對不同工具融入視覺與排版法則
+                # 針對不同工具融入視覺與排版法則 (加入 18pt, High Contrast, Arial/Calibri 規則)
                 tool_specific_instruction = ""
                 if "Gamma" in target_tool:
                     tool_specific_instruction = """請輸出適合直接貼入 Gamma.app 的 Markdown 格式 Prompt。
-                    【視覺與排版要求（請寫入 Prompt 中要求 Gamma 執行）】：
-                    1. 視覺衝擊：使用滿版的高解析度圖片作為背景。
-                    2. 重點凸顯：標題文字必須加上 40% 透明度的色塊襯底，確保文字不被背景吃掉。
-                    3. 版面平衡：內容採 1:1 圖文搭配，背景底色優先選用「純白或純黑」避免過多裝飾。
-                    4. 提供精準的 Image Prompt 以生成高質感圖片。"""
+                    【視覺與排版要求】：
+                    1. 視覺衝擊：使用滿版的高解析度圖片，但確保圖形不會過多而干擾視覺。
+                    2. 高對比度 (High Contrast)：標題文字必須加上 40% 透明度的色塊襯底，確保文字在背景上清晰可見。
+                    3. 字體要求：整體設計風格請選用現代簡潔的無襯線字體。"""
                 elif "VBA" in target_tool:
-                    tool_specific_instruction = "請輸出一個完整的 ChatGPT Prompt，要求 ChatGPT 根據大綱直接寫出可以放入 PowerPoint 執行的 VBA 程式碼。請在 Prompt 中要求 VBA 預設套用純白或純黑底色，並強制大標題字體置中放大。"
+                    tool_specific_instruction = """請輸出一個完整的 ChatGPT Prompt，要求 ChatGPT 根據大綱直接寫出可以放入 PowerPoint 執行的 VBA 程式碼。
+                    【VBA 排版嚴格要求】：
+                    1. 字體與大小：所有文字強制設定為 Arial 或 Calibri，且所有字體大小必須大於或等於 18 pt (>=18pt)。
+                    2. 高對比配色：強制設定淺色背景搭配深色文字，或深色背景搭配淺色文字。
+                    3. 排版：大標題置中，內文 Bullet points 不要啟動自動換行 (Text wrapping)。"""
                 else:
-                    tool_specific_instruction = "請輸出一個結構清晰的 Prompt，適合放入 Copilot 中。要求 Copilot 配合企業模板，版面盡量採用 1:1 圖文搭配，並使用純黑或純白底色以突顯重點。"
+                    tool_specific_instruction = """請輸出一個結構清晰的 Prompt，適合放入 Copilot 中。
+                    【排版指令要求】：
+                    1. 要求 Copilot 採用高對比度 (High Contrast) 的企業模板。
+                    2. 指定使用易讀的簡潔字體（如 Arial 或 Calibri），確保最小字體不低於 18 pt。
+                    3. 版面盡量採用 1:1 圖文搭配，並保持背景乾淨不干擾訊息。"""
 
                 prompt = f"""
-                你是一位來自頂級投資銀行與管理顧問公司 (Management Consultant) 的資深簡報架構師。請根據以下需求，輸出兩個部分：
+                你是一位資深的簡報架構師。請根據以下需求，輸出兩個部分：
                 
                 【需求資訊】
                 - 主題：{topic}
                 - 目標聽眾：{audience}
                 - 簡報目的：{purpose}
-                - 演講時間：{time_minutes} 分鐘 ({pace}，建議頁數約 {slides_count} 頁)
+                - 演講時間：{time_minutes} 分鐘 (建議頁數約 {slides_count} 頁)
                 - 風格：{tone}
                 - 補充背景：{additional_info}
                 - 目標 AI 工具：{target_tool}
 
-                【大綱撰寫規則（嚴格遵守管顧級簡報法則）】
-                1. 聽眾本位 (Audience-Centric)：永遠從「{audience}」的角度思考。不要塞滿知識，而是提供他們「需要聽到與決策」的關鍵資訊。
-                2. 事不過三 (Rule of Three)：每頁投影片【最多只能有 3 個主要重點】。若資訊過多，必須進行歸類與層次化。
-                3. 多一字不如少一字 (No Power Paragraphs)：內容必須極度精簡（一行起、兩行止），絕對不能出現整段文字，必須使用條列式 (Bullet points)。
-                4. 標題 7 字法則：大標題請濃縮，盡量控制在 7 個字以內（或極度簡短有力）。
+                【大綱撰寫規則（嚴格遵守大師級法則）】
+                1. 聽眾本位：提供「{audience}」需要聽到的關鍵資訊，而不是塞滿所有細節。
+                2. 去贅字與極簡化：內容必須極度精簡，刪除不必要的冠詞或連接詞（如 a, the）。每個重點必須控制在【一行以內】，絕對不能換行 (No text wrapping)。
+                3. 事不過三：每頁投影片【最多只能有 3 個主要重點】。
+                4. 不要照稿讀 (Don't read the presentation)：投影片上的文字只是提示 (cue)，請在每一頁額外提供一段【演講備註 (Speaker Notes)】，寫出演講者實際該講的話。
 
                 請輸出以下內容：
                 
                 ### 第一部分：簡報結構大綱 (Slide-by-Slide Outline)
-                總共約 {slides_count} 頁，逐頁列出每頁的：
+                總共約 {slides_count} 頁，逐頁列出：
                 1. 頁頭主題 (Slide Title - 嚴格限制短標題)
-                2. 核心觀點 (Key Takeaway - 1句話)
-                3. 內容要點 (最多 3 個 Bullet points，符合「事不過三」與「一行起、兩行止」原則)
+                2. 內容要點 (最多 3 個 Bullet points，符合極簡無贅字原則)
+                3. 🗣️ 演講備註 (Speaker Notes - 提供講者在此頁應該口述的完整內容，約 2-3 句)
 
                 ---
 
                 ### 第二部分：專屬 AI 提示詞 (Tailored Prompt for {target_tool})
                 {tool_specific_instruction}
-                Prompt 內需包含：角色設定、排版邏輯、視覺風格指導、內容層次結構等。請將這段 Prompt 放在 Markdown 的 Code Block 中，方便使用者一鍵複製。
+                請將這段 Prompt 放在 Markdown 的 Code Block 中，方便使用者一鍵複製。
                 """
                 
                 response = model.generate_content(prompt)
