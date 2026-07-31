@@ -25,7 +25,7 @@ is_en = "English" in lang_choice
 ui = {
     "main_title": "✅ P.P.Done Generator" if is_en else "✅ 稿定 P.P.Done",
     "sub_title": '"Nail the Outline & Prompt, Get your PPT Done!"' if is_en else "「稿定大綱同 Prompt，PPT 輕鬆 Done！」",
-    "caption": "Built-in consultant-grade frameworks & design aesthetics! Generate precise outlines and tailored AI prompts to build high-quality presentations instantly." if is_en else "內建管顧級大綱原則與專業排版美學！先為你打磨精準簡報架構，產生專屬 Prompt，複製貼上即可一鍵生成高品質 PPT。",
+    "caption": "Built-in consultant-grade frameworks & ISO/Governance logic! Generate precise outlines and tailored AI prompts to build high-quality presentations instantly." if is_en else "內建管顧級大綱原則、ISO 管理體系與專業排版美學！先為你打磨精準簡報架構，產生專屬 Prompt，複製貼上即可一鍵生成高品質 PPT。",
     
     "sys_settings": "⚙️ System Settings" if is_en else "⚙️ 系統設定",
     "api_mode_title": "Select API Key Mode:" if is_en else "選擇 AI 金鑰模式：",
@@ -47,9 +47,9 @@ ui = {
     ],
     
     "topic_label": "Presentation Topic / Core Message" if is_en else "簡報主題 / 核心訊息",
-    "topic_ph": "e.g., ISO 42001 AI Management System Implementation" if is_en else "例如：ISO 42001 AI 管理系統導入計畫",
+    "topic_ph": "e.g., ISO 42001 AI Management System (AIMS) Implementation Plan" if is_en else "例如：ISO 42001 AI 管理系統 (AIMS) 導入計畫與合規框架",
     "audience_label": "Target Audience" if is_en else "目標聽眾",
-    "audience_ph": "e.g., Board of Directors, C-Suite, HR Team" if is_en else "例如：董事會成員、高階管理層、HR 團隊",
+    "audience_ph": "e.g., Board of Directors, Audit Committee, C-Suite, Risk Team" if is_en else "例如：董事會成員、審計委員會、高階管理層、風險管理團隊",
     "purpose_label": "Presentation Purpose" if is_en else "簡報目的",
     "purpose_opts": ["Inform (Status/Sync)", "Persuade (Pitch/Resource Request)", "Facilitate (Workshop/Brainstorming)"] if is_en else ["傳達資訊 (資訊同步/進度報告)", "說服他人 (提案 Pitch/爭取資源)", "引導討論 (工作坊/腦力激盪)"],
     
@@ -60,16 +60,22 @@ ui = {
         "Slow: <1 slide/min (Deep dive)" if is_en else "慢節奏：<1頁/分鐘 (適合詳細解說與深度探討)", 
         "Fast: 2-3 slides/min (Highly visual)" if is_en else "快節奏：2-3頁/分鐘 (適合高度視覺化、快速抓住目光)"
     ],
-    "tone_label": "Presentation Tone" if is_en else "簡報風格",
-    "tone_opts": ["Boardroom / Executive", "Risk & Compliance Report", "Educational / Training", "High-Impact Pitch"] if is_en else ["專業商務 (Boardroom / Executive)", "風險評估與合規報告", "培訓教學 (Educational)", "提案 Pitch (高說服力)"],
+    "tone_label": "Presentation Tone / Framework" if is_en else "簡報風格與框架",
+    "tone_opts": [
+        "ISO 42001 / AI Governance & Risk Management" if is_en else "ISO 42001 / AI 治理與合規 (PDCA 框架)",
+        "Boardroom / Executive Summary" if is_en else "董事會匯報 (Boardroom / Executive)",
+        "ISO 31000 Risk Assessment & Internal Audit" if is_en else "ISO 31000 風險評估與內部稽核報告",
+        "Educational / Training" if is_en else "培訓教學 (Educational / Training)",
+        "High-Impact Pitch" if is_en else "商業提案 Pitch (高說服力)"
+    ],
     "add_info_label": "Additional Context (Optional)" if is_en else "補充資料或重點內容 (選填)",
-    "add_info_ph": "e.g., Must cover AI governance frameworks..." if is_en else "例如：需涵蓋 AI 治理框架、風險管理標準...",
+    "add_info_ph": "e.g., Must incorporate NIST AI RMF, ISO 27001, risk appetite, and implementation roadmap..." if is_en else "例如：需涵蓋 ISO 42001、NIST AI RMF 架構、風險胃納量與執行時程...",
     
     "btn_generate": "🚀 Generate Outline & Prompt" if is_en else "🚀 開始生成大綱與專屬 Prompt",
     "err_key": "❌ Please enter your API Key/GitHub Token in the sidebar." if is_en else "❌ 系統未能讀取 Token。請確保已在左側輸入。",
     "err_topic": "Please enter a topic!" if is_en else "請填寫簡報主題！",
     "err_aud": "Please specify the audience!" if is_en else "請填寫目標聽眾！",
-    "sp_loading": "Applying presentation frameworks..." if is_en else "AI 正在融合專業排版，為你打磨大綱與 Prompt...",
+    "sp_loading": "Integrating ISO frameworks & presentation logic..." if is_en else "AI 正在融合 ISO 管理架構、風險思維與專業排版，打磨大綱與 Prompt...",
     "success_msg": "🎉 Done! Your outline and prompt are ready." if is_en else "🎉 搞定！已為你規劃好大綱與專屬 Prompt。"
 }
 
@@ -107,7 +113,6 @@ with col1:
     purpose = st.selectbox(ui["purpose_label"], ui["purpose_opts"])
     
 with col2:
-    # 移至右側的 AI 工具選擇
     target_tool = st.selectbox(ui["target_tool_title"], ui["tools"])
     time_minutes = st.number_input(ui["time_label"], min_value=1, max_value=120, value=10)
     pace = st.selectbox(ui["pace_label"], ui["pace_opts"])
@@ -143,8 +148,17 @@ if st.button(ui["btn_generate"], type="primary"):
                 
                 lang_instruction = "IMPORTANT: Please output ALL content entirely in English." if is_en else "重要提示：請使用繁體中文 (Traditional Chinese) 輸出所有內容（包括大綱、重點、演講備註及 Prompt 指令）。"
 
+                iso_prompt_rule = ""
+                if "ISO" in tone or "Governance" in tone:
+                    iso_prompt_rule = """
+                    【ISO Management System & Governance Rules】
+                    1. Apply the PDCA (Plan-Do-Check-Act) logic or Risk-based Thinking across the slide flow.
+                    2. Include Risk Identification & Mitigation Controls where appropriate.
+                    3. Ensure professional ISO/Governance terminology is used (with English terms in brackets if in Chinese).
+                    """
+
                 prompt = f"""
-                You are a senior presentation architect and management consultant. 
+                You are a senior presentation architect, management consultant, and ISO Lead Auditor. 
                 {lang_instruction}
 
                 【Context】
@@ -152,12 +166,14 @@ if st.button(ui["btn_generate"], type="primary"):
                 - Audience: {audience}
                 - Purpose: {purpose}
                 - Duration: {time_minutes} minutes (Target slides: ~{slides_count})
-                - Tone: {tone}
+                - Framework/Tone: {tone}
                 - Extra Info: {additional_info}
                 - Target AI Tool: {target_tool}
 
-                【Rules】
-                1. Audience-Centric: Focus ONLY on what '{audience}' needs to hear and decide.
+                {iso_prompt_rule}
+
+                【Core Rules】
+                1. Audience-Centric: Focus ONLY on what '{audience}' needs to hear, decide, or approve.
                 2. Extreme Conciseness: Keep every bullet point strictly under ONE line.
                 3. Rule of Three: MAXIMUM 3 bullet points per slide.
                 4. Speaker Notes: Provide specific 🗣️ Speaker Notes (2-3 sentences) for each slide.
@@ -165,9 +181,9 @@ if st.button(ui["btn_generate"], type="primary"):
                 Please output:
                 ### Part 1: Slide-by-Slide Outline (~{slides_count} slides)
                 For each slide:
-                1. Slide Title
-                2. Core Takeaways (Max 3 bullet points)
-                3. 🗣️ Speaker Notes
+                1. Slide Title (Short & Professional)
+                2. Core Takeaways (Max 3 bullet points, concise)
+                3. 🗣️ Speaker Notes (Executive narrative)
 
                 ---
 
@@ -177,7 +193,7 @@ if st.button(ui["btn_generate"], type="primary"):
                 
                 response = client.chat.completions.create(
                     messages=[
-                        {"role": "system", "content": "You are an expert presentation consultant."},
+                        {"role": "system", "content": "You are an expert presentation consultant and ISO governance auditor."},
                         {"role": "user", "content": prompt}
                     ],
                     model="gpt-4o-mini",
