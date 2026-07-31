@@ -13,10 +13,18 @@ st.title("✅ 稿定 P.P.Done")
 st.subheader("「稿定大綱同 Prompt，PPT 輕鬆 Done！」")
 st.caption("專為慳 Token 打造！先為你打磨精準簡報架構，產生專屬 Prompt，複製貼上即可一鍵生成 PPT。")
 
-# 側邊欄：API Key 與設定
+# 優先從 Streamlit Secrets (環境變數) 讀取 API Key
+api_key = st.secrets.get("GEMINI_API_KEY", None)
+
+# 側邊欄設定
 with st.sidebar:
     st.header("⚙️ 設定")
-    api_key = st.text_input("請輸入 Gemini API Key", type="password", help="可至 Google AI Studio 免費申請")
+    
+    # 如果 Secrets 裡面沒有 Key，才顯示輸入框讓使用者手動輸入
+    if not api_key:
+        api_key = st.text_input("請輸入 Gemini API Key", type="password", help="可至 Google AI Studio 免費申請")
+    else:
+        st.success("🟢 系統 API Key 已連線 (免輸入 Key)")
     
     st.divider()
     st.markdown("### 🎯 目標 AI 工具")
@@ -41,18 +49,16 @@ additional_info = st.text_area("補充資料或重點內容 (選填)", placehold
 # 生成按鈕
 if st.button("🚀 開始生成大綱與專屬 Prompt", type="primary"):
     if not api_key:
-        st.error("請先喺左側邊欄輸入 Gemini API Key！")
+        st.error("系統尚未設定 API Key，請在左側邊欄輸入 API Key 後再試！")
     elif not topic:
         st.warning("請填寫簡報主題！")
     else:
         try:
             genai.configure(api_key=api_key)
-            # 使用 Gemini 1.5 Flash 免費且快速
             model = genai.GenerativeModel('gemini-1.5-flash')
             
             with st.spinner("AI 正在規劃簡報大綱與 Prompt..."):
                 
-                # 針對不同工具的 Prompt 優化邏輯
                 tool_specific_instruction = ""
                 if "Gamma" in target_tool:
                     tool_specific_instruction = "請輸出適合直接貼入 Gamma.app 的 Markdown 格式 Prompt，強調每一頁的標題、圖片建議 (Image Prompt) 以及卡片式排版要求。"
@@ -91,8 +97,6 @@ if st.button("🚀 開始生成大綱與專屬 Prompt", type="primary"):
                 
                 st.success("🎉 搞定！大綱同 Prompt 已經為你準備好。")
                 st.markdown("---")
-                
-                # 顯示結果
                 st.markdown(response.text)
                 
         except Exception as e:
