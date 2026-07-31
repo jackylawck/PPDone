@@ -11,7 +11,7 @@ st.set_page_config(
 # 標題與標語
 st.title("✅ 稿定 P.P.Done")
 st.subheader("「稿定大綱同 Prompt，PPT 輕鬆 Done！」")
-st.caption("內建大師級 10 大簡報法則！先為你打磨精準簡報架構，產生專屬 Prompt，複製貼上即可一鍵生成高品質 PPT。")
+st.caption("內建管顧級大綱原則與設計美學！先為你打磨精準簡報架構，產生專屬 Prompt，複製貼上即可一鍵生成高品質 PPT。")
 
 # 優先從 Streamlit Secrets 讀取 API Key
 api_key = st.secrets.get("GEMINI_API_KEY", None)
@@ -57,20 +57,22 @@ if st.button("🚀 開始生成大綱與專屬 Prompt", type="primary"):
         st.error("系統尚未設定 API Key，請在左側邊欄輸入 API Key 後再試！")
     elif not topic:
         st.warning("請填寫簡報主題！")
+    elif not audience:
+        st.warning("請填寫目標聽眾！(以人為本的簡報需要明確聽眾)")
     else:
         # 根據節奏與時間自動推算建議的投影片張數
         if "中節奏" in pace:
             slides_count = time_minutes
         elif "慢節奏" in pace:
-            slides_count = max(3, int(time_minutes * 0.4))  # 慢節奏 10分鐘約 3-5頁
+            slides_count = max(3, int(time_minutes * 0.4))  
         else:
-            slides_count = time_minutes * 2  # 快節奏 10分鐘約 20頁
+            slides_count = time_minutes * 2  
 
         try:
             genai.configure(api_key=api_key)
             model = genai.GenerativeModel('gemini-1.5-flash')
             
-            with st.spinner("AI 正在融合大師級法則，為你打磨大綱與 Prompt..."):
+            with st.spinner("AI 正在融合管顧級法則，為你打磨大綱與 Prompt..."):
                 
                 # 針對不同工具融入視覺與排版法則
                 tool_specific_instruction = ""
@@ -87,7 +89,7 @@ if st.button("🚀 開始生成大綱與專屬 Prompt", type="primary"):
                     tool_specific_instruction = "請輸出一個結構清晰的 Prompt，適合放入 Copilot 中。要求 Copilot 配合企業模板，版面盡量採用 1:1 圖文搭配，並使用純黑或純白底色以突顯重點。"
 
                 prompt = f"""
-                你是一位資深的簡報架構師與 Prompt 專家。請根據以下需求，輸出兩個部分：
+                你是一位來自頂級投資銀行與管理顧問公司 (Management Consultant) 的資深簡報架構師。請根據以下需求，輸出兩個部分：
                 
                 【需求資訊】
                 - 主題：{topic}
@@ -98,18 +100,19 @@ if st.button("🚀 開始生成大綱與專屬 Prompt", type="primary"):
                 - 補充背景：{additional_info}
                 - 目標 AI 工具：{target_tool}
 
-                【大綱撰寫規則（嚴格遵守簡報大師法則）】
-                1. 標題 7 字法則：大標題請濃縮，盡量控制在 7 個字以內（或極度簡短有力）。
-                2. 內容精煉：重點文字控制在一行內，絕對不要換行，並使用列點（Bullet points）。
-                3. 邏輯推進：根據「{purpose}」的目的，設計具備極強邏輯性的敘事結構。
+                【大綱撰寫規則（嚴格遵守管顧級簡報法則）】
+                1. 聽眾本位 (Audience-Centric)：永遠從「{audience}」的角度思考。不要塞滿知識，而是提供他們「需要聽到與決策」的關鍵資訊。
+                2. 事不過三 (Rule of Three)：每頁投影片【最多只能有 3 個主要重點】。若資訊過多，必須進行歸類與層次化。
+                3. 多一字不如少一字 (No Power Paragraphs)：內容必須極度精簡（一行起、兩行止），絕對不能出現整段文字，必須使用條列式 (Bullet points)。
+                4. 標題 7 字法則：大標題請濃縮，盡量控制在 7 個字以內（或極度簡短有力）。
 
                 請輸出以下內容：
                 
                 ### 第一部分：簡報結構大綱 (Slide-by-Slide Outline)
                 總共約 {slides_count} 頁，逐頁列出每頁的：
-                1. 頁頭主題 (Slide Title - 嚴格限制 7 字內)
+                1. 頁頭主題 (Slide Title - 嚴格限制短標題)
                 2. 核心觀點 (Key Takeaway - 1句話)
-                3. 內容要點 (3-4 個 Bullet points，文字極簡化)
+                3. 內容要點 (最多 3 個 Bullet points，符合「事不過三」與「一行起、兩行止」原則)
 
                 ---
 
