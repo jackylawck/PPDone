@@ -13,21 +13,43 @@ st.title("✅ 稿定 P.P.Done")
 st.subheader("「稿定大綱同 Prompt，PPT 輕鬆 Done！」")
 st.caption("內建管顧級大綱原則與專業排版美學！先為你打磨精準簡報架構，產生專屬 Prompt，複製貼上即可一鍵生成高品質 PPT。")
 
-# 讀取 Secrets 中的 API Keys
-gemini_key = st.secrets.get("GEMINI_API_KEY", None)
-
-# 側邊欄設定
+# 側邊欄：系統設定與 API 雙軌模式
 with st.sidebar:
-    st.header("⚙️ API 與模型設定")
+    st.header("⚙️ 系統設定")
     
-    # 支援手動輸入或自動讀取
-    api_key = gemini_key
-    if not api_key:
-        api_key = st.text_input("請輸入 Gemini API Key", type="password", help="可至 Google AI Studio 免費申請")
+    # 選擇 AI 金鑰模式
+    api_mode = st.radio(
+        "選擇 AI 金鑰模式：",
+        ["🔴 使用系統公共免費額度", "⚪ 使用自備 AI API Key (無限制)"],
+        index=0,
+        label_visibility="collapsed"
+    )
+    
+    st.markdown("選擇 AI 金鑰模式：")
+    api_mode = st.radio(
+        "",
+        ["🔴 使用公共免費額度 (單次 1 份大綱)", "⚪ 使用自備 AI API Key (無限制 & 高隱私)"],
+        index=0,
+        label_visibility="collapsed"
+    )
+
+    api_key = None
+
+    if "公共免費" in api_mode:
+        api_key = st.secrets.get("GEMINI_API_KEY", None)
+        
+        # 復刻截圖中的提示區塊
+        st.success("🌱 **公共資源已載入 (免費體驗)。**")
+        st.warning("⚠️ **資安提示**：此模式僅供系統功能演示與一般簡報生成。處理包含高度機密、董事會級別或企業內部敏感數據時，強烈建議切換為「自備 Key」以落實零數據留存與風險管理。")
+        st.markdown("*(Engine: Gemini 1.5 Flash)*")
+        
     else:
-        st.success("🟢 系統 Gemini API 已連線")
+        api_key = st.text_input("🔑 請輸入你的 Gemini API Key", type="password")
+        st.info("💡 **隱私保證**：自備 Key 僅會於當前瀏覽器 Session 運行，系統不會作任何儲存或紀錄，確保資料 100% 留存在你的掌控中。")
+        st.markdown("*(Engine: Gemini 1.5 Flash)*")
 
     st.divider()
+
     st.markdown("### 🎯 目標 AI 工具")
     target_tool = st.selectbox(
         "你打算用邊款 AI 工具生成 PPT？",
@@ -63,7 +85,7 @@ additional_info = st.text_area("補充資料或重點內容 (選填)", placehold
 # 生成按鈕
 if st.button("🚀 開始生成大綱與專屬 Prompt", type="primary"):
     if not api_key:
-        st.error("系統尚未設定 API Key，請在左側邊欄輸入 API Key 後再試！")
+        st.error("❌ 系統未能讀取 API Key。如果你選擇了「自備 Key」，請確保已在左側輸入。")
     elif not topic:
         st.warning("請填寫簡報主題！")
     elif not audience:
@@ -82,7 +104,6 @@ if st.button("🚀 開始生成大綱與專屬 Prompt", type="primary"):
             
             with st.spinner("AI 正在融合專業排版與各平台特色，為你打磨大綱與 Prompt..."):
                 
-                # 針對不同工具優化 Prompt 指令
                 tool_specific_instruction = ""
                 if "Gamma" in target_tool:
                     tool_specific_instruction = """請輸出適合直接貼入 Gamma.app 的 Markdown 格式 Prompt。
@@ -101,7 +122,7 @@ if st.button("🚀 開始生成大綱與專屬 Prompt", type="primary"):
                     tool_specific_instruction = "請輸出適合 Microsoft Copilot 的 Prompt，要求其配合企業範本、採用高對比度、1:1 圖文排版及 18pt 以上字體生成。"
                 elif "Tome" in target_tool or "Mindshow" in target_tool:
                     tool_specific_instruction = "請輸出適合 Tome / Mindshow 平台的視覺敘事型 Prompt，注重每一頁的故事動線與核心視覺提示。"
-                else: # Canva / SlidesAI
+                else: 
                     tool_specific_instruction = "請輸出適合 Canva AI / SlidesAI 的條列式大綱與視覺風格提示，強調高對比配色與簡潔版面設計。"
 
                 prompt = f"""
@@ -142,7 +163,6 @@ if st.button("🚀 開始生成大綱與專屬 Prompt", type="primary"):
                 st.success(f"🎉 搞定！已為你規劃約 {slides_count} 頁的大綱與專屬 Prompt。")
                 st.markdown("---")
                 
-                # 顯示結果
                 st.markdown(response.text)
                 
         except Exception as e:
