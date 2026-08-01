@@ -140,7 +140,6 @@ if st.button(ui["btn_generate"], type="primary"):
             slides_count = time_minutes * 2  
 
         try:
-            # 設定 OpenRouter API 端點
             client = OpenAI(
                 base_url="https://openrouter.ai/api/v1",
                 api_key=clean_token,
@@ -193,23 +192,43 @@ if st.button(ui["btn_generate"], type="primary"):
                 Generate a specific prompt for {target_tool}. Wrap it in a Markdown Code Block.
                 """
                 
-                # 使用 OpenRouter 官方免費的高效模型
-                response = client.chat.completions.create(
-                    extra_headers={
-                        "HTTP-Referer": "https://ppdone.streamlit.app", 
-                        "X-Title": "PPDone Generator",
-                    },
-                    messages=[
-                        {"role": "system", "content": "You are an expert presentation consultant and governance auditor."},
-                        {"role": "user", "content": prompt}
-                    ],
-                    model="meta-llama/llama-3.3-70b-instruct:free",
-                    temperature=0.7,
-                )
+                # OpenRouter 官方最新免費模型名單 (順序輪換，確保 100% 成功)
+                free_models = [
+                    "google/gemini-2.0-flash-lite-preview-02-05:free",
+                    "google/gemini-2.0-pro-exp-02-05:free",
+                    "deepseek/deepseek-r1:free",
+                    "qwen/qwen-2.5-coder-32b-instruct:free"
+                ]
                 
-                st.success(ui["success_msg"])
-                st.markdown("---")
-                st.markdown(response.choices[0].message.content)
+                response = None
+                last_err = None
+
+                for m in free_models:
+                    try:
+                        response = client.chat.completions.create(
+                            extra_headers={
+                                "HTTP-Referer": "https://ppdone.streamlit.app", 
+                                "X-Title": "PPDone Generator",
+                            },
+                            messages=[
+                                {"role": "system", "content": "You are an expert presentation consultant and governance auditor."},
+                                {"role": "user", "content": prompt}
+                            ],
+                            model=m,
+                            temperature=0.7,
+                        )
+                        if response:
+                            break
+                    except Exception as err:
+                        last_err = err
+                        continue
+
+                if response:
+                    st.success(ui["success_msg"])
+                    st.markdown("---")
+                    st.markdown(response.choices[0].message.content)
+                else:
+                    st.error(f"生成失敗：{last_err}")
                 
         except Exception as e:
             st.error(f"Error: {e}" if is_en else f"生成失敗，錯誤訊息：{e}")
