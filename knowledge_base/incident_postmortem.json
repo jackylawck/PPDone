@@ -1,129 +1,129 @@
 {
   "topic_id": "incident_postmortem",
-  "keywords": ["事故", "檢討", "危機", "出事", "post-mortem", "incident", "拆彈", "問題分析", "失誤", "troubleshooting"],
+  "keywords": ["事故", "檢討", "危機", "出事", "post-mortem", "incident", "拆彈", "問題分析", "失誤", "troubleshooting", "危機處理"],
   "title": {
-    "zh": "事故檢討與預防改善報告",
-    "en": "Incident Post-Mortem & Preventive Action Report"
+    "zh": "事故檢討與系統性防錯報告 (SCQA 結構)",
+    "en": "Incident Post-Mortem & Systemic Prevention Report"
   },
   "slides": [
     {
       "slide_number": 1,
       "slide_title": {
-        "zh": "事件摘要與業務影響 (Executive Summary)",
-        "en": "Executive Summary & Business Impact"
+        "zh": "執行摘要與結論先行 (Executive Summary)",
+        "en": "Executive Summary & Bottom Line"
       },
       "bullet_points": {
         "zh": [
-          "事件概述：於 [日期/時間] 發生 [簡述事件]，影響範圍包含 [受影響之業務/客戶]",
-          "業務影響：造成 [具體數據/損失/停工時間]，目前已 [完全恢復/部分控制]",
-          "本次匯報目的：釐清根本原因、確認補救措施與長期預防方案"
+          "情境 (Situation)：[日期] 發生 [事件]，第一時間已啟動跨部門止血，營運已恢復",
+          "衝擊 (Complication)：本次事件造成 [X] 財務/工時損失，並暴露了 [某流程] 的防禦漏洞",
+          "解法 (Answer)：今日將確立根本原因，並申請 [資源] 導入長期防錯機制 (Fail-safes)"
         ],
         "en": [
-          "Incident Overview: [Brief description] occurred on [Date/Time], affecting [Business/Customers]",
-          "Business Impact: Resulted in [Data/Loss/Downtime]. Status is currently [Fully recovered/Partially controlled]",
-          "Objective: Clarify root causes, confirm remediation, and align on long-term prevention"
+          "Situation: [Incident] occurred on [Date]. Immediate cross-functional mitigation restored operations.",
+          "Complication: The incident cost [X] in financials/hours and exposed vulnerabilities in [Process].",
+          "Answer: Today we align on root causes and request [Resources] for long-term fail-safes."
         ]
       },
       "speaker_notes": {
-        "zh": "各位主管，今天的會議是針對日前的突發事件進行覆盤。目前情況已經受到控制，我們今天的重點不是究責，而是透明地呈現發生了什麼事，以及我們如何確保未來不再發生。",
-        "en": "Management team, today's meeting is a post-mortem of the recent incident. The situation is under control. Our focus today is not to point fingers, but to transparently review what happened and ensure it doesn't happen again."
+        "zh": "各位主管，秉持「早報憂」的原則，我們今天直接切入重點。前幾天的突發事件已經完全平息，沒有持續擴大的風險。今天的目標是向各位報告損失的數據底線，以及我們如何從系統層面徹底解決這個漏洞。",
+        "en": "Management team, following the principle of escalating bad news early, let's get straight to the point. The recent incident is fully contained. Today's goal is to present the bottom-line impact and how we will systematically close this vulnerability."
       }
     },
     {
       "slide_number": 2,
       "slide_title": {
-        "zh": "客觀時間軸 (Incident Timeline)",
-        "en": "Incident Timeline"
+        "zh": "客觀時間軸與業務衝擊 (Timeline & Business Impact)",
+        "en": "Timeline & Business Impact Analysis"
       },
       "bullet_points": {
         "zh": [
-          "[時間點 1]：系統/流程出現異常，第一線人員接獲通報",
-          "[時間點 2]：啟動緊急應變機制，進行初步影響評估",
-          "[時間點 3]：成功執行止血措施，服務/流程恢復正常運作"
+          "時間節點 (Milestones)：從發現異常到完全修復共耗時 [X] 小時，警報機制反應速度符合/低於預期",
+          "量化損失 (Data Literacy)：導致 [X]% 產能下降或 [X] 金額損失，後續賠償/重工成本約 [X]",
+          "質化衝擊 (Risk Radar)：短暫影響了 [客戶信任/跨部門協作]，已主動啟動期望值管理"
         ],
         "en": [
-          "[Time 1]: Anomaly detected in system/process; frontline notified",
-          "[Time 2]: Emergency response activated; initial impact assessment conducted",
-          "[Time 3]: Mitigation measures successfully deployed; normal operations restored"
+          "Timeline Milestones: [X] hours from detection to resolution. Alerting speed was [within/below] expectations.",
+          "Quantifiable Loss: Resulted in a [X]% capacity drop or [X] financial loss; rework costs est. at [X].",
+          "Qualitative Impact: Temporarily affected [Client Trust / Team Morale]; expectation management initiated."
         ]
       },
       "speaker_notes": {
-        "zh": "我們還原一下當時的客觀時間軸。從發現異常到完全排除，總共花費了多少時間。這有助於我們檢視現有的警報與通報機制是否夠快。",
-        "en": "Let's review the objective timeline. We need to look at the total time from detection to full resolution. This helps us evaluate if our current alerting and escalation mechanisms are fast enough."
+        "zh": "我們用數據來還原現場。這次的修復時間是 X 小時，造成的顯性與隱性成本大約是 Y。把這個成本數字算出來，是為了讓我們稍後評估「預防措施的投資報酬率 (ROI)」時，有清晰的基準點。",
+        "en": "Let's review the data. Resolution took X hours, and the direct/indirect costs are approximately Y. Quantifying this cost sets a clear baseline for evaluating the ROI of our proposed preventive measures later."
       }
     },
     {
       "slide_number": 3,
       "slide_title": {
-        "zh": "根本原因分析 (Root Cause Analysis)",
-        "en": "Root Cause Analysis"
+        "zh": "根本原因分析 (Root Cause & MECE Analysis)",
+        "en": "Root Cause Analysis (MECE Approach)"
       },
       "bullet_points": {
         "zh": [
-          "直接原因：[例如：人為操作失誤 / 系統容量超載 / 供應商斷線]",
-          "系統性/流程漏洞：[例如：缺乏雙重核准機制 / 缺乏備援方案]",
-          "結論：現有 SOP 未涵蓋此極端情境，導致第一時間無法攔截"
+          "表層現象：第一線人員操作失誤 / 系統瞬間超載 (避免將問題停留在『人為疏失』)",
+          "系統性漏洞 (Governance)：缺乏事前 [雙重驗證機制]，以及事中 [自動化攔截工具]",
+          "管理盲點 (Manager's Perspective)：資源錯配導致前線工作超載，風險容忍度界定不清"
         ],
         "en": [
-          "Direct Cause: [e.g., Human error / System overload / Vendor outage]",
-          "Systemic/Process Gap: [e.g., Lack of dual-approval / No fallback plan]",
-          "Conclusion: Current SOPs did not cover this edge case, preventing immediate interception"
+          "Surface Issue: Frontline operational error / Sudden system overload (Moving beyond 'human error').",
+          "Systemic Gap: Lack of pre-action [Dual-verification] and in-process [Automated interception].",
+          "Management Blindspot: Resource mismatch causing frontline burnout; vague risk tolerance definitions."
         ]
       },
       "speaker_notes": {
-        "zh": "經過深入剖析，雖然表面上看起來是單一節點失效，但根本原因其實是我們的標準作業流程中，缺乏針對這類極端情況的防錯與雙重驗證機制。",
-        "en": "Through deep analysis, while it appears to be a single node failure, the root cause is actually a gap in our standard operating procedures—specifically, a lack of fail-safes and dual-verification for extreme edge cases."
+        "zh": "依照 MECE 不重疊、不遺漏的原則，我們不能把問題推給「人為疏失」。真正的根本原因，在於我們的流程設計缺乏「防錯機制 (Fool-proofing)」，且前線資源的配置增加了出錯的機率。",
+        "en": "Applying the MECE principle, we cannot simply blame 'human error.' The true root causes are governance gaps—specifically, the lack of fool-proofing mechanisms and resource allocations that increase the probability of errors."
       }
     },
     {
       "slide_number": 4,
       "slide_title": {
-        "zh": "立即止血與補救措施 (Immediate Actions)",
-        "en": "Immediate Remediation Actions"
+        "zh": "跨部門調解與止血措施 (Immediate Alignment)",
+        "en": "Cross-Functional Alignment & Mitigation"
       },
       "bullet_points": {
         "zh": [
-          "客戶/利害關係人溝通：已於第一時間發布說明並提供補償方案",
-          "作業面處置：已實施 [具體措施] 確保短期內系統/流程穩定",
-          "資料/資產保全：已完成盤點，確認無進一步外洩或損失風險"
+          "責任共擔 (No Blame Game)：已與 [相關部門] 召開檢討，不追究個人，專注修補流程",
+          "立即止血 (Short-term Fix)：實施臨時的 [人工抽檢/額外審批] 確保營運安全",
+          "資訊同步 (Communication)：已向受影響的內外部利害關係人發送說明，挽回信任"
         ],
         "en": [
-          "Stakeholder Comms: Statements issued immediately with compensation plans provided",
-          "Operational Fix: Implemented [Specific Action] to ensure short-term stability",
-          "Asset Security: Inventory completed, confirming no further risk of leak or loss"
+          "Shared Accountability: Conducted blameless reviews with [Dept]; focused purely on process repair.",
+          "Immediate Mitigation: Implemented temporary [Manual checks / Extra approvals] to secure operations.",
+          "Transparent Comms: Dispatched clear explanations to affected stakeholders to restore trust."
         ]
       },
       "speaker_notes": {
-        "zh": "在事件發生當下，團隊的首要任務是止血。我們已經安撫了受影響的對象，並上了臨時的控制措施，確保在徹底修復前，營運能維持在安全線上。",
-        "en": "During the incident, the team's top priority was damage control. We have reassured affected parties and applied temporary controls to keep operations safely afloat until a permanent fix is ready."
+        "zh": "在危機發生當下，我們運用了調解思維，聯合各部門先解決問題，而不是互相指責。目前已經上了臨時的控制措施，並主動對外溝通，確保所有利害關係人的期望值都在掌控中。",
+        "en": "During the crisis, we applied a mediation mindset—partnering across departments to solve the problem rather than pointing fingers. Temporary controls are in place, and proactive communication has stabilized stakeholder expectations."
       }
     },
     {
       "slide_number": 5,
       "slide_title": {
-        "zh": "長期預防與流程優化 (Long-term Prevention)",
-        "en": "Long-term Prevention & Optimization"
+        "zh": "長期預防投資與變革推動 (Prevention ROI & Change Mgmt)",
+        "en": "Prevention ROI & Change Management"
       },
       "bullet_points": {
         "zh": [
-          "流程修訂：將於 [日期] 前更新 SOP，加入 [具體防錯機制]",
-          "系統/資源強化：申請 [資源/預算] 以導入自動化監控與備援",
-          "人員訓練：安排相關團隊於本月底前完成新流程之教育訓練"
+          "防禦升級 (The Ask)：申請 [預算/資源] 導入 [自動化/新系統]，取代高風險的人工操作",
+          "投資回報 (ROI)：該筆投資僅佔本次事故損失的 [X]%，具備極高的風險防禦效益",
+          "變革管理 (Change Mgmt)：本月底前完成新 SOP 培訓，確保前線人員無縫過渡並確實遵循"
         ],
         "en": [
-          "Process Update: SOPs will be updated by [Date] to include [Specific fail-safes]",
-          "System Enhancement: Requesting [Budget/Resources] for automated monitoring",
-          "Training: Scheduling team training on the new procedures by month-end"
+          "The Ask: Requesting [Budget] to deploy [Automated tools] to replace high-risk manual steps.",
+          "ROI Justification: This investment is only [X]% of the incident's cost, offering massive risk-defense value.",
+          "Change Management: Completing new SOP training by month-end to ensure smooth frontline adoption."
         ]
       },
       "speaker_notes": {
-        "zh": "為了落實持續改善，我們擬定了三項長期預防措施。特別是流程修訂與防錯機制的建立，希望主管能批准相關資源，讓我們把漏洞徹底補齊。",
-        "en": "To implement continual improvement, we have drafted three long-term preventive measures. Specifically regarding process updates and fail-safes, we request management's approval for the necessary resources to close this gap completely."
+        "zh": "為了徹底根除風險，我們提議導入新系統。從 ROI 的角度來看，這筆預防投資遠低於事故再次發生的代價。同時，我們會做好變革管理與人員培訓，確保新流程能被團隊接受並嚴格執行。懇請主管核准。",
+        "en": "To permanently eliminate this risk, we propose a new system. From an ROI perspective, this preventive investment is a fraction of the cost of recurrence. We will also drive change management and training to ensure strict adherence. We ask for your approval."
       }
     }
   ],
   "prompt_template": {
-    "zh": "請以繁體中文製作一份專業的『事故檢討與預防改善報告 (Post-mortem)』簡報。採用嚴謹、客觀的商務風格。內容必須著重於：1. 客觀還原時間軸，2. 深入剖析根本原因（Root Cause），3. 提出具體的短期止血與長期預防措施（防錯機制）。每張 Slide 不超過 3 個重點，每字不超過一行，語氣需具備建設性，避免情緒化指責。",
-    "en": "Please create a professional 'Incident Post-Mortem & Preventive Action Report' presentation in English. Use a rigorous and objective corporate tone. Focus on: 1. Objective timeline reconstruction, 2. Deep Root Cause Analysis, 3. Specific short-term remediation and long-term prevention (fail-safes). Max 3 bullet points per slide, max one line per bullet. Maintain a constructive tone, avoiding emotional blame."
+    "zh": "請以繁體中文製作一份專業的『事故檢討與系統性防錯報告』簡報。受眾為高階主管。內容需展現強大的管理與商業思維，著重於：1. 運用 SCQA 架構破題，2. 將損失數據化，並以此凸顯預防措施的投資報酬率 (ROI)，3. 運用 MECE 原則找出系統性漏洞，絕不歸咎於單一人為疏失，4. 納入跨部門調解與未來的變革管理 (Change Management) 培訓計畫。每張 Slide 不超過 3 個重點，每字不超過一行，語氣需具備『危機處理專家』的沉穩與建設性。",
+    "en": "Please create a professional 'Incident Post-Mortem & Systemic Prevention' presentation in English. Audience: Senior Management. Demonstrate strong business acumen by focusing on: 1. SCQA framing, 2. Quantifying losses to justify the ROI of preventive measures, 3. Using MECE to identify systemic gaps (no scapegoating), 4. Incorporating cross-functional alignment and Change Management training. Max 3 bullet points per slide, max one line per bullet. The tone must be composed, highly constructive, and expert in crisis management."
   }
 }
