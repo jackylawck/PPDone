@@ -1,15 +1,13 @@
 import os
 import json
-import re
-import pathlib
 import streamlit as st
 
 # ==========================================
 # 1. 頁面基本配置 (Streamlit Page Config)
 # ==========================================
 st.set_page_config(
-    page_title="PPDone - C-Level 簡報大腦與 AI 簡報生成器",
-    page_icon="📊",
+    page_title="P.P.Done - Presentation Prompt Done",
+    page_icon="🚀",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -110,8 +108,8 @@ def match_best_topic(user_input, kb_data):
 # 4. Streamlit UI 介面構建
 # ==========================================
 def main():
-    st.title("🚀 PPDone - C-Level 戰略簡報生成系統")
-    st.caption("結合 20+ 頂級 C-Level 商業知識庫與 AI 的簡報大腦")
+    st.title("🚀 P.P.Done")
+    st.caption("Presentation Prompt Done | 高階 C-Level 戰略簡報大腦")
 
     # 載入知識庫
     kb_data, categories = load_all_knowledge_base()
@@ -224,7 +222,6 @@ def main():
                 # 若有 API Key 則嘗試調用 LLM，否則顯示示範生成
                 if api_key:
                     st.success("✅ 已成功連接 AI 模型，正在生成符合 1280x720 規範之 HTML 簡報...")
-                    # 此處可對接 google.generativeai 或 openai 套件
                     st.code(combined_prompt[:500] + "\n\n... (Prompt 已對齊最高 C-Level 規格)", language="text")
                 else:
                     st.info("💡 目前為「知識庫結構預覽模式」。輸入 API Key 後即可生成完整動態 HTML 簡報檔案。")
