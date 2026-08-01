@@ -34,7 +34,7 @@ ui = {
     "pub_warn": "⚠️ **Security Notice:** This mode is for demonstration only. For boardroom-level data, please switch to 'Own Key'." if is_en else "⚠️ **資安提示**：此模式僅供演示。處理包含高度機密數據時，強烈建議切換為「自備 Token」。",
     
     "own_key_label": "🔑 Enter GitHub Token (PAT)" if is_en else "🔑 請輸入 GitHub Token (PAT)",
-    "own_key_info": "💡 **Privacy:** Key runs only in this session.\n\n🔗 [Get FREE Token](https://github.com/settings/tokens/new)" if is_en else "💡 **隱私保證**：Token 僅於當前 Session 運行，系統絕不儲存。\n\n🔗 **未有 Token？** [👉 按此免費獲取](https://github.com/settings/tokens/new) *(無需勾選任何權限)*",
+    "own_key_info": "💡 **Privacy:** Key runs only in this session.\n\n🔗 [Get FREE Token](https://github.com/settings/tokens/new)" if is_en else "💡 **隱私保證**：Token 僅於當前 Session 運行，系統絕不儲存。\n\n🔗 **未有 Token？** [👉 按此免費獲取](https://github.com/settings/tokens/new) *(使用 Classic Token，無需勾選任何權限)*",
     
     "target_tool_title": "🎯 Target AI Tool" if is_en else "🎯 目標 AI 工具",
     "tools": [
@@ -95,7 +95,6 @@ with st.sidebar:
     github_token = None
 
     if "🔴" in api_mode:
-        # 正確指定讀取 GITHUB_TOKEN
         github_token = st.secrets.get("GITHUB_TOKEN", None)
         st.success(ui["pub_success"])
         st.warning(ui["pub_warn"])
@@ -132,6 +131,9 @@ if st.button(ui["btn_generate"], type="primary"):
     elif not audience:
         st.warning(ui["err_aud"])
     else:
+        # 清除 token 可能包含的前後空格或引號
+        clean_token = str(github_token).strip().strip('"').strip("'")
+        
         if "1" in pace or "中" in pace:
             slides_count = time_minutes
         elif "<1" in pace or "慢" in pace:
@@ -143,12 +145,21 @@ if st.button(ui["btn_generate"], type="primary"):
             # 建立 GitHub Models API 連線
             client = OpenAI(
                 base_url="https://models.inference.ai.azure.com",
-                api_key=github_token,
+                api_key=clean_token,
             )
             
             with st.spinner(ui["sp_loading"]):
                 
                 lang_instruction = "IMPORTANT: Please output ALL content entirely in English." if is_en else "重要提示：請使用繁體中文 (Traditional Chinese) 輸出所有內容（包括大綱、重點、演講備註及 Prompt 指令）。"
+
+                iso_prompt_rule = ""
+                if "ISO" in tone or "Governance" in tone:
+                    iso_prompt_rule = """
+                    【ISO Management System & Governance Rules】
+                    1. Apply the PDCA (Plan-Do-Check-Act) logic or Risk-based Thinking across the slide flow.
+                    2. Include Risk Identification & Mitigation Controls where appropriate.
+                    3. Ensure professional ISO/Governance terminology is used (with English terms in brackets if in Chinese).
+                    """
 
                 prompt = f"""
                 You are a senior presentation architect, management consultant, and governance expert. 
@@ -162,6 +173,8 @@ if st.button(ui["btn_generate"], type="primary"):
                 - Framework/Tone: {tone}
                 - Extra Info: {additional_info}
                 - Target AI Tool: {target_tool}
+
+                {iso_prompt_rule}
 
                 【Core Rules】
                 1. Audience-Centric: Focus ONLY on what '{audience}' needs to hear, decide, or learn.
@@ -182,19 +195,33 @@ if st.button(ui["btn_generate"], type="primary"):
                 Generate a specific prompt for {target_tool}. Wrap it in a Markdown Code Block.
                 """
                 
-                # 呼叫 GitHub Models 上的 gpt-4o-mini
-                response = client.chat.completions.create(
-                    messages=[
-                        {"role": "system", "content": "You are an expert presentation consultant."},
-                        {"role": "user", "content": prompt}
-                    ],
-                    model="gpt-4o-mini",
-                    temperature=0.7,
-                )
-                
-                st.success(ui["success_msg"])
-                st.markdown("---")
-                st.markdown(response.choices[0].message.content)
+                # 多模型名自動備援試嘗試 (Fallback strategy)
+                model_candidates = ["gpt-4o-mini", "GPT-4o-mini", "gpt-4o"]
+                response = None
+                last_error = None
+
+                for model_name in model_candidates:
+                    try:
+                        response = client.chat.completions.create(
+                            messages=[
+                                {"role": "system", "content": "You are an expert presentation consultant and governance auditor."},
+                                {"role": "user", "content": prompt}
+                            ],
+                            model=model_name,
+                            temperature=0.7,
+                        )
+                        if response:
+                            break
+                    except Exception as e:
+                        last_error = e
+                        continue
+
+                if response:
+                    st.success(ui["success_msg"])
+                    st.markdown("---")
+                    st.markdown(response.choices[0].message.content)
+                else:
+                    st.error(f"GitHub Models API 驗證失敗 (401 Unauthorized)。請檢查 Secrets 中的 Token 是否為有效的 Classic PAT，且未帶多餘引號。\n\n詳細訊息: {last_error}")
                 
         except Exception as e:
             st.error(f"Error: {e}" if is_en else f"生成失敗，錯誤訊息：{e}")
