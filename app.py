@@ -248,9 +248,8 @@ if st.button(ui["btn_generate"], type="primary"):
                         """
                         
                         free_models = [
-                            "openrouter/auto",
-                            "meta-llama/llama-3.3-70b-instruct:free",
-                            "mistralai/mistral-7b-instruct:free"
+"openrouter/auto",
+    "meta-llama/llama-3.3-70b-instruct:free"
                         ]
                         
                         response = None
