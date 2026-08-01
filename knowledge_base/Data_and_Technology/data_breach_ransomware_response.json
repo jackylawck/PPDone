@@ -1,0 +1,129 @@
+{
+  "topic_id": "data_breach_ransomware_response",
+  "keywords": ["資安", "勒索軟體", "ransomware", "ciso", "dpo", "資料外洩", "data breach", "資安危機", "incident response", "駭客", "隱私", "合規", "bcp"],
+  "title": {
+    "zh": "資料外洩與勒索軟體應變戰略 (CISO / DPO 危機視角)",
+    "en": "Data Breach & Ransomware Incident Response (CISO/DPO Perspective)"
+  },
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_title": {
+        "zh": "資安危機現狀與 72 小時通報倒數 (SCQA & The Ask)",
+        "en": "Incident Status & The 72-Hour Clock (SCQA)"
+      },
+      "bullet_points": {
+        "zh": [
+          "情境 (Situation)：公司於 [X 小時] 前遭逢 [勒索軟體/資料外洩] 攻擊，部分核心伺服器遭加密，且駭客威脅將公開敏感客戶資料",
+          "衝突 (Complication)：我們正面臨營運癱瘓的雙重危機，且根據 [GDPR/當地個資法]，我們必須在 72 小時內完成主管機關與受害者的合法通報",
+          "戰略訴求 (The Ask)：全面啟動一級事件應變小組 (IRT)，懇請董事會授權法務與資安團隊採取「止血隔離」與「談判/不談判」之最終決策權"
+        ],
+        "en": [
+          "Situation: [X] hours ago, we suffered a severe [Ransomware/Data Breach] attack. Core servers are encrypted, and threat actors are extorting us with stolen client data.",
+          "Complication: We face operational paralysis paired with a ticking regulatory clock: [GDPR/Local Privacy Laws] mandates breach notification within 72 hours.",
+          "The Ask: Activate the Tier-1 Incident Response Team (IRT). Requesting Board mandate for Legal and CISO to execute containment protocols and finalize the ransom decision."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "各位董事，這不是演習，我們正處於資安危機的風暴中心。目前最大的敵人不是駭客，而是『時間』。各國的隱私法規（如 GDPR）要求我們在 72 小時內完成通報，否則將面臨全球營業額 4% 的天價罰款。今天的緊急匯報，旨在統一決策權，讓資安與法務團隊能以最快速度止血。",
+        "en": "Members of the Board, this is not a drill; we are in a live cyber crisis. Our greatest adversary right now is not the threat actor, but 'time.' Regulations like GDPR enforce a strict 72-hour notification window, carrying penalties of up to 4% of global revenue for non-compliance. Today's emergency briefing aims to consolidate executive authority so Legal and InfoSec can contain the blast radius immediately."
+      }
+    },
+    {
+      "slide_number": 2,
+      "slide_title": {
+        "zh": "止血隔離與數位鑑識 (Containment & Digital Forensics)",
+        "en": "Containment & Digital Forensics (Privilege-Protected)"
+      },
+      "bullet_points": {
+        "zh": [
+          "物理與邏輯隔離 (Containment)：已立即切斷受感染網段與外部連線，寧可犧牲短期的 [某業務] 營運，也要防止惡意軟體橫向移動 (Lateral Movement)",
+          "第三方數位鑑識 (DFIR)：已聘請 [頂級資安公司] 進駐，進行證據保全與攻擊路徑 (Root Cause) 分析",
+          "律師客戶特權 (Attorney-Client Privilege)：所有鑑識報告均由外部法務長 (Outside Counsel) 指導產出，確保調查結果受到特權保護，免於未來訴訟被強制披露"
+        ],
+        "en": [
+          "Containment: Severed infected subnets and external connections immediately. We are absorbing short-term operational downtime to prevent lateral movement of the malware.",
+          "Digital Forensics (DFIR): Retained [Tier-1 Cybersecurity Firm] to execute evidence preservation and root-cause analysis.",
+          "Attorney-Client Privilege: DFIR operations are directed entirely by Outside Counsel to ensure all forensic findings are shielded by legal privilege against future litigation."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "危機發生的第一步是『止血』。我們已經拔掉網路線，寧可讓業務暫停，也不能讓病毒感染到核心資料庫。更關鍵的是法理防禦：我們聘請的外部資安鑑識團隊，是由『外部律師』直接委任的。這代表所有的鑑識報告都受到『律師客戶特權 (Privilege)』保護，未來的集體訴訟原告無法輕易調閱這份報告來攻擊我們。",
+        "en": "Step one in a breach is 'Containment.' We have metaphorically pulled the plug, accepting operational downtime to protect the core database. More critically, our legal defense is active: the external DFIR team is engaged directly by Outside Counsel. This establishes 'Attorney-Client Privilege,' shielding our forensic reports from forced discovery in inevitable future class-action lawsuits."
+      }
+    },
+    {
+      "slide_number": 3,
+      "slide_title": {
+        "zh": "贖金決策與專業談判 (The Ransom Dilemma & Negotiation)",
+        "en": "The Ransom Dilemma & Threat Negotiation"
+      },
+      "bullet_points": {
+        "zh": [
+          "洗錢與制裁風險 (OFAC Compliance)：支付贖金可能違反美國 OFAC 等反恐融資與國際制裁禁令，引發比駭客更嚴重的刑責",
+          "專業談判介入 (Threat Negotiation)：已委任專業勒索軟體談判專家與駭客周旋，目標是「爭取系統復原時間」與「探聽外洩資料的真實範圍」",
+          "決策底線 (Decision Matrix)：基於不可篡改備份 (Immutable Backup) 的可用性，提議 [拒絕支付贖金 / 有條件授權 X 金額作為最後手段]"
+        ],
+        "en": [
+          "OFAC/Sanctions Risk: Paying ransoms risks violating international anti-money laundering and OFAC sanctions, triggering severe criminal liabilities.",
+          "Threat Negotiation: Deployed professional ransomware negotiators to engage threat actors—buying time for IT recovery and probing the true scope of data exfiltration.",
+          "Decision Matrix: Based on the viability of our Immutable Backups, we propose [Hard Refusal to Pay / Conditional Authorization of $X as a Last Resort]."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "面對勒索，『付不付錢』是個極度複雜的商業與法律決策。如果不小心把錢付給了受國際制裁的恐怖組織，董事會將面臨刑事責任。因此，我們已經引入了具備情報背景的『專業談判專家』。談判的目的不一定是為了付錢，而是利用心理戰『拖延時間』，讓我們有餘裕從乾淨的備份中還原系統。",
+        "en": "To pay or not to pay is a profoundly complex commercial and legal dilemma. Paying a sanctioned terrorist organization triggers severe criminal liability for the Board. Therefore, we have engaged intelligence-grade 'Threat Negotiators.' The goal of negotiation isn't necessarily payment; it’s deploying psychological tactics to 'buy time' so IT can restore systems from clean backups."
+      }
+    },
+    {
+      "slide_number": 4,
+      "slide_title": {
+        "zh": "主管機關通報與公關停損 (Notification & PR Containment)",
+        "en": "Regulatory Notification & PR Containment"
+      },
+      "bullet_points": {
+        "zh": [
+          "合規通報 (Regulatory Filing)：DPO (資料保護官) 已草擬完成對 [當地個資機關] 的初步通報，履行法律義務並展現配合調查的誠意",
+          "客戶溝通 (Customer Comms)：針對受影響的客戶，提供免費的信用監控服務 (Credit Monitoring)，主動安撫並降低集體訴訟的意願",
+          "單一真相來源 (Single Source of Truth)：全面啟動危機公關，所有對外發言統一由 CCO/CEO 負責，嚴防員工在社群媒體散佈恐慌"
+        ],
+        "en": [
+          "Regulatory Filing: The DPO has drafted the preliminary breach notification to [Local Privacy Regulators], fulfilling statutory mandates and demonstrating cooperative intent.",
+          "Customer Comms: Proactively offering complimentary Credit Monitoring services to affected clients to mitigate panic and suppress class-action intent.",
+          "Single Source of Truth: Activating PR crisis mode. All external communications are funneled strictly through the CCO/CEO to prevent social media misinformation."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "在 72 小時的倒數計時中，DPO (資料保護官) 會負責完成法定通報。對待受害客戶，我們的策略是『主動出擊』。我們不只發道歉信，還會免費提供信用監控服務。這看似花錢，但這展現了企業的擔當，能大幅降低未來消費者發起集體訴訟的憤怒值。同時，公關將全面接管發言權，確保外界只聽到單一且正確的聲音。",
+        "en": "As the 72-hour clock ticks, the DPO is executing our regulatory filings. Regarding affected clients, our strategy is 'proactive mitigation.' We don't just apologize; we provide free credit monitoring. This upfront cost demonstrates corporate responsibility and significantly defuses the anger that fuels class-action lawsuits. Concurrently, PR will lock down the narrative, ensuring the market hears only one unified voice."
+      }
+    },
+    {
+      "slide_number": 5,
+      "slide_title": {
+        "zh": "營運連續性與復原藍圖 (Business Continuity & Recovery)",
+        "en": "Business Continuity & Recovery Roadmap"
+      },
+      "bullet_points": {
+        "zh": [
+          "異地還原 (Restoration)：確認備份資料庫未受感染，IT 正啟動異地備援 (Disaster Recovery)，預計 [X] 小時內恢復 [核心業務系統] 運作",
+          "降級營運 (Degraded Operations)：在系統完全修復前，啟動 BCP (營運持續計畫)，關鍵業務改採手動或替代流程維持最低限度服務",
+          "災後檢討 (Post-Mortem)：危機解除後 30 天內，將向董事會提交完整的事件檢討報告與資安架構升級計畫 (Zero Trust 零信任架構)"
+        ],
+        "en": [
+          "Restoration: Verified integrity of offline backups. IT is initiating Disaster Recovery (DR), projecting restoration of [Core Systems] within [X] hours.",
+          "Degraded Operations: Executing Business Continuity Plans (BCP). Critical functions will pivot to manual or alternative workflows to sustain minimum viable operations.",
+          "Post-Mortem: Within 30 days of resolution, presenting a comprehensive Post-Mortem report to the Board, detailing the transition to a Zero Trust architecture."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "最後是業務面的復原。好消息是我們的不可篡改備份是乾淨的，IT 已經開始還原系統。在這段期間，我們啟動了 BCP，雖然是『降級營運』（部分流程改用手工），但至少能保證客戶不斷鏈。這場仗打完後，我們會在 30 天內提報一份完整的檢討報告，把這筆學費轉化為升級『零信任 (Zero Trust)』架構的基石。",
+        "en": "Finally, operational recovery. The good news is our immutable backups remain uncorrupted. IT is actively restoring systems. Meanwhile, we have enacted our BCP—operating in a 'degraded state' (using manual workarounds) to ensure client continuity. Once the dust settles, we will present a rigorous post-mortem within 30 days, using this expensive lesson as the catalyst to mandate a full Zero Trust architecture."
+      }
+    }
+  ],
+  "prompt_template": {
+    "zh": "請以繁體中文製作一份大師級的『企業資料外洩與勒索軟體應變 (Incident Response)』簡報。受眾為董事會、CEO 或危機處理小組。內容必須展現 CISO (資安長) 與 DPO (資料保護官) 結合技術、法遵與公關的頂級危機處理能力：1. 運用 SCQA 點出駭客攻擊現狀與 GDPR 等隱私法規的 72 小時通報死線，2. 強調透過『外部律師』主導數位鑑識 (DFIR) 以獲取律師客戶特權 (Privilege) 保護，3. 運用危機談判技巧分析支付贖金的合規風險 (OFAC 制裁)，4. 制定受害客戶的溝通停損策略與公關單一真相來源 (SST)，5. 結尾給出 BCP 營運復原時間表與未來的零信任 (Zero Trust) 升級承諾。每張 Slide 不超過 3 個重點，語氣需極度冷靜、具備強大的控場力，並在災難中展現堅若磐石的企業韌性。",
+    "en": "Please create a master-class 'Data Breach & Ransomware Incident Response' presentation in English. Audience: Board of Directors, CEO, or Crisis Response Team. Demonstrate elite CISO/DPO orchestration across Tech, Legal, and PR: 1. Use SCQA to outline the attack surface and the 72-hour regulatory notification deadline (e.g., GDPR). 2. Highlight the execution of DFIR under 'Outside Counsel' to guarantee Attorney-Client Privilege protection. 3. Analyze the Ransom Dilemma using threat negotiation tactics and OFAC compliance risks. 4. Architect client damage-control strategies and mandate a PR Single Source of Truth (SST). 5. Conclude with BCP recovery timelines and a commitment to a Zero Trust Post-Mortem. Max 3 bullet points per slide. The tone must project absolute composure, commanding authority, and unshakeable enterprise resilience amidst a cyber catastrophe."
+  }
+}
