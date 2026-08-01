@@ -1,0 +1,129 @@
+{
+  "topic_id": "corporate_governance_board",
+  "keywords": ["公司治理", "董事會", "corporate governance", "board of directors", "esg", "合規", "獨立董事", "ined", "風險監督", "fiduciary duty", "公司秘書"],
+  "title": {
+    "zh": "公司治理與董事會效能升級 (頂層監督與戰略賦能)",
+    "en": "Corporate Governance & Board Effectiveness (Strategic Oversight)"
+  },
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_title": {
+        "zh": "治理環境變遷與戰略升級訴求 (SCQA & The Ask)",
+        "en": "Evolving Governance Landscape & Strategic Ask (SCQA)"
+      },
+      "bullet_points": {
+        "zh": [
+          "情境 (Situation)：公司正處於高速成長期，且面臨越來越嚴格的資本市場與監管要求 (如：ESG、AI 治理)",
+          "衝突 (Complication)：過去「合規導向 (Rubber Stamp)」的董事會運作模式，已無法應對當前高度複雜的系統性風險",
+          "戰略訴求 (The Ask)：提議啟動「董事會效能升級計畫」，從「被動防禦」轉型為「主動創造企業價值」的戰略資產"
+        ],
+        "en": [
+          "Situation: The company is scaling rapidly amidst increasingly stringent capital market and regulatory demands (e.g., ESG, AI Governance).",
+          "Complication: The legacy 'compliance-driven (Rubber Stamp)' board model is inadequate against today's highly complex, systemic risks.",
+          "Strategic Ask: Initiate a 'Board Effectiveness Upgrade'. Transition the Board from a 'reactive shield' to a 'proactive strategic asset'."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "各位董事好。過去我們做得很好，但未來的戰場不同了。面對 ESG 法規收緊、新興科技風險以及機構投資人的嚴格檢視，董事會如果只停留在『聽取財報、蓋章通過』的層次，將會為公司與各位董事帶來極大的責任風險。今天的提案，是為了全面升級我們的治理機制，讓董事會真正成為引領公司穿越風暴的羅盤。",
+        "en": "Members of the Board, our past success is commendable, but the future battlefield has changed. With tightening ESG regulations, emerging tech risks, and intense scrutiny from institutional investors, a 'rubber stamp' board exposes both the firm and individual directors to immense liability. Today's pitch is to upgrade our governance framework, ensuring this Board acts as a true strategic compass."
+      }
+    },
+    {
+      "slide_number": 2,
+      "slide_title": {
+        "zh": "權責釐清與受託人義務 (Fiduciary Duties & Boundaries)",
+        "en": "Fiduciary Duties & Board-Management Boundaries"
+      },
+      "bullet_points": {
+        "zh": [
+          "受託人義務 (Fiduciary Duty)：嚴格落實董事的「注意義務 (Duty of Care)」與「忠誠義務 (Duty of Loyalty)」",
+          "治理分界 (Nose In, Fingers Out)：確立「董事會負責監督戰略 (Oversight)」與「管理層負責執行 (Execution)」的絕對界線",
+          "資訊不對稱 (Information Asymmetry)：要求管理層重構匯報機制，提供具備「前瞻性洞察」而非僅是「歷史數據」的戰情儀表板"
+        ],
+        "en": [
+          "Fiduciary Duty: Rigorously enforcing directors' 'Duty of Care' and 'Duty of Loyalty' to protect shareholder interests.",
+          "Governance Boundaries: Embracing the 'Nose in, fingers out' philosophy—Board provides Oversight, Management drives Execution.",
+          "Information Asymmetry: Mandating management to restructure reporting, delivering forward-looking insights rather than just historical data dumps."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "頂級治理的第一步，是權責的釐清。我們必須奉行『眼觀全局，手不干預 (Nose in, fingers out)』的原則——董事會負責挑戰戰略與控管風險，但不微觀管理 CEO 的日常營運。同時，為了履行我們的『注意義務』，我們必須要求經營團隊消除資訊不對稱，給我們能做決策的『洞察』，而不是幾百頁消化不完的『數據垃圾』。",
+        "en": "Elite governance starts with clear boundaries. We must adopt the 'Nose in, fingers out' philosophy: the Board challenges strategy and oversees risk, but does not micromanage the CEO. Furthermore, to fulfill our Duty of Care, we must demand management eliminate information asymmetry, providing us with actionable insights rather than hundreds of pages of 'data dumps'."
+      }
+    },
+    {
+      "slide_number": 3,
+      "slide_title": {
+        "zh": "董事技能矩陣與多元化 (Board Skill Matrix & Diversity)",
+        "en": "Board Skill Matrix & Diversity"
+      },
+      "bullet_points": {
+        "zh": [
+          "技能盤點 (Skill Matrix)：對照公司未來 3-5 年戰略，辨識目前在 [數位轉型/AI/國際法規] 的董事技能缺口",
+          "獨立性與多元化 (Diversity & Independence)：引入具備實戰經驗的獨立非執行董事 (INEDs)，強化決策的客觀性與防堵同溫層",
+          "接班規劃 (Board Succession)：建立常態化的董事會與 C-Level 梯隊接班機制，確保治理動能不中斷"
+        ],
+        "en": [
+          "Skill Matrix: Auditing current board capabilities against our 3-5 year strategy to identify gaps in [Digital/AI/Global Compliance].",
+          "Diversity & Independence: Onboarding seasoned Independent Non-Executive Directors (INEDs) to ensure objectivity and shatter echo chambers.",
+          "Board Succession: Institutionalizing succession planning for both the Board and C-Suite to guarantee uninterrupted governance momentum."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "一家公司的天花板，取決於董事會的視野。透過『董事技能矩陣』的盤點，我們發現目前的組成缺乏應對未來 AI 與跨國擴張的關鍵專業。我們提議戰略性地引入具備實戰經驗的獨立董事 (INEDs)，並強化性別與專業背景的多元化。這不僅是為了應付上市規則 (Listing Rules)，更是為了防堵高層決策的同溫層盲區。",
+        "en": "A company's ceiling is determined by its Board's vision. A 'Board Skill Matrix' audit reveals critical gaps in our expertise regarding AI and global expansion. We propose strategically onboarding Independent Non-Executive Directors (INEDs) and enhancing background diversity. This isn't just about satisfying Listing Rules; it's a vital defense against executive echo chambers."
+      }
+    },
+    {
+      "slide_number": 4,
+      "slide_title": {
+        "zh": "全面風險監督與 ESG 整合 (Enterprise Risk & ESG)",
+        "en": "Enterprise Risk Oversight & ESG Integration"
+      },
+      "bullet_points": {
+        "zh": [
+          "系統性風險 (Systemic Risk)：將監督視野從傳統財務稽核，擴張至資安威脅、地緣政治與 AI 倫理風險",
+          "ESG 戰略化 (ESG as Strategy)：將 ESG 從「公關合規報告」升級為驅動企業轉型、降低資本成本 (Cost of Capital) 的核心戰略",
+          "危機防禦 (Crisis Readiness)：授權重組『風險管理委員會』，建立針對黑天鵝事件的壓力測試與業務連續性計畫 (BCP)"
+        ],
+        "en": [
+          "Systemic Risk: Expanding oversight from traditional financial audits to cyber threats, geopolitics, and AI ethics.",
+          "ESG as Strategy: Elevating ESG from 'PR compliance reporting' to a core strategy that drives transformation and lowers the Cost of Capital.",
+          "Crisis Readiness: Re-chartering the Risk Committee to mandate stress testing and Business Continuity Plans (BCP) against black swan events."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "現代董事會最大的挑戰在於『看不見的風險』。我們不能只看過去的財報，我們必須把雷達擴展到資安、AI 治理與地緣政治。另外，ESG 絕對不能只是一本裝飾用的永續報告書，我們要將它與高管薪酬 (Remuneration) 掛鉤，把它變成降低公司融資成本的實質商業武器。",
+        "en": "The modern Board's greatest challenge is 'unseen risks.' We cannot merely review past financial statements; our radar must encompass cybersecurity, AI governance, and geopolitics. Furthermore, ESG can no longer be a cosmetic sustainability report. We must link it to executive remuneration, turning it into a commercial weapon that lowers our cost of capital."
+      }
+    },
+    {
+      "slide_number": 5,
+      "slide_title": {
+        "zh": "董事會效能評估與行動訴求 (Board Evaluation & Next Steps)",
+        "en": "Board Evaluation & Strategic Action Plan"
+      },
+      "bullet_points": {
+        "zh": [
+          "外部效能評估 (Board Evaluation)：引入中立的第三方機構，對董事會及各功能委員會進行嚴格的績效評估",
+          "持續進修 (Upskilling)：規劃針對 [AI 法規/氣候風險] 的董事專屬培訓，維持最高水準的治理意識",
+          "決策訴求 (Call to Action)：懇請核准本年度治理升級預算，並於 90 天內啟動章程修訂與外部評估程序"
+        ],
+        "en": [
+          "External Board Evaluation: Commissioning a neutral third-party to conduct a rigorous effectiveness assessment of the Board and its committees.",
+          "Continuous Upskilling: Mandating bespoke director training on [AI Regulations/Climate Risk] to maintain elite governance awareness.",
+          "Call to Action: Requesting approval for the governance upgrade budget, initiating charter revisions and external evaluations within 90 days."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "卓越的董事會必須具備自我批判的能力。我們提議在今年引入外部第三方，對我們自身的運作效能進行評估。同時，為了面對未來的挑戰，我們將啟動針對董事會的專屬培訓計畫。懇請各位董事支持這項治理升級決議，為公司的下一個十年鑄造最堅實的防護盾。",
+        "en": "An elite Board must possess the capacity for self-critique. We propose commissioning an external third-party this year to rigorously evaluate our own effectiveness. Concurrently, to face upcoming challenges, we will launch tailored upskilling programs for directors. I respectfully request your support for this governance upgrade, forging the ultimate shield for the company's next decade."
+      }
+    }
+  ],
+  "prompt_template": {
+    "zh": "請以繁體中文製作一份大師級的『公司治理與董事會運作 (Corporate Governance)』簡報。受眾為董事會成員、董事長或大股東。內容必須展現公司秘書 (Company Secretary) 或頂尖獨立董事的高階視角：1. 強調董事會從『合規橡皮圖章』向『戰略資產』的轉型，2. 運用『眼觀全局，手不干預 (Nose in, fingers out)』釐清受託人義務與經營層界線，3. 引入『董事技能矩陣 (Board Skill Matrix)』凸顯多元化與 INED (獨立董事) 的必要性，4. 深入全面風險管理與將 ESG 戰略化 (非僅公關層面)，5. 結尾必須提出具體的『第三方董事會績效評估 (Board Evaluation)』與董事進修計畫。每張 Slide 不超過 3 個重點，語氣需極具法理權威性、客觀獨立，且充滿捍衛股東長期價值的使命感。",
+    "en": "Please create a master-class 'Corporate Governance & Board Operations' presentation in English. Audience: Board of Directors, Chairman, or Major Shareholders. Demonstrate the elite perspective of a Corporate Secretary or top-tier Independent Director: 1. Highlight the Board's evolution from a 'Compliance Rubber Stamp' to a 'Strategic Asset'. 2. Use the 'Nose in, fingers out' principle to clarify Fiduciary Duties versus Management execution. 3. Introduce the 'Board Skill Matrix' to justify diversity and the onboarding of INEDs. 4. Dive deep into Enterprise Risk Oversight and weaponizing ESG as a core strategy (not just PR). 5. Conclude with a concrete 'Third-Party Board Evaluation' and director upskilling plan. Max 3 bullet points per slide. The tone must be legally authoritative, fiercely objective, and deeply committed to protecting long-term shareholder value."
+  }
+}
