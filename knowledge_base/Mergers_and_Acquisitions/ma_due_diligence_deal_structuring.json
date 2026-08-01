@@ -1,0 +1,129 @@
+{
+  "topic_id": "ma_due_diligence_deal_structuring",
+  "keywords": ["併購", "m&a", "盡職調查", "due diligence", "dd", "估值", "valuation", "deal structuring", "交易架構", "earn-out", "法務", "cfo", "term sheet"],
+  "title": {
+    "zh": "企業併購盡職調查與交易架構 (CFO/法務長 視角)",
+    "en": "M&A Due Diligence & Deal Structuring (CFO/GC Perspective)"
+  },
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_title": {
+        "zh": "潛在收購標的與戰略契合度 (SCQA & Target Overview)",
+        "en": "Target Overview & Strategic Rationale (SCQA)"
+      },
+      "bullet_points": {
+        "zh": [
+          "情境 (Situation)：為加速進入 [特定市場/技術領域]，我們已與目標公司 (TargetCo) 簽署保密協議 (NDA)，並收到其初步財務數據 (Teaser)",
+          "衝突 (Complication)：儘管帳面營收亮眼，但未經審計的報表可能隱藏巨大的財務黑洞，且其核心智財權 (IP) 的合法性尚存疑慮",
+          "戰略訴求 (The Ask)：提議正式啟動為期 45 天的全面盡職調查 (DD)，懇請董事會核准 [X 萬] 的外部會計與法務顧問預算，並確立初步的估值區間"
+        ],
+        "en": [
+          "Situation: To aggressively penetrate [Specific Market/Tech Sector], we have executed an NDA with TargetCo and reviewed their initial financial teaser.",
+          "Complication: While top-line growth appears robust, unaudited financials may conceal severe liabilities, and the true ownership of their core IP remains unverified.",
+          "The Ask: Activating a rigorous 45-day Due Diligence (DD) phase. Requesting Board approval for [$X] in external audit/legal retainer fees and establishing a preliminary valuation range."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "各位董事，買公司不是逛超市，我們不能看包裝漂亮就刷卡。我們目前看中了這家目標公司，它的技術確實能補足我們的短板。但在我們給出具備法律約束力的報價前，我們必須把它的底牌全部掀開。今天的提案，是要申請外部顧問的子彈，啟動最嚴格的盡職調查，確保我們買到的是『印鈔機』，而不是『未爆彈』。",
+        "en": "Members of the Board, acquiring a company is not a retail transaction; we do not buy based on glossy packaging. TargetCo's technology technically fills our strategic gaps. However, before issuing a binding offer, we must rigorously expose their underlying realities. Today's mandate requests the capital to deploy external auditors and counsel for an exhaustive Due Diligence phase, ensuring we are purchasing a growth engine, not a hidden liability."
+      }
+    },
+    {
+      "slide_number": 2,
+      "slide_title": {
+        "zh": "估值模型與綜效預測 (Valuation & Synergy Projections)",
+        "en": "Valuation Matrix & Synergy Projections"
+      },
+      "bullet_points": {
+        "zh": [
+          "獨立估值 (Standalone Valuation)：綜合採用現金流折現法 (DCF) 與市場乘數法 (EV/EBITDA)，評估 TargetCo 目前的公允價值落在 [X億 - Y億] 區間",
+          "綜效溢價 (Synergy Premium)：精算併購後可實現的硬綜效 (降本) 與軟綜效 (增收)，這決定了我們最多願意支付多少溢價 (Premium)",
+          "估值紀律 (Valuation Discipline)：絕不為「虛幻的綜效」買單。若最終查核出的 EBITDA 遠低於預期，將無情重議價格 (Price Renegotiation) 或直接終止交易"
+        ],
+        "en": [
+          "Standalone Valuation: Utilizing Discounted Cash Flow (DCF) and EV/EBITDA multiples, establishing TargetCo's standalone fair market value between [$X - $Y].",
+          "Synergy Premium: Quantifying the realizable Hard (Cost) and Soft (Revenue) synergies, setting the absolute ceiling on the acquisition premium we are willing to pay.",
+          "Valuation Discipline: We will not finance 'hypothetical synergies.' If validated EBITDA falls short during DD, we will ruthlessly renegotiate the purchase price or walk away."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "在估值上，財務部絕對保持冷酷的紀律。我們用 DCF 和 EBITDA 乘數算出了它的基本盤。至於賣方整天吹噓的『未來潛力』，我們只會在精算過『綜效』後，決定願意多付多少溢價。我們的底線很清楚：如果在 DD 期間發現他們灌水財務數據，我們絕對會立刻砍價，甚至直接走人（Walk away）。",
+        "en": "Regarding valuation, the Finance department maintains ruthless discipline. We've established a baseline using DCF and EBITDA multiples. As for the 'future potential' the seller touts, we will only pay a premium strictly justified by our own synergy calculations. Our bottom line is clear: if DD reveals inflated financials, we will aggressively renegotiate the purchase price down, or unequivocally walk away."
+      }
+    },
+    {
+      "slide_number": 3,
+      "slide_title": {
+        "zh": "盡職調查紅線清單 (DD Red Flags: Legal, Financial, HR)",
+        "en": "DD Red Flags: Legal, Financial, and HR"
+      },
+      "bullet_points": {
+        "zh": [
+          "法務與合規 (Legal & IP)：清查所有隱藏訴訟、環保裁罰 (ESG 曝險)，並確保核心原始碼沒有開源授權污染 (Open Source Contamination)",
+          "財務與稅務 (Financial & Tax)：盤點未入帳負債 (Off-balance Sheet Liabilities)、存貨過期風險，以及跨國移轉訂價 (Transfer Pricing) 的稅務追繳風險",
+          "人資與組織 (HR & Culture)：審查「控制權變更 (Change of Control)」條款，評估核心人才流失風險與未結算的鉅額勞資糾紛"
+        ],
+        "en": [
+          "Legal & IP: Auditing for undisclosed litigation, ESG/environmental liabilities, and verifying that core source code is free of Open Source contamination.",
+          "Financial & Tax: Identifying off-balance-sheet liabilities, obsolete inventory bloat, and historical Transfer Pricing tax exposures.",
+          "HR & Culture: Reviewing 'Change of Control' clauses (Golden Parachutes), assessing key talent flight risks, and auditing for pending labor disputes."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "盡職調查是防禦的最後防線。法務部要查他們有沒有侵權、有沒有隨時會爆的官司；財務部要抓出藏在表外的債務和逃稅風險。同時，HR 的查核極度關鍵——我們要看他們的高管合約裡有沒有『黃金降落傘（控制權變更條款）』，免得我們一買下來，核心團隊拿了大筆違約金直接走人。",
+        "en": "Due Diligence is our ultimate line of defense. Legal will audit for infringement and ticking-time-bomb litigation; Finance will hunt for off-balance-sheet debt and tax liabilities. Crucially, HR DD is paramount—we must review executive contracts for 'Change of Control' clauses (Golden Parachutes) to ensure we don't accidentally fund the immediate exodus of the core leadership team upon closing."
+      }
+    },
+    {
+      "slide_number": 4,
+      "slide_title": {
+        "zh": "交易架構與風險轉嫁 (Deal Structuring & Risk Allocation)",
+        "en": "Deal Structuring & Risk Allocation"
+      },
+      "bullet_points": {
+        "zh": [
+          "對價結構 (Consideration Structure)：不採用 100% 現金收購，改採「現金 + 換股 (Cash & Stock)」以綁定賣方創辦人未來的利益",
+          "或有支付條款 (Earn-out)：將 [X]% 的收購款設定為 Earn-out，賣方必須在未來兩年達成特定的營收 KPI 才能全數解鎖尾款",
+          "聲明與保證賠償 (R&W Indemnification)：在最終協議 (SPA) 中設立託管帳戶 (Escrow)，若交割後爆發未揭露之法律風險，將直接從託管資金中扣除賠償"
+        ],
+        "en": [
+          "Consideration Structure: Rejecting a 100% cash buyout. Utilizing a 'Cash & Stock' mix to permanently align the Target founders' future interests with our own.",
+          "Earn-Out Provisions: Structuring [X]% of the purchase price as an Earn-Out. The seller must hit specific revenue KPIs over the next 24 months to unlock the full payout.",
+          "R&W Indemnification: Establishing an Escrow account within the Share Purchase Agreement (SPA). Any post-closing liabilities stemming from breached Representations & Warranties will be instantly deducted from this escrow."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "查出風險後，下一步就是用『交易架構』來保護我們。我們不會一次把現金給滿，我們會用『股票+現金』綁住他們的創辦人。對於他們吹噓的未來業績，我們直接寫進『Earn-out 條款』：達標才給尾款，沒達標就扣錢。最後，我們會要求一筆資金放進託管帳戶 (Escrow)，如果交割後發現他們騙了我們，我們直接從這筆錢裡扣賠償金。",
+        "en": "Once risks are identified, we deploy 'Deal Structuring' as our shield. We will not hand over 100% cash at closing; we use a Stock/Cash mix to lock in their founders. Regarding their aggressive future projections, we enforce 'Earn-out' provisions: they only receive the backend payout if they actually hit their KPIs. Finally, we demand an Escrow account; if post-closing liabilities emerge due to their deception, we claw back the damages directly from escrow."
+      }
+    },
+    {
+      "slide_number": 5,
+      "slide_title": {
+        "zh": "下一步：條款清單與排他期 (Next Steps: Term Sheet & Exclusivity)",
+        "en": "Next Steps: Term Sheet & Exclusivity Period"
+      },
+      "bullet_points": {
+        "zh": [
+          "條款清單 (Term Sheet)：根據初步估值與交易架構，向賣方發出不具法律約束力 (Non-binding) 的 Term Sheet，確立交易大原則",
+          "排他協議 (Exclusivity Agreement)：要求賣方簽署為期 [X] 天的排他協議 (No-Shop Clause)，禁止其在 DD 期間與其他潛在買家接觸",
+          "決策訴求 (Call to Action)：懇請董事會授權由 [CFO/法務長] 組成之談判小組，正式發出 Term Sheet 並全面展開實地查核 (On-site DD)"
+        ],
+        "en": [
+          "Term Sheet: Issuing a non-binding Term Sheet to the Seller based on our preliminary valuation and structural requirements, locking in the broad strokes of the deal.",
+          "Exclusivity (No-Shop Clause): Mandating the Seller sign a [X]-day Exclusivity Agreement, legally prohibiting them from soliciting alternative bids during our DD process.",
+          "Call to Action: Requesting Board authorization for the [CFO/GC]-led negotiation committee to execute the Term Sheet and launch full On-site Due Diligence."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "進入實質攻防的下一步，是發出初步的『條款清單 (Term Sheet)』。雖然這份文件大部份沒有法律約束力，但它能確立遊戲規則。最關鍵的是，我們必須逼賣方簽下『排他協議 (No-Shop Clause)』。在我們花大錢請律師和會計師查帳的這幾十天裡，絕對不允許他們拿著我們的報價去跟別的買家抬價。請董事會授權，讓我們正式出擊。",
+        "en": "The next tactical move is issuing the preliminary 'Term Sheet.' While largely non-binding, it anchors the rules of engagement. Crucially, we must force the Seller to execute a 'No-Shop' exclusivity agreement. While we deploy significant capital on auditors and lawyers, they are legally barred from using our offer to shop for higher bids. I ask the Board to authorize our committee to execute the Term Sheet and launch the offensive."
+      }
+    }
+  ],
+  "prompt_template": {
+    "zh": "請以繁體中文製作一份大師級的『企業併購盡職調查與交易架構 (M&A DD & Structuring)』簡報。受眾為董事會、CEO 或投資委員會。內容必須展現 CFO 與法務長 (GC) 聯手的頂級防禦與談判視角：1. 運用 SCQA 確立收購動機與盡職調查 (DD) 的必要性，2. 闡述 DCF 估值紀律與不為虛幻綜效買單的底線，3. 深入剖析法務、財務與 HR 的『紅線清單 (Red Flags)』，包含隱藏負債與高管控制權變更條款，4. 展示如何利用交易架構 (Earn-out 或有支付、Escrow 託管賠償) 將風險完美轉嫁給賣方，5. 結尾說明發布 Term Sheet 與要求排他期 (No-Shop Clause) 的下一步行動。每張 Slide 不超過 3 個重點，語氣需極具商業威懾力、法理嚴謹度與對抗性談判手腕。",
+    "en": "Please create a master-class 'M&A Due Diligence & Deal Structuring' presentation in English. Audience: Board of Directors, CEO, or Investment Committee. Demonstrate the elite defensive and negotiation capabilities of a CFO paired with a General Counsel: 1. Use SCQA to frame the acquisition rationale and the absolute necessity of rigorous DD. 2. Detail DCF valuation discipline and the refusal to finance hypothetical synergies. 3. Drill into Legal, Financial, and HR 'Red Flags,' including off-balance-sheet debt and Golden Parachutes. 4. Showcase structural risk allocation by deploying Earn-outs and Escrow indemnification to shift liabilities back to the seller. 5. Conclude with the issuance of the Term Sheet and the enforcement of a strict 'No-Shop' exclusivity period. Max 3 bullet points per slide. The tone must project commercial deterrence, rigorous legal scrutiny, and high-stakes adversarial negotiation mastery."
+  }
+}
