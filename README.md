@@ -45,35 +45,6 @@
 
 ---
 
-## 🚀 本地開發與執行 (Local Setup)
-
-如果你想在本地電腦運行這個專案：
-
-1. **Clone 這個專案**：
-   ```bash
-   git clone [https://github.com/jackylawck/PPDone.git](https://github.com/jackylawck/PPDone.git)
-   cd PPDone
-  ```
-
-安裝依賴套件：
-
-Bash
-pip install -r requirements.txt
-設定 API Key：
-在專案根目錄建立 .streamlit/secrets.toml 檔案，並寫入：
-
-Ini, TOML
-GEMINI_API_KEY = "你的_Gemini_API_Key"
-啟動 App：
-
-Bash
-streamlit run app.py
-📄 授權條款 (License)
-本專案採用 MIT License 授權。
-
-
----
-
 ### 💡 編輯步驟：
 1. 回到 GitHub 的 `PPDone` 專案頁面。
 2. 點擊 `README.md` 檔案，再按右上方的小鉛筆圖示（**Edit this file**）。
