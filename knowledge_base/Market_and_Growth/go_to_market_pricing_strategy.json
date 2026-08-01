@@ -1,0 +1,129 @@
+{
+  "topic_id": "go_to_market_pricing_strategy",
+  "keywords": ["gtm", "go-to-market", "上市", "定價", "pricing", "pmf", "cac", "ltv", "cmo", "cro", "營銷", "市場", "新產品", "增長"],
+  "title": {
+    "zh": "新產品上市與全球定價戰略 (CMO/CRO 商業擴張視角)",
+    "en": "Go-to-Market & Global Pricing Strategy (CMO/CRO Perspective)"
+  },
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_title": {
+        "zh": "市場痛點與上市戰略訴求 (SCQA & GTM Mandate)",
+        "en": "Market Landscape & The GTM Mandate (SCQA)"
+      },
+      "bullet_points": {
+        "zh": [
+          "情境 (Situation)：我們的旗艦新產品 [產品名稱] 已完成研發，並成功通過早期測試 (Beta)，具備顛覆市場的技術優勢",
+          "衝突 (Complication)：然而，競爭對手正試圖發動「價格戰」將市場商品化 (Commoditization)，若我們缺乏精準的定價與通路戰略，將面臨利潤被嚴重壓縮的風險",
+          "戰略訴求 (The Ask)：全面啟動 Go-to-Market (GTM) 戰略，懇請董事會核准 [X 金額] 的首發行銷預算與全球定價授權"
+        ],
+        "en": [
+          "Situation: Our flagship product [Product Name] has exited R&D, successfully completing Beta testing with disruptive technological advantages.",
+          "Complication: Competitors are triggering a 'price war' to commoditize the market. Without a surgical pricing and channel strategy, our margins face severe compression.",
+          "The Ask: Activating the global Go-to-Market (GTM) strategy. Requesting Board approval for a [$X] launch budget and executive pricing authority."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "各位董事，研發把產品做出來，只是拿到了上牌桌的資格；怎麼把產品賣爆，才是決勝關鍵。我們目前面臨對手的價格戰威脅，絕對不能掉入『比便宜』的陷阱。今天的 GTM (Go-to-Market) 提案，旨在確立我們的價值主張與定價護城河，確保這項新產品上市即能貢獻強勁的營收與毛利。",
+        "en": "Members of the Board, R&D delivering a product merely buys us a seat at the table; how we scale it determines the victor. We are facing imminent price wars, and we absolutely must not fall into the 'race to the bottom.' Today's GTM proposal locks in our value proposition and pricing moats, ensuring this launch immediately drives robust top-line revenue and gross margins."
+      }
+    },
+    {
+      "slide_number": 2,
+      "slide_title": {
+        "zh": "產品市場契合度與目標輪廓 (PMF & Ideal Customer Profile)",
+        "en": "Product-Market Fit (PMF) & Ideal Customer Profile (ICP)"
+      },
+      "bullet_points": {
+        "zh": [
+          "價值主張 (Value Proposition)：將溝通重點從「產品功能 (Features)」轉化為「客戶商業結果 (Business Outcomes)」，如降低 30% 營運成本",
+          "理想客戶輪廓 (ICP)：鎖定具備 [特定預算/痛點] 的高淨值客戶群，放棄短期內無法盈利的長尾市場 (Long-tail)",
+          "決策者溝通 (Buyer Personas)：針對 B2B 採購，區分「經濟買主 (CFO)」與「技術買主 (CIO)」，提供客製化的銷售說帖 (Pitch Deck)"
+        ],
+        "en": [
+          "Value Proposition: Pivoting our messaging from 'Technical Features' to 'Business Outcomes' (e.g., reducing operational OpEx by 30%).",
+          "Ideal Customer Profile (ICP): Laser-focusing on high-net-worth segments exhibiting [Specific Budget/Pain Points], deliberately ignoring unprofitable long-tail accounts.",
+          "Buyer Personas: For B2B sales, bifurcating our pitch to address the 'Economic Buyer (CFO)' versus the 'Technical Buyer (CIO)' with tailored collateral."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "沒有人想買『功能』，客戶買的是『解決方案』。在確立 PMF (產品市場契合度) 時，我們嚴格定義了 ICP (理想客戶輪廓)。我們不會把有限的行銷子彈浪費在所有人身上，而是精準狙擊那些『最有錢、最痛』的頭部客戶。針對這些企業，我們的業務團隊會準備兩套說詞，一套說服技術長，另一套說服負責掏錢的財務長。",
+        "en": "Customers don't buy 'features'; they buy 'outcomes.' In solidifying our PMF, we have ruthlessly defined our ICP. We will not spray-and-pray our marketing budget. Instead, we act as snipers, targeting top-tier accounts with the highest budget and most acute pain. For these targets, Sales is armed with dual pitches: one to convince the CIO on tech, and another to convince the CFO on ROI."
+      }
+    },
+    {
+      "slide_number": 3,
+      "slide_title": {
+        "zh": "戰略定價模型與毛利防禦 (Pricing Strategy & Margin Defense)",
+        "en": "Pricing Strategy & Gross Margin Defense"
+      },
+      "bullet_points": {
+        "zh": [
+          "價值導向定價 (Value-Based Pricing)：摒棄傳統的「成本加成法」，改採依據為客戶創造的價值進行定價 (Willingness to Pay)，守住 [X]% 毛利率",
+          "分層定價策略 (Tiered Architecture)：推出 [基礎版/專業版/企業版] 三層定價，利用「錨定效應 (Anchoring)」引導客戶選擇高毛利的企業版",
+          "跨國在地化定價 (Price Localization)：考量各國購買力平價 (PPP) 與匯率風險，授權區域總經理在 [X]% 的折讓範圍內具備機動調價權"
+        ],
+        "en": [
+          "Value-Based Pricing: Abandoning 'Cost-Plus' methods in favor of pricing derived from the measurable financial value created for the client, defending our [X]% gross margin.",
+          "Tiered Architecture: Deploying a [Basic/Pro/Enterprise] tiered model, leveraging the 'Anchoring Effect' to organically up-sell clients to high-margin tiers.",
+          "Price Localization: Adjusting pricing indices globally based on Purchasing Power Parity (PPP) and FX risks, empowering regional GMs with a strict [X]% discounting corridor."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "『定價』是企業唯一一個不需要增加成本，就能直接提升利潤的工具。我們堅決放棄『成本加成』，改採『價值定價』。我們設計了三層次的分級方案，利用心理學的錨定效應，把多數客戶推向利潤最豐厚的中高階版本。同時，針對跨國市場，我們給予區域總經理彈性，但絕不允許無底線的流血殺價。",
+        "en": "'Pricing' is the only lever that directly elevates profit without increasing costs. We vehemently reject 'Cost-Plus' logic in favor of 'Value-Based' pricing. We've structured a three-tier model, utilizing psychological anchoring to funnel customers toward our high-margin offerings. Globally, we afford regional GMs pricing flexibility, but strictly prohibit race-to-the-bottom discounting."
+      }
+    },
+    {
+      "slide_number": 4,
+      "slide_title": {
+        "zh": "單位經濟與行銷投資報酬率 (Unit Economics & CAC vs. LTV)",
+        "en": "Unit Economics (CAC vs. LTV) & Marketing ROI"
+      },
+      "bullet_points": {
+        "zh": [
+          "獲客成本 (CAC)：透過精準的數位投放 (Performance Marketing) 與 SEO 佈局，將單一獲客成本控制在 [X 金額] 以下",
+          "客戶終身價值 (LTV)：導入訂閱制 (SaaS) 或耗材綁定模式，預期將客戶留存率提升至 [X]%，極大化客戶終身價值",
+          "黃金比例 (The 3:1 Ratio)：確保 LTV/CAC 比率大於 3 倍，證明公司的增長模式具備高度的可持續性與資本效率 (Capital Efficiency)"
+        ],
+        "en": [
+          "Customer Acquisition Cost (CAC): Confining CAC below [$X] through surgical Performance Marketing and organic SEO pipelines.",
+          "Lifetime Value (LTV): Maximizing LTV by transitioning to a SaaS subscription/recurring revenue model, projecting a retention rate of [X]%.",
+          "The 3:1 Ratio: Ensuring our LTV-to-CAC ratio exceeds 3x, empirically proving that our growth engine is highly scalable and capital-efficient."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "董事會最關心的，是行銷預算有沒有打水漂。我們不看虛榮指標 (如按讚數)，我們只看『單位經濟 (Unit Economics)』。我們嚴格控管 CAC (獲客成本)，並透過訂閱制拉高 LTV (終身價值)。只要 LTV 是 CAC 的三倍以上，這就代表我們的商業模式是一台高效的印鈔機，投入的每一塊錢行銷費，都能賺回三塊錢的利潤。",
+        "en": "The Board's primary concern is preventing marketing budget waste. We ignore vanity metrics (likes/views) and obsess over 'Unit Economics.' We ruthlessly suppress CAC while inflating LTV via subscription models. As long as our LTV:CAC ratio exceeds 3:1, our business model is an efficient compounding engine—every dollar deployed in marketing yields three dollars in gross profit."
+      }
+    },
+    {
+      "slide_number": 5,
+      "slide_title": {
+        "zh": "100 天上市藍圖與業務賦能 (100-Day Launch & Sales Enablement)",
+        "en": "100-Day Launch Roadmap & Sales Enablement"
+      },
+      "bullet_points": {
+        "zh": [
+          "首 30 天 (Soft Launch)：對核心 VIP 客戶進行封閉測試 (Beta)，收集證言 (Testimonials) 並修正銷售話術 (Pitch Script)",
+          "30-90 天 (Hard Launch & Enablement)：舉辦全球線上發表會，同時完成全球 500 位業務員的「戰鬥手冊 (Sales Playbook)」與競品攻防訓練",
+          "決策訴求 (Call to Action)：懇請核准 GTM 首發預算，並同意將新產品銷售額以 [X]% 加權計入本季度業務獎金池 (Commission Pool)"
+        ],
+        "en": [
+          "First 30 Days (Soft Launch): Conducting Beta programs with core VIP clients to harvest testimonials and calibrate our Pitch Scripts.",
+          "Days 30-90 (Hard Launch & Enablement): Executing the global digital launch while certifying 500+ global sales reps on the new 'Sales Playbook' and competitor battle-cards.",
+          "Call to Action: Requesting GTM budget approval and mandating a [X]% commission multiplier for the new product to aggressively incentivize the sales force."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "上市是一場節奏嚴密的戰役。前 30 天我們做『軟發布』，累積 VIP 的好口碑。接著我們火力全開進行『硬發布』。同時，行銷做得再好，業務不會賣也沒用。我們已經備妥了業務戰鬥手冊 (Playbook)。最後，為了激勵第一線，我們提議祭出高額的首發業務獎金。重賞之下必有勇夫，懇請董事會核准預算，讓我們拿下這座城池。",
+        "en": "A launch is a rhythmic military campaign. The first 30 days are a 'Soft Launch' to build VIP advocacy. Then, we execute the 'Hard Launch' with maximum firepower. However, brilliant marketing dies if Sales cannot execute. We have built comprehensive Sales Playbooks and battle-cards. Finally, to ignite the frontline, we propose heavily incentivized commission multipliers. I ask for your budget approval to conquer this market."
+      }
+    }
+  ],
+  "prompt_template": {
+    "zh": "請以繁體中文製作一份大師級的『新產品上市 (Go-to-Market) 與全球定價戰略』簡報。受眾為董事會、CEO 或投資人。內容必須展現 CMO (行銷長) 與 CRO (營收長) 結合品牌與財務的頂尖商業擴張視野：1. 運用 SCQA 點出市場價格戰威脅與建立定價護城河的急迫性，2. 從 PMF 切入，明確定義理想客戶輪廓 (ICP) 與針對經濟/技術買主的說帖，3. 強調『價值定價 (Value-Based Pricing)』與分層架構，堅守毛利率底線，4. 運用財務語言剖析單位經濟效益 (Unit Economics)，證明 LTV/CAC 比率大於 3 倍的資本效率，5. 結尾給出 100 天上市藍圖 (軟發布至硬發布)，並要求核准行銷預算與業務激勵獎金。每張 Slide 不超過 3 個重點，語氣需極具市場侵略性、數據嚴謹度與營收兌現的承諾。",
+    "en": "Please create a master-class 'Go-to-Market (GTM) & Global Pricing Strategy' presentation in English. Audience: Board of Directors, CEO, or Investors. Demonstrate the elite commercial expansion vision of a CMO/CRO bridging brand and finance: 1. Use SCQA to highlight price-war threats and the urgency of pricing moats. 2. Define PMF, the Ideal Customer Profile (ICP), and bifurcated pitches for Economic vs. Technical buyers. 3. Defend gross margins fiercely via 'Value-Based Pricing' and psychological tiered architectures. 4. Speak the CFO's language by analyzing Unit Economics, proving a highly capital-efficient LTV:CAC ratio (>3x). 5. Conclude with a 100-Day Launch Roadmap (Soft to Hard Launch), demanding marketing CapEx and aggressive sales commission multipliers. Max 3 bullet points per slide. The tone must be fiercely aggressive in the market, mathematically rigorous, and fully committed to revenue realization."
+  }
+}
