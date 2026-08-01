@@ -1,0 +1,129 @@
+{
+  "topic_id": "family_business_succession",
+  "keywords": ["家族企業", "傳承", "接班", "family business", "succession", "家族辦公室", "family office", "股權", "治理", "家族信託", "家族憲法", "二代", "next-gen"],
+  "title": {
+    "zh": "家族企業傳承與頂層治理重構 (三環模型與家族辦公室)",
+    "en": "Family Business Succession & Governance (Three-Circle Model)"
+  },
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_title": {
+        "zh": "傳承拐點與戰略訴求 (SCQA & Legacy Ask)",
+        "en": "The Succession Inflection Point (SCQA)"
+      },
+      "bullet_points": {
+        "zh": [
+          "情境 (Situation)：創辦人與第一代團隊成功打造了堅實的企業帝國，奠定了強大的市場基石",
+          "衝突 (Complication)：隨著領導層老化，缺乏制度化的接班計畫正引發「富不過三代」的營運與股權風險",
+          "訴求 (The Ask)：提議啟動「頂層治理重構計畫」，懇請創辦人授權建立涵蓋股權、經營權與家族財富的傳承藍圖"
+        ],
+        "en": [
+          "Situation: The Founder and Gen 1 team have built a formidable enterprise and a dominant market position.",
+          "Complication: As leadership ages, the lack of a formalized succession plan exposes the firm to existential operational and equity risks.",
+          "The Ask: Initiate a 'Top-Level Governance Restructuring'. Requesting the Founder's mandate to formalize ownership, management, and wealth transfer."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "創辦人與各位董事好。過去幾十年，您帶領公司打下了輝煌的江山。但企業最大的危機，往往發生在『強人交棒』的瞬間。今天這份提案，不是要奪權，而是為了『保全您的心血』。我們必須趁著公司仍在巔峰時，啟動制度化的傳承計畫，確保企業基業長青。",
+        "en": "Founder and Board members, you have built an incredible legacy over the decades. However, a company's greatest vulnerability often occurs during the transition of power. Today's pitch isn't about diminishing your control; it's about protecting your life's work. We must institutionalize our succession plan while at our peak to ensure the business thrives for generations."
+      }
+    },
+    {
+      "slide_number": 2,
+      "slide_title": {
+        "zh": "三環模型與不作為成本 (Three-Circle Model & COI)",
+        "en": "The Three-Circle Model & Cost of Inaction"
+      },
+      "bullet_points": {
+        "zh": [
+          "痛點解構 (Three-Circle Model)：精準拆分「家族情感」、「企業經營」與「股權所有」三個極易衝突的維度",
+          "隱含成本 (Cost of Inaction)：權責不清將導致老臣與二代的政治內耗，並引發專業經理人 (CXO) 爆發性流失",
+          "股權風險 (Equity Risk)：若無提早規劃，未來的遺產稅衝擊與股權稀釋將直接威脅家族對企業的控制權"
+        ],
+        "en": [
+          "Issue Deconstruction (Three-Circle Model): Surgically separating 'Family Emotions', 'Business Management', and 'Ownership'.",
+          "Cost of Inaction (COI): Ambiguity breeds political infighting between loyalists and Next-Gen, triggering a mass exodus of professional CXOs.",
+          "Equity Risk: Unplanned transitions invite devastating estate taxes and share dilution, directly threatening family control."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "家族企業之所以複雜，是因為『親情、股權與經營績效』全攪和在一起。我們引入哈佛的三環模型，就是要將這三件事拆開來管。如果我們維持現狀（不作為），最大的成本將是內部政治鬥爭導致的專業人才流失，以及未來可能讓家族失去控制權的稅務與股權危機。",
+        "en": "Family businesses are complex because family ties, equity, and business performance are heavily entangled. We apply the Harvard Three-Circle Model to manage these separately. The Cost of Inaction is severe: political infighting will drive away top professional talent, while looming tax and equity crises could ultimately strip the family of its control."
+      }
+    },
+    {
+      "slide_number": 3,
+      "slide_title": {
+        "zh": "頂層治理：所有權與經營權分離 (Governance: Ownership vs. Management)",
+        "en": "Governance: Separating Ownership & Management"
+      },
+      "bullet_points": {
+        "zh": [
+          "家族憲法 (Family Constitution)：制定家族成員進入企業的硬性標準，杜絕「因親設事」，確保用人唯才",
+          "股權信託 (Family Trust / Holding Co.)：透過設立閉鎖性控股公司或家族信託，鎖死控制權，實現「分利不分權」",
+          "董事會專業化 (Board Professionalization)：引入獨立董事與外部專家，推動決策機制從「人治」走向「法治」"
+        ],
+        "en": [
+          "Family Constitution: Drafting strict prerequisites for family members entering the business to enforce a pure meritocracy.",
+          "Ownership Structure (Family Trust): Deploying closed holding companies or Family Trusts to lock in control (Distributing wealth, not power).",
+          "Board Professionalization: Injecting Independent Directors to transition the ultimate decision-making from 'Founder-rule' to 'Institutional-rule'."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "要解決衝突，第一步是『所有權與經營權分離』。我們將起草『家族憲法』，明確規定二代接班的標準。同時，透過設立家族信託或閉鎖性控股公司，確保未來的子孫『分紅利，但不能輕易分股權』。最後，引入外部獨立董事，讓企業徹底從人治走向法治。",
+        "en": "To resolve friction, we must 'Separate Ownership from Management'. We will draft a 'Family Constitution' setting strict merits for Next-Gen involvement. Simultaneously, we will establish a Family Trust to ensure future generations 'share the wealth, but not the voting power'. Finally, introducing Independent Directors will transition the firm from founder-rule to institutional-rule."
+      }
+    },
+    {
+      "slide_number": 4,
+      "slide_title": {
+        "zh": "接班人培育與跨代共創 (Next-Gen Grooming & Innovation)",
+        "en": "Next-Gen Grooming & Intrapreneurship"
+      },
+      "bullet_points": {
+        "zh": [
+          "影子內閣與導師制 (Shadowing & Mentorship)：指派外部專業經理人擔任二代導師，加速管理實務與威信的建立",
+          "內部創業 (Intrapreneurship)：與其直接空降核心事業，不如授權二代主導 [數位轉型/ESG/新事業部] 以戰代訓",
+          "退場機制 (Phase-out Strategy)：為創辦人與第一代老臣設計尊嚴的退場或轉任機制 (如：轉任家族辦公室/投資會)"
+        ],
+        "en": [
+          "Mentorship & Shadowing: Assigning elite non-family CXOs to mentor the Next-Gen, accelerating their practical leadership and credibility.",
+          "Intrapreneurship: Instead of parachuting into the core business, empower the Next-Gen to lead [Digital Transformation/ESG/New Ventures] to prove their worth.",
+          "Phase-out Strategy: Designing a dignified transition for the Founder and Gen 1 loyalists (e.g., pivoting to the Family Office/Investment Board)."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "接班不是一道命令，而是一個『贏得信任』的過程。我們不建議讓二代直接空降接管老臣的核心業務。相反地，我們會授權二代去開拓新戰場（如數位轉型或海外新市場），讓他們用戰績來立威。同時，我們也會為一代老臣安排尊嚴的退場機制，轉任家族投資委員會。",
+        "en": "Succession is not a mandate; it's a process of earning trust. We strongly advise against parachuting the Next-Gen directly over veteran executives. Instead, we empower them to lead new battlegrounds—like digital transformation or new markets—to prove their capability. Concurrently, we design a dignified transition for Gen 1 loyalists into the Family Office."
+      }
+    },
+    {
+      "slide_number": 5,
+      "slide_title": {
+        "zh": "3-5 年傳承藍圖與啟動訴求 (3-5 Year Roadmap & The Ask)",
+        "en": "3-5 Year Succession Roadmap & The Ask"
+      },
+      "bullet_points": {
+        "zh": [
+          "傳承時間軸 (Timeline)：這是一場 3 到 5 年的接力賽，分為「共治期」、「交棒期」與「顧問期」",
+          "首 90 天行動 (First 90 Days)：成立由 [法務/財務/家族代表] 組成的「傳承指導委員會」，並選定外部法稅顧問",
+          "決策訴求 (Call to Action)：懇請創辦人正式授權，提撥 [X 預算] 啟動家族憲法起草與信託架構評估"
+        ],
+        "en": [
+          "Succession Timeline: A 3-to-5-year relay race structured into 'Co-management', 'Handover', and 'Advisory' phases.",
+          "First 90 Days: Form a 'Succession Steering Committee' (Legal/Finance/Family rep) and engage external tax/legal counsel.",
+          "Call to Action: Requesting the Founder's formal mandate and [X Budget] to initiate the drafting of the Family Constitution and Trust structure."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "傳承絕對不是簽一張人事派令就結束了，這是一場 3 到 5 年的接力賽。為了走出第一步，我們提議在未來 90 天內成立『傳承指導委員會』，並聘請外部中立的法稅顧問介入。懇請創辦人今天給予正式授權，讓我們開始為家族與企業建構這道跨世代的防火牆。",
+        "en": "Succession is never just signing an org chart; it's a 3-to-5-year relay race. To take the first step, we propose forming a 'Succession Steering Committee' within 90 days and engaging neutral, external legal/tax advisors. We respectfully request the Founder's formal mandate today to begin building this cross-generational firewall for both the family and the firm."
+      }
+    }
+  ],
+  "prompt_template": {
+    "zh": "請以繁體中文製作一份大師級的『家族企業傳承與頂層治理』簡報。受眾為創辦人、家族董事會或一代老臣。內容必須展現頂級管顧與家族辦公室 (Family Office) 的高度，極度兼顧『商業客觀性』與『創辦人情感同理』：1. 運用 SCQA 強調傳承是為了『保全心血』而非奪權，2. 導入哈佛『三環模型 (Three-Circle Model)』拆解家族、股權與經營權的衝突，3. 提出設立『家族憲法』、『家族信託』與『董事會專業化』的防禦機制，4. 針對二代接班，提出『以戰代訓 (內部創業)』與老臣的尊嚴退場機制，5. 結尾給出 3-5 年的漸進式交棒藍圖與啟動預算。每張 Slide 不超過 3 個重點，語氣需極度尊師重道，但在此基礎上展現推動企業專業化的鐵腕與魄力。",
+    "en": "Please create a master-class 'Family Business Succession & Governance' presentation in English. Audience: The Founder, Family Board, or Gen 1 Veterans. Demonstrate top-tier consulting and Family Office acumen, balancing 'Commercial Objectivity' with 'Deep Empathy for the Founder': 1. Use SCQA to frame succession as 'Legacy Preservation' rather than a power grab. 2. Apply the 'Three-Circle Model' to untangle Family, Ownership, and Management. 3. Propose institutional guardrails: 'Family Constitution', 'Family Trust', and 'Board Professionalization'. 4. Advise 'Intrapreneurship/Shadowing' for Next-Gen grooming and dignified phase-outs for loyalists. 5. Conclude with a 3-5 year phased roadmap and a request for legal/tax advisory budget. Max 3 bullet points per slide. The tone must be immensely respectful of the founder's legacy, yet display the iron-willed resolve needed to drive corporate professionalization."
+  }
+}
