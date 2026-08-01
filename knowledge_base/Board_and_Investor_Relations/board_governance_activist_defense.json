@@ -1,0 +1,129 @@
+{
+  "topic_id": "board_governance_activist_defense",
+  "keywords": ["董事會", "公司治理", "board of directors", "激進投資者", "activist investor", "ir", "投資人關係", "代理權之爭", "proxy fight", "fiduciary duty", "esg", "股東大會", "agm"],
+  "title": {
+    "zh": "董事會治理與激進投資者防禦戰略 (董事會/IR 視角)",
+    "en": "Board Governance & Activist Investor Defense (Board/IR Perspective)"
+  },
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_title": {
+        "zh": "敵意狙擊與防禦訴求 (SCQA & The Defense Mandate)",
+        "en": "Activist Threat & Defense Mandate (SCQA)"
+      },
+      "bullet_points": {
+        "zh": [
+          "情境 (Situation)：[某激進避險基金] 近期已暗中吸納我方 [X]% 股權，並公開發布白皮書，指控我方資本配置無效及股價低估",
+          "衝突 (Complication)：若不迅速反制，對方將在即將到來的股東大會 (AGM) 發動「代理權之爭 (Proxy Fight)」，強行撤換現有董事並逼迫拆分核心業務",
+          "戰略訴求 (The Ask)：提議立即成立由獨立董事領導的「特別防禦委員會」，懇請授權啟動外部法律與公關顧問，建立全面防禦壁壘"
+        ],
+        "en": [
+          "Situation: [Activist Hedge Fund] has quietly accumulated a [X]% stake and published a white paper accusing our Board of inefficient capital allocation and chronic undervaluation.",
+          "Complication: Without an immediate counter-offensive, they will launch a Proxy Fight at the upcoming AGM to replace incumbent directors and force a fire-sale of core assets.",
+          "The Ask: Proposing the immediate formation of an Independent 'Special Defense Committee.' Requesting mandate to retain external legal and proxy solicitors to construct a defense wall."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "各位董事，我們現在面臨的不是一般的營運問題，而是針對經營權的『敵意狙擊』。激進投資者看準了我們的現金流與暫時的股價低估，企圖透過輿論戰逼迫我們讓出董事席次。我們不能陷入被動挨打的局面。今天的提案，是要在法理與資本市場上，立刻拉起最高級別的防禦網。",
+        "en": "Members of the Board, we are facing a hostile siege on our corporate control. Activist investors are exploiting our cash reserves and temporary undervaluation, weaponizing public sentiment to hijack board seats. We cannot remain on the defensive. Today's mandate is to immediately erect maximum-security legal and capital market defenses."
+      }
+    },
+    {
+      "slide_number": 2,
+      "slide_title": {
+        "zh": "受託人義務與商業判斷法則 (Fiduciary Duties & BJR)",
+        "en": "Fiduciary Duties & Business Judgment Rule (BJR)"
+      },
+      "bullet_points": {
+        "zh": [
+          "法理底線 (Duty of Care & Loyalty)：確保董事會的所有應對決策，均基於充分資訊且完全排除個人利益衝突，嚴守受託人義務",
+          "商業判斷法則 (Business Judgment Rule, BJR)：透過外部投行出具的「公平意見書 (Fairness Opinion)」，為董事會拒絕惡意收購的決策提供強大的法律免責保護",
+          "弱點盤點 (Vulnerability Audit)：主動進行內部壓力測試，檢視高管薪酬結構、ESG 指標落後等可能被激進投資者攻擊的治理弱點"
+        ],
+        "en": [
+          "Fiduciary Baseline (Care & Loyalty): Ensuring all Board countermeasures are fully informed and devoid of conflict of interest, strictly adhering to fiduciary duties.",
+          "Business Judgment Rule (BJR): Securing a 'Fairness Opinion' from Tier-1 investment banks to legally bulletproof the Board’s decision to reject hostile overtures.",
+          "Vulnerability Audit: Proactively stress-testing our governance blind spots—such as misaligned executive compensation or lagging ESG metrics—that activists will weaponize."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "在應對激進投資者時，董事會的每一個決策都可能面臨未來的法律訴訟。我們的核心護城河是『商業判斷法則 (BJR)』。只要我們能證明決策是為了公司與全體股東的長遠利益，且擁有外部投行的專業背書，法院就不會干預。同時，我們必須比敵人更早審視自己的治理弱點，先一步進行自我修復。",
+        "en": "When repelling activists, every Board decision is a potential future lawsuit. Our primary legal moat is the 'Business Judgment Rule (BJR).' If we demonstrate that our actions serve the long-term enterprise value—backed by a banker's Fairness Opinion—courts will defer to our judgment. Concurrently, we must aggressively audit and fix our own governance vulnerabilities before the activists weaponize them."
+      }
+    },
+    {
+      "slide_number": 3,
+      "slide_title": {
+        "zh": "結構性防禦與毒丸計畫 (Structural Defense & Poison Pill)",
+        "en": "Structural Defenses & Shareholder Rights Plan"
+      },
+      "bullet_points": {
+        "zh": [
+          "股東權益計畫 (Poison Pill)：授權起草「毒丸計畫」，一旦單一敵意股東持股越過 [X]% 紅線，即觸發大量低價新股發行，稀釋其股權",
+          "白衣騎士策略 (White Knight)：啟動與友善的私募股權 (PE) 或戰略合作夥伴的機密談判，作為防範惡意併購的備案",
+          "分期改選與章程 (Staggered Board/Bylaws)：檢視公司章程，確保召開臨時股東會 (EGM) 的門檻夠高，防止對方突襲改選"
+        ],
+        "en": [
+          "Shareholder Rights Plan (Poison Pill): Authorizing the drafting of a 'Poison Pill.' If a hostile entity crosses a [X]% ownership threshold, we flood the market with discounted shares to dilute their stake.",
+          "White Knight Strategy: Initiating confidential exploratory talks with friendly Private Equity or strategic partners as a contingency against hostile takeovers.",
+          "Bylaws & Governance: Reviewing corporate bylaws to ensure high thresholds for calling Extraordinary General Meetings (EGMs), blocking sudden ambush elections."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "為了把主導權留在董事會，我們需要備妥『核武器』。雖然不一定馬上發射，但『毒丸計畫』的備案能有效喝止對方在公開市場的惡意收購。此外，我們也要尋找理念相近的『白衣騎士』作為後盾，並確保公司章程沒有漏洞，不讓對方有機會隨便召開臨時股東會突襲我們。",
+        "en": "To retain strategic control, the Board requires a nuclear deterrent. While we may not deploy it immediately, a ready-to-execute 'Poison Pill' paralyzes hostile open-market accumulation. Furthermore, we are quietly identifying 'White Knights' as fallback partners, and auditing our bylaws to ensure activists cannot ambush us with frivolous Extraordinary General Meetings."
+      }
+    },
+    {
+      "slide_number": 4,
+      "slide_title": {
+        "zh": "股東溝通與代理權顧問固樁 (IR & Proxy Advisor Engagement)",
+        "en": "IR Strategy & Proxy Advisor Engagement"
+      },
+      "bullet_points": {
+        "zh": [
+          "法人固樁 (Institutional Engagement)：IR 團隊於 48 小時內啟動與前 20 大機構投資人 (如 BlackRock, Vanguard) 的閉門溝通，闡述長遠轉型價值",
+          "代理權顧問 (ISS & Glass Lewis)：主動向全球兩大投票顧問機構進行法理與商業邏輯的專案簡報，爭取其在 AGM 上發布「支持公司派」的投票建議",
+          "公關論述 (Media Narrative)：將對方的行為定調為「追求短期套利、犧牲企業長期護城河」，搶佔財經媒體的道德與戰略制高點"
+        ],
+        "en": [
+          "Institutional Engagement: IR teams initiating closed-door briefings with top-20 institutional shareholders (e.g., BlackRock, Vanguard) within 48 hours to reinforce our long-term transformation narrative.",
+          "Proxy Advisors (ISS/Glass Lewis): Proactively briefing the dominant proxy advisory firms on our commercial and governance logic to secure 'FOR' voting recommendations.",
+          "Media Narrative: Framing the activist's agenda as 'destructive short-term arbitrage sacrificing long-term enterprise moats,' seizing the moral and strategic high ground in financial media."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "在代理權之爭中，『外資與機構投資人』的選票是勝負關鍵。多數機構會參考 ISS 或 Glass Lewis 的建議來投票。因此，投資人關係 (IR) 的重點不只是發新聞稿，而是要帶著我們扎實的商業邏輯去說服這些顧問機構。在公關戰上，我們要清楚告訴市場：對方只是來割韭菜的，而我們才是真正在捍衛公司與股東的長期價值。",
+        "en": "In a proxy fight, institutional votes determine survival. Most passives vote based on ISS or Glass Lewis recommendations. Therefore, our IR strategy isn't just press releases; it's surgically convincing these proxy advisors with our commercial logic. In the media, we must aggressively brand the activists as short-term arbitrageurs, positioning the Board as the true defenders of long-term shareholder value."
+      }
+    },
+    {
+      "slide_number": 5,
+      "slide_title": {
+        "zh": "和解談判與 AGM 兵推 (Settlement Mediation & AGM Readiness)",
+        "en": "Settlement Mediation & AGM War-Gaming"
+      },
+      "bullet_points": {
+        "zh": [
+          "建設性調解 (Constructive Mediation)：若評估勝算膠著，啟動高階閉門調解，探討以「提供一席觀察員/非執行董事席次」換取對方簽署「停戰協議 (Standstill Agreement)」",
+          "AGM 兵推演練 (AGM War-Gaming)：針對年度股東大會，進行 Q&A 沙盤推演，確保主席與 CEO 能從容應對現場的尖銳質疑與程序杯葛",
+          "決策訴求 (Call to Action)：懇請董事會批准防禦預算，並正式授權由 [董事長/特定總監] 擔任與激進投資者進行和解談判的唯一窗口"
+        ],
+        "en": [
+          "Constructive Mediation: If proxy math is borderline, initiating high-level closed-door mediation. Exploring concessions like a 'Non-Executive/Observer Board Seat' in exchange for a binding 'Standstill Agreement'.",
+          "AGM War-Gaming: Conducting rigorous Q&A mock sessions for the upcoming AGM, ensuring the Chairman and CEO can gracefully neutralize hostile questions and procedural sabotage.",
+          "Call to Action: Requesting Board approval for the defense budget and formally appointing [Chairman/Lead Director] as the sole negotiator for any potential settlement talks."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "身為專業治理者，我們深知有時候『和解』是成本最低的勝利。如果算票結果太接近，我們不排除透過調解 (Mediation) 讓步一席董事，換取對方的『停戰協議 (Standstill)』。同時，針對即將到來的股東大會，我們將進行嚴格的沙盤推演，確保主席在台上能穩住陣腳。請董事會授權防禦預算，讓我們打贏這場經營權保衛戰。",
+        "en": "As seasoned governance professionals, we know that sometimes 'settlement' is the highest-ROI victory. If the proxy math is too close, we will explore mediation—conceding a single board seat in exchange for a multi-year 'Standstill Agreement.' Concurrently, we are war-gaming the AGM to ensure the Chairman remains bulletproof against live hostility. We ask for the defense budget to secure our corporate sovereignty."
+      }
+    }
+  ],
+  "prompt_template": {
+    "zh": "請以繁體中文製作一份大師級的『董事會治理與激進投資者防禦』簡報。受眾為企業董事會、獨立董事或高階 IR 團隊。內容必須展現頂尖公司治理專家與談判大師的高度：1. 運用 SCQA 點出激進投資者 (Activist) 逼宮的急迫威脅與代理權之爭，2. 強調董事的受託人義務 (Fiduciary Duties) 與商業判斷法則 (BJR) 的法理防禦，3. 提出毒丸計畫 (Poison Pill) 或白衣騎士等結構性核武器，4. 制定針對 ISS/Glass Lewis 等代理權顧問及機構投資人的精準說服戰略，5. 結尾帶入高階談判與調解 (Mediation) 思維，探討簽署停戰協議 (Standstill) 的可能性與 AGM 沙盤推演。每張 Slide 不超過 3 個重點，語氣需極具權威感、法規嚴謹度與運籌帷幄的戰略定力。",
+    "en": "Please create a master-class 'Board Governance & Activist Defense' presentation in English. Audience: Board of Directors, Independent Directors, or elite IR teams. Demonstrate the strategic gravity of a top-tier Corporate Governance expert and mediator: 1. Use SCQA to frame the existential threat of an activist proxy fight. 2. Lean heavily into legal defenses, specifically Fiduciary Duties and the Business Judgment Rule (BJR). 3. Outline structural nuclear options like the Poison Pill and White Knight contingencies. 4. Detail a surgical IR strategy targeting institutional whales and proxy advisors (ISS/Glass Lewis). 5. Conclude with high-stakes mediation strategies, exploring Standstill Agreements and rigorous AGM war-gaming. Max 3 bullet points per slide. The tone must project immense boardroom authority, legal bulletproof-ness, and calm strategic mastery."
+  }
+}
