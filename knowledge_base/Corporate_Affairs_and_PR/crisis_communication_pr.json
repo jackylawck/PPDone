@@ -1,0 +1,129 @@
+{
+  "topic_id": "crisis_communication_pr",
+  "keywords": ["公關", "危機", "危機溝通", "pr", "crisis", "communication", "聲譽", "reputation", "cco", "媒體", "media", "聲明", "停損"],
+  "title": {
+    "zh": "公共關係與危機溝通戰略 (CCO 停損與修復視角)",
+    "en": "Public Relations & Crisis Communication (CCO Perspective)"
+  },
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_title": {
+        "zh": "危機定調與現狀評估 (Crisis Assessment & SCQA)",
+        "en": "Crisis Assessment & The Immediate Ask (SCQA)"
+      },
+      "bullet_points": {
+        "zh": [
+          "情境 (Situation)：公司目前正面臨 [填入危機事件]，該事件已在 [社群/媒體/監管機構] 引發廣泛關注",
+          "衝突 (Complication)：若未能於黃金 24 小時內定調回應，輿論失控將導致嚴重的品牌信任危機與市值蒸發",
+          "戰略訴求 (The Ask)：啟動最高級別危機應變小組，懇請核准官方對外聲明稿與初步停損授權"
+        ],
+        "en": [
+          "Situation: The company is currently facing [Crisis Event], which has triggered intense scrutiny across [Media/Social/Regulators].",
+          "Complication: Failure to control the narrative within the golden 24-hour window will result in severe brand damage and market cap erosion.",
+          "The Ask: Activating the Tier-1 Crisis Response Team. Requesting immediate board approval for the official holding statement."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "各位長官，我們目前面臨嚴峻的公關危機。在危機管理中，『真空』是最危險的，因為如果我們不說話，外界就會替我們編造故事。今天的緊急匯報，旨在統一我們的對外口徑，並取得董事會對初步停損聲明的授權，我們必須在黃金 24 小時內奪回話語權。",
+        "en": "Executives, we are in the midst of a severe PR crisis. In crisis management, a 'vacuum' is our greatest enemy—if we don't speak, the public will invent the story for us. This emergency briefing aims to unify our narrative and secure authorization for our holding statement. We must reclaim the narrative within the golden 24-hour window."
+      }
+    },
+    {
+      "slide_number": 2,
+      "slide_title": {
+        "zh": "3R 危機應對戰略 (The 3R Crisis Framework)",
+        "en": "The 3R Crisis Communication Strategy"
+      },
+      "bullet_points": {
+        "zh": [
+          "Regret (表達遺憾/同理)：第一時間對受影響的利害關係人表達真誠的同理心，但不盲目承攬未經調查的法律責任",
+          "Reason (說明原因/調查中)：透明公開目前的已知事實，並宣布已啟動 [內部/第三方] 獨立調查程序",
+          "Remedy (補救措施)：明確提出具體的改善承諾與補救方案，展現企業負責任的治理底線"
+        ],
+        "en": [
+          "Regret (Empathy): Immediately expressing genuine empathy to affected stakeholders without prematurely admitting uninvestigated legal liability.",
+          "Reason (Transparency): Transparently sharing known facts and announcing the initiation of a [Internal/Third-Party] independent investigation.",
+          "Remedy (Action): Committing to concrete corrective actions and remediation plans, demonstrating our bottom-line corporate governance."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "對外聲明的核心邏輯是 3R 原則。首先是 Regret，我們必須展現同理心，但這不等於在法律上認罪。其次是 Reason，告訴大眾我們正在積極調查。最後是 Remedy，也是最重要的，我們打算怎麼解決問題？這 3R 缺一不可，是防止危機二度延燒的防火牆。",
+        "en": "Our external messaging is anchored in the 3R framework. First, Regret: we show empathy, which is not an admission of legal guilt. Second, Reason: we communicate that an active investigation is underway. Finally, Remedy: how are we fixing this? These three pillars are non-negotiable firewalls against secondary PR disasters."
+      }
+    },
+    {
+      "slide_number": 3,
+      "slide_title": {
+        "zh": "利害關係人溝通矩陣 (Stakeholder Matrix & SST)",
+        "en": "Stakeholder Matrix & Single Source of Truth"
+      },
+      "bullet_points": {
+        "zh": [
+          "單一真相來源 (Single Source of Truth)：指定 [發言人姓名] 為唯一對外窗口，嚴禁員工於社群媒體私下發表評論",
+          "內部安撫 (Employees)：優先發布內部信，穩定員工軍心，避免內部焦慮轉化為對外爆料",
+          "外部防禦 (Investors/Media)：針對機構投資人與重點媒體，啟動 1-on-1 主動溝通，預防恐慌性拋售或惡意報導"
+        ],
+        "en": [
+          "Single Source of Truth (SST): Designating [Spokesperson Name] as the sole voice; strictly prohibiting unauthorized employee social media comments.",
+          "Internal Alignment (Employees): Prioritizing internal memos to stabilize morale and prevent anxiety-driven leaks to the press.",
+          "External Defense (Investors/Media): Initiating 1-on-1 proactive briefings with key institutional investors and tier-1 media to prevent panic."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "在危機中，多頭馬車是致命的。我們必須建立『單一真相來源 (SST)』，所有對外發言只能由指定發言人處理。同時，公關不只是對外，『安內』同樣重要。我們將優先發布員工內部信穩定軍心，並由 IR (投資人關係) 團隊一對一固樁核心投資人。",
+        "en": "In a crisis, mixed messages are fatal. We are establishing a 'Single Source of Truth'—only designated spokespersons may speak externally. Furthermore, PR isn't just external; 'internal alignment' is crucial. We will immediately release an internal memo to stabilize morale, while our IR team proactively secures key institutional investors."
+      }
+    },
+    {
+      "slide_number": 4,
+      "slide_title": {
+        "zh": "社群監測與論述防禦 (Social Listening & Narrative Control)",
+        "en": "Social Listening & Narrative Defense"
+      },
+      "bullet_points": {
+        "zh": [
+          "社群聆聽 (Social Listening)：已啟動 24/7 輿情監測系統，追蹤關鍵字聲量與情緒指標 (Sentiment Analysis)",
+          "謠言阻斷 (Misinformation Containment)：針對不實指控，於 [官網/官方社群] 設立「澄清專區 (Fact-Check)」，迅速反擊",
+          "SEO 防禦 (Search Engine Defense)：優化正面/中立聲明稿的搜尋權重，稀釋首頁的負面新聞版面"
+        ],
+        "en": [
+          "Social Listening: Deployed 24/7 sentiment analysis and keyword tracking across all major social and news platforms.",
+          "Misinformation Containment: Launching a dedicated 'Fact-Check' hub on our official channels to instantly neutralize false accusations.",
+          "SEO Defense: Optimizing the search ranking of our official statements and positive assets to dilute negative front-page search results."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "現在的危機戰場在網路上。我們已經啟動 24 小時的輿情監測。針對刻意抹黑的假消息，我們不會陷入泥巴戰，而是直接在官網設立『澄清專區』。同時，我們將啟動 SEO 防禦，確保大眾在搜尋我們公司時，第一眼看到的是官方的正式回應，而非腥羶色的八卦。",
+        "en": "Today's crisis battlefield is digital. We have activated 24/7 social listening. We won't engage in mudslinging over fake news; instead, we are establishing a definitive 'Fact-Check' hub on our site. Simultaneously, we are executing an SEO defense strategy to ensure our official stance ranks above sensationalized rumors."
+      }
+    },
+    {
+      "slide_number": 5,
+      "slide_title": {
+        "zh": "72 小時修復藍圖與決策訴求 (72-Hour Roadmap & The Ask)",
+        "en": "72-Hour Recovery Roadmap & Strategic Ask"
+      },
+      "bullet_points": {
+        "zh": [
+          "T+24 小時 (Containment)：發布初步聲明 (Holding Statement) 並完成內部員工溝通",
+          "T+48 小時 (Action)：公布初步調查進度，並視情況舉行線上/實體媒體說明會",
+          "決策訴求 (Call to Action)：懇請董事會立即核准第一版對外聲明稿，並授權公關團隊動用 [X 預算] 執行媒體防禦戰略"
+        ],
+        "en": [
+          "T+24 Hours (Containment): Releasing the initial holding statement and completing internal employee alignment.",
+          "T+48 Hours (Action): Publishing preliminary investigation updates and executing a press briefing if necessary.",
+          "Call to Action: Requesting immediate Board approval for the Holding Statement and authorizing [X Budget] for media defense operations."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "危機處理是在跟時間賽跑。這是我們未來 72 小時的行動藍圖。前 24 小時的目標是『止血』，48 小時的目標是『展現行動力』。懇請董事會現在就核准我們的對外聲明稿，讓我們立刻回到戰場，把對公司的傷害降到最低。",
+        "en": "Crisis management is a race against time. Here is our 72-hour execution roadmap. The goal of the first 24 hours is 'Containment'; the next 48 hours is demonstrating 'Action.' I respectfully request the Board's immediate approval of our holding statement so we can return to the battlefield and minimize enterprise damage."
+      }
+    }
+  ],
+  "prompt_template": {
+    "zh": "請以繁體中文製作一份大師級的『公共關係與危機溝通 (Crisis Communication)』簡報。受眾為董事會或 C-Suite 決策層。內容必須展現 CCO (首席公關官) 的冷靜與戰略高度：1. 運用 SCQA 架構定義危機現狀與 24 小時黃金應對窗口，2. 導入公關經典的『3R 原則 (Regret 遺憾, Reason 原因, Remedy 補救)』作為定調核心，3. 建立『單一真相來源 (Single Source of Truth)』與利害關係人溝通矩陣，4. 強調數位時代的社群聆聽 (Social Listening) 與 SEO 輿論防禦，5. 結尾必須給出 72 小時的具體行動藍圖，並爭取發言授權。每張 Slide 不超過 3 個重點，語氣需極度沉穩、果斷，且兼顧法律合規與品牌修復。",
+    "en": "Please create a master-class 'Public Relations & Crisis Communication' presentation in English. Audience: Board of Directors or C-Suite. Demonstrate the calm, strategic authority of a Chief Communications Officer (CCO): 1. Use SCQA to frame the crisis and the 24-hour golden window. 2. Implement the classic '3R Framework (Regret, Reason, Remedy)' as the narrative core. 3. Establish a 'Single Source of Truth (SST)' and stakeholder matrix (including internal comms). 4. Highlight digital Social Listening, misinformation containment, and SEO defense. 5. Conclude with a precise 72-hour recovery roadmap and an immediate request for statement authorization. Max 3 bullet points per slide. The tone must be composed, decisive, and meticulously balanced between legal compliance and brand reputation recovery."
+  }
+}
