@@ -1,0 +1,129 @@
+{
+  "topic_id": "hr_strategy",
+  "keywords": ["人力資源", "hr", "人才", "talent", "組織發展", "od", "hrbp", "招募", "績效", "企業文化", "培訓", "人資", "員工體驗", "離職率"],
+  "title": {
+    "zh": "人力資源戰略與組織發展匯報 (CHRO 商業視角)",
+    "en": "HR Strategy & Organizational Development (CHRO-Level)"
+  },
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_title": {
+        "zh": "商業戰略與人才對齊 (Business & Talent Alignment)",
+        "en": "Business Strategy & Talent Alignment"
+      },
+      "bullet_points": {
+        "zh": [
+          "商業目標 (Business Goal)：公司本年度戰略為 [營收增長/數位轉型/併購]，這需要極強的組織動能",
+          "人才斷層 (Talent Gap)：目前在 [關鍵職能/領導梯隊] 存在 [X]% 的缺口，正拖慢業務擴張速度",
+          "HR 戰略訴求 (The Ask)：今日旨在提出「人力資本重構計畫」，並爭取 [X 預算] 以啟動人才升級"
+        ],
+        "en": [
+          "Business Goal: Our annual strategy focuses on [Growth/Transformation], demanding immense organizational agility.",
+          "Talent Gap: A [X]% gap in [Critical Roles/Leadership Pipeline] is currently throttling our business expansion.",
+          "Strategic Ask: Proposing a 'Human Capital Restructuring Plan' and requesting [X Budget] to initiate the upgrade."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "各位長官好。HR 不是後勤，而是推動業務的引擎。公司的戰略方向非常明確，但如果我們沒有對應的人才梯隊去執行，戰略就只是口號。今天我們不談繁瑣的人事行政，我們來談如何透過補足『關鍵人才斷層』，來確保公司明年的營收目標能順利兌現。",
+        "en": "Good morning. HR is not a back-office function; it is the engine of business execution. Our corporate strategy is clear, but without the right talent pipeline, strategy is just a slogan. Today, we aren't discussing administrative HR; we are discussing how closing our 'critical talent gaps' will guarantee next year's revenue targets."
+      }
+    },
+    {
+      "slide_number": 2,
+      "slide_title": {
+        "zh": "人力數據洞察與隱含成本 (People Analytics & COI)",
+        "en": "People Analytics & Cost of Inaction (COI)"
+      },
+      "bullet_points": {
+        "zh": [
+          "關鍵流失率 (Regrettable Turnover)：前 [X]% 高績效員工流失率達 [X]%，主因為 [薪酬/缺乏發展]",
+          "空缺成本 (Cost of Vacancy)：關鍵職位平均招募天數 (Time-to-fill) 達 [X] 天，每月造成 [X] 營收損失",
+          "人效指標 (ROI of People)：目前人均產值 (Revenue per Employee) 成長停滯，需引入新績效機制"
+        ],
+        "en": [
+          "Regrettable Turnover: Turnover among Top [X]% performers hit [X]%, primarily driven by [Comp/Career Path].",
+          "Cost of Vacancy: Average Time-to-fill for critical roles is [X] days, costing us [X] in lost revenue monthly.",
+          "ROI of People: Revenue per Employee has stagnated, signaling the urgent need for a revamped performance mechanism."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "讓數據說話 (People Analytics)。我們真正要擔心的不是整體離職率，而是『高績效人才的流失 (Regrettable Turnover)』。每個關鍵職位的空缺，每天都在折損公司的營業額 (Cost of Vacancy)。維持現狀的不作為成本，遠比我們投資人才留任的預算還要高出數倍。",
+        "en": "Let's look at People Analytics. The real danger isn't overall turnover, but 'Regrettable Turnover' among our top performers. Every unfilled critical role burns daily revenue (Cost of Vacancy). The cost of inaction far exceeds the budget required to invest in talent retention."
+      }
+    },
+    {
+      "slide_number": 3,
+      "slide_title": {
+        "zh": "MECE 人才戰略：選、育、留 (Buy, Build, Bind Strategy)",
+        "en": "The 3B Talent Strategy: Buy, Build, Bind"
+      },
+      "bullet_points": {
+        "zh": [
+          "選 (Buy - Acquisition)：重塑雇主品牌 (Employer Branding)，精準鎖定 [AI/新市場] 的稀缺人才",
+          "育 (Build - Development)：啟動高潛力人才 (HiPo) 繼任計畫，建立內部 [X] 個月的關鍵梯隊",
+          "留 (Bind - Retention)：優化整體薪酬福利 (Total Rewards) 與彈性工時，精準留住核心戰力"
+        ],
+        "en": [
+          "Buy (Acquisition): Revamp Employer Branding to surgically target scarce talent in [AI/New Markets].",
+          "Build (Development): Launch a High-Potential (HiPo) succession program, building an internal pipeline within [X] months.",
+          "Bind (Retention): Optimize Total Rewards and flexible working models to lock in our core competitive workforce."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "針對這些痛點，我們提出『選、育、留 (Buy, Build, Bind)』的全面戰略。除了向外精準招募稀缺人才，我們更要啟動內部的接班人計畫 (Succession Planning)。同時，透過升級整體薪酬架構，把已經培養好的核心戰力牢牢綁在公司裡。",
+        "en": "To address these pain points, we propose a comprehensive 'Buy, Build, Bind' strategy. Beyond surgically acquiring scarce external talent, we must aggressively launch internal Succession Planning. Simultaneously, by upgrading our Total Rewards structure, we will firmly lock in our core competitive workforce."
+      }
+    },
+    {
+      "slide_number": 4,
+      "slide_title": {
+        "zh": "組織變革與心理安全感 (Org Change & Culture)",
+        "en": "Org Change & Psychological Safety"
+      },
+      "bullet_points": {
+        "zh": [
+          "破除穀倉 (Silo Busting)：重組跨部門敏捷小隊 (Agile Squads)，將溝通層級從 [X] 層扁平化至 [Y] 層",
+          "心理安全感 (Trust & Safety)：導入教練式領導 (Coaching) 培訓，打造允許試錯與高透明度的高效文化",
+          "變革管理 (Kotter's Model)：預期會面臨 [X] 反彈，已規劃 8 步驟變革溝通計畫，降低陣痛期"
+        ],
+        "en": [
+          "Silo Busting: Reorganize into cross-functional Agile Squads, flattening communication from [X] to [Y] layers.",
+          "Psychological Safety: Introduce Coaching leadership training to foster a high-transparency, fail-safe culture.",
+          "Change Management: Anticipating resistance from [X]; applying Kotter's 8-step model to minimize transition friction."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "人才找來了，如果組織文化有毒，他們還是會走。所以同步必須進行『組織發展 (OD)』。我們要打破跨部門的穀倉效應，並在主管層導入教練式領導，建立『心理安全感』。這是一場組織變革，我們已經備妥了溝通計畫來應對預期的反彈。",
+        "en": "Bringing in top talent is useless if our culture is toxic; they will just leave. Hence, Organizational Development (OD) must run in parallel. We will bust silos and train managers in coaching to build 'Psychological Safety'. This is a major organizational change, and we have a communication plan ready to manage the inevitable resistance."
+      }
+    },
+    {
+      "slide_number": 5,
+      "slide_title": {
+        "zh": "HR 投資回報與落地計畫 (HR ROI & Next Steps)",
+        "en": "HR Investment ROI & Next Steps"
+      },
+      "bullet_points": {
+        "zh": [
+          "投資回報 (ROI)：預計投入 [X] 預算升級 HRIS 系統與薪酬池，將於 [X] 個月內透過降低離職率回本",
+          "行動承諾 (First 90 Days)：前 30 天完成人才盤點，前 90 天落實新版績效考核與 HiPo 梯隊",
+          "決策訴求 (Call to Action)：懇請董事會/CEO 核准此人力戰略預算，賦能業務的高速增長"
+        ],
+        "en": [
+          "ROI Justification: Investing [X] in HRIS and the compensation pool will break even within [X] months via reduced turnover costs.",
+          "First 90 Days: Complete talent mapping in 30 days; launch the revamped performance & HiPo programs within 90 days.",
+          "Call to Action: Requesting Board/CEO approval for this HR strategic budget to empower high-speed business growth."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "HR 不再是成本中心，而是投資中心。這筆用於升級系統與優化薪酬的預算，將透過大幅降低『空缺成本與離職重工成本』，在幾個月內迅速回本。這是我們未來 90 天的落地承諾。若無異議，懇請 CEO 核准，我們立刻啟動。",
+        "en": "HR is no longer a cost center; it is an investment center. The budget for HRIS and compensation upgrades will quickly break even by slashing turnover and vacancy costs. Here is our 90-day execution roadmap. If aligned, we respectfully request CEO approval to initiate immediately."
+      }
+    }
+  ],
+  "prompt_template": {
+    "zh": "請以繁體中文製作一份大師級的『人力資源戰略與組織發展 (HR Strategy & OD)』簡報。受眾為 CEO 或董事會。內容必須展現 CHRO (首席人力資源官) 與 HRBP 的頂尖商業視野：1. 絕對不要談瑣碎的行政，開場必須直接對齊『公司營收與商業戰略』，2. 運用 People Analytics (人力數據) 量化『空缺成本 (Cost of Vacancy)』與『關鍵流失率』，3. 提出 MECE 結構的『選、育、留 (Buy, Build, Bind)』人才解方，4. 探討組織變革 (Change Management)、破除穀倉與建立心理安全感，5. 結尾必須把 HR 預算包裝為具備明確 ROI 的『商業投資』，並給出 90 天落地計畫。每張 Slide 不超過 3 個重點，語氣需極具商業魄力、數據導向且展現高階組織變革專家的權威。",
+    "en": "Please create a master-class 'HR Strategy & Organizational Development' presentation in English. Audience: CEO or Board of Directors. Demonstrate CHRO-level and elite HRBP business acumen: 1. Skip admin tasks; immediately align talent strategy with 'Company Revenue and Business Goals'. 2. Use People Analytics to quantify 'Cost of Vacancy' and 'Regrettable Turnover'. 3. Propose a MECE 'Buy, Build, Bind' talent solution. 4. Address Organizational Change, Silo-busting, and Psychological Safety. 5. Conclude by framing the HR budget as a high-ROI 'Business Investment' with a strict 90-day execution plan. Max 3 bullet points per slide. The tone must be fiercely commercial, data-driven, and authoritative as a senior organizational change expert."
+  }
+}
