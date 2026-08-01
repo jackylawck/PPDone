@@ -1,0 +1,129 @@
+{
+  "topic_id": "incident_postmortem",
+  "keywords": ["事故", "檢討", "危機", "出事", "post-mortem", "incident", "拆彈", "問題分析", "失誤", "troubleshooting"],
+  "title": {
+    "zh": "事故檢討與預防改善報告",
+    "en": "Incident Post-Mortem & Preventive Action Report"
+  },
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_title": {
+        "zh": "事件摘要與業務影響 (Executive Summary)",
+        "en": "Executive Summary & Business Impact"
+      },
+      "bullet_points": {
+        "zh": [
+          "事件概述：於 [日期/時間] 發生 [簡述事件]，影響範圍包含 [受影響之業務/客戶]",
+          "業務影響：造成 [具體數據/損失/停工時間]，目前已 [完全恢復/部分控制]",
+          "本次匯報目的：釐清根本原因、確認補救措施與長期預防方案"
+        ],
+        "en": [
+          "Incident Overview: [Brief description] occurred on [Date/Time], affecting [Business/Customers]",
+          "Business Impact: Resulted in [Data/Loss/Downtime]. Status is currently [Fully recovered/Partially controlled]",
+          "Objective: Clarify root causes, confirm remediation, and align on long-term prevention"
+        ]
+      },
+      "speaker_notes": {
+        "zh": "各位主管，今天的會議是針對日前的突發事件進行覆盤。目前情況已經受到控制，我們今天的重點不是究責，而是透明地呈現發生了什麼事，以及我們如何確保未來不再發生。",
+        "en": "Management team, today's meeting is a post-mortem of the recent incident. The situation is under control. Our focus today is not to point fingers, but to transparently review what happened and ensure it doesn't happen again."
+      }
+    },
+    {
+      "slide_number": 2,
+      "slide_title": {
+        "zh": "客觀時間軸 (Incident Timeline)",
+        "en": "Incident Timeline"
+      },
+      "bullet_points": {
+        "zh": [
+          "[時間點 1]：系統/流程出現異常，第一線人員接獲通報",
+          "[時間點 2]：啟動緊急應變機制，進行初步影響評估",
+          "[時間點 3]：成功執行止血措施，服務/流程恢復正常運作"
+        ],
+        "en": [
+          "[Time 1]: Anomaly detected in system/process; frontline notified",
+          "[Time 2]: Emergency response activated; initial impact assessment conducted",
+          "[Time 3]: Mitigation measures successfully deployed; normal operations restored"
+        ]
+      },
+      "speaker_notes": {
+        "zh": "我們還原一下當時的客觀時間軸。從發現異常到完全排除，總共花費了多少時間。這有助於我們檢視現有的警報與通報機制是否夠快。",
+        "en": "Let's review the objective timeline. We need to look at the total time from detection to full resolution. This helps us evaluate if our current alerting and escalation mechanisms are fast enough."
+      }
+    },
+    {
+      "slide_number": 3,
+      "slide_title": {
+        "zh": "根本原因分析 (Root Cause Analysis)",
+        "en": "Root Cause Analysis"
+      },
+      "bullet_points": {
+        "zh": [
+          "直接原因：[例如：人為操作失誤 / 系統容量超載 / 供應商斷線]",
+          "系統性/流程漏洞：[例如：缺乏雙重核准機制 / 缺乏備援方案]",
+          "結論：現有 SOP 未涵蓋此極端情境，導致第一時間無法攔截"
+        ],
+        "en": [
+          "Direct Cause: [e.g., Human error / System overload / Vendor outage]",
+          "Systemic/Process Gap: [e.g., Lack of dual-approval / No fallback plan]",
+          "Conclusion: Current SOPs did not cover this edge case, preventing immediate interception"
+        ]
+      },
+      "speaker_notes": {
+        "zh": "經過深入剖析，雖然表面上看起來是單一節點失效，但根本原因其實是我們的標準作業流程中，缺乏針對這類極端情況的防錯與雙重驗證機制。",
+        "en": "Through deep analysis, while it appears to be a single node failure, the root cause is actually a gap in our standard operating procedures—specifically, a lack of fail-safes and dual-verification for extreme edge cases."
+      }
+    },
+    {
+      "slide_number": 4,
+      "slide_title": {
+        "zh": "立即止血與補救措施 (Immediate Actions)",
+        "en": "Immediate Remediation Actions"
+      },
+      "bullet_points": {
+        "zh": [
+          "客戶/利害關係人溝通：已於第一時間發布說明並提供補償方案",
+          "作業面處置：已實施 [具體措施] 確保短期內系統/流程穩定",
+          "資料/資產保全：已完成盤點，確認無進一步外洩或損失風險"
+        ],
+        "en": [
+          "Stakeholder Comms: Statements issued immediately with compensation plans provided",
+          "Operational Fix: Implemented [Specific Action] to ensure short-term stability",
+          "Asset Security: Inventory completed, confirming no further risk of leak or loss"
+        ]
+      },
+      "speaker_notes": {
+        "zh": "在事件發生當下，團隊的首要任務是止血。我們已經安撫了受影響的對象，並上了臨時的控制措施，確保在徹底修復前，營運能維持在安全線上。",
+        "en": "During the incident, the team's top priority was damage control. We have reassured affected parties and applied temporary controls to keep operations safely afloat until a permanent fix is ready."
+      }
+    },
+    {
+      "slide_number": 5,
+      "slide_title": {
+        "zh": "長期預防與流程優化 (Long-term Prevention)",
+        "en": "Long-term Prevention & Optimization"
+      },
+      "bullet_points": {
+        "zh": [
+          "流程修訂：將於 [日期] 前更新 SOP，加入 [具體防錯機制]",
+          "系統/資源強化：申請 [資源/預算] 以導入自動化監控與備援",
+          "人員訓練：安排相關團隊於本月底前完成新流程之教育訓練"
+        ],
+        "en": [
+          "Process Update: SOPs will be updated by [Date] to include [Specific fail-safes]",
+          "System Enhancement: Requesting [Budget/Resources] for automated monitoring",
+          "Training: Scheduling team training on the new procedures by month-end"
+        ]
+      },
+      "speaker_notes": {
+        "zh": "為了落實持續改善，我們擬定了三項長期預防措施。特別是流程修訂與防錯機制的建立，希望主管能批准相關資源，讓我們把漏洞徹底補齊。",
+        "en": "To implement continual improvement, we have drafted three long-term preventive measures. Specifically regarding process updates and fail-safes, we request management's approval for the necessary resources to close this gap completely."
+      }
+    }
+  ],
+  "prompt_template": {
+    "zh": "請以繁體中文製作一份專業的『事故檢討與預防改善報告 (Post-mortem)』簡報。採用嚴謹、客觀的商務風格。內容必須著重於：1. 客觀還原時間軸，2. 深入剖析根本原因（Root Cause），3. 提出具體的短期止血與長期預防措施（防錯機制）。每張 Slide 不超過 3 個重點，每字不超過一行，語氣需具備建設性，避免情緒化指責。",
+    "en": "Please create a professional 'Incident Post-Mortem & Preventive Action Report' presentation in English. Use a rigorous and objective corporate tone. Focus on: 1. Objective timeline reconstruction, 2. Deep Root Cause Analysis, 3. Specific short-term remediation and long-term prevention (fail-safes). Max 3 bullet points per slide, max one line per bullet. Maintain a constructive tone, avoiding emotional blame."
+  }
+}
