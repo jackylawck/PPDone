@@ -1,129 +1,129 @@
 {
   "topic_id": "internal_pitch",
-  "keywords": ["提案", "資源", "pitch", "proposal", "爭取", "budget", "預算", "企劃", "新專案", "business case", "商業計畫"],
+  "keywords": ["提案", "資源", "pitch", "proposal", "爭取", "budget", "預算", "企劃", "新專案", "business case", "商業計畫", "ROI", "投資"],
   "title": {
-    "zh": "新專案提案與商業價值匯報 (ROI 導向)",
-    "en": "New Project Pitch & Business Case (ROI-Driven)"
+    "zh": "新專案提案與商業計畫 (高階戰略與 ROI 導向)",
+    "en": "Strategic Project Pitch & Business Case (ROI-Driven)"
   },
   "slides": [
     {
       "slide_number": 1,
       "slide_title": {
-        "zh": "商業背景與提案核心 (SCQA 架構)",
-        "en": "Business Context & Core Proposal (SCQA)"
+        "zh": "戰略機遇與核心提案 (SCQA 架構)",
+        "en": "Strategic Opportunity & Core Pitch (SCQA)"
       },
       "bullet_points": {
         "zh": [
-          "情境 (Situation)：目前市場趨勢或內部營運正處於 [現狀描述]，我們具備 [某優勢]",
-          "衝突 (Complication)：然而，因為缺乏 [某工具/資源]，每個月正流失 [X] 潛在效益",
-          "解答與訴求 (Answer & The Ask)：提議啟動 [專案名稱]，並申請 [預算] 以獲取高額回報"
+          "情境 (Situation)：目前市場趨勢或內部營運正處於 [現狀描述]，我們具備先發優勢",
+          "衝突 (Complication)：然而，受限於 [舊系統/資源瓶頸]，我們每個月正流失 [X] 的潛在營收與市佔率",
+          "訴求 (The Ask)：提議啟動 [專案名稱]，申請 [X 預算] 以徹底解除瓶頸並獲取高額回報"
         ],
         "en": [
-          "Situation: The current market/operational baseline is [Status], and we have [Advantage].",
-          "Complication: However, lacking [Tool/Resource], we are burning [X] in potential value monthly.",
-          "Answer & The Ask: Propose launching [Project Name], requesting [Budget] for high ROI."
+          "Situation: The current market/operational landscape is [Status], and we hold a first-mover advantage.",
+          "Complication: However, bound by [Legacy constraints], we are bleeding [X] in potential revenue and market share monthly.",
+          "The Ask: Authorize [X Budget] to launch [Project Name], eliminating the bottleneck for high-yield returns."
         ]
       },
       "speaker_notes": {
-        "zh": "老闆好，今天的提案不是來要錢的，而是來幫公司找一個高報酬的投資機會。目前我們面臨一個流程上的瓶頸，這個瓶頸每個月都在吃掉我們的利潤。只要我們投入這筆資源，就能徹底翻轉這個劣勢。",
-        "en": "Good morning. Today's pitch isn't about spending money; it's a high-yield investment opportunity for the company. We currently face a bottleneck that is draining profits monthly. By allocating this resource, we can reverse this trend completely."
+        "zh": "老闆/各位長官好。今天的提案不是來增加費用的，而是為公司帶來一個高回報的投資機會。我們目前有一個極佳的市場切入點，但舊的流程正在吃掉我們的利潤。只要投入這筆關鍵資源，我們就能翻轉劣勢，將痛點轉化為增長引擎。",
+        "en": "Good morning. Today's pitch isn't about increasing expenses; it's a high-yield investment opportunity. We have a great market window, but legacy processes are eating our margins. By injecting this key resource, we can turn a bleeding pain point into a growth engine."
       }
     },
     {
       "slide_number": 2,
       "slide_title": {
-        "zh": "現狀痛點與不作為的隱含成本 (Cost of Inaction)",
-        "en": "Pain Points & The Cost of Inaction"
+        "zh": "不作為的隱含成本與戰略威脅 (Cost of Inaction)",
+        "en": "Cost of Inaction (COI) & Strategic Threats"
       },
       "bullet_points": {
         "zh": [
-          "量化痛點 (Data Literacy)：舊流程導致單次作業耗時 [X] 小時，錯誤率高達 [X]%",
-          "隱含成本 (Hidden Costs)：維持現狀 (Status Quo) 每年將浪費公司約 [X] 的人力與重工成本",
-          "合規與競爭風險 (Risk Radar)：若不升級，未來半年恐面臨 [法規開罰/對手超越] 的風險"
+          "量化失血 (Quantified Bleed)：舊流程導致單次作業耗時 [X]，直接侵蝕整體 EBITDA (利潤率)",
+          "不作為成本 (Cost of Inaction)：若維持現狀，預估未來一年將產生 [X 金額] 的重工與機會成本浪費",
+          "戰略威脅 (Strategic Risk)：延遲決策將使我們在未來半年面臨 [法規開罰/競爭對手彎道超車] 的絕對風險"
         ],
         "en": [
-          "Quantified Pain: Legacy processes take [X] hours per task, with a high error rate of [X]%.",
-          "Hidden Costs: Maintaining the status quo will waste approx. [X] annually in labor and rework.",
-          "Competitive Risk: Inaction over the next 6 months exposes us to [Compliance/Competitor] risks."
+          "Quantified Bleed: Legacy workflows take [X] per task, directly eroding our overall EBITDA margins.",
+          "Cost of Inaction (COI): Maintaining the status quo will compound to [X Amount] in rework and opportunity costs annually.",
+          "Strategic Risk: Delaying this decision exposes us to imminent [Compliance/Competitor] threats within 6 months."
         ]
       },
       "speaker_notes": {
-        "zh": "在商業世界裡，『什麼都不做』往往成本最高。我們用數據算過，維持舊方法的隱含成本與重工浪費，遠遠超過我們這次提案要求的預算。更別提潛在的合規與競爭風險。",
-        "en": "In business, doing nothing often carries the highest cost. Data shows that the hidden costs and rework of the current method far exceed the budget we are requesting today, not to mention the looming compliance and competitive risks."
+        "zh": "在商業戰場上，『維持現狀』往往是最昂貴的決定。我們精算過，維持舊方法的隱含成本與重工浪費，遠遠超過我們這次提案要求的預算。更別提潛在的合規風險與對手的進逼，我們已經沒有觀望的本錢。",
+        "en": "In business, 'maintaining the status quo' is often the most expensive decision. Our data shows that hidden costs and rework far exceed the budget requested today. Not to mention the looming compliance risks and aggressive competitors; we can no longer afford to wait."
       }
     },
     {
       "slide_number": 3,
       "slide_title": {
-        "zh": "解決方案與 MECE 結構化行動 (Proposed Solution)",
-        "en": "Solution & MECE Action Plan"
+        "zh": "解決方案與 MECE 轉型架構 (Solution Architecture)",
+        "en": "Solution Architecture & MECE Action Plan"
       },
       "bullet_points": {
         "zh": [
-          "系統面 (System)：導入 [自動化工具]，取代 [X]% 的低效人工作業",
-          "流程面 (Process)：重新設計跨部門協作 SOP，確保權責清晰、不重疊",
-          "人員面 (People)：建立專屬的激勵與查核機制，確保執行力落實"
+          "系統賦能 (System/Tech)：導入 [自動化工具/AI 系統]，規模化取代 [X]% 的低效人工作業",
+          "流程重組 (Process)：重新設計跨部門協作 SOP，消除 [X] 個冗餘節點，確保權責清晰",
+          "能力建構 (People)：建立專屬的激勵機制與技能培訓，確保新模式能 100% 落地執行"
         ],
         "en": [
-          "System: Deploy [Automated Tool] to replace [X]% of inefficient manual tasks.",
-          "Process: Redesign cross-functional SOPs to ensure clear, non-overlapping accountabilities.",
-          "People: Establish specific incentive and audit mechanisms to guarantee execution."
+          "Tech Enablement (System): Deploy [Automated Tool/AI] to eliminate [X]% of inefficient manual tasks at scale.",
+          "Process Reengineering: Redesign cross-functional SOPs, removing [X] redundant touchpoints for clear accountability.",
+          "Capability Building (People): Implement targeted training and incentive structures to ensure 100% execution."
         ]
       },
       "speaker_notes": {
-        "zh": "針對這個痛點，我們依據 MECE 原則，從『系統、流程、人員』三個不重疊的維度提出了全面性的解決方案。這不是單純買個軟體，而是一套確保能落地的完整機制。",
-        "en": "To address this, we've structured a comprehensive solution across three mutually exclusive pillars: System, Process, and People. This isn't just about buying software; it's a complete mechanism designed for successful execution."
+        "zh": "為了徹底解決這個問題，我們不只是『買一套軟體』。我們依據 MECE 原則，從『系統、流程、人員』三個維度提出了結構化的轉型方案。這是一套防呆機制，確保工具買進來後，流程跟得上，人員也會用。",
+        "en": "To permanently solve this, we aren't just 'buying software.' We've structured a comprehensive transformation across System, Process, and People. This foolproof mechanism ensures that once the tool is acquired, the processes adapt, and the team embraces it."
       }
     },
     {
       "slide_number": 4,
       "slide_title": {
-        "zh": "財務分析與投資報酬率 (Financials & ROI)",
-        "en": "Financial Analysis & ROI"
+        "zh": "投資論述與財務回報 (Investment Thesis & ROI)",
+        "en": "Investment Thesis & ROI Mechanics"
       },
       "bullet_points": {
         "zh": [
-          "預算與成本控制：專案總預算為 [金額]，並已設定嚴格的成本上限 (Cap)",
-          "投資回報 (ROI)：預估上線後 [X] 個月即可達到損益兩平 (Break-even)",
-          "長期效益 (Long-term Value)：三年內預估可為公司創造 [X] 淨利潤或成本節省"
+          "資金需求 (CapEx/OpEx)：專案總預算為 [金額]，並已設定嚴格的資金動撥上限與管控機制",
+          "投資回收期 (Payback Period)：預估專案上線後 [X] 個月即可達到損益兩平 (Break-even)",
+          "長期價值 (LTV/EBITDA)：三年內預估可為公司創造 [X] 的淨利潤，從成本中心轉為利潤中心"
         ],
         "en": [
-          "Budget & Cost Control: Total requested budget is [X], with a strict spending cap in place.",
-          "Return on Investment (ROI): Projected to reach break-even within [X] months post-launch.",
-          "Long-term Value: Estimated to generate [X] in net profit or savings over the next 3 years."
+          "Resource Ask (CapEx/OpEx): Total budget requested is [X], governed by a strict draw-down schedule and cap.",
+          "Payback Period: Conservatively projected to achieve Break-Even within [X] months post-launch.",
+          "Long-term Value: Estimated to generate [X] in net profit over 3 years, shifting from a cost to a profit center."
         ]
       },
       "speaker_notes": {
-        "zh": "這是主管們最關心的財務數字。我們申請的預算有嚴格的上限控制。根據保守估計，專案上線後只要幾個月就能回本，長期來看更是能為公司帶來可觀的正向現金流。",
-        "en": "Here is the financial breakdown. The requested budget is strictly capped. Based on conservative estimates, we will break even just months after launch, generating significant positive cash flow for the company long-term."
+        "zh": "這是各位最關心的財務論述。我們申請的預算有嚴格的動撥管控。根據保守估計，專案上線後 [X] 個月就能回收成本。放眼未來三年，這個專案將帶來高度的正向現金流，對公司的整體 EBITDA 會有顯著貢獻。",
+        "en": "Here is the core investment thesis. The requested budget is strictly governed. Based on conservative projections, we will recover the investment within [X] months. Looking ahead three years, this initiative will generate significant positive cash flow and contribute directly to our EBITDA."
       }
     },
     {
       "slide_number": 5,
       "slide_title": {
-        "zh": "風險管控與專案里程碑 (Mitigation & Milestones)",
-        "en": "Risk Mitigation & Milestones"
+        "zh": "降危機制與 Go/No-Go 決策 (De-risking & Milestones)",
+        "en": "De-risking Roadmap & Go/No-Go Gates"
       },
       "bullet_points": {
         "zh": [
-          "期望管理 (Managing Up)：我們承諾保守估計效益，但以超標交付為目標",
-          "變革與風險管控 (Change Mgmt)：針對前線抗拒心理，已規劃 [X] 階段的漸進式培訓",
-          "下一步 (Call to Action)：懇請核准預算，我們將於 [日期] 啟動，[日期] 匯報首期成果"
+          "概念驗證 (PoC)：首月啟動低風險的 [小規模試點]，驗證核心假設，控制初期投入成本",
+          "決策閘門 (Go/No-Go Gates)：設立明確的階段性 KPI，未達標則觸發停損或修正機制",
+          "決策訴求 (Call to Action)：懇請核准 [首期/全額] 預算，我們將於 [日期] 匯報試點成果"
         ],
         "en": [
-          "Managing Expectations: We have modeled conservative benefits but aim to over-deliver.",
-          "Change Mgmt & Risks: To mitigate frontline resistance, a phased training rollout is planned.",
-          "Call to Action: We request budget approval today to kick off on [Date] and report initial wins by [Date]."
+          "Proof of Concept (PoC): Launching a low-risk pilot in Month 1 to validate core assumptions and control initial burn rate.",
+          "Go/No-Go Gates: Establishing strict milestone KPIs; failing to meet targets triggers immediate pivot or halt mechanisms.",
+          "Call to Action: Requesting approval for [Phase 1/Total] budget today; we will report PoC metrics on [Date]."
         ]
       },
       "speaker_notes": {
-        "zh": "我們不僅規劃了美好的藍圖，也做好了風險防禦。特別是針對人員的變革管理，我們已經安排了漸進式的培訓。萬事俱備，只要今天取得您的授權，我們下週就能啟動並在下個月展現初步成果。",
-        "en": "We haven't just painted a rosy picture; we've actively planned for risk defense, especially regarding change management and team training. Everything is ready. With your authorization today, we will launch next week and deliver initial results next month."
+        "zh": "我們深知投資必伴隨風險，所以我們設計了『降危機制 (De-risking)』。我們不會一開始就把資源梭哈，而是先做小規模的 PoC (概念驗證)，並設立 Go/No-Go 的停損點。如果一切如預期，我們再擴大範圍。懇請長官今天核准首期預算，讓我們啟動試點。",
+        "en": "We know all investments carry risk, which is why we built in a strict 'De-risking' roadmap. We won't burn the entire budget upfront; we start with a localized PoC and strict Go/No-Go evaluation gates. If the data validates our assumptions, we scale. We ask for your approval on Phase 1 funding today so we can initiate the pilot."
       }
     }
   ],
   "prompt_template": {
-    "zh": "請以繁體中文製作一份專業的『新專案提案與商業價值 (Pitch)』簡報。受眾為握有預算決策權的高階主管或老闆。內容需展現強大的商業思維 (Business Mindset)，著重於：1. 運用 SCQA 架構破題，2. 明確算出『不作為的隱含成本』與『專案投資報酬率 (ROI)』，3. 運用 MECE 結構呈現解決方案，4. 納入專案風險防禦與變革管理 (Change Management) 計畫。每張 Slide 不超過 3 個重點，每字不超過一行，語氣需充滿自信、數據導向且極具說服力。",
-    "en": "Please create a professional 'New Project Pitch & Business Case' presentation in English. Audience: C-Suite or Budget Decision Makers. Demonstrate strong Business Mindset by focusing on: 1. SCQA framing, 2. Quantifying the 'Cost of Inaction' and clear 'ROI', 3. Using MECE for the proposed solution, 4. Incorporating risk mitigation and Change Management. Max 3 bullet points per slide, max one line per bullet. The tone must be confident, data-driven, and highly persuasive."
+    "zh": "請以繁體中文製作一份大師級的『新專案戰略提案 (Strategic Pitch)』簡報。受眾為握有預算生殺大權的董事會或 C-Level 高層。內容需展現頂級管顧的商業思維，著重於：1. 運用 SCQA 架構勾勒戰略機遇，2. 運用數據量化『不作為成本 (Cost of Inaction)』與對 EBITDA 的衝擊，3. 運用 MECE 原則 (系統/流程/人員) 建構解決方案，4. 提供精確的財務預測 (投資回收期 Payback Period 與 ROI)，5. 結尾必須提出具備『概念驗證 (PoC)』與『Go/No-Go 決策閘門』的降危機制 (De-risking)。每張 Slide 不超過 3 個重點，語氣需極具說服力、數據導向且展現為公司賺錢的強烈企圖心。",
+    "en": "Please create a master-class 'Strategic Project Pitch & Business Case' presentation in English. Audience: Board of Directors or C-Suite budget approvers. Demonstrate top-tier consulting business acumen by focusing on: 1. SCQA framing to highlight the strategic window, 2. Quantifying the 'Cost of Inaction' and its impact on EBITDA, 3. Using MECE (System/Process/People) to structure the transformation, 4. Providing rigorous financials (Payback Period and ROI), 5. Concluding with a strong De-risking execution plan, including 'Proof of Concept (PoC)' and strict 'Go/No-Go Gates'. Max 3 bullet points per slide. The tone must be highly persuasive, financially rigorous, and confidently focused on value creation."
   }
 }
