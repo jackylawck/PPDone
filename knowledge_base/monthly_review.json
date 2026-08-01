@@ -2,128 +2,128 @@
   "topic_id": "monthly_review",
   "keywords": ["月報", "季報", "工作匯報", "進度報告", "monthly review", "quarterly review", "status update", "progress"],
   "title": {
-    "zh": "工作進度與績效檢討匯報",
+    "zh": "工作進度與績效檢討匯報 (SCQA 架構)",
     "en": "Monthly/Quarterly Progress & Performance Review"
   },
   "slides": [
     {
       "slide_number": 1,
       "slide_title": {
-        "zh": "本月/本季核心進度摘要 (Executive Summary)",
-        "en": "Executive Summary"
+        "zh": "執行摘要與今日訴求 (Executive Summary & The Ask)",
+        "en": "Executive Summary & The Ask"
       },
       "bullet_points": {
         "zh": [
-          "核心 KPI 達成率：已完成整體目標的 [X]%",
-          "三大重點專案：[專案A] 已完工，[專案B] 按時推進中",
-          "今日匯報目的：總結成果、剖析瓶頸，並確認下階段資源分配"
+          "情境與進度 (Situation)：本月核心 KPI 已達成 [X]%，整體專案進度符合預期",
+          "衝突與挑戰 (Complication)：受限於 [具體痛點/資源]，預期下限可能出現 [X] 延誤風險",
+          "決策訴求 (The Ask)：今日旨在同步進度，並需請主管裁示 [具體資源調配/跨部門協調]"
         ],
         "en": [
-          "Core KPI Achievement: Completed [X]% of overall targets",
-          "Top 3 Projects: [Project A] delivered, [Project B] on track",
-          "Objective: Summarize results, analyze bottlenecks, and align resources"
+          "Situation: Core KPIs achieved [X]%; overall project progressing as expected",
+          "Complication: Due to [Resource/Pain point], we anticipate a potential delay risk in [X]",
+          "The Ask: Sync on progress and request management decision on [Specific Resource/Coordination]"
         ]
       },
       "speaker_notes": {
-        "zh": "老闆/各位主管好，今天的進度匯報將重點呈現我們本月的核心產出、目前面臨的挑戰，以及下一個階段需要獲得的資源支援，確保目標按時交付。",
-        "en": "Good morning/afternoon. Today's review will focus on our core deliverables this month, current challenges, and the resources needed for the next phase to ensure on-time delivery."
+        "zh": "老闆/各位主管好。直接切入結論，本月我們順利達標，但在下個月的規劃中遇到了一些資源瓶頸。今天匯報的重點，是希望各位了解目前的成績，並協助裁決下一階段的跨部門資源調配。",
+        "en": "Good morning. Bottom line up front: we hit our targets this month but foresee resource bottlenecks ahead. Today's goal is to present our results and secure your decision on cross-functional resource allocation for the next phase."
       }
     },
     {
       "slide_number": 2,
       "slide_title": {
-        "zh": "關鍵指標與 KPI 達成狀況",
-        "en": "Key Metrics & KPI Status"
+        "zh": "關鍵指標分析 (Data & ROI Metrics)",
+        "en": "Key Metrics & ROI Analysis"
       },
       "bullet_points": {
         "zh": [
-          "指標一 (例如：營收/進度)：實際 [數字] vs 目標 [數字] (超額達成/落後)",
-          "指標二 (例如：品質/效率)：流程時間縮短 [X]%，客訴/錯誤率下降 [X]%",
-          "指標三 (例如：預算執行)：累積支出於控制範圍內，無超支風險"
+          "業務成長 (Revenue/Progress)：本月達成 [X]，環比 (MoM) 增長 [X]%，同比 (YoY) 增長 [X]%",
+          "成本與投資回報 (Cost & ROI)：專案預算執行率 [X]%，透過 [優化措施] 成功省下 [X] 成本",
+          "品質指標 (Quality/Efficiency)：錯誤率/客訴率降至 [X]%，營運效率顯著提升"
         ],
         "en": [
-          "Metric 1 (e.g., Revenue/Progress): Actual [X] vs Target [Y]",
-          "Metric 2 (e.g., Quality/Efficiency): Process time reduced by [X]%, Error rate dropped by [X]%",
-          "Metric 3 (e.g., Budget): Cumulative spend within control, no overspend risk"
+          "Growth (Revenue/Progress): Achieved [X], MoM growth at [X]%, YoY growth at [X]%",
+          "Cost & ROI: Budget execution at [X]%; saved [X] in costs via [Optimization]",
+          "Quality: Error/Complaint rate reduced to [X]%, showing significant operational efficiency"
         ]
       },
       "speaker_notes": {
-        "zh": "從數據來看，我們在本月的核心指標呈現穩定成長，特別是在效率提升方面有顯著效果；預算與資源使用也都控制在合規範圍內。",
-        "en": "Looking at the data, our core metrics show steady growth this month, particularly in efficiency gains. Budget and resource utilization remain strictly within compliance limits."
+        "zh": "讓數據說話。相比上個月與去年同期，我們的核心指標都有雙位數的成長。更重要的是，在預算控制上，我們主動優化了流程，為公司省下了不必要的開支，維持了極高的投資報酬率。",
+        "en": "Let the data speak. Compared to last month and YoY, our core metrics show double-digit growth. More importantly, we proactively optimized processes to cut unnecessary costs, maintaining a high ROI."
       }
     },
     {
       "slide_number": 3,
       "slide_title": {
-        "zh": "重點專案里程碑 (Milestone Progress)",
-        "en": "Milestone Progress"
+        "zh": "專案里程碑與風險雷達 (Milestones & Risk Radar)",
+        "en": "Milestones & Risk Radar"
       },
       "bullet_points": {
         "zh": [
-          "已完成事項：完成 [關鍵任務 1] 與 [關鍵任務 2] 之驗收",
-          "進行中事項：[專案名稱] 目前進度 [X]%，預計 [日期] 前交付",
-          "延遲/風險事項：[專案名稱] 略有延遲，已啟動備援方案 (Mitigation Plan)"
+          "如期交付 (On-track)：[專案 A] 與 [專案 B] 達成關鍵節點，符合預期 (Under-promise, Over-deliver)",
+          "潛在風險 (Risk Radar)：[專案 C] 發現 [合規/技術] 隱患，已啟動早期預警",
+          "風險控制 (Mitigation)：已備妥 B 計畫，確保即便發生最壞情況，營運亦不中斷"
         ],
         "en": [
-          "Completed: Successfully delivered [Task 1] and [Task 2]",
-          "In Progress: [Project Name] is [X]% complete, expected delivery by [Date]",
-          "Delayed/At Risk: [Project Name] slightly delayed, mitigation plan activated"
+          "On-track: [Project A] and [Project B] hit key milestones (Under-promise, Over-deliver)",
+          "Risk Radar: Early warning triggered for [Project C] due to potential [Compliance/Tech] risks",
+          "Mitigation: Plan B activated to ensure zero operational disruption in worst-case scenarios"
         ]
       },
       "speaker_notes": {
-        "zh": "主要專案大多按照預定時程推進。針對稍微延遲的項目，我們已經找出原因並擬定補救措施，預計可以在下個週期補齊進度。",
-        "en": "Most major projects are progressing according to schedule. For the slightly delayed items, we have identified the root causes and implemented mitigation plans to catch up in the next cycle."
+        "zh": "在專案進度上，我們秉持「早報喜、早報憂」的原則。多數項目皆超前部署；唯獨針對一項潛在風險，我們已主動標示在雷達上，並擬定了止血的 B 計畫，請主管放心。",
+        "en": "Regarding project timelines, we follow the 'escalate early' principle. Most items are ahead of schedule. For one identified potential risk, we have proactively flagged it and prepared a Plan B, ensuring full control."
       }
     },
     {
       "slide_number": 4,
       "slide_title": {
-        "zh": "遭遇挑戰與根本原因分析 (Root Cause)",
-        "en": "Challenges & Root Cause Analysis"
+        "zh": "橫向協作與共識建立 (Cross-functional Alignment)",
+        "en": "Cross-functional Alignment"
       },
       "bullet_points": {
         "zh": [
-          "主要瓶頸：跨部門溝通卡關 / 外部廠商時程延誤 / 人力資源緊繃",
-          "根本原因：缺乏標準作業流程 (SOP) / 需求規格初期未對齊",
-          "應對措施：已建立臨時協調機制，並調整作業優先順序"
+          "協作現狀：與 [部門 X] 的對接因 [客觀事實/時程] 存在瓶頸",
+          "共同利益 (Interests)：已對齊雙方終極目標皆為 [例如：提升客戶體驗/準時上線]",
+          "雙贏方案 (Win-Win)：提議透過 [資源互換/流程妥協] 解開僵局，需主管背書"
         ],
         "en": [
-          "Main Bottleneck: Cross-functional silos / Vendor delays / Resource constraints",
-          "Root Cause: Lack of standard operating procedures (SOP) / Misaligned initial requirements",
-          "Countermeasure: Established ad-hoc coordination and reprioritized tasks"
+          "Current Bottleneck: Handoff with [Dept X] delayed due to [Objective facts/Timeline]",
+          "Shared Interests: Realigned that both teams share the ultimate goal of [e.g., Client satisfaction]",
+          "Win-Win Solution: Proposing [Resource swap/Compromise] to break the impasse, requiring your endorsement"
         ]
       },
       "speaker_notes": {
-        "zh": "我們不只看表面問題，更深入分析了根本原因。目前的主要瓶頸在於流程對齊，我們已經提出對應的改善機制來避免重複發生。",
-        "en": "We didn't just look at surface issues, but dug into the root causes. The main bottleneck lies in process alignment, and we've proposed corresponding mechanisms to prevent recurrence."
+        "zh": "在跨部門協作上，我們遇到了一些時程排擠。但我們沒有停留在抱怨，而是找出雙方共同的利益點。我們擬定了一個雙贏的妥協方案，只需要主管今天協助背書，就能立刻推進。",
+        "en": "We encountered some timeline conflicts in cross-departmental collaboration. Instead of complaining, we focused on shared interests and drafted a win-win compromise. We just need your endorsement today to move forward."
       }
     },
     {
       "slide_number": 5,
       "slide_title": {
-        "zh": "下階段三大優先任務與所需支援 (Next Steps)",
-        "en": "Next Steps & Required Support"
+        "zh": "行動計畫與期望管理 (Next Steps & Managing Up)",
+        "en": "Next Steps & Managing Up"
       },
       "bullet_points": {
         "zh": [
-          "下月優先一：聚焦完成 [核心專案]，確保於 [日期] 上線",
-          "下月優先二：優化現有 [作業流程]，預計提升 [X]% 效率",
-          "需要主管支援：請求協調 [跨部門資源 / 預算審批 / 人力補充]"
+          "短期衝刺：聚焦推進 [核心任務]，承諾於 [日期] 前完成 [具體產出]",
+          "變革管理：啟動 [新流程/系統] 之團隊培訓，降低前線抗拒感",
+          "所需裁示：請求批准 [金額/資源]，我們將於 [日期] 進行下一次對焦"
         ],
         "en": [
-          "Priority 1: Focus on delivering [Core Project] by [Date]",
-          "Priority 2: Optimize [Process] to improve efficiency by [X]%",
-          "Required Support: Request coordination for [Cross-dept resources / Budget / Headcount]"
+          "Short-term Sprint: Focus on [Core Task], committing to deliver [Specific Output] by [Date]",
+          "Change Management: Initiate team training for [New Process/System] to reduce frontline resistance",
+          "Final Ask: Request approval for [Budget/Resource]; next sync scheduled for [Date]"
         ]
       },
       "speaker_notes": {
-        "zh": "接下來我們的精力會集中在這三個優先任務上。為了讓專案順利推動，希望主管能協助我們在跨部門資源分配上給予支持。",
-        "en": "Moving forward, our energy will be focused on these top priorities. To ensure smooth execution, we request management's support in cross-functional resource allocation."
+        "zh": "最後，這是我們下個月的具體承諾與行動清單。同時為了確保新流程順利落地，我們也把人員培訓的變革管理考量進去。如果沒有問題，希望能取得您的資源核准。",
+        "en": "Finally, here is our concrete commitment and action plan for next month. To ensure a smooth rollout, we've factored in change management training. If there are no concerns, we kindly ask for your approval on the requested resources."
       }
     }
   ],
   "prompt_template": {
-    "zh": "請以繁體中文製作一份專業商務風格的『月度/季度工作進度匯報』簡報。採用簡潔商務風格。內容必須著重於：1. 結論先行與數據導向，2. 剖析問題的根本原因（Root Cause），3. 提出明確的下一步與所需支援。每張 Slide 不超過 3 個重點，每字不超過一行，排版需清晰易讀。",
-    "en": "Please create a professional 'Monthly/Quarterly Progress Report' presentation in English. Use a clean, corporate style. The content must focus on: 1. Conclusion-first and data-driven insights, 2. Root Cause analysis for issues, 3. Clear Next Steps and required support. Max 3 bullet points per slide, max one line per bullet point. Ensure clean and readable formatting."
+    "zh": "請以繁體中文製作一份專業的『月度/季度工作進度匯報』簡報。受眾為高階主管。內容需採用 SCQA 架構與 MECE 原則，著重於：1. 呈現同比/環比的業務與成本數據 (ROI)，2. 主動標示潛在風險與防錯機制 (Risk Radar)，3. 提出具建設性的跨部門雙贏方案，4. 結尾有明確的決策請求 (Call to Action)。每張 Slide 不超過 3 個重點，每字不超過一行，語氣需展現『解決問題、管理主管期望』的將才格局。",
+    "en": "Please create a professional 'Monthly/Quarterly Progress Report' presentation in English. Audience: Senior Management. Use the SCQA framework and MECE principles. Focus on: 1. MoM/YoY data and ROI, 2. Proactive Risk Radar and mitigation, 3. Constructive cross-functional win-win solutions, 4. A clear Call to Action at the end. Max 3 bullet points per slide, max one line per bullet. The tone should demonstrate a strong business mindset and effective upwards management."
   }
 }
