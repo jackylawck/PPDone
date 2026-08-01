@@ -1,0 +1,129 @@
+{
+  "topic_id": "data_decision",
+  "keywords": ["數據", "決策", "data", "decision", "analytics", "數據分析", "BI", "AI", "CDO", "數據驅動", "data-driven", "儀表板", "dashboard"],
+  "title": {
+    "zh": "數據驅動決策與商業洞察 (CDO 數據說故事)",
+    "en": "Data-Driven Decision Making & Insights (CDO Data Storytelling)"
+  },
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_title": {
+        "zh": "商業痛點與數據戰略 (SCQA & Data Strategy)",
+        "en": "Business Context & Data Strategy (SCQA)"
+      },
+      "bullet_points": {
+        "zh": [
+          "情境 (Situation)：公司目前擁有海量營運與客戶數據，具備極大的潛在數據資產 (Data Assets) 價值",
+          "衝突 (Complication)：但數據四散於各部門「穀倉」，主管多依賴「直覺 (Gut-feeling)」而非數據做高風險決策",
+          "戰略訴求 (The Ask)：提議導入 [數據中台/新 BI 工具/分析專案]，建立單一事實來源 (SSOT) 以驅動精準決策"
+        ],
+        "en": [
+          "Situation: We possess massive volumes of operational and customer data, holding immense potential as Data Assets.",
+          "Complication: However, data is siloed. Executives still rely on 'gut-feeling' for high-stakes decisions.",
+          "Strategic Ask: Propose deploying [Data Hub/BI Tool/Analytics Project] to establish a Single Source of Truth (SSOT)."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "各位長官，我們現在處於一個『數據豐富，但洞察貧乏 (Data rich, information poor)』的狀態。各部門各自看自己的報表，導致決策時各說各話。今天這份提案，是為了打破資訊穀倉，建立『單一事實來源』，讓未來的戰略決策不再靠直覺，而是靠鐵打的數據。",
+        "en": "Executives, we are currently 'Data rich, but information poor.' Departments look at disjointed reports, leading to conflicting decisions. Today's proposal aims to break these silos and establish a 'Single Source of Truth', ensuring future strategic decisions are driven by hard data, not intuition."
+      }
+    },
+    {
+      "slide_number": 2,
+      "slide_title": {
+        "zh": "數據成熟度與決策盲區 (Data Maturity & Blindspots)",
+        "en": "Data Maturity & Decision Blindspots"
+      },
+      "bullet_points": {
+        "zh": [
+          "現狀 (Descriptive)：我們目前只能做到「描述性分析」(看後照鏡開車，只知道過去發生了什麼)",
+          "盲區代價 (Cost of Ignorance)：缺乏預測能力，導致我們在上個季度因 [庫存過剩/客戶流失] 損失了 [X]",
+          "目標 (Predictive/Prescriptive)：必須轉型至「預測性與處方性分析」，讓數據直接給出最佳行動建議"
+        ],
+        "en": [
+          "Current State (Descriptive): We are stuck at 'Descriptive Analytics' (driving via the rearview mirror; only seeing the past).",
+          "Cost of Ignorance: Lacking predictive power cost us [X] last quarter due to [Overstock/Client Churn].",
+          "Target State (Predictive/Prescriptive): We must pivot to 'Predictive & Prescriptive Analytics' where data recommends the optimal action."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "評估我們的數據成熟度，我們現在就像是『看著後照鏡開車』，永遠只能檢討過去。這種落差是有真實代價的，上季度的虧損就是因為我們無法提前預測市場轉向。我們必須把系統升級，讓數據能告訴我們『明天該怎麼辦』。",
+        "en": "Evaluating our data maturity, we are essentially 'driving via the rearview mirror.' This lag has a real price tag—last quarter's losses occurred because we couldn't forecast the market shift. We must upgrade our systems so our data tells us 'what to do tomorrow'."
+      }
+    },
+    {
+      "slide_number": 3,
+      "slide_title": {
+        "zh": "MECE 數據轉型藍圖 (The Data Transformation Blueprint)",
+        "en": "MECE Data Transformation Blueprint"
+      },
+      "bullet_points": {
+        "zh": [
+          "基建與治理 (Infrastructure & Governance)：打通底層數據湖 (Data Lake)，並確保資料品質與隱私合規",
+          "分析與模型 (Analytics & AI)：建置自動化戰情室 (Dashboard)，並導入機器學習模型挖掘深層關聯",
+          "應用與賦能 (Adoption & Literacy)：推動數據民主化 (Data Democratization)，提升前線主管的數據判讀力"
+        ],
+        "en": [
+          "Infrastructure & Governance: Consolidate into a Data Lake while ensuring strict data quality and privacy compliance.",
+          "Analytics & AI: Build automated Dashboards and deploy Machine Learning models to uncover hidden correlations.",
+          "Adoption & Literacy: Drive Data Democratization, upskilling frontline managers in data literacy."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "為了實現這個轉型，我們規劃了三個層次。首先是底層的數據治理，這是 AI 與分析的基礎；沒有乾淨的數據，就沒有好的決策。接著是中層的自動化戰情室。最後，也是最難的，是『人』的賦能：我們要讓前線主管都能隨時調用數據，實現數據民主化。",
+        "en": "To execute this transformation, we've planned three layers. First, foundational Data Governance—the bedrock of AI; garbage in, garbage out. Second, automated executive dashboards. Finally, and most critically, empowering our people: making data accessible to frontline managers to achieve true Data Democratization."
+      }
+    },
+    {
+      "slide_number": 4,
+      "slide_title": {
+        "zh": "核心洞察與行動方案 (Actionable Insights)",
+        "en": "Actionable Insights & Directives"
+      },
+      "bullet_points": {
+        "zh": [
+          "洞察一 (Insight 1)：數據顯示 [A 客群] 的留存率與 [B 行為] 高度正相關，打破了過去的直覺認知",
+          "洞察二 (Insight 2)：預測模型指出，若 [某項變數] 改變，將對下季營收產生 [X]% 的槓桿效應",
+          "處方建議 (Prescriptive Action)：基於上述數據，強烈建議立刻將資源從 [X] 轉移至 [Y]"
+        ],
+        "en": [
+          "Insight 1: Data reveals a high correlation between [Segment A] retention and [Behavior B], disproving past assumptions.",
+          "Insight 2: Predictive models indicate that tweaking [Variable] will create an [X]% leverage effect on next quarter's revenue.",
+          "Prescriptive Action: Based on these hard facts, we strongly advise immediately shifting resources from [X] to [Y]."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "這裡展示新工具為我們帶來的初步洞察。數據推翻了我們過去的直覺：原來客戶的留存關鍵不是價格，而是特定的行為。基於這個預測模型，我們不再是用猜的。我強烈建議立刻調整資源配置，這是一個基於數據算出來的必勝策略。",
+        "en": "Here are the initial insights generated by our new approach. The data disproves our gut-feeling: client retention isn't driven by price, but by a specific behavior. Based on this predictive model, we are no longer guessing. I strongly recommend reallocating resources immediately—this is a math-backed winning strategy."
+      }
+    },
+    {
+      "slide_number": 5,
+      "slide_title": {
+        "zh": "投資回報與落地計畫 (Data ROI & Next Steps)",
+        "en": "Data ROI & Execution Roadmap"
+      },
+      "bullet_points": {
+        "zh": [
+          "決策 ROI (Return on Data)：預估數據驅動的決策將減少 [X]% 的試錯成本，並提升 [X]% 的營銷精準度",
+          "90 天里程碑 (First 90 Days)：前 30 天完成數據清洗與整合，前 90 天上線高階戰情室 (Executive Dashboard)",
+          "決策訴求 (Call to Action)：懇請核准 [X 預算] 啟動數據轉型專案，讓數據真正成為公司的競爭壁壘"
+        ],
+        "en": [
+          "Return on Data (ROI): Data-driven decisions will cut trial-and-error costs by [X]% and boost marketing precision by [X]%.",
+          "90-Day Roadmap: Data cleansing/integration in 30 days; launch the Executive Dashboard within 90 days.",
+          "Call to Action: Requesting [X Budget] to initiate this data transformation, turning our data into a true competitive moat."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "投資數據基礎建設，回報是非常直接的。這能大幅降低我們未來做錯戰略決策的機率與試錯成本。這是我們未來 90 天的衝刺計畫，第一步就是讓高層擁有即時的戰情室。懇請長官核准這筆預算，讓數據成為我們最強的競爭壁壘。",
+        "en": "The return on investing in data infrastructure is direct. It drastically minimizes the probability and cost of future strategic blunders. Here is our 90-day sprint plan, starting with delivering a real-time Executive Dashboard. We request this budget to turn our data into an impenetrable competitive moat."
+      }
+    }
+  ],
+  "prompt_template": {
+    "zh": "請以繁體中文製作一份大師級的『數據驅動決策與商業洞察 (Data-Driven Decision Making)』簡報。受眾為 CEO 或董事會。內容必須展現 CDO (首席數據官) 的戰略高度，嚴禁堆砌艱澀的 IT 技術名詞。著重於：1. 運用 Data Storytelling，將生硬數據轉化為『商業洞察 (Insights)』，2. 呈現數據成熟度，從『描述性』推演至『預測性/處方性』分析，3. 帶入數據治理 (Data Governance) 與單一事實來源 (SSOT) 的重要性，4. 強調數據民主化 (Data Democratization) 的變革管理，5. 結尾必須提出具備明確 ROI 的行動處方 (Actionable Insights) 與 90 天落地計畫。每張 Slide 不超過 3 個重點，語氣需具備高度的數據權威感、客觀性與商業決策魄力。",
+    "en": "Please create a master-class 'Data-Driven Decision Making & Insights' presentation in English. Audience: CEO or Board of Directors. Demonstrate CDO-level strategic vision; strictly avoid dense IT jargon. Focus on: 1. Data Storytelling to translate raw data into 'Business Insights'. 2. Showcasing data maturity: shifting from 'Descriptive' to 'Predictive/Prescriptive' analytics. 3. Highlighting Data Governance and the need for a Single Source of Truth (SSOT). 4. Emphasizing Change Management via Data Democratization. 5. Concluding with Actionable Insights, a clear ROI, and a 90-day execution roadmap. Max 3 bullet points per slide. The tone must be highly authoritative, objective, and driven by commercial decision-making logic."
+  }
+}
