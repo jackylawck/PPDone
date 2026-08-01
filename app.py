@@ -21,7 +21,6 @@ with st.sidebar:
 
 is_en = "English" in lang_choice
 
-# UI 文字字典
 ui = {
     "main_title": "✅ P.P.Done Generator" if is_en else "✅ 稿定 P.P.Done",
     "sub_title": '"Nail the Outline & Prompt, Get your PPT Done!"' if is_en else "「稿定大綱同 Prompt，PPT 輕鬆 Done！」",
@@ -29,12 +28,12 @@ ui = {
     
     "sys_settings": "⚙️ System Settings" if is_en else "⚙️ 系統設定",
     "api_mode_title": "Select API Key Mode:" if is_en else "選擇 AI 金鑰模式：",
-    "api_mode_opts": ["🔴 Public Free Quota (1 outline/run)", "⚪ Own GitHub Token (Unlimited)"] if is_en else ["🔴 使用公共免費額度 (單次 1 份大綱)", "⚪ 使用自備 GitHub Token (無限制)"],
+    "api_mode_opts": ["🔴 Public Free Quota (1 outline/run)", "⚪ Own OpenRouter Key (Unlimited)"] if is_en else ["🔴 使用公共免費額度 (單次 1 份大綱)", "⚪ 使用自備 OpenRouter Key (無限制)"],
     "pub_success": "🌱 **Public Resource Loaded (Trial).**" if is_en else "🌱 **公共資源已載入 (免費體驗)。**",
-    "pub_warn": "⚠️ **Security Notice:** This mode is for demonstration only. For boardroom-level data, please switch to 'Own Key'." if is_en else "⚠️ **資安提示**：此模式僅供演示。處理包含高度機密數據時，強烈建議切換為「自備 Token」。",
+    "pub_warn": "⚠️ **Security Notice:** This mode is for demonstration only. For boardroom-level data, please switch to 'Own Key'." if is_en else "⚠️ **資安提示**：此模式僅供演示。處理包含高度機密數據時，強烈建議切換為「自備 Key」。",
     
-    "own_key_label": "🔑 Enter GitHub Token (PAT)" if is_en else "🔑 請輸入 GitHub Token (PAT)",
-    "own_key_info": "💡 **Privacy:** Key runs only in this session.\n\n🔗 [Get FREE Token](https://github.com/settings/tokens/new)" if is_en else "💡 **隱私保證**：Token 僅於當前 Session 運行，系統絕不儲存。\n\n🔗 **未有 Token？** [👉 按此免費獲取](https://github.com/settings/tokens/new) *(使用 Classic Token，無需勾選任何權限)*",
+    "own_key_label": "🔑 Enter OpenRouter API Key" if is_en else "🔑 請輸入 OpenRouter API Key",
+    "own_key_info": "💡 **Privacy:** Key runs only in this session.\n\n🔗 [Get FREE OpenRouter Key](https://openrouter.ai/keys)" if is_en else "💡 **隱私保證**：Key 僅於當前 Session 運行，系統絕不儲存。\n\n🔗 **未有 Key？** [👉 按此免費獲取](https://openrouter.ai/keys) *(香港直連免 VPN)*",
     
     "target_tool_title": "🎯 Target AI Tool" if is_en else "🎯 目標 AI 工具",
     "tools": [
@@ -73,7 +72,7 @@ ui = {
     "add_info_ph": "e.g., Must incorporate NIST AI RMF, mediation frameworks..." if is_en else "例如：需涵蓋調解技巧、溝通框架或 ISO 標準...",
     
     "btn_generate": "🚀 Generate Outline & Prompt" if is_en else "🚀 開始生成大綱與專屬 Prompt",
-    "err_key": "❌ Unable to read GITHUB_TOKEN. Please check your Streamlit Secrets or sidebar input." if is_en else "❌ 系統未能讀取 GITHUB_TOKEN。請確保 Secrets 正確設定或已喺左側輸入。",
+    "err_key": "❌ Unable to read OPENROUTER_API_KEY. Please check Secrets or sidebar." if is_en else "❌ 系統未能讀取 Key。請確保 Secrets 正確設定或已喺左側輸入。",
     "err_topic": "Please enter a topic!" if is_en else "請填寫簡報主題！",
     "err_aud": "Please specify the audience!" if is_en else "請填寫目標聽眾！",
     "sp_loading": "Integrating frameworks & presentation logic..." if is_en else "AI 正在融合專業架構與排版，打磨大綱與 Prompt...",
@@ -92,17 +91,17 @@ with st.sidebar:
     st.header(ui["sys_settings"])
     
     api_mode = st.radio(ui["api_mode_title"], ui["api_mode_opts"], index=0, label_visibility="collapsed")
-    github_token = None
+    openrouter_key = None
 
     if "🔴" in api_mode:
-        github_token = st.secrets.get("GITHUB_TOKEN", None)
+        openrouter_key = st.secrets.get("OPENROUTER_API_KEY", None)
         st.success(ui["pub_success"])
         st.warning(ui["pub_warn"])
-        st.markdown("*(Engine: GitHub Models / GPT-4o-mini)*")
+        st.markdown("*(Engine: OpenRouter Free Models)*")
     else:
-        github_token = st.text_input(ui["own_key_label"], type="password")
+        openrouter_key = st.text_input(ui["own_key_label"], type="password")
         st.info(ui["own_key_info"])
-        st.markdown("*(Engine: GitHub Models / GPT-4o-mini)*")
+        st.markdown("*(Engine: OpenRouter Free Models)*")
 
 st.divider()
 
@@ -121,18 +120,17 @@ with col2:
 additional_info = st.text_area(ui["add_info_label"], placeholder=ui["add_info_ph"])
 
 # -------------------------
-# 3. 邏輯處理與 AI 生成 (GitHub Models API)
+# 3. 邏輯處理與 AI 生成 (OpenRouter API)
 # -------------------------
 if st.button(ui["btn_generate"], type="primary"):
-    if not github_token:
+    if not openrouter_key:
         st.error(ui["err_key"])
     elif not topic:
         st.warning(ui["err_topic"])
     elif not audience:
         st.warning(ui["err_aud"])
     else:
-        # 清除 token 可能包含的前後空格或引號
-        clean_token = str(github_token).strip().strip('"').strip("'")
+        clean_token = str(openrouter_key).strip().strip('"').strip("'")
         
         if "1" in pace or "中" in pace:
             slides_count = time_minutes
@@ -142,9 +140,9 @@ if st.button(ui["btn_generate"], type="primary"):
             slides_count = time_minutes * 2  
 
         try:
-            # 建立 GitHub Models API 連線
+            # 設定 OpenRouter API 端點
             client = OpenAI(
-                base_url="https://models.inference.ai.azure.com",
+                base_url="https://openrouter.ai/api/v1",
                 api_key=clean_token,
             )
             
@@ -195,33 +193,23 @@ if st.button(ui["btn_generate"], type="primary"):
                 Generate a specific prompt for {target_tool}. Wrap it in a Markdown Code Block.
                 """
                 
-                # 多模型名自動備援試嘗試 (Fallback strategy)
-                model_candidates = ["gpt-4o-mini", "GPT-4o-mini", "gpt-4o"]
-                response = None
-                last_error = None
-
-                for model_name in model_candidates:
-                    try:
-                        response = client.chat.completions.create(
-                            messages=[
-                                {"role": "system", "content": "You are an expert presentation consultant and governance auditor."},
-                                {"role": "user", "content": prompt}
-                            ],
-                            model=model_name,
-                            temperature=0.7,
-                        )
-                        if response:
-                            break
-                    except Exception as e:
-                        last_error = e
-                        continue
-
-                if response:
-                    st.success(ui["success_msg"])
-                    st.markdown("---")
-                    st.markdown(response.choices[0].message.content)
-                else:
-                    st.error(f"GitHub Models API 驗證失敗 (401 Unauthorized)。請檢查 Secrets 中的 Token 是否為有效的 Classic PAT，且未帶多餘引號。\n\n詳細訊息: {last_error}")
+                # 使用 OpenRouter 官方免費的高效模型
+                response = client.chat.completions.create(
+                    extra_headers={
+                        "HTTP-Referer": "https://ppdone.streamlit.app", 
+                        "X-Title": "PPDone Generator",
+                    },
+                    messages=[
+                        {"role": "system", "content": "You are an expert presentation consultant and governance auditor."},
+                        {"role": "user", "content": prompt}
+                    ],
+                    model="meta-llama/llama-3.3-70b-instruct:free",
+                    temperature=0.7,
+                )
+                
+                st.success(ui["success_msg"])
+                st.markdown("---")
+                st.markdown(response.choices[0].message.content)
                 
         except Exception as e:
             st.error(f"Error: {e}" if is_en else f"生成失敗，錯誤訊息：{e}")
