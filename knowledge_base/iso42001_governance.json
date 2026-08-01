@@ -1,0 +1,129 @@
+{
+  "topic_id": "iso42001_governance",
+  "keywords": ["iso 42001", "iso42001", "ai governance", "ai 治理", "合規", "compliance", "aigp", "人工智慧管理", "ai risk", "董事會", "board"],
+  "title": {
+    "zh": "ISO 42001 人工智慧管理系統 (AIMS) 導入與治理匯報",
+    "en": "ISO 42001 AI Management System (AIMS) Implementation & Governance"
+  },
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_title": {
+        "zh": "執行摘要與戰略價值 (Executive Summary)",
+        "en": "Executive Summary & Strategic Value"
+      },
+      "bullet_points": {
+        "zh": [
+          "目標：導入 ISO 42001 人工智慧管理系統 (AIMS)，確保 AI 應用的安全性與合規性",
+          "價值：建立「可信賴 AI (Trustworthy AI)」文化，降低潛在的法規與商譽風險",
+          "訴求：取得高階管理層對第一階段導入計畫之授權與資源核准"
+        ],
+        "en": [
+          "Objective: Implement ISO 42001 AI Management System (AIMS) to ensure safe and compliant AI adoption",
+          "Value: Cultivate a 'Trustworthy AI' culture, mitigating potential regulatory and reputational risks",
+          "The Ask: Secure executive approval and resource allocation for Phase 1 implementation"
+        ]
+      },
+      "speaker_notes": {
+        "zh": "各位董事/主管好，隨著我們擴大 AI 的應用，建立一套符合國際標準的治理框架已是刻不容緩。導入 ISO 42001 不僅是為了合規，更是為了向客戶與市場證明，我們具備提供「可信賴 AI」的能力。",
+        "en": "Members of the Board/Management, as we scale our AI applications, establishing an internationally recognized governance framework is imperative. Implementing ISO 42001 is not just about compliance; it's a strategic move to prove our capability in delivering Trustworthy AI."
+      }
+    },
+    {
+      "slide_number": 2,
+      "slide_title": {
+        "zh": "風險評估與業務衝擊 (Risk Assessment - PLAN)",
+        "en": "Risk Assessment & Impact (PLAN)"
+      },
+      "bullet_points": {
+        "zh": [
+          "應用盤點：已完成全公司 AI 使用情境盤點，並依據風險導向思維 (Risk-based Thinking) 進行分級",
+          "風險識別：初步辨識出核心的資料隱私、演算法偏見 (Bias) 及智財權風險",
+          "衝擊分析：若未妥善控管，高風險 AI 系統將對營運與法規遵循造成重大衝擊"
+        ],
+        "en": [
+          "Use Case Inventory: Completed company-wide AI use case mapping and tiered them using Risk-based Thinking",
+          "Risk Identification: Identified core risks concerning data privacy, algorithmic bias, and IP infringement",
+          "Impact Analysis: Uncontrolled high-risk AI systems pose severe operational and regulatory threats"
+        ]
+      },
+      "speaker_notes": {
+        "zh": "在計畫階段 (PLAN)，我們落實了風險導向思維。我們盤點了所有 AI 應用，並將它們按風險高低分級。我們必須特別關注那些可能引發隱私或偏見爭議的高風險系統，以防範未然。",
+        "en": "During the PLAN phase, we applied risk-based thinking. We've inventoried all AI applications and classified them by risk level. We must pay special attention to high-risk systems prone to privacy or bias issues to prevent future liabilities."
+      }
+    },
+    {
+      "slide_number": 3,
+      "slide_title": {
+        "zh": "治理框架與控制措施 (Implementation - DO)",
+        "en": "Governance & Controls (DO)"
+      },
+      "bullet_points": {
+        "zh": [
+          "政策制定：發布《企業 AI 負責任使用指引》，明確定義員工開發與使用的安全邊界",
+          "系統控制：針對高風險應用，強制導入「人工監督 (Human Oversight)」與「資料最小化」",
+          "當責機制：建立跨部門 AI 治理小組，確保 AI 生命週期中的當責性 (Accountability)"
+        ],
+        "en": [
+          "Policy Creation: Published 'Responsible AI Usage Guidelines' to define clear safety boundaries for staff",
+          "System Controls: Mandated 'Human Oversight' and 'Data Minimization' for all high-risk applications",
+          "Accountability: Established a cross-functional AI Governance task force to ensure lifecycle accountability"
+        ]
+      },
+      "speaker_notes": {
+        "zh": "在執行階段 (DO)，我們著重於控制措施的落地。我們不僅發布了具體的使用指引，更在系統層面強制要求人工監督。同時，跨部門小組將確保每個 AI 專案都有明確的負責人。",
+        "en": "In the DO phase, our focus is on operationalizing controls. Beyond publishing usage guidelines, we've mandated human oversight at the system level. The cross-functional task force will ensure clear ownership for every AI project."
+      }
+    },
+    {
+      "slide_number": 4,
+      "slide_title": {
+        "zh": "績效評估與內部稽核 (Performance - CHECK)",
+        "en": "Performance & Internal Audit (CHECK)"
+      },
+      "bullet_points": {
+        "zh": [
+          "監控指標：追蹤 AI 系統的準確度、決策公平性 (Fairness) 及異常事件通報率",
+          "稽核準備：計畫於 [月份] 啟動 AIMS 內部稽核，檢視系統與 ISO 42001 標準之落差",
+          "透明度要求：確保演算法模型具備必要的可解釋性 (Explainability) 與追溯性"
+        ],
+        "en": [
+          "Monitoring Metrics: Tracking AI accuracy, decision fairness, and incident reporting rates",
+          "Audit Readiness: Internal AIMS audit scheduled for [Month] to conduct a gap analysis against ISO 42001",
+          "Transparency: Ensuring algorithmic models meet required standards of explainability and traceability"
+        ]
+      },
+      "speaker_notes": {
+        "zh": "為了確認治理機制的有效性 (CHECK)，我們設定了量化的監控指標，涵蓋公平性與透明度。我們也計畫在幾個月後進行內部稽核，透過 Gap Analysis 找出需要補強的弱點。",
+        "en": "To verify the effectiveness of our governance (CHECK), we've set quantitative metrics covering fairness and transparency. We also plan to conduct an internal audit soon, using gap analysis to identify any remaining vulnerabilities."
+      }
+    },
+    {
+      "slide_number": 5,
+      "slide_title": {
+        "zh": "持續改善與推動路線圖 (Improvement - ACT)",
+        "en": "Continual Improvement & Roadmap (ACT)"
+      },
+      "bullet_points": {
+        "zh": [
+          "改善循環：依據稽核結果與事件回饋，持續優化 AI 政策與風險登錄表 (Risk Register)",
+          "近期里程碑：[月份] 完成全員 AI 安全意識訓練，[月份] 進行管理階層審查",
+          "資源需求：需投入 [X] 人月，並編列 [金額] 預算以支援自動化合規工具導入"
+        ],
+        "en": [
+          "Improvement Cycle: Continuously optimizing AI policies and the Risk Register based on audit feedback",
+          "Near-term Milestones: Complete company-wide AI safety training by [Month], Management Review by [Month]",
+          "Resource Ask: Requesting [X] man-months and [Budget] to support automated compliance tool deployment"
+        ]
+      },
+      "speaker_notes": {
+        "zh": "管理系統的核心在於持續改善 (ACT)。我們將根據稽核結果動態調整風險策略。為了達成接下來的里程碑，包含全員培訓與系統導入，需要請董事會/管理層核准相應的預算與資源。",
+        "en": "The core of any management system is continual improvement (ACT). We will dynamically adjust our risk strategy based on audit findings. To hit our upcoming milestones, including training and tool deployment, we request board/management approval for the required budget."
+      }
+    }
+  ],
+  "prompt_template": {
+    "zh": "請以繁體中文製作一份專業的『ISO 42001 AI 管理系統導入與治理』簡報。受眾為董事會或高階管理層。內容必須嚴格遵循 PDCA 框架，並使用專業治理術語（如：風險導向思維、可信賴 AI、人工監督、持續改善）。每張 Slide 不超過 3 個重點，每字不超過一行，語氣需具備高度的戰略視野與合規嚴謹性。",
+    "en": "Please create a professional 'ISO 42001 AIMS Implementation & Governance' presentation in English, tailored for the Board of Directors or C-Suite. Strictly follow the PDCA framework and use professional governance terminology (e.g., Risk-based Thinking, Trustworthy AI, Human Oversight, Continual Improvement). Max 3 bullet points per slide, max one line per bullet. The tone must be strategic, rigorous, and compliance-focused."
+  }
+}
