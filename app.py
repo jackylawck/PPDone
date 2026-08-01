@@ -22,6 +22,8 @@ with st.sidebar:
     )
 
 is_en = "English" in lang_choice
+# 根據 UI 語言設定 JSON 讀取鍵值
+lang_key = "en" if is_en else "zh"
 
 ui = {
     "main_title": "✅ P.P.Done Generator" if is_en else "✅ 稿定 P.P.Done",
@@ -161,23 +163,43 @@ if st.button(ui["btn_generate"], type="primary"):
                 st.success(ui["success_kb"])
                 st.markdown("---")
                 
+                # 動態抓取對應語言的內容，若遇到舊版單語系結構，預設回退使用字串
+                kb_title = matched_kb.get('title', {})
+                display_title = kb_title.get(lang_key, kb_title) if isinstance(kb_title, dict) else kb_title
+                
                 # 渲染 Part 1：大綱
-                st.markdown(f"### Part 1: 逐頁大綱（{matched_kb.get('title', topic)}）")
+                st.markdown(f"### Part 1: Slide-by-Slide Outline ({display_title})")
                 for slide in matched_kb.get("slides", []):
-                    st.markdown(f"#### 投影片 {slide.get('slide_number')}｜{slide.get('slide_title')}")
-                    for bp in slide.get("bullet_points", []):
+                    # 標題雙語處理
+                    s_title = slide.get('slide_title', {})
+                    disp_s_title = s_title.get(lang_key, s_title) if isinstance(s_title, dict) else s_title
+                    st.markdown(f"#### Slide {slide.get('slide_number', '*')}｜{disp_s_title}")
+                    
+                    # 項目雙語處理
+                    bps = slide.get("bullet_points", {})
+                    disp_bps = bps.get(lang_key, bps) if isinstance(bps, dict) else bps
+                    for bp in disp_bps:
                         st.markdown(f"- {bp}")
-                    st.markdown(f"🗣️ **Speaker Notes**：{slide.get('speaker_notes')}\n")
+                        
+                    # 演講備註雙語處理
+                    s_notes = slide.get('speaker_notes', {})
+                    disp_s_notes = s_notes.get(lang_key, s_notes) if isinstance(s_notes, dict) else s_notes
+                    st.markdown(f"🗣️ **Speaker Notes**: {disp_s_notes}\n")
                 
                 # 渲染 Part 2：專屬 Prompt
                 st.markdown("---")
-                st.markdown(f"### Part 2: {target_tool} 專用 AI Prompt")
-                prompt_content = f"""請以繁體中文製作一份簡報：
-【簡報主題】{topic}
-【目標聽眾】{audience}
-【簡報目的】{purpose}
-【提示詞範本】{matched_kb.get('prompt_template', '')}
-【補充內容】{additional_info}"""
+                st.markdown(f"### Part 2: {target_tool} AI Prompt")
+                
+                p_template = matched_kb.get('prompt_template', {})
+                disp_p_template = p_template.get(lang_key, p_template) if isinstance(p_template, dict) else p_template
+                
+                lang_str = "English" if is_en else "繁體中文"
+                prompt_content = f"""Please create a presentation in {lang_str}:
+【Topic】{topic}
+【Audience】{audience}
+【Purpose】{purpose}
+【Template Instructions】{disp_p_template}
+【Additional Info】{additional_info}"""
                 st.code(prompt_content, language="markdown")
                 
             else:
