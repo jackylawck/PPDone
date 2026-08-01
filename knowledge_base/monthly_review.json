@@ -1,129 +1,129 @@
 {
   "topic_id": "monthly_review",
-  "keywords": ["月報", "季報", "工作匯報", "進度報告", "monthly review", "quarterly review", "status update", "progress"],
+  "keywords": ["月報", "季報", "工作匯報", "進度報告", "monthly review", "quarterly review", "status update", "progress", "績效", "OKR", "KPI", "檢討"],
   "title": {
-    "zh": "工作進度與績效檢討匯報 (SCQA 架構)",
-    "en": "Monthly/Quarterly Progress & Performance Review"
+    "zh": "工作進度與績效檢討匯報 (高階戰略與 SCQA 決策)",
+    "en": "Monthly/Quarterly Performance Review (SCQA Strategic Briefing)"
   },
   "slides": [
     {
       "slide_number": 1,
       "slide_title": {
-        "zh": "執行摘要與今日訴求 (Executive Summary & The Ask)",
-        "en": "Executive Summary & The Ask"
+        "zh": "執行摘要與戰略訴求 (Executive Summary & The Ask)",
+        "en": "Executive Summary & Strategic Ask"
       },
       "bullet_points": {
         "zh": [
-          "情境與進度 (Situation)：本月核心 KPI 已達成 [X]%，整體專案進度符合預期",
-          "衝突與挑戰 (Complication)：受限於 [具體痛點/資源]，預期下限可能出現 [X] 延誤風險",
-          "決策訴求 (The Ask)：今日旨在同步進度，並需請主管裁示 [具體資源調配/跨部門協調]"
+          "現況 (Situation)：本期北極星指標 (North Star Metric) 達成率 [X]%，業務基本面穩健",
+          "衝突 (Complication)：受限於 [資源/技術/市場變動]，下個季度恐面臨 [X] 的增長瓶頸或風險",
+          "訴求 (The Ask)：今日旨在同步核心數據背後的洞察，並請管理層針對 [某項資源調配/跨部門決策] 進行裁示"
         ],
         "en": [
-          "Situation: Core KPIs achieved [X]%; overall project progressing as expected",
-          "Complication: Due to [Resource/Pain point], we anticipate a potential delay risk in [X]",
-          "The Ask: Sync on progress and request management decision on [Specific Resource/Coordination]"
+          "Situation: North Star Metric achieved [X]%; core business fundamentals remain solid.",
+          "Complication: Due to [Resource/Market shift], we foresee a growth bottleneck/risk of [X] next quarter.",
+          "The Ask: Sync on data-driven insights and request executive mandate on [Resource Allocation/Decision]."
         ]
       },
       "speaker_notes": {
-        "zh": "老闆/各位主管好。直接切入結論，本月我們順利達標，但在下個月的規劃中遇到了一些資源瓶頸。今天匯報的重點，是希望各位了解目前的成績，並協助裁決下一階段的跨部門資源調配。",
-        "en": "Good morning. Bottom line up front: we hit our targets this month but foresee resource bottlenecks ahead. Today's goal is to present our results and secure your decision on cross-functional resource allocation for the next phase."
+        "zh": "各位長官好。我們直接切入結論（Bottom line up front）：本期核心績效順利達標，但在為下個季度佈局時，我們預見了一個資源瓶頸。今天匯報不報流水帳，重點是向各位解析數據背後的驅動因素，並請求各位針對一項關鍵的跨部門資源調配做出裁示。",
+        "en": "Good morning. Bottom line up front: we hit our core targets this period, but looking ahead, we anticipate a resource bottleneck. Today's goal isn't a status update; it's to uncover the drivers behind the data and secure your mandate on a critical cross-functional decision."
       }
     },
     {
       "slide_number": 2,
       "slide_title": {
-        "zh": "關鍵指標分析 (Data & ROI Metrics)",
-        "en": "Key Metrics & ROI Analysis"
+        "zh": "績效歸因與數據洞察 (Performance Attribution & Insights)",
+        "en": "Performance Attribution & Data Insights"
       },
       "bullet_points": {
         "zh": [
-          "業務成長 (Revenue/Progress)：本月達成 [X]，環比 (MoM) 增長 [X]%，同比 (YoY) 增長 [X]%",
-          "成本與投資回報 (Cost & ROI)：專案預算執行率 [X]%，透過 [優化措施] 成功省下 [X] 成本",
-          "品質指標 (Quality/Efficiency)：錯誤率/客訴率降至 [X]%，營運效率顯著提升"
+          "落後指標 (Lagging - 成果)：本月營收/產出達 [X]，環比 (MoM) 增長 [X]%，預算執行效率極佳",
+          "領先指標 (Leading - 驅動)：深入分析，此成長主要歸功於 [某項優化行動/新策略] 發揮綜效",
+          "差異分析 (Variance)：針對未達標的 [某次要 KPI]，根本原因 (Root Cause) 為 [X]，已啟動修正"
         ],
         "en": [
-          "Growth (Revenue/Progress): Achieved [X], MoM growth at [X]%, YoY growth at [X]%",
-          "Cost & ROI: Budget execution at [X]%; saved [X] in costs via [Optimization]",
-          "Quality: Error/Complaint rate reduced to [X]%, showing significant operational efficiency"
+          "Lagging Indicators (Outcomes): Revenue/Output hit [X], MoM growth [X]%, with excellent budget efficiency.",
+          "Leading Indicators (Drivers): Deep dive reveals this growth was primarily driven by [Specific Optimization/Strategy].",
+          "Variance Analysis: For the missed [Secondary KPI], the root cause is [X]; corrective actions are underway."
         ]
       },
       "speaker_notes": {
-        "zh": "讓數據說話。相比上個月與去年同期，我們的核心指標都有雙位數的成長。更重要的是，在預算控制上，我們主動優化了流程，為公司省下了不必要的開支，維持了極高的投資報酬率。",
-        "en": "Let the data speak. Compared to last month and YoY, our core metrics show double-digit growth. More importantly, we proactively optimized processes to cut unnecessary costs, maintaining a high ROI."
+        "zh": "數字本身沒有意義，數字背後的『為什麼』才是關鍵。我們的亮眼成果（落後指標），是建立在我們上個月執行的這項優化策略（領先指標）之上。至於未達預期的部分，我們已利用 5 Whys 找出根本原因，並已在修正軌道上。",
+        "en": "Numbers are meaningless without the 'why'. Our strong lagging indicators are the direct result of the strategic optimizations (leading indicators) we executed last month. For the variance in our secondary KPI, we've identified the root cause and are already course-correcting."
       }
     },
     {
       "slide_number": 3,
       "slide_title": {
-        "zh": "專案里程碑與風險雷達 (Milestones & Risk Radar)",
-        "en": "Milestones & Risk Radar"
+        "zh": "風險雷達與不作為成本 (Risk Radar & Cost of Inaction)",
+        "en": "Risk Radar & Cost of Inaction (COI)"
       },
       "bullet_points": {
         "zh": [
-          "如期交付 (On-track)：[專案 A] 與 [專案 B] 達成關鍵節點，符合預期 (Under-promise, Over-deliver)",
-          "潛在風險 (Risk Radar)：[專案 C] 發現 [合規/技術] 隱患，已啟動早期預警",
-          "風險控制 (Mitigation)：已備妥 B 計畫，確保即便發生最壞情況，營運亦不中斷"
+          "綠燈項目 (On-Track)：[專案 A/B] 提前達成里程碑 (Under-promise, Over-deliver)",
+          "紅燈預警 (Risk Radar)：[專案 C] 浮現 [合規/技術/供應鏈] 風險，已啟動 B 計畫止血",
+          "不作為成本 (COI)：若今日無法決議增援 [某資源]，預估將產生 [X 金額/市佔率] 的隱含損失"
         ],
         "en": [
-          "On-track: [Project A] and [Project B] hit key milestones (Under-promise, Over-deliver)",
-          "Risk Radar: Early warning triggered for [Project C] due to potential [Compliance/Tech] risks",
-          "Mitigation: Plan B activated to ensure zero operational disruption in worst-case scenarios"
+          "Green Flags (On-Track): [Project A/B] hit milestones early (Under-promise, Over-deliver).",
+          "Red Flags (Risk Radar): Early warning for [Project C] on [Compliance/Tech] risk; Plan B activated.",
+          "Cost of Inaction (COI): If [Resource] is not approved today, we project an implicit loss of [X Amount/Market Share]."
         ]
       },
       "speaker_notes": {
-        "zh": "在專案進度上，我們秉持「早報喜、早報憂」的原則。多數項目皆超前部署；唯獨針對一項潛在風險，我們已主動標示在雷達上，並擬定了止血的 B 計畫，請主管放心。",
-        "en": "Regarding project timelines, we follow the 'escalate early' principle. Most items are ahead of schedule. For one identified potential risk, we have proactively flagged it and prepared a Plan B, ensuring full control."
+        "zh": "在專案控管上，我們秉持「早報喜、早報憂」的原則。多數項目健康推進。針對紅燈項目，我們不只提出了預警，更準備了備案。我要特別強調『不作為成本』：如果我們今天不決斷這個資源缺口，下個月公司將面臨實質的虧損風險。",
+        "en": "We operate on an 'escalate early' principle. Most projects are healthy. For the red flag item, we haven't just raised an alarm; we have a mitigation plan. I must emphasize the 'Cost of Inaction': failing to resolve this resource gap today will translate to tangible losses next month."
       }
     },
     {
       "slide_number": 4,
       "slide_title": {
-        "zh": "橫向協作與共識建立 (Cross-functional Alignment)",
-        "en": "Cross-functional Alignment"
+        "zh": "跨部門綜效與資源協調 (Organizational Synergy)",
+        "en": "Organizational Synergy & Alignment"
       },
       "bullet_points": {
         "zh": [
-          "協作現狀：與 [部門 X] 的對接因 [客觀事實/時程] 存在瓶頸",
-          "共同利益 (Interests)：已對齊雙方終極目標皆為 [例如：提升客戶體驗/準時上線]",
-          "雙贏方案 (Win-Win)：提議透過 [資源互換/流程妥協] 解開僵局，需主管背書"
+          "協作瓶頸 (The Friction)：目前與 [部門 X] 的協作因 [KPI 衝突/排程優先級] 產生推遲",
+          "戰略對齊 (Strategic Alignment)：已重新對齊雙方目標，皆以 [公司北極星指標/客戶價值] 為優先",
+          "雙贏解法 (Win-Win)：我們主動提議 [資源互換/流程妥協] 解開僵局，需高層今日協助背書"
         ],
         "en": [
-          "Current Bottleneck: Handoff with [Dept X] delayed due to [Objective facts/Timeline]",
-          "Shared Interests: Realigned that both teams share the ultimate goal of [e.g., Client satisfaction]",
-          "Win-Win Solution: Proposing [Resource swap/Compromise] to break the impasse, requiring your endorsement"
+          "The Friction: Handoff with [Dept X] is delayed due to conflicting KPIs or priority sequencing.",
+          "Strategic Alignment: We've realigned both teams toward the ultimate [North Star Metric/Client Value].",
+          "Win-Win Solution: Proposing a [Resource swap/Compromise] to break the silo; requires your mandate today."
         ]
       },
       "speaker_notes": {
-        "zh": "在跨部門協作上，我們遇到了一些時程排擠。但我們沒有停留在抱怨，而是找出雙方共同的利益點。我們擬定了一個雙贏的妥協方案，只需要主管今天協助背書，就能立刻推進。",
-        "en": "We encountered some timeline conflicts in cross-departmental collaboration. Instead of complaining, we focused on shared interests and drafted a win-win compromise. We just need your endorsement today to move forward."
+        "zh": "部門間的摩擦往往來自 KPI 的不一致。遇到瓶頸，我們沒有選擇抱怨，而是主動與對方主管坐下來，將目標重新對齊公司的北極星指標。我們設計了一個雙贏的妥協方案，今天只需要各位長官點頭背書，我們立刻放行。",
+        "en": "Departmental friction usually stems from misaligned KPIs. Instead of pointing fingers, we sat down with them and realigned our goals to the company's North Star. We've crafted a win-win compromise; we just need your executive mandate today to execute."
       }
     },
     {
       "slide_number": 5,
       "slide_title": {
-        "zh": "行動計畫與期望管理 (Next Steps & Managing Up)",
-        "en": "Next Steps & Managing Up"
+        "zh": "決策選項與次步行動 (Managing Up: Options & Next Steps)",
+        "en": "Managing Up: Decision Options & Next Steps"
       },
       "bullet_points": {
         "zh": [
-          "短期衝刺：聚焦推進 [核心任務]，承諾於 [日期] 前完成 [具體產出]",
-          "變革管理：啟動 [新流程/系統] 之團隊培訓，降低前線抗拒感",
-          "所需裁示：請求批准 [金額/資源]，我們將於 [日期] 進行下一次對焦"
+          "次期衝刺 (Next 30 Days)：聚焦推進 [核心任務]，承諾於 [日期] 前交付 [具體產出]",
+          "方案 A (建議)：投入 [X 資源]，可確保 100% 準時上線，並極大化市場紅利",
+          "方案 B (保守)：維持現狀不增援，需將上線時間推遲 [X] 週以確保品質。懇請裁示"
         ],
         "en": [
-          "Short-term Sprint: Focus on [Core Task], committing to deliver [Specific Output] by [Date]",
-          "Change Management: Initiate team training for [New Process/System] to reduce frontline resistance",
-          "Final Ask: Request approval for [Budget/Resource]; next sync scheduled for [Date]"
+          "Next 30-Day Sprint: Laser focus on [Core Task], committing to deliver [Specific Output] by [Date].",
+          "Option A (Recommended): Inject [X Resource] to guarantee 100% on-time launch and maximize market capture.",
+          "Option B (Conservative): Maintain current resources but delay launch by [X] weeks to ensure quality. Awaiting decision."
         ]
       },
       "speaker_notes": {
-        "zh": "最後，這是我們下個月的具體承諾與行動清單。同時為了確保新流程順利落地，我們也把人員培訓的變革管理考量進去。如果沒有問題，希望能取得您的資源核准。",
-        "en": "Finally, here is our concrete commitment and action plan for next month. To ensure a smooth rollout, we've factored in change management training. If there are no concerns, we kindly ask for your approval on the requested resources."
+        "zh": "最後，這是我們下個月的衝刺承諾。為了克服前面的瓶頸，我們準備了兩個選項給長官裁示。方案 A 是增加資源確保準時上線（我們強烈建議）；方案 B 則是維持現狀但延遲交付。請長官指示，確認後我們立刻展開行動。",
+        "en": "Finally, here is our sprint commitment for next month. To overcome the aforementioned bottlenecks, we present two options for your decision. Option A injects resources for an on-time launch (our strong recommendation). Option B maintains status quo but delays delivery. We await your directive to execute."
       }
     }
   ],
   "prompt_template": {
-    "zh": "請以繁體中文製作一份專業的『月度/季度工作進度匯報』簡報。受眾為高階主管。內容需採用 SCQA 架構與 MECE 原則，著重於：1. 呈現同比/環比的業務與成本數據 (ROI)，2. 主動標示潛在風險與防錯機制 (Risk Radar)，3. 提出具建設性的跨部門雙贏方案，4. 結尾有明確的決策請求 (Call to Action)。每張 Slide 不超過 3 個重點，每字不超過一行，語氣需展現『解決問題、管理主管期望』的將才格局。",
-    "en": "Please create a professional 'Monthly/Quarterly Progress Report' presentation in English. Audience: Senior Management. Use the SCQA framework and MECE principles. Focus on: 1. MoM/YoY data and ROI, 2. Proactive Risk Radar and mitigation, 3. Constructive cross-functional win-win solutions, 4. A clear Call to Action at the end. Max 3 bullet points per slide, max one line per bullet. The tone should demonstrate a strong business mindset and effective upwards management."
+    "zh": "請以繁體中文製作一份大師級的『月度/季度績效檢討匯報』。受眾為董事會或 C-Level 高階主管。內容必須採用麥肯錫 SCQA 架構與 MECE 邏輯：1. 開場直接破題，講述業務現況與戰略訴求 (Bottom Line Up Front)，2. 數據分析必須區分『落後指標(成果)』與『領先指標(驅動因素)』，並進行根本原因分析，3. 提出風險雷達並強調『不作為成本 (Cost of Inaction)』，4. 展現跨部門協商的雙贏格局，5. 結尾必須展現『向上管理 (Managing Up)』能力，提供具體的決策選項 (如方案 A 積極、方案 B 保守) 讓高層做選擇題而非問答題。每張 Slide 不超過 3 個重點，語氣需極度精煉、數據導向且展現高階經理人的將才格局。",
+    "en": "Please create a master-class 'Monthly/Quarterly Performance Review' presentation in English. Audience: Board of Directors or C-Level Executives. Strictly use the McKinsey SCQA framework and MECE logic: 1. Start with Bottom Line Up Front (BLUF) and a clear strategic ask. 2. Distinguish between Lagging (Outcomes) and Leading (Drivers) indicators with root-cause variance analysis. 3. Highlight Risk Radar and the specific 'Cost of Inaction (COI)'. 4. Demonstrate cross-functional synergy and win-win conflict resolution. 5. Conclude with strong 'Managing Up' skills by presenting clear decision options (e.g., Option A vs. Option B) rather than open-ended questions. Max 3 bullet points per slide. The tone must be highly concise, data-driven, and reflect a senior executive mindset."
   }
 }
