@@ -1,58 +1,129 @@
 {
   "topic_id": "monthly_review",
-  "keywords": ["月報", "季報", "工作匯報", "進度報告", "monthly review", "quarterly review", "status update"],
-  "title": "工作進度與績效檢討匯報",
+  "keywords": ["月報", "季報", "工作匯報", "進度報告", "monthly review", "quarterly review", "status update", "progress"],
+  "title": {
+    "zh": "工作進度與績效檢討匯報",
+    "en": "Monthly/Quarterly Progress & Performance Review"
+  },
   "slides": [
     {
       "slide_number": 1,
-      "slide_title": "本月/本季核心進度摘要 (Executive Summary)",
-      "bullet_points": [
-        "核心 KPI 達成率：已完成整體目標的 [X]%",
-        "三大重點專案：[專案A] 已完工，[專案B] 按時推進中",
-        "今日匯報目的：總結成果、剖析瓶頸，並確認下階段資源分配"
-      ],
-      "speaker_notes": "老闆/各位主管好，今天的進度匯報將重點呈現我們本月的核心產出、目前面臨的挑戰，以及下一個階段需要獲得的資源支援，確保目標按時交付。"
+      "slide_title": {
+        "zh": "本月/本季核心進度摘要 (Executive Summary)",
+        "en": "Executive Summary"
+      },
+      "bullet_points": {
+        "zh": [
+          "核心 KPI 達成率：已完成整體目標的 [X]%",
+          "三大重點專案：[專案A] 已完工，[專案B] 按時推進中",
+          "今日匯報目的：總結成果、剖析瓶頸，並確認下階段資源分配"
+        ],
+        "en": [
+          "Core KPI Achievement: Completed [X]% of overall targets",
+          "Top 3 Projects: [Project A] delivered, [Project B] on track",
+          "Objective: Summarize results, analyze bottlenecks, and align resources"
+        ]
+      },
+      "speaker_notes": {
+        "zh": "老闆/各位主管好，今天的進度匯報將重點呈現我們本月的核心產出、目前面臨的挑戰，以及下一個階段需要獲得的資源支援，確保目標按時交付。",
+        "en": "Good morning/afternoon. Today's review will focus on our core deliverables this month, current challenges, and the resources needed for the next phase to ensure on-time delivery."
+      }
     },
     {
       "slide_number": 2,
-      "slide_title": "關鍵指標與 KPI 達成狀況",
-      "bullet_points": [
-        "指標一 (例如：營收/進度)：實際 [數字] vs 目標 [數字] (超額達成/落後)",
-        "指標二 (例如：品質/效率)：流程時間縮短 [X]%，客訴/錯誤率下降 [X]%",
-        "指標三 (例如：預算執行)：累積支出於控制範圍內，無超支風險"
-      ],
-      "speaker_notes": "從數據來看，我們在本月的核心指標呈現穩定成長，特別是在效率提升方面有顯著效果；預算與資源使用也都控制在合規範圍內。"
+      "slide_title": {
+        "zh": "關鍵指標與 KPI 達成狀況",
+        "en": "Key Metrics & KPI Status"
+      },
+      "bullet_points": {
+        "zh": [
+          "指標一 (例如：營收/進度)：實際 [數字] vs 目標 [數字] (超額達成/落後)",
+          "指標二 (例如：品質/效率)：流程時間縮短 [X]%，客訴/錯誤率下降 [X]%",
+          "指標三 (例如：預算執行)：累積支出於控制範圍內，無超支風險"
+        ],
+        "en": [
+          "Metric 1 (e.g., Revenue/Progress): Actual [X] vs Target [Y]",
+          "Metric 2 (e.g., Quality/Efficiency): Process time reduced by [X]%, Error rate dropped by [X]%",
+          "Metric 3 (e.g., Budget): Cumulative spend within control, no overspend risk"
+        ]
+      },
+      "speaker_notes": {
+        "zh": "從數據來看，我們在本月的核心指標呈現穩定成長，特別是在效率提升方面有顯著效果；預算與資源使用也都控制在合規範圍內。",
+        "en": "Looking at the data, our core metrics show steady growth this month, particularly in efficiency gains. Budget and resource utilization remain strictly within compliance limits."
+      }
     },
     {
       "slide_number": 3,
-      "slide_title": "重點專案里程碑 (Milestone Progress)",
-      "bullet_points": [
-        "已完成事項：完成 [關鍵任務 1] 與 [關鍵任務 2] 之驗收",
-        "進行中事項：[專案名稱] 目前進度 [X]%，預計 [日期] 前交付",
-        "延遲/風險事項：[專案名稱] 略有延遲，已啟動備援方案 (Mitigation Plan)"
-      ],
-      "speaker_notes": "主要專案大多按照預定時程推進。針對稍微延遲的項目，我們已經找出原因並擬定補救措施，預計可以在下個週期補齊進度。"
+      "slide_title": {
+        "zh": "重點專案里程碑 (Milestone Progress)",
+        "en": "Milestone Progress"
+      },
+      "bullet_points": {
+        "zh": [
+          "已完成事項：完成 [關鍵任務 1] 與 [關鍵任務 2] 之驗收",
+          "進行中事項：[專案名稱] 目前進度 [X]%，預計 [日期] 前交付",
+          "延遲/風險事項：[專案名稱] 略有延遲，已啟動備援方案 (Mitigation Plan)"
+        ],
+        "en": [
+          "Completed: Successfully delivered [Task 1] and [Task 2]",
+          "In Progress: [Project Name] is [X]% complete, expected delivery by [Date]",
+          "Delayed/At Risk: [Project Name] slightly delayed, mitigation plan activated"
+        ]
+      },
+      "speaker_notes": {
+        "zh": "主要專案大多按照預定時程推進。針對稍微延遲的項目，我們已經找出原因並擬定補救措施，預計可以在下個週期補齊進度。",
+        "en": "Most major projects are progressing according to schedule. For the slightly delayed items, we have identified the root causes and implemented mitigation plans to catch up in the next cycle."
+      }
     },
     {
       "slide_number": 4,
-      "slide_title": "遭遇挑戰與根本原因分析 (Root Cause)",
-      "bullet_points": [
-        "主要瓶頸：跨部門溝通卡關 / 外部廠商時程延誤 / 人力資源緊繃",
-        "根本原因：缺乏標準作業流程 (SOP) / 需求規格初期未對齊",
-        "應對措施：已建立臨時協調機制，並調整作業優先順序"
-      ],
-      "speaker_notes": "我們不只看表面問題，更深入分析了根本原因。目前的主要瓶頸在於流程對齊，我們已經提出對應的改善機制來避免重複發生。"
+      "slide_title": {
+        "zh": "遭遇挑戰與根本原因分析 (Root Cause)",
+        "en": "Challenges & Root Cause Analysis"
+      },
+      "bullet_points": {
+        "zh": [
+          "主要瓶頸：跨部門溝通卡關 / 外部廠商時程延誤 / 人力資源緊繃",
+          "根本原因：缺乏標準作業流程 (SOP) / 需求規格初期未對齊",
+          "應對措施：已建立臨時協調機制，並調整作業優先順序"
+        ],
+        "en": [
+          "Main Bottleneck: Cross-functional silos / Vendor delays / Resource constraints",
+          "Root Cause: Lack of standard operating procedures (SOP) / Misaligned initial requirements",
+          "Countermeasure: Established ad-hoc coordination and reprioritized tasks"
+        ]
+      },
+      "speaker_notes": {
+        "zh": "我們不只看表面問題，更深入分析了根本原因。目前的主要瓶頸在於流程對齊，我們已經提出對應的改善機制來避免重複發生。",
+        "en": "We didn't just look at surface issues, but dug into the root causes. The main bottleneck lies in process alignment, and we've proposed corresponding mechanisms to prevent recurrence."
+      }
     },
     {
       "slide_number": 5,
-      "slide_title": "下階段三大優先任務與所需支援 (Next Steps)",
-      "bullet_points": [
-        "下月優先一：聚焦完成 [核心專案]，確保於 [日期] 上線",
-        "下月優先二：優化現有 [作業流程]，預計提升 [X]% 效率",
-        "需要主管支援：請求協調 [跨部門資源 / 預算審批 / 人力補充]"
-      ],
-      "speaker_notes": "接下來我們的精力會集中在這三個優先任務上。為了讓專案順利推動，希望主管能協助我們在跨部門資源分配上給予支持。"
+      "slide_title": {
+        "zh": "下階段三大優先任務與所需支援 (Next Steps)",
+        "en": "Next Steps & Required Support"
+      },
+      "bullet_points": {
+        "zh": [
+          "下月優先一：聚焦完成 [核心專案]，確保於 [日期] 上線",
+          "下月優先二：優化現有 [作業流程]，預計提升 [X]% 效率",
+          "需要主管支援：請求協調 [跨部門資源 / 預算審批 / 人力補充]"
+        ],
+        "en": [
+          "Priority 1: Focus on delivering [Core Project] by [Date]",
+          "Priority 2: Optimize [Process] to improve efficiency by [X]%",
+          "Required Support: Request coordination for [Cross-dept resources / Budget / Headcount]"
+        ]
+      },
+      "speaker_notes": {
+        "zh": "接下來我們的精力會集中在這三個優先任務上。為了讓專案順利推動，希望主管能協助我們在跨部門資源分配上給予支持。",
+        "en": "Moving forward, our energy will be focused on these top priorities. To ensure smooth execution, we request management's support in cross-functional resource allocation."
+      }
     }
   ],
-  "prompt_template": "請以繁體中文製作一份專業商務風格的『月度/季度工作進度匯報』簡報。採用簡潔商務風格（深藍與灰色系）。內容必須著重於：1. 結論先行與數據導向，2. 剖析問題的根本原因（Root Cause），3. 提出明確的下一步與所需支援。每張 Slide 不超過 3 個重點，每字不超過一行，排版需清晰易讀。"
+  "prompt_template": {
+    "zh": "請以繁體中文製作一份專業商務風格的『月度/季度工作進度匯報』簡報。採用簡潔商務風格。內容必須著重於：1. 結論先行與數據導向，2. 剖析問題的根本原因（Root Cause），3. 提出明確的下一步與所需支援。每張 Slide 不超過 3 個重點，每字不超過一行，排版需清晰易讀。",
+    "en": "Please create a professional 'Monthly/Quarterly Progress Report' presentation in English. Use a clean, corporate style. The content must focus on: 1. Conclusion-first and data-driven insights, 2. Root Cause analysis for issues, 3. Clear Next Steps and required support. Max 3 bullet points per slide, max one line per bullet point. Ensure clean and readable formatting."
+  }
 }
