@@ -1,0 +1,129 @@
+{
+  "topic_id": "entrepreneurship_pitch",
+  "keywords": ["創業", "新創", "entrepreneurship", "startup", "募資", "fundraising", "pitch deck", "投資", "vc", "創投", "商業模式", "business model", "天使投資"],
+  "title": {
+    "zh": "新創募資與商業模式提案 (VC 創投與資本視角)",
+    "en": "Startup Fundraising & Business Model Pitch (VC/Investor Perspective)"
+  },
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_title": {
+        "zh": "強烈痛點與顛覆性解方 (Problem-Solution Fit)",
+        "en": "Hair-on-Fire Problem & Disruptive Solution"
+      },
+      "bullet_points": {
+        "zh": [
+          "真實痛點 (The Problem)：[目標客群] 正面臨 [具體痛點]，現有替代方案極度低效或昂貴",
+          "為何是現在 (Why Now)：受惠於 [法規改變/AI技術成熟/市場典範轉移]，這是一個轉瞬即逝的戰略窗口",
+          "我們的解方 (The Solution)：推出 [產品/服務]，以 [核心價值主張] 徹底顛覆現有遊戲規則"
+        ],
+        "en": [
+          "The Problem: [Target Audience] struggles with [Pain Point]; existing alternatives are inefficient or costly.",
+          "Why Now: Driven by [Regulatory shifts/Tech maturity], a fleeting strategic window has just opened.",
+          "The Solution: Introducing [Product/Service], disrupting the status quo via [Core Value Proposition]."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "各位投資人好。我們今天不是來賣產品的，而是來解決一個『頭髮著火般 (Hair-on-fire)』的市場剛需。過去這個問題無法被解決，但因為最近的 [技術/法規] 突破，完美的切入時機（Why Now）已經出現。我們的方案將徹底改寫這個產業的運作邏輯。",
+        "en": "Hello investors. We aren't here to pitch a product; we are here to solve a 'hair-on-fire' market need. Historically unsolved, recent [Tech/Regulatory] breakthroughs make *now* the exact right time to strike. Our solution completely rewrites the industry's operating logic."
+      }
+    },
+    {
+      "slide_number": 2,
+      "slide_title": {
+        "zh": "市場規模與單位經濟學 (TAM & Unit Economics)",
+        "en": "Market Sizing (TAM) & Unit Economics"
+      },
+      "bullet_points": {
+        "zh": [
+          "市場規模 (TAM/SAM/SOM)：這是一個高達 [X] 規模的藍海，我們初期鎖定 [X] 的可獲取市場",
+          "商業模式 (Business Model)：透過 [SaaS訂閱/抽成/B2B 授權] 獲利，具備極高的毛利率與規模化潛力",
+          "單位經濟 (Unit Economics)：目前獲客成本 (CAC) 為 [X]，顧客終身價值 (LTV) 為 [Y]，LTV:CAC 比例極為健康"
+        ],
+        "en": [
+          "Market Sizing (TAM/SAM/SOM): Operating in a massive [X] Total Addressable Market; initially capturing a [X] SOM.",
+          "Business Model: Monetizing via [SaaS/Marketplace take-rate/B2B licensing] with high gross margins and scalability.",
+          "Unit Economics: Current CAC is [X] and LTV is [Y], demonstrating a highly profitable LTV:CAC ratio."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "投資就是要看天花板。我們的潛在市場規模 (TAM) 巨大。更重要的是，我們的商業模式已經跑通了『單位經濟學』。每投入 1 塊錢獲客，我們能賺回 X 塊錢。這代表我們不是在燒錢換流量，而是在打造一台具備強大自我造血能力的印鈔機。",
+        "en": "Investors look for the ceiling. Our TAM is massive. More importantly, we've cracked the Unit Economics. For every dollar spent on acquisition, we generate X dollars. We aren't burning cash for vanity metrics; we are building a self-sustaining cash machine."
+      }
+    },
+    {
+      "slide_number": 3,
+      "slide_title": {
+        "zh": "市場牽引力與 Go-To-Market 戰略 (Traction & GTM)",
+        "en": "Market Traction & Go-To-Market (GTM)"
+      },
+      "bullet_points": {
+        "zh": [
+          "初期成績 (Traction)：產品上線 [X] 個月，已取得 [X 營收/用戶數]，且月度經常性營收 (MRR) 成長率達 [X]%",
+          "GTM 戰略：第一階段透過 [通路/策略合作/社群裂變] 精準打透早期採用者 (Early Adopters)",
+          "客戶驗證 (Validation)：已成功簽下 [指標性客戶/合作夥伴]，展現強大的 Product-Market Fit (PMF)"
+        ],
+        "en": [
+          "Traction: In just [X] months, we've reached [X Revenue/Users] with an MRR growth rate of [X]%.",
+          "GTM Strategy: Phase 1 surgically targets Early Adopters via [Channels/Partnerships/Viral Loops].",
+          "Market Validation: Secured contracts with [Anchor Clients], proving strong Product-Market Fit (PMF)."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "點子很廉價，執行力才是關鍵。這是我們目前的成績單 (Traction)：在極少的資源下，我們已經達成了雙位數的月增長，並簽下了指標性客戶。這無可辯駁地證明了我們已經找到了 Product-Market Fit (產品市場契合度)。",
+        "en": "Ideas are cheap; execution is everything. Here is our traction: with minimal resources, we've achieved double-digit MoM growth and secured anchor clients. This is irrefutable proof that we have achieved strong Product-Market Fit (PMF)."
+      }
+    },
+    {
+      "slide_number": 4,
+      "slide_title": {
+        "zh": "競爭護城河與夢幻團隊 (The Moat & Founding Team)",
+        "en": "Unfair Advantage (The Moat) & Dream Team"
+      },
+      "bullet_points": {
+        "zh": [
+          "不公平優勢 (Unfair Advantage)：我們具備對手無法輕易複製的 [專利技術/獨家數據/網路效應]",
+          "競爭格局 (Competition)：對比現有競品，我們在 [關鍵維度，如：速度、精準度、成本] 具備 10 倍優勢",
+          "團隊 DNA (The Team)：創始團隊匯集了 [產業深耕 X 年/頂尖技術/連續創業] 的互補背景"
+        ],
+        "en": [
+          "Unfair Advantage: We possess [Proprietary Tech/Exclusive Data/Network Effects] that incumbents cannot easily replicate.",
+          "Competition: Compared to legacy alternatives, we offer a 10X improvement in [Key Metric: Speed/Cost/Accuracy].",
+          "The Team: The founders bring a complementary mix of [X years industry expertise/Top-tier Tech/Serial Entrepreneurship]."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "市場上一定有競爭對手，但我們擁有絕對的『不公平優勢』——這可能是我們的專利演算法或獨家數據壁壘。更重要的是我們的團隊。我們是這個領域的『老司機』，具備深厚的產業 know-how 與技術實力，這是一支專為打贏這場仗而生的夢幻團隊。",
+        "en": "Competition exists, but we hold a definitive 'Unfair Advantage'—be it our proprietary algorithms or exclusive data moats. More importantly, look at the team. We are industry veterans with deep domain expertise and tech prowess. This is a dream team built specifically to win this exact war."
+      }
+    },
+    {
+      "slide_number": 5,
+      "slide_title": {
+        "zh": "募資訴求與估值里程碑 (The Ask & Milestones)",
+        "en": "The Ask, Runway & Valuation Milestones"
+      },
+      "bullet_points": {
+        "zh": [
+          "募資金額 (The Ask)：本輪 (Seed/Series A) 預計募集 [X 金額]，釋出 [X]% 股權",
+          "資金用途 (Use of Funds)：資金將有 [X]% 用於研發擴編，[X]% 用於 GTM 獲客，確保 [X] 個月的資金存活期 (Runway)",
+          "里程碑 (Milestones)：這筆資金將助我們在 [X] 個月內達成 [X 營收/市佔率] 目標，順利解鎖下一輪更高估值"
+        ],
+        "en": [
+          "The Ask: Raising [X Amount] for our [Seed/Series A] round, offering [X]% equity.",
+          "Use of Funds: Allocating [X]% to R&D and [X]% to GTM/Acquisition, securing an [X]-month Runway.",
+          "Valuation Milestones: This capital will fuel our sprint to [X Revenue/Metric] within [X] months, unlocking our next valuation step-up."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "為了抓住這個戰略窗口，我們本輪計畫募集 [X] 資金。這筆錢不是拿來試錯的，而是拿來擴張的。它能為我們提供 18 個月的 Runway。我們承諾，將用這筆資金在未來一年內達成 [關鍵指標]，帶領公司走向下一個估值爆發點。誠摯邀請各位投資人加入這趟旅程。",
+        "en": "To capitalize on this strategic window, we are raising [X]. This capital isn't for trial-and-error; it's fuel for scaling. It provides an 18-month runway. We commit to using these funds to hit [Key Metric] within the next year, driving the company to its next major valuation inflection point. We invite you to join us on this journey."
+      }
+    }
+  ],
+  "prompt_template": {
+    "zh": "請以繁體中文製作一份大師級的『新創募資與商業模式提案 (VC Pitch Deck)』簡報。受眾為創投 (VC)、天使投資人或企業內部創新董事會。內容必須展現矽谷級別的創業邏輯：1. 開場點出『頭髮著火般』的強烈痛點與 Why Now (為何是現在)，2. 用 TAM/SAM/SOM 定義市場規模，並交出健康的『單位經濟學 (CAC vs LTV)』，3. 展現強大的市場牽引力 (Traction) 與 Go-To-Market 戰略，證明 Product-Market Fit，4. 凸顯防禦對手的『護城河/不公平優勢 (Unfair Advantage)』與團隊互補性，5. 結尾必須提出精確的『募資訴求 (The Ask)』，清楚交代資金用途、資金存活期 (Runway) 以及預期達成的估值里程碑 (Milestones)。每張 Slide 不超過 3 個重點，語氣需極具創業者的熱情、數據導向的冷靜，以及無可辯駁的投資吸引力。",
+    "en": "Please create a master-class 'Startup Fundraising & Business Model Pitch Deck' in English. Audience: Venture Capitalists (VCs), Angel Investors, or Corporate Innovation Boards. Demonstrate Silicon Valley-level entrepreneurial logic: 1. Hook the audience with a 'Hair-on-fire' problem and a compelling 'Why Now'. 2. Define the market (TAM/SAM/SOM) and prove healthy Unit Economics (LTV vs CAC). 3. Showcase strong Traction and GTM strategy to prove Product-Market Fit (PMF). 4. Highlight the 'Unfair Advantage/Moat' and the complementary strength of the founding team. 5. Conclude with a precise 'Ask', detailing the Use of Funds, Runway, and the Valuation Milestones this round will unlock. Max 3 bullet points per slide. The tone must balance entrepreneurial passion with data-driven cold logic and irrefutable investment appeal."
+  }
+}
