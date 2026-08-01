@@ -1,0 +1,129 @@
+{
+  "topic_id": "marketing_strategy",
+  "keywords": ["市場營銷", "行銷", "marketing", "品牌", "brand", "cmo", "行銷策略", "獲客", "cac", "ltv", "romi", "廣告", "增長", "growth"],
+  "title": {
+    "zh": "市場行銷戰略與品牌增長匯報 (CMO 商業視角)",
+    "en": "Marketing Strategy & Brand Growth (CMO-Level)"
+  },
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_title": {
+        "zh": "市場動態與戰略訴求 (SCQA & Strategic Ask)",
+        "en": "Market Dynamics & Strategic Ask (SCQA)"
+      },
+      "bullet_points": {
+        "zh": [
+          "情境 (Situation)：市場需求正向 [某趨勢] 轉移，我們具備強大的產品力，但聲量尚未轉化為市佔率",
+          "衝突 (Complication)：受限於 [品牌老化/獲客成本飆升/競爭對手夾擊]，我們正流失高價值客戶",
+          "戰略訴求 (The Ask)：提議啟動『全通路增長戰略』，懇請核准 [X 預算] 以奪取市場定價權"
+        ],
+        "en": [
+          "Situation: Market demand is shifting towards [Trend]. We have strong product-market fit but lack market share.",
+          "Complication: Squeezed by [Brand aging/Rising CAC/Fierce competition], we are bleeding high-value customers.",
+          "Strategic Ask: Propose an 'Omnichannel Growth Strategy'. Requesting [X Budget] to seize pricing power."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "各位長官好。行銷不是在花錢，而是在為公司『買未來的營收』。目前市場正在快速洗牌，我們的產品很好，但在目標客群心中的心佔率 (Mindshare) 正在被對手侵蝕。今天的提案，是為了精準打擊高價值客群，透過這筆行銷投資，一舉奪回市場的定價權。",
+        "en": "Good morning. Marketing isn't an expense; it's buying future revenue. The market is shifting rapidly. While our product is superior, competitors are eroding our mindshare. Today's pitch is to surgically target high-value segments and use this marketing investment to reclaim our pricing power."
+      }
+    },
+    {
+      "slide_number": 2,
+      "slide_title": {
+        "zh": "精準定位與理想客戶輪廓 (Positioning & ICP)",
+        "en": "Brand Positioning & Ideal Customer Profile (ICP)"
+      },
+      "bullet_points": {
+        "zh": [
+          "理想客戶輪廓 (ICP)：透過數據清洗，鎖定帶來 80% 利潤的 [X 客群]，其核心痛點為 [某剛需]",
+          "價值主張 (Value Proposition)：我們的核心差異化不在於價格，而是提供無可取代的 [某種體驗/效能]",
+          "品牌重塑 (Brand Repositioning)：將品牌形象從『功能導向的供應商』升級為『價值導向的戰略夥伴』"
+        ],
+        "en": [
+          "Ideal Customer Profile (ICP): Data reveals our top 80% profit comes from [Segment X], whose core pain point is [Need].",
+          "Value Proposition: Our differentiator isn't price; it's the irreplaceable [Experience/Performance] we deliver.",
+          "Brand Repositioning: Upgrading our brand perception from a 'Feature-driven Vendor' to a 'Value-driven Partner'."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "要提高勝率，我們必須停止對所有人說話。透過數據分析，我們重新定義了『理想客戶輪廓 (ICP)』，精準鎖定那些願意為價值買單的頂級客群。我們將重塑價值主張，打贏這場心智戰，讓客戶不再拿我們跟廉價競品做比價。",
+        "en": "To win, we must stop speaking to everyone. Data has refined our Ideal Customer Profile (ICP), surgically targeting premium segments willing to pay for value. By reshaping our value proposition, we will win the battle for the mind, stopping clients from comparing us to cheap alternatives."
+      }
+    },
+    {
+      "slide_number": 3,
+      "slide_title": {
+        "zh": "MECE 增長漏斗與全通路佈局 (Omnichannel Funnel)",
+        "en": "MECE Growth Funnel & Omnichannel Strategy"
+      },
+      "bullet_points": {
+        "zh": [
+          "頂層曝光 (Top of Funnel)：透過 [高影響力公關/SEO/大會] 極大化品牌聲量，降低初步信任門檻",
+          "中層留存 (Middle of Funnel)：運用 [內容行銷/自動化培育] 建立專家權威，縮短客戶的猶豫週期",
+          "底層轉化 (Bottom of Funnel)：結合 [限時促銷/業務協同]，以極致的轉換率 (CVR) 實現營收收割"
+        ],
+        "en": [
+          "Top of Funnel (Awareness): Maximize Share of Voice via [PR/SEO/Events] to lower initial trust barriers.",
+          "Middle of Funnel (Consideration): Build authority via [Content/Lead Nurturing] to shorten the sales cycle.",
+          "Bottom of Funnel (Conversion): Drive aggressive revenue harvesting via [Promos/Sales Alignment] with optimized CVR."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "在戰術執行上，我們採用 MECE 的全通路增長漏斗。這不是單點盲打，而是一套精密的系統：從頂層的擴大曝光、中層的信任培育，到最後底層與業務團隊 (Sales) 聯手收割。每一個環節都有明確的轉換率 (CVR) 監控。",
+        "en": "Tactically, we are deploying a MECE omnichannel growth funnel. This isn't random spending; it's a precision engine: from top-funnel awareness, mid-funnel trust nurturing, to bottom-funnel harvesting in strict alignment with Sales. Every stage is monitored by hard conversion rates (CVR)."
+      }
+    },
+    {
+      "slide_number": 4,
+      "slide_title": {
+        "zh": "行銷單位經濟學與投資回報 (Marketing ROI & Unit Economics)",
+        "en": "Marketing ROI (ROMI) & Unit Economics"
+      },
+      "bullet_points": {
+        "zh": [
+          "獲客成本 (CAC) 優化：透過精準投放與漏斗優化，預期將單一客戶獲取成本降低 [X]%",
+          "顧客終身價值 (LTV) 提升：啟動 [會員忠誠計畫/交叉銷售]，預估將 LTV/CAC 比率拉升至健康的 [X:1]",
+          "行銷投資回報 (ROMI)：本次申請之 [X 預算]，預計將在 [X] 個月內創造 [X] 的直接歸因營收"
+        ],
+        "en": [
+          "CAC Optimization: Through precision targeting and funnel tweaks, we project a [X]% reduction in Customer Acquisition Cost.",
+          "LTV Maximization: Launching [Loyalty/Cross-sell] programs to push the LTV:CAC ratio to a healthy [X:1].",
+          "Return on Marketing Investment (ROMI): The [X Budget] requested will generate [X] in directly attributed revenue within [X] months."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "這是董事會最在乎的財務視角。我們用『單位經濟學』來管理行銷。透過這波操作，我們會把獲客成本 (CAC) 壓下來，並把顧客終身價值 (LTV) 拉上去。各位核准的每一塊錢行銷預算，都有明確的追蹤標籤，預計能帶回 X 倍的實質營收。",
+        "en": "Here is the financial perspective the Board cares about most. We manage marketing through 'Unit Economics'. This campaign will drive down CAC while maximizing LTV. Every marketing dollar you authorize today is fully trackable and projected to return X times in tangible revenue."
+      }
+    },
+    {
+      "slide_number": 5,
+      "slide_title": {
+        "zh": "風險防禦與 90 天落地計畫 (De-risking & 90-Day Plan)",
+        "en": "De-risking & 90-Day Execution Plan"
+      },
+      "bullet_points": {
+        "zh": [
+          "降危機制 (A/B Testing & PoC)：首月動用不超過 20% 預算進行 A/B 測試，確認轉換率達標才全面擴張",
+          "跨部門對齊 (Sales-Marketing Alignment)：與業務部訂定 SLA，確保行銷帶來的名單 (Leads) 能被 100% 承接",
+          "決策訴求 (Call to Action)：懇請核准 [X 預算]，我們將於 [日期] 啟動首波戰役，為下半年的爆發打底"
+        ],
+        "en": [
+          "De-risking (A/B Testing): Limit Month-1 spend to 20% for A/B testing; full scale-up only triggers if CVR targets are met.",
+          "Sales-Marketing Alignment: Lock in SLAs with the Sales team to ensure 100% follow-up on generated Marketing Qualified Leads (MQLs).",
+          "Call to Action: Requesting [X Budget] approval to launch the initial campaign on [Date], laying the foundation for H2 explosive growth."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "我們深知預算的珍貴，所以導入了嚴格的降危 (De-risking) 機制。第一個月只會動用小額預算做 A/B 測試，數據跑通了我們才放大預算 (Scale up)。同時，我們已經與業務部門達成共識，保證行銷帶來的潛在客戶不會被浪費。懇請長官核准，讓我們立刻上膛作戰。",
+        "en": "We respect the value of capital, hence our strict de-risking protocol. We will only utilize a small fraction of the budget in Month 1 for A/B testing, scaling up only when data proves the CVR. Furthermore, we've strictly aligned with Sales to ensure zero lead leakage. We respectfully request your approval to deploy immediately."
+      }
+    }
+  ],
+  "prompt_template": {
+    "zh": "請以繁體中文製作一份大師級的『市場行銷戰略與品牌增長』簡報。受眾為 CEO 或董事會。內容必須展現 CMO (首席行銷官) 的商業格局，嚴禁流於社群貼文或美編等瑣碎戰術。著重於：1. 運用 SCQA 架構說明市場機遇，2. 聚焦理想客戶輪廓 (ICP) 與品牌定價權，3. 提出 MECE 結構的全通路增長漏斗 (Top/Mid/Bottom Funnel)，4. 嚴格採用『單位經濟學』語言，量化獲客成本 (CAC)、顧客終身價值 (LTV) 與行銷投資回報率 (ROMI)，5. 結尾必須提出具備 A/B 測試降危機制的 90 天落地計畫與具體預算請求。每張 Slide 不超過 3 個重點，語氣需充滿商業擴張的侵略性，同時具備精算師般的投資客觀性。",
+    "en": "Please create a master-class 'Marketing Strategy & Brand Growth' presentation in English. Audience: CEO or Board of Directors. Demonstrate elite CMO business acumen; strictly avoid junior tactical details like social media posting. Focus on: 1. SCQA framing to highlight market opportunities. 2. Refining the Ideal Customer Profile (ICP) and brand pricing power. 3. Proposing a MECE Omnichannel Growth Funnel. 4. Strictly using 'Unit Economics' to quantify CAC, LTV, and Return on Marketing Investment (ROMI). 5. Concluding with a 90-day execution plan featuring A/B testing for de-risking and a specific budget ask. Max 3 bullet points per slide. The tone must be aggressively growth-oriented yet mathematically objective regarding investments."
+  }
+}
