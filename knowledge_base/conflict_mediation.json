@@ -1,129 +1,129 @@
 {
   "topic_id": "conflict_mediation",
-  "keywords": ["調解", "衝突", "mediation", "conflict", "協調", "爭議", "dispute", "resolution", "hr", "跨部門", "溝通"],
+  "keywords": ["調解", "衝突", "mediation", "conflict", "協調", "爭議", "dispute", "resolution", "hr", "跨部門", "溝通", "談判", "alignment"],
   "title": {
-    "zh": "職場調解與跨部門共識建立",
-    "en": "Workplace Mediation & Cross-Functional Alignment"
+    "zh": "職場調解與跨部門共識建立 (SCQA & 雙贏談判)",
+    "en": "Workplace Mediation & Cross-Functional Alignment (SCQA & Win-Win)"
   },
   "slides": [
     {
       "slide_number": 1,
       "slide_title": {
-        "zh": "會議目的與溝通原則 (Purpose & Ground Rules)",
-        "en": "Purpose & Ground Rules"
+        "zh": "商業脈絡與會議定調 (SCQA & Ground Rules)",
+        "en": "Business Context & Ground Rules (SCQA)"
       },
       "bullet_points": {
         "zh": [
-          "會議目的：聚焦解決當前僵局，尋求雙方皆能接受的雙贏方案",
-          "中立宣告：本次會議作為中立平台，不偏袒特定立場，對事不對人",
-          "溝通原則：保持開放心態、積極聆聽，並承諾會議內容之保密性"
+          "情境 (Situation)：我們正共同推進 [核心專案/目標]，這對公司年度營收/戰略至關重要",
+          "衝突 (Complication)：目前在 [流程/資源分配] 遭遇僵局，阻礙了整體交付進度",
+          "解答與原則 (Answer)：今日作為中立平台，對事不對人，旨在達成雙方皆能接受的商業解法"
         ],
         "en": [
-          "Objective: Resolve current impasses and seek mutually acceptable win-win solutions",
-          "Neutrality: This meeting serves as a neutral platform; focusing on issues, not individuals",
-          "Ground Rules: Keep an open mind, practice active listening, and maintain confidentiality"
+          "Situation: We are jointly driving [Core Project/Goal], which is critical to the company's annual strategy.",
+          "Complication: A current impasse regarding [Process/Resources] is blocking overall delivery.",
+          "Answer & Ground Rules: This is a neutral, issue-focused platform to forge a commercially viable, mutual agreement."
         ]
       },
       "speaker_notes": {
-        "zh": "大家好，今天我們聚在這裡的唯一目的，是為了解決目前的協作瓶頸。在開始之前，我們必須先達成幾個共識：這是一個中立、安全且保密的空間，請大家放下情緒，專注於『如何讓事情順利推進』。",
-        "en": "Welcome everyone. Our sole purpose today is to resolve current collaboration bottlenecks. Before we begin, let's agree on some ground rules: this is a neutral, safe, and confidential space. Let's put emotions aside and focus on how to move forward."
+        "zh": "大家好，今天會議的目標非常明確：解決目前的協作瓶頸。我們都清楚這個專案對公司的戰略意義，所以這是一個中立、尋求解法的空間。請大家放下部門本位主義，把焦點放在如何讓這件事順利推進。",
+        "en": "Welcome. The goal today is clear: resolve our collaboration bottleneck. We all understand the strategic importance of this project. This is a neutral, solution-oriented space. Let's put aside departmental silos and focus purely on how to move forward."
       }
     },
     {
       "slide_number": 2,
       "slide_title": {
-        "zh": "客觀現狀與核心爭議梳理 (Identifying the Issues)",
-        "en": "Current Situation & Core Issues"
+        "zh": "衝突的隱含成本與業務衝擊 (Cost of Conflict)",
+        "en": "The Cost of Conflict & Business Impact"
       },
       "bullet_points": {
         "zh": [
-          "現狀確認：釐清目前流程/專案卡關的客觀事實，排除主觀臆測",
-          "雙方視角：容許各方輪流陳述遇到的困難，不予打斷",
-          "界定爭議：將零散的抱怨收斂為 [X] 個具體需要解決的核心爭議點"
+          "量化損失 (Data Literacy)：目前的僵局導致每週延遲成本達 [X]，並虛耗了 [X] 人力",
+          "風險雷達 (Risk Radar)：若持續卡關，將連帶影響 [客戶交付/下游客部門] 並引發客訴",
+          "共同目標 (Shared Vision)：對齊雙方最高利益，確認我們的最終目的皆為 [提升績效/準時上線]"
         ],
         "en": [
-          "Fact-Finding: Clarify the objective facts of the current bottleneck, eliminating subjective assumptions",
-          "Mutual Perspectives: Allow each party to state their difficulties without interruption",
-          "Defining the Gap: Consolidate scattered complaints into [X] specific core issues to resolve"
+          "Quantified Loss: The current delay is costing us [X] weekly and draining [X] man-hours.",
+          "Risk Radar: Continued bottlenecks will trigger a domino effect on [Client Delivery/Downstream Teams].",
+          "Shared Vision: Realigning on our highest mutual interest—our ultimate goal is [Performance/Timely Launch]."
         ]
       },
       "speaker_notes": {
-        "zh": "首先，讓我們先把客觀事實攤開來。請雙方輪流表達目前遇到的困難，另一個人在這段時間請先不要打斷。我們的目標是把情緒撥開，找出真正導致卡關的那幾個核心問題。",
-        "en": "First, let's lay out the objective facts. I invite each party to share the challenges they face, without interruption from the other side. Our goal is to filter out the noise and identify the specific issues causing the blockage."
+        "zh": "在探討解法前，我們先看看維持現狀的代價。這個僵局每週都在消耗公司的實質利潤，並增加營運風險。我相信這絕對不是雙方樂見的。我們今天的出發點，是基於『專案必須成功』這個最大的共同利益。",
+        "en": "Before discussing solutions, let's look at the cost of the status quo. This impasse is draining actual profits weekly and increasing operational risk. Neither side wants this. We are starting today based on our biggest shared interest: this project must succeed."
       }
     },
     {
       "slide_number": 3,
       "slide_title": {
-        "zh": "探索深層需求與共同利益 (Exploring Interests)",
-        "en": "Exploring Interests vs. Positions"
+        "zh": "MECE 爭議梳理：剝離立場，深掘需求 (Positions vs. Interests)",
+        "en": "MECE Issue Breakdown: Positions vs. Interests"
       },
       "bullet_points": {
         "zh": [
-          "剝離立場：區分雙方『表面上的堅持 (Positions)』與『真正的需求 (Interests)』",
-          "發掘痛點：理解彼此在資源、時程或績效指標上的隱性壓力",
-          "尋求共通點：確認雙方共同的終極目標 (例如：公司營收、客戶滿意度)"
+          "資源層面 (Resources)：釐清是否因預算、人力或工具不足導致執行困難",
+          "時程層面 (Timeline)：檢視雙方對於交付節點 (Milestones) 的認知落差與排擠效應",
+          "流程層面 (Process)：盤點權責劃分 (RACI) 模糊地帶，尋找系統性防錯的空間"
         ],
         "en": [
-          "Positions vs. Interests: Differentiate between what parties 'say they want' and 'what they actually need'",
-          "Uncovering Pain Points: Understand each other's hidden pressures regarding resources, timelines, or KPIs",
-          "Finding Common Ground: Realign on shared ultimate goals (e.g., company revenue, client satisfaction)"
+          "Resources: Clarifying if the difficulty stems from a lack of budget, headcount, or tools.",
+          "Timeline: Examining cognitive gaps regarding delivery milestones and resource crowding.",
+          "Process: Auditing vague areas in the RACI matrix and identifying room for systemic error-proofing."
         ]
       },
       "speaker_notes": {
-        "zh": "很多時候我們爭執不下，是因為只看到了對方的『立場』。現在我們試著往下挖，了解大家背後真正的『考量與難處』是什麼。其實大家最終都是為了公司好，我們一定能找到共同的交集。",
-        "en": "Often, we clash because we only see each other's 'positions.' Let's dig deeper to understand the real 'concerns and constraints' driving them. Ultimately, we all want the company to succeed, and that is our common ground."
+        "zh": "透過 MECE 的結構，我們把爭議拆解為資源、時程與流程三個不重疊的面向。我們不探討誰對誰錯，而是客觀地分析：對方堅持某個立場的背後，真正的難處與需求 (Interests) 到底是什麼？",
+        "en": "Using a MECE structure, we break the dispute down into Resources, Timeline, and Process. We are not here to assign blame, but to objectively analyze: what are the true, underlying constraints and interests behind each party's stated position?"
       }
     },
     {
       "slide_number": 4,
       "slide_title": {
-        "zh": "雙贏方案腦力激盪 (Generating Options)",
-        "en": "Brainstorming Win-Win Options"
+        "zh": "雙贏方案與價值交換 (Win-Win Solution & Value Exchange)",
+        "en": "Win-Win Solution & Value Exchange"
       },
       "bullet_points": {
         "zh": [
-          "開放提案：鼓勵雙方提出任何可能的解決方案，初期不設限",
-          "價值交換：透過資源互換或流程妥協，滿足雙方的核心需求",
-          "可行性評估：針對選項進行篩選，評估成本、時間與執行難度"
+          "資源互換 (Trade-offs)：提議 [A 部門] 讓步 [某條件]，換取 [B 部門] 承諾 [某支援]",
+          "流程重構 (Process Optimization)：建立全新的 [自動化/雙重核准] 機制，降低雙方摩擦成本",
+          "投資報酬 (ROI)：此妥協方案能立即止血，讓專案回到正軌，創造 [X] 的整體效益"
         ],
         "en": [
-          "Open Brainstorming: Encourage all possible solutions without initial judgment",
-          "Value Exchange: Explore resource swapping or process compromises to meet both parties' core needs",
-          "Feasibility Check: Filter options by evaluating cost, time, and execution difficulty"
+          "Trade-offs: Propose that [Dept A] concedes [Condition] in exchange for [Dept B]'s commitment to [Support].",
+          "Process Optimization: Establish a new [Automated/Dual-approval] mechanism to reduce friction costs.",
+          "Solution ROI: This compromise stops the bleeding immediately, getting the project back on track to yield [X] value."
         ]
       },
       "speaker_notes": {
-        "zh": "現在我們把問題變成選項。請大家自由發揮，提出任何可能的解法。也許你可以退讓一步時程，換取他多投入一些人力？我們一起從這些點子裡，挑出最可行、大家都能接受的方案。",
-        "en": "Now let's turn problems into options. Please brainstorm freely. Perhaps one side can compromise on timeline in exchange for more resources from the other? Let's filter these ideas to find the most viable, mutually acceptable solution."
+        "zh": "理解了雙方的底線後，我們來進行價值的交換。這是一個雙贏的提案框架：透過資源互換與流程優化，我們能在不增加整體成本的前提下，消除協作摩擦，把專案拉回正軌。",
+        "en": "Now that we understand the bottom lines, let's engage in value exchange. This is a win-win proposal: through resource trade-offs and process optimization, we can eliminate friction and get the project back on track without increasing overall costs."
       }
     },
     {
       "slide_number": 5,
       "slide_title": {
-        "zh": "共識確認與行動計畫 (Agreement & Action Plan)",
-        "en": "Agreement & Action Plan"
+        "zh": "行動承諾與變革管理 (Action Plan & Change Mgmt)",
+        "en": "Action Commitments & Change Management"
       },
       "bullet_points": {
         "zh": [
-          "確認共識：總結雙方同意的最終方案，確保認知完全一致",
-          "行動指派：確立具體的 SMART 行動計畫 (Who, What, When)",
-          "後續跟進：排定下次檢視進度的時間點 (Check-in)，確保承諾落實"
+          "行動清單 (SMART Goals)：明確界定雙方下一步的具體產出、負責人與交付時間",
+          "期望管理 (Managing Up)：將今日共識同步呈報高階主管，確保資源配置獲得背書",
+          "變革與追蹤 (Follow-up)：規劃於 [日期] 進行進度查核 (Check-in)，確保新協作模式確實落地"
         ],
         "en": [
-          "Finalizing Consensus: Summarize the agreed-upon solution to ensure total alignment",
-          "SMART Action Plan: Establish specific next steps (Who does What by When)",
-          "Follow-up Mechanism: Schedule a check-in meeting to ensure commitments are being met"
+          "SMART Action Plan: Clearly define the specific outputs, owners, and deadlines for both parties' next steps.",
+          "Expectation Management: Escalate today's consensus to senior management to secure endorsement for resource shifts.",
+          "Change & Follow-up: Schedule a progress check-in on [Date] to ensure the new collaboration model is sticking."
         ]
       },
       "speaker_notes": {
-        "zh": "太好了，我們今天達成了共識。為了確保這個共識能落地，我們把剛剛講的方案變成具體的行動清單：誰、在什麼時候、要完成什麼事。下週同一時間我們再花 15 分鐘對焦進度。",
-        "en": "Excellent, we've reached a consensus today. To ensure this doesn't stay just on paper, let's translate it into a concrete action plan: who is doing what, by when. We'll do a quick 15-minute check-in at this same time next week."
+        "zh": "共識不能只停留在會議室。我們已經把解決方案轉化為具體的 SMART 行動清單。會後我會將這份共識呈報給主管以取得背書，同時我們也訂好下週的追蹤點，確保這個變革能真正落地執行。",
+        "en": "Consensus cannot remain just in this room. We have translated our solution into a SMART action plan. After this meeting, I will escalate this alignment to secure management endorsement, and we have our follow-up point set for next week to ensure true execution."
       }
     }
   ],
   "prompt_template": {
-    "zh": "請以繁體中文製作一份專業的『職場調解與跨部門共識建立』簡報。受眾為面臨協作瓶頸的跨部門團隊或主管。內容必須遵循專業調解邏輯：1. 建立中立與客觀原則，2. 區分『立場(Positions)』與『需求(Interests)』，3. 引導雙贏方案並產出具體行動清單。每張 Slide 不超過 3 個重點，每字不超過一行，語氣需具備同理心、中立且著重於解決問題。",
-    "en": "Please create a professional 'Workplace Mediation & Cross-Functional Alignment' presentation in English. The audience consists of cross-functional teams or managers facing collaboration bottlenecks. Strictly follow professional mediation logic: 1. Establish neutrality and objective facts, 2. Separate 'Positions' from 'Interests', 3. Facilitate win-win options and yield a concrete action plan. Max 3 bullet points per slide, max one line per bullet. The tone must be empathetic, neutral, and solution-focused."
+    "zh": "請以繁體中文製作一份專業的『職場調解與跨部門共識建立』簡報。受眾為面臨協作瓶頸的跨部門團隊與主管。內容必須結合商業思維與專業調解邏輯：1. 運用 SCQA 定調會議目的，2. 呈現維持僵局的隱含成本與業務衝擊，3. 運用 MECE 拆解爭議，區分『立場(Positions)』與『需求(Interests)』，4. 促成雙贏的價值交換，並產出 SMART 行動清單。每張 Slide 不超過 3 個重點，每字不超過一行，語氣需具備高度的同理心、商業客觀性與解決問題的魄力。",
+    "en": "Please create a professional 'Workplace Mediation & Cross-Functional Alignment' presentation in English. Audience: Cross-functional teams and managers facing bottlenecks. Combine business acumen with professional mediation logic: 1. Use SCQA to frame the meeting, 2. Show the cost of inaction and business impact, 3. Use MECE to separate 'Positions' from 'Interests', 4. Facilitate win-win value exchange and yield a SMART action plan. Max 3 bullet points per slide, max one line per bullet. The tone must be empathetic, commercially objective, and highly action-oriented."
   }
 }
