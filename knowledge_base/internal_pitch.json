@@ -1,129 +1,129 @@
 {
   "topic_id": "internal_pitch",
-  "keywords": ["提案", "資源", "pitch", "proposal", "爭取", "budget", "預算", "企劃", "新專案"],
+  "keywords": ["提案", "資源", "pitch", "proposal", "爭取", "budget", "預算", "企劃", "新專案", "business case", "商業計畫"],
   "title": {
-    "zh": "新專案提案與資源需求匯報",
-    "en": "New Project Proposal & Resource Pitch"
+    "zh": "新專案提案與商業價值匯報 (ROI 導向)",
+    "en": "New Project Pitch & Business Case (ROI-Driven)"
   },
   "slides": [
     {
       "slide_number": 1,
       "slide_title": {
-        "zh": "執行摘要與核心訴求 (The Ask)",
-        "en": "Executive Summary & The Ask"
+        "zh": "商業背景與提案核心 (SCQA 架構)",
+        "en": "Business Context & Core Proposal (SCQA)"
       },
       "bullet_points": {
         "zh": [
-          "提案目標：啟動 [專案名稱]，以解決 [具體痛點] 並抓住市場機會",
-          "預期價值：預估可為公司節省 [X] 成本，或帶來 [X]% 的效能成長",
-          "核心訴求：申請 [具體金額/人力資源]，預計於 [時間段] 內完成驗收"
+          "情境 (Situation)：目前市場趨勢或內部營運正處於 [現狀描述]，我們具備 [某優勢]",
+          "衝突 (Complication)：然而，因為缺乏 [某工具/資源]，每個月正流失 [X] 潛在效益",
+          "解答與訴求 (Answer & The Ask)：提議啟動 [專案名稱]，並申請 [預算] 以獲取高額回報"
         ],
         "en": [
-          "Objective: Launch [Project Name] to solve [Pain Point] and capture market opportunity",
-          "Expected Value: Projected to save [X] in costs or drive a [X]% performance increase",
-          "The Ask: Requesting [Budget/Headcount], with expected delivery in [Timeframe]"
+          "Situation: The current market/operational baseline is [Status], and we have [Advantage].",
+          "Complication: However, lacking [Tool/Resource], we are burning [X] in potential value monthly.",
+          "Answer & The Ask: Propose launching [Project Name], requesting [Budget] for high ROI."
         ]
       },
       "speaker_notes": {
-        "zh": "老闆好，今天提案的核心，是希望爭取一筆資源來啟動新專案。這個專案不僅能解決我們長期以來的痛點，更預期能在半年內為公司帶來具體的效能提升與成本節省。",
-        "en": "Good morning. The core of today's pitch is to secure resources to launch a new project. This initiative will not only solve our chronic pain points but is also projected to bring concrete efficiency gains and cost savings within six months."
+        "zh": "老闆好，今天的提案不是來要錢的，而是來幫公司找一個高報酬的投資機會。目前我們面臨一個流程上的瓶頸，這個瓶頸每個月都在吃掉我們的利潤。只要我們投入這筆資源，就能徹底翻轉這個劣勢。",
+        "en": "Good morning. Today's pitch isn't about spending money; it's a high-yield investment opportunity for the company. We currently face a bottleneck that is draining profits monthly. By allocating this resource, we can reverse this trend completely."
       }
     },
     {
       "slide_number": 2,
       "slide_title": {
-        "zh": "現狀痛點與隱含成本 (Current Pain Points)",
-        "en": "Current Pain Points & Hidden Costs"
+        "zh": "現狀痛點與不作為的隱含成本 (Cost of Inaction)",
+        "en": "Pain Points & The Cost of Inaction"
       },
       "bullet_points": {
         "zh": [
-          "現行流程缺陷：目前採用 [舊方法]，導致每個月浪費 [X] 小時人力",
-          "錯失的機會：因為缺乏 [新工具/新機制]，流失了潛在的成長動能",
-          "隱含風險：若維持現狀不作為，可能面臨 [合規風險 / 競爭力下降]"
+          "量化痛點 (Data Literacy)：舊流程導致單次作業耗時 [X] 小時，錯誤率高達 [X]%",
+          "隱含成本 (Hidden Costs)：維持現狀 (Status Quo) 每年將浪費公司約 [X] 的人力與重工成本",
+          "合規與競爭風險 (Risk Radar)：若不升級，未來半年恐面臨 [法規開罰/對手超越] 的風險"
         ],
         "en": [
-          "Process Flaws: Current reliance on [Old Method] wastes [X] man-hours monthly",
-          "Missed Opportunities: Lack of [New Tool/Mechanism] is draining growth momentum",
-          "Hidden Risks: Maintaining the status quo may lead to [Compliance Risks / Loss of Edge]"
+          "Quantified Pain: Legacy processes take [X] hours per task, with a high error rate of [X]%.",
+          "Hidden Costs: Maintaining the status quo will waste approx. [X] annually in labor and rework.",
+          "Competitive Risk: Inaction over the next 6 months exposes us to [Compliance/Competitor] risks."
         ]
       },
       "speaker_notes": {
-        "zh": "我們為什麼現在必須做這件事？因為維持現狀的成本其實非常高。舊有流程不僅消耗大量無謂的人力，長遠來看甚至會產生潛在的合規與競爭力風險。",
-        "en": "Why must we act now? Because the cost of doing nothing is incredibly high. The legacy process consumes massive manual effort, and long-term, it exposes us to compliance and competitive risks."
+        "zh": "在商業世界裡，『什麼都不做』往往成本最高。我們用數據算過，維持舊方法的隱含成本與重工浪費，遠遠超過我們這次提案要求的預算。更別提潛在的合規與競爭風險。",
+        "en": "In business, doing nothing often carries the highest cost. Data shows that the hidden costs and rework of the current method far exceed the budget we are requesting today, not to mention the looming compliance and competitive risks."
       }
     },
     {
       "slide_number": 3,
       "slide_title": {
-        "zh": "解決方案與具體行動 (Proposed Solution)",
-        "en": "Proposed Solution & Action Plan"
+        "zh": "解決方案與 MECE 結構化行動 (Proposed Solution)",
+        "en": "Solution & MECE Action Plan"
       },
       "bullet_points": {
         "zh": [
-          "方案架構：導入 [新系統 / 新流程 / 新供應商]，從根本解決痛點",
-          "實施階段：分為 [規劃期]、[試行期]、[全面上線期] 三階段推進",
-          "優勢分析：相較於其他替代方案，此方案具備 [最高性價比 / 最快落地]"
+          "系統面 (System)：導入 [自動化工具]，取代 [X]% 的低效人工作業",
+          "流程面 (Process)：重新設計跨部門協作 SOP，確保權責清晰、不重疊",
+          "人員面 (People)：建立專屬的激勵與查核機制，確保執行力落實"
         ],
         "en": [
-          "Solution Architecture: Implement [New System/Process/Vendor] to fix the root cause",
-          "Phased Rollout: Executed in 3 stages: [Planning], [Pilot], and [Full Launch]",
-          "Competitive Advantage: Compared to alternatives, this offers the [Best ROI / Fastest Time-to-Market]"
+          "System: Deploy [Automated Tool] to replace [X]% of inefficient manual tasks.",
+          "Process: Redesign cross-functional SOPs to ensure clear, non-overlapping accountabilities.",
+          "People: Establish specific incentive and audit mechanisms to guarantee execution."
         ]
       },
       "speaker_notes": {
-        "zh": "針對上述痛點，我們評估後提出這個解決方案。我們會採取分階段推行的策略，先在小範圍試行，確認成效後再全面展開，以將導入風險降到最低。",
-        "en": "To address these pain points, we propose this solution after thorough evaluation. We will use a phased rollout strategy, starting with a small-scale pilot to validate results before a full launch, thereby minimizing implementation risks."
+        "zh": "針對這個痛點，我們依據 MECE 原則，從『系統、流程、人員』三個不重疊的維度提出了全面性的解決方案。這不是單純買個軟體，而是一套確保能落地的完整機制。",
+        "en": "To address this, we've structured a comprehensive solution across three mutually exclusive pillars: System, Process, and People. This isn't just about buying software; it's a complete mechanism designed for successful execution."
       }
     },
     {
       "slide_number": 4,
       "slide_title": {
-        "zh": "投資回報與效益評估 (ROI & Impact)",
-        "en": "ROI & Impact Assessment"
+        "zh": "財務分析與投資報酬率 (Financials & ROI)",
+        "en": "Financial Analysis & ROI"
       },
       "bullet_points": {
         "zh": [
-          "量化效益 (Quantitative)：預計上線後 [X] 個月內即可回本 (Break-even)",
-          "質化效益 (Qualitative)：大幅提升員工滿意度、強化資料安全性",
-          "成功指標 (Metrics)：將透過追蹤 [KPI 1] 與 [KPI 2] 來驗證專案成效"
+          "預算與成本控制：專案總預算為 [金額]，並已設定嚴格的成本上限 (Cap)",
+          "投資回報 (ROI)：預估上線後 [X] 個月即可達到損益兩平 (Break-even)",
+          "長期效益 (Long-term Value)：三年內預估可為公司創造 [X] 淨利潤或成本節省"
         ],
         "en": [
-          "Quantitative Impact: Projected break-even within [X] months post-launch",
-          "Qualitative Impact: Significant boost in employee satisfaction and data security",
-          "Success Metrics: Project efficacy will be validated by tracking [KPI 1] and [KPI 2]"
+          "Budget & Cost Control: Total requested budget is [X], with a strict spending cap in place.",
+          "Return on Investment (ROI): Projected to reach break-even within [X] months post-launch.",
+          "Long-term Value: Estimated to generate [X] in net profit or savings over the next 3 years."
         ]
       },
       "speaker_notes": {
-        "zh": "從投資報酬率（ROI）來看，這個專案非常有價值。我們設定了明確的衡量指標，確保投入的每一分資源都能產生對應的商業效益。",
-        "en": "From an ROI perspective, this project is highly valuable. We have established clear metrics to ensure that every dollar invested generates a corresponding commercial return."
+        "zh": "這是主管們最關心的財務數字。我們申請的預算有嚴格的上限控制。根據保守估計，專案上線後只要幾個月就能回本，長期來看更是能為公司帶來可觀的正向現金流。",
+        "en": "Here is the financial breakdown. The requested budget is strictly capped. Based on conservative estimates, we will break even just months after launch, generating significant positive cash flow for the company long-term."
       }
     },
     {
       "slide_number": 5,
       "slide_title": {
-        "zh": "資源需求、時程與風險控制 (Resource & Mitigation)",
-        "en": "Resources, Timeline & Mitigation"
+        "zh": "風險管控與專案里程碑 (Mitigation & Milestones)",
+        "en": "Risk Mitigation & Milestones"
       },
       "bullet_points": {
         "zh": [
-          "資源需求：需跨部門支援 [部門名稱] [X] 人月，以及預算 [金額]",
-          "關鍵時程：若本週獲准，將於 [日期] 啟動，[日期] 進行期中審查",
-          "風險管控：已識別 [潛在風險]，並備妥 [替代方案] 確保專案不中斷"
+          "期望管理 (Managing Up)：我們承諾保守估計效益，但以超標交付為目標",
+          "變革與風險管控 (Change Mgmt)：針對前線抗拒心理，已規劃 [X] 階段的漸進式培訓",
+          "下一步 (Call to Action)：懇請核准預算，我們將於 [日期] 啟動，[日期] 匯報首期成果"
         ],
         "en": [
-          "Resource Requirements: Cross-functional support of [X] man-months from [Dept], plus [Budget]",
-          "Key Timeline: If approved this week, kickoff on [Date], mid-point review on [Date]",
-          "Risk Control: [Potential Risks] identified, with [Fallback Plans] ready to ensure continuity"
+          "Managing Expectations: We have modeled conservative benefits but aim to over-deliver.",
+          "Change Mgmt & Risks: To mitigate frontline resistance, a phased training rollout is planned.",
+          "Call to Action: We request budget approval today to kick off on [Date] and report initial wins by [Date]."
         ]
       },
       "speaker_notes": {
-        "zh": "為了確保專案順利落地，除了上述預算，我們也需要跨部門的協助。我們已經做好了時程規劃與風險備案，只要今天取得授權，下週就能立刻啟動。",
-        "en": "To ensure smooth implementation, we need cross-departmental assistance in addition to the budget. We have our timelines and risk fallbacks prepared. With your authorization today, we can kick off next week."
+        "zh": "我們不僅規劃了美好的藍圖，也做好了風險防禦。特別是針對人員的變革管理，我們已經安排了漸進式的培訓。萬事俱備，只要今天取得您的授權，我們下週就能啟動並在下個月展現初步成果。",
+        "en": "We haven't just painted a rosy picture; we've actively planned for risk defense, especially regarding change management and team training. Everything is ready. With your authorization today, we will launch next week and deliver initial results next month."
       }
     }
   ],
   "prompt_template": {
-    "zh": "請以繁體中文製作一份專業的『新專案提案與資源爭取 (Internal Pitch)』簡報。採用具說服力的商務提案風格。內容必須著重於：1. 痛點與不作為的隱含成本，2. 清晰的解決方案與投資報酬率 (ROI)，3. 明確的資源需求與風險管控措施。每張 Slide 不超過 3 個重點，每字不超過一行，語氣需自信、具備商業思維且強調具體效益。",
-    "en": "Please create a professional 'New Project Proposal & Internal Pitch' presentation in English. Use a highly persuasive business pitch style. Focus on: 1. Pain points and the cost of inaction, 2. Clear solution and ROI, 3. Specific resource asks and risk mitigation. Max 3 bullet points per slide, max one line per bullet. Maintain a confident, commercially-minded tone emphasizing concrete impact."
+    "zh": "請以繁體中文製作一份專業的『新專案提案與商業價值 (Pitch)』簡報。受眾為握有預算決策權的高階主管或老闆。內容需展現強大的商業思維 (Business Mindset)，著重於：1. 運用 SCQA 架構破題，2. 明確算出『不作為的隱含成本』與『專案投資報酬率 (ROI)』，3. 運用 MECE 結構呈現解決方案，4. 納入專案風險防禦與變革管理 (Change Management) 計畫。每張 Slide 不超過 3 個重點，每字不超過一行，語氣需充滿自信、數據導向且極具說服力。",
+    "en": "Please create a professional 'New Project Pitch & Business Case' presentation in English. Audience: C-Suite or Budget Decision Makers. Demonstrate strong Business Mindset by focusing on: 1. SCQA framing, 2. Quantifying the 'Cost of Inaction' and clear 'ROI', 3. Using MECE for the proposed solution, 4. Incorporating risk mitigation and Change Management. Max 3 bullet points per slide, max one line per bullet. The tone must be confident, data-driven, and highly persuasive."
   }
 }
