@@ -1,0 +1,129 @@
+{
+  "topic_id": "conflict_mediation",
+  "keywords": ["調解", "衝突", "mediation", "conflict", "協調", "爭議", "dispute", "resolution", "hr", "跨部門", "溝通"],
+  "title": {
+    "zh": "職場調解與跨部門共識建立",
+    "en": "Workplace Mediation & Cross-Functional Alignment"
+  },
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_title": {
+        "zh": "會議目的與溝通原則 (Purpose & Ground Rules)",
+        "en": "Purpose & Ground Rules"
+      },
+      "bullet_points": {
+        "zh": [
+          "會議目的：聚焦解決當前僵局，尋求雙方皆能接受的雙贏方案",
+          "中立宣告：本次會議作為中立平台，不偏袒特定立場，對事不對人",
+          "溝通原則：保持開放心態、積極聆聽，並承諾會議內容之保密性"
+        ],
+        "en": [
+          "Objective: Resolve current impasses and seek mutually acceptable win-win solutions",
+          "Neutrality: This meeting serves as a neutral platform; focusing on issues, not individuals",
+          "Ground Rules: Keep an open mind, practice active listening, and maintain confidentiality"
+        ]
+      },
+      "speaker_notes": {
+        "zh": "大家好，今天我們聚在這裡的唯一目的，是為了解決目前的協作瓶頸。在開始之前，我們必須先達成幾個共識：這是一個中立、安全且保密的空間，請大家放下情緒，專注於『如何讓事情順利推進』。",
+        "en": "Welcome everyone. Our sole purpose today is to resolve current collaboration bottlenecks. Before we begin, let's agree on some ground rules: this is a neutral, safe, and confidential space. Let's put emotions aside and focus on how to move forward."
+      }
+    },
+    {
+      "slide_number": 2,
+      "slide_title": {
+        "zh": "客觀現狀與核心爭議梳理 (Identifying the Issues)",
+        "en": "Current Situation & Core Issues"
+      },
+      "bullet_points": {
+        "zh": [
+          "現狀確認：釐清目前流程/專案卡關的客觀事實，排除主觀臆測",
+          "雙方視角：容許各方輪流陳述遇到的困難，不予打斷",
+          "界定爭議：將零散的抱怨收斂為 [X] 個具體需要解決的核心爭議點"
+        ],
+        "en": [
+          "Fact-Finding: Clarify the objective facts of the current bottleneck, eliminating subjective assumptions",
+          "Mutual Perspectives: Allow each party to state their difficulties without interruption",
+          "Defining the Gap: Consolidate scattered complaints into [X] specific core issues to resolve"
+        ]
+      },
+      "speaker_notes": {
+        "zh": "首先，讓我們先把客觀事實攤開來。請雙方輪流表達目前遇到的困難，另一個人在這段時間請先不要打斷。我們的目標是把情緒撥開，找出真正導致卡關的那幾個核心問題。",
+        "en": "First, let's lay out the objective facts. I invite each party to share the challenges they face, without interruption from the other side. Our goal is to filter out the noise and identify the specific issues causing the blockage."
+      }
+    },
+    {
+      "slide_number": 3,
+      "slide_title": {
+        "zh": "探索深層需求與共同利益 (Exploring Interests)",
+        "en": "Exploring Interests vs. Positions"
+      },
+      "bullet_points": {
+        "zh": [
+          "剝離立場：區分雙方『表面上的堅持 (Positions)』與『真正的需求 (Interests)』",
+          "發掘痛點：理解彼此在資源、時程或績效指標上的隱性壓力",
+          "尋求共通點：確認雙方共同的終極目標 (例如：公司營收、客戶滿意度)"
+        ],
+        "en": [
+          "Positions vs. Interests: Differentiate between what parties 'say they want' and 'what they actually need'",
+          "Uncovering Pain Points: Understand each other's hidden pressures regarding resources, timelines, or KPIs",
+          "Finding Common Ground: Realign on shared ultimate goals (e.g., company revenue, client satisfaction)"
+        ]
+      },
+      "speaker_notes": {
+        "zh": "很多時候我們爭執不下，是因為只看到了對方的『立場』。現在我們試著往下挖，了解大家背後真正的『考量與難處』是什麼。其實大家最終都是為了公司好，我們一定能找到共同的交集。",
+        "en": "Often, we clash because we only see each other's 'positions.' Let's dig deeper to understand the real 'concerns and constraints' driving them. Ultimately, we all want the company to succeed, and that is our common ground."
+      }
+    },
+    {
+      "slide_number": 4,
+      "slide_title": {
+        "zh": "雙贏方案腦力激盪 (Generating Options)",
+        "en": "Brainstorming Win-Win Options"
+      },
+      "bullet_points": {
+        "zh": [
+          "開放提案：鼓勵雙方提出任何可能的解決方案，初期不設限",
+          "價值交換：透過資源互換或流程妥協，滿足雙方的核心需求",
+          "可行性評估：針對選項進行篩選，評估成本、時間與執行難度"
+        ],
+        "en": [
+          "Open Brainstorming: Encourage all possible solutions without initial judgment",
+          "Value Exchange: Explore resource swapping or process compromises to meet both parties' core needs",
+          "Feasibility Check: Filter options by evaluating cost, time, and execution difficulty"
+        ]
+      },
+      "speaker_notes": {
+        "zh": "現在我們把問題變成選項。請大家自由發揮，提出任何可能的解法。也許你可以退讓一步時程，換取他多投入一些人力？我們一起從這些點子裡，挑出最可行、大家都能接受的方案。",
+        "en": "Now let's turn problems into options. Please brainstorm freely. Perhaps one side can compromise on timeline in exchange for more resources from the other? Let's filter these ideas to find the most viable, mutually acceptable solution."
+      }
+    },
+    {
+      "slide_number": 5,
+      "slide_title": {
+        "zh": "共識確認與行動計畫 (Agreement & Action Plan)",
+        "en": "Agreement & Action Plan"
+      },
+      "bullet_points": {
+        "zh": [
+          "確認共識：總結雙方同意的最終方案，確保認知完全一致",
+          "行動指派：確立具體的 SMART 行動計畫 (Who, What, When)",
+          "後續跟進：排定下次檢視進度的時間點 (Check-in)，確保承諾落實"
+        ],
+        "en": [
+          "Finalizing Consensus: Summarize the agreed-upon solution to ensure total alignment",
+          "SMART Action Plan: Establish specific next steps (Who does What by When)",
+          "Follow-up Mechanism: Schedule a check-in meeting to ensure commitments are being met"
+        ]
+      },
+      "speaker_notes": {
+        "zh": "太好了，我們今天達成了共識。為了確保這個共識能落地，我們把剛剛講的方案變成具體的行動清單：誰、在什麼時候、要完成什麼事。下週同一時間我們再花 15 分鐘對焦進度。",
+        "en": "Excellent, we've reached a consensus today. To ensure this doesn't stay just on paper, let's translate it into a concrete action plan: who is doing what, by when. We'll do a quick 15-minute check-in at this same time next week."
+      }
+    }
+  ],
+  "prompt_template": {
+    "zh": "請以繁體中文製作一份專業的『職場調解與跨部門共識建立』簡報。受眾為面臨協作瓶頸的跨部門團隊或主管。內容必須遵循專業調解邏輯：1. 建立中立與客觀原則，2. 區分『立場(Positions)』與『需求(Interests)』，3. 引導雙贏方案並產出具體行動清單。每張 Slide 不超過 3 個重點，每字不超過一行，語氣需具備同理心、中立且著重於解決問題。",
+    "en": "Please create a professional 'Workplace Mediation & Cross-Functional Alignment' presentation in English. The audience consists of cross-functional teams or managers facing collaboration bottlenecks. Strictly follow professional mediation logic: 1. Establish neutrality and objective facts, 2. Separate 'Positions' from 'Interests', 3. Facilitate win-win options and yield a concrete action plan. Max 3 bullet points per slide, max one line per bullet. The tone must be empathetic, neutral, and solution-focused."
+  }
+}
