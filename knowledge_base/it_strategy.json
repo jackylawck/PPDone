@@ -1,0 +1,129 @@
+{
+  "topic_id": "it_strategy",
+  "keywords": ["資訊科技", "it", "數位轉型", "digital transformation", "cio", "cto", "資安", "cybersecurity", "雲端", "cloud", "架構", "tech debt", "技術債", "系統"],
+  "title": {
+    "zh": "企業 IT 戰略與數位轉型匯報 (CIO/CTO 商業視角)",
+    "en": "Enterprise IT Strategy & Digital Transformation (CIO/CTO-Level)"
+  },
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_title": {
+        "zh": "商業戰略與 IT 賦能 (Business-IT Alignment & SCQA)",
+        "en": "Business-IT Alignment & Strategic Ask (SCQA)"
+      },
+      "bullet_points": {
+        "zh": [
+          "情境 (Situation)：公司正朝向 [數位化/全通路/AI 創新] 的年度戰略邁進，業務端需求呈現爆發性成長",
+          "衝突 (Complication)：然而，僵化的 IT 舊架構與「技術債」正嚴重拖慢產品上市時間 (Time-to-Market)",
+          "戰略訴求 (The Ask)：IT 必須從「支援單位」轉型為「業務增長引擎」，懇請核准 [X 預算] 啟動數位轉型基礎建設"
+        ],
+        "en": [
+          "Situation: The company is driving towards a [Digital/Omnichannel/AI] strategy with explosive business demands.",
+          "Complication: However, rigid legacy IT architecture and accumulating 'Technical Debt' are severely throttling our Time-to-Market (TTM).",
+          "The Ask: IT must pivot from a 'Cost Center' to a 'Growth Engine'. Requesting [X Budget] to launch our digital transformation infrastructure."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "各位長官，IT 部門的存在不是為了維護機器，而是為了實現公司的商業戰略。目前業務部門想跑得快，但我們底層的舊系統卻像掛著鉛球。今天的提案，是為了打通這層技術瓶頸，讓 IT 真正成為推動營收增長的數位引擎，而非絆腳石。",
+        "en": "Executives, the IT department exists not to maintain servers, but to execute the company's business strategy. Business units want to sprint, but our legacy systems are dragging them down like lead weights. Today's pitch is about breaking this technical bottleneck, transforming IT from a roadblock into a digital growth engine."
+      }
+    },
+    {
+      "slide_number": 2,
+      "slide_title": {
+        "zh": "技術債盤點與隱含成本 (Technical Debt & Cost of Inaction)",
+        "en": "Technical Debt Assessment & Cost of Inaction (COI)"
+      },
+      "bullet_points": {
+        "zh": [
+          "技術債盤點 (Tech Debt)：現有 [舊系統名稱] 程式碼過時且缺乏 API 彈性，導致 [X]% 的 IT 資源皆消耗於日常維運 (KTLO)",
+          "不作為成本 (Cost of Inaction)：若維持現狀，高昂的維護成本與系統當機風險，將在未來一年吃掉 [X] 的淨利潤",
+          "營運風險 (Ops Risk)：系統不僅面臨供應商終止支援 (End-of-Life) 風險，更嚴重阻礙了我們導入 AI 等新技術的進程"
+        ],
+        "en": [
+          "Tech Debt Assessment: Legacy [System Name] lacks API agility, draining [X]% of IT resources just to 'Keep The Lights On' (KTLO).",
+          "Cost of Inaction (COI): Maintaining the status quo will bleed [X] in net profit next year due to spiraling maintenance costs and downtime risks.",
+          "Operational Risk: Beyond End-of-Life (EOL) vendor risks, these legacy silos physically block us from adopting new tech like AI."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "我們必須正視『技術債』這個隱形的財務黑洞。目前我們 IT 團隊有極大比例的精力，都浪費在『維持舊系統不要崩潰 (Keep The Lights On)』。這不僅是維運成本的浪費，更可怕的不作為成本是：當競爭對手已經在用 AI 武裝自己時，我們連資料都還倒不出來。",
+        "en": "We must confront the invisible financial black hole of 'Technical Debt'. A massive portion of our IT bandwidth is currently wasted just 'Keeping The Lights On' (KTLO) for legacy systems. Beyond wasted maintenance OpEx, the terrifying cost of inaction is this: while competitors arm themselves with AI, we can't even extract our own data."
+      }
+    },
+    {
+      "slide_number": 3,
+      "slide_title": {
+        "zh": "企業架構現代化與雲端戰略 (Cloud & Modern Architecture)",
+        "en": "Architecture Modernization & Cloud Strategy"
+      },
+      "bullet_points": {
+        "zh": [
+          "雲端原生 (Cloud-Native)：啟動核心系統上雲，將固定資產投資 (CapEx) 轉化為依需付費的營運支出 (OpEx)",
+          "敏捷與微服務 (Agile & Microservices)：導入可組裝式架構 (Composable Architecture)，讓新功能開發週期從「月」縮短為「週」",
+          "AI 準備度 (AI Readiness)：建立統一的數據湖 (Data Lake) 與 API 閘道，為全公司的 AI 應用打下穩固的底層根基"
+        ],
+        "en": [
+          "Cloud-Native Shift: Migrating core systems to the Cloud, shifting rigid CapEx into flexible, pay-as-you-go OpEx.",
+          "Microservices Agility: Deploying a Composable Architecture to slash new feature development cycles from 'months' to 'weeks'.",
+          "AI Readiness: Establishing a unified Data Lake and API gateways, laying the foundational plumbing for enterprise-wide AI adoption."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "為了解決技術債，我們的解方是『架構現代化』。這不是單純的設備升級，而是戰略轉型：透過上雲，我們將僵硬的資本支出轉為靈活的營運支出。透過微服務架構，我們能讓業務端的產品以前所未有的速度推向市場。同時，這也為未來的 AI 戰略做好了底層準備。",
+        "en": "To pay down this tech debt, our solution is 'Architecture Modernization'. This isn't a hardware upgrade; it's a strategic pivot. By moving to the cloud, we shift rigid CapEx to flexible OpEx. Through microservices, we empower the business to launch products at unprecedented speeds. Simultaneously, this lays the required groundwork for our AI strategy."
+      }
+    },
+    {
+      "slide_number": 4,
+      "slide_title": {
+        "zh": "零信任資安與企業韌性 (Zero Trust & Business Resilience)",
+        "en": "Zero Trust Cybersecurity & Business Resilience"
+      },
+      "bullet_points": {
+        "zh": [
+          "威脅升級 (Threat Landscape)：面對勒索軟體與內部威脅，傳統的「邊界防禦」已徹底失效",
+          "零信任架構 (Zero Trust)：全面導入「永不信任，始終驗證」機制，實施多因素認證 (MFA) 與最小權限原則",
+          "韌性 ROI (ROI of Resilience)：資安不再是單純的成本，而是確保營運不中斷、守護品牌信任度的終極商業護城河"
+        ],
+        "en": [
+          "Threat Landscape: Against modern ransomware and insider threats, traditional 'perimeter defense' is obsolete.",
+          "Zero Trust Architecture: Deploying a 'Never Trust, Always Verify' model, enforcing MFA and the Principle of Least Privilege.",
+          "ROI of Resilience: Cybersecurity is no longer a sunk cost; it is the ultimate business moat ensuring zero downtime and protecting brand trust."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "系統跑得快，還要跑得安全。傳統像城堡一樣的防火牆已經無法抵禦現代駭客。我們將全面導入『零信任 (Zero Trust)』架構。請董事會理解，資安預算不是買保險，它是確保我們在遭遇攻擊時，營運依然不中斷的『企業韌性』投資。",
+        "en": "Speed is useless without safety. Traditional castle-and-moat firewalls cannot stop modern hackers. We are implementing a comprehensive 'Zero Trust' architecture. The Board must recognize that cybersecurity budgets aren't just insurance policies; they are investments in 'Business Resilience' to ensure zero downtime even under attack."
+      }
+    },
+    {
+      "slide_number": 5,
+      "slide_title": {
+        "zh": "IT 投資回報與 90 天落地藍圖 (IT ROI & 90-Day Roadmap)",
+        "en": "IT Investment ROI & 90-Day Execution Roadmap"
+      },
+      "bullet_points": {
+        "zh": [
+          "商業 ROI (Business ROI)：系統現代化預計將提升 [X]% 的維運效率，並縮短 [X]% 的新產品上市時間",
+          "90 天里程碑 (First 90 Days)：前 30 天完成架構藍圖設計與資安盤點，90 天內完成首波非核心系統上雲 (Quick Wins)",
+          "決策訴求 (Call to Action)：懇請核准 [X 金額] 的數位轉型專案預算，讓我們為公司打造能應對未來 5 年競爭的數位大腦"
+        ],
+        "en": [
+          "Business ROI: Modernization is projected to boost operational efficiency by [X]% and accelerate Time-to-Market by [X]%.",
+          "90-Day Milestones: Architecture blueprint & security audit in 30 days; migrating initial non-core workloads to the cloud within 90 days (Quick Wins).",
+          "Call to Action: Requesting [X Amount] in digital transformation funding to build the digital brain that will power our competitiveness for the next 5 years."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "最後，這是我們的投資回報與執行計畫。我們承諾這筆投資將直接反映在業務端的『效率提升』與『上市時間縮短』。前 90 天我們不畫大餅，會先透過搬遷非核心系統來獲取快速勝利 (Quick Wins)。懇請長官核准預算，讓 IT 成為公司最強的數位後盾。",
+        "en": "Finally, here is our ROI and execution roadmap. We commit that this investment will directly translate to 'increased efficiency' and 'faster time-to-market' for the business. In the first 90 days, we focus on Quick Wins by migrating non-core systems. We respectfully request budget approval to make IT the company's strongest digital backbone."
+      }
+    }
+  ],
+  "prompt_template": {
+    "zh": "請以繁體中文製作一份大師級的『企業 IT 戰略與數位轉型』簡報。受眾為 CEO 或董事會。內容必須展現 CIO/CTO 的頂尖商業思維，嚴禁堆砌生硬的程式碼或底層技術細節。著重於：1. 運用 SCQA 架構將 IT 目標與『商業戰略 (Business Alignment)』緊密綁定，2. 量化『技術債 (Technical Debt)』與『不作為成本 (COI)』，3. 提出雲端原生、微服務架構與 AI 準備度 (AI Readiness) 作為解決方案，4. 將資安防護升級為『零信任 (Zero Trust)』與『企業韌性 (Business Resilience)』的戰略高度，5. 結尾必須給出 90 天落地藍圖 (Quick Wins) 與具備明確商業 ROI 的預算請求。每張 Slide 不超過 3 個重點，語氣需具備高度的技術權威感、商業敏銳度與推動全公司轉型的魄力。",
+    "en": "Please create a master-class 'Enterprise IT Strategy & Digital Transformation' presentation in English. Audience: CEO or Board of Directors. Demonstrate elite CIO/CTO business acumen; strictly avoid dense coding or low-level technical jargon. Focus on: 1. Using SCQA to align IT goals tightly with 'Business Strategy'. 2. Quantifying 'Technical Debt' and the 'Cost of Inaction (COI)'. 3. Proposing Cloud-Native, Microservices, and AI Readiness as the solution architecture. 4. Elevating cybersecurity to 'Zero Trust' and 'Business Resilience'. 5. Concluding with a 90-day execution roadmap (Quick Wins) and a specific budget ask tied to clear business ROI. Max 3 bullet points per slide. The tone must combine technical authority, commercial sharpness, and the bold leadership required to drive enterprise-wide transformation."
+  }
+}
