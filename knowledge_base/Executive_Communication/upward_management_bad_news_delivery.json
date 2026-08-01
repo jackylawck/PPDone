@@ -1,0 +1,129 @@
+{
+  "topic_id": "upward_management_bad_news_delivery",
+  "keywords": ["向上管理", "managing up", "壞消息", "bad news", "危機通報", "root cause analysis", "rca", "極限當責", "extreme ownership", "停損", "pivot", "覆盤", "post-mortem", "中階主管", "匯報"],
+  "title": {
+    "zh": "向上管理：壞消息匯報與危機停損戰略 (部門主管/專案負責人 視角)",
+    "en": "Managing Up: Bad News Delivery & Damage Control (Director/Project Lead)"
+  },
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_title": {
+        "zh": "危機現狀與極限當責 (SCQA & Extreme Ownership)",
+        "en": "Crisis Reality & Extreme Ownership (SCQA)"
+      },
+      "bullet_points": {
+        "zh": [
+          "情境 (Situation)：本部門負責的 [關鍵專案/業績目標] 在本季度遭遇重大挫折，目前的進度落後 [X]%，或已產生 [X 萬] 的實質虧損",
+          "衝突 (Complication)：若試圖掩蓋或用「外部因素」作為藉口，將導致公司錯失最佳的停損時機，引發更大規模的系統性災難與財務黑洞",
+          "戰略訴求 (The Ask)：本人身為最高負責人，承擔 100% 的極限當責 (Extreme Ownership)。今日匯報旨在釐清損害半徑，並向高層提出具體的「停損與戰略轉向 (Pivot)」計畫"
+        ],
+        "en": [
+          "Situation: The [Critical Project/Revenue Target] managed by my department has suffered a severe setback this quarter, currently trailing metrics by [X]% or generating a [$X] realized loss.",
+          "Complication: Attempting to obfuscate this reality or blame 'macro factors' will cause the enterprise to miss the optimal stop-loss window, accelerating a systemic financial or operational disaster.",
+          "The Ask: As the Lead, I take 100% Extreme Ownership of this failure. Today's mandate is to define the exact blast radius and present a concrete 'Stop-Loss and Pivot' strategy for executive approval."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "老闆，今天的會議沒有好消息。我們負責的關鍵專案徹底失敗了（或業績未達標）。我今天站在這裡，不是來找藉口，也不是來怪罪供應商或大環境。身為主管，我扛下 100% 的責任 (Extreme Ownership)。我們已經將問題控制住，接下來的 15 分鐘，我將向您如實報告到底哪裡出了錯，以及我們立刻要採取的補救與轉向措施。",
+        "en": "Executive Team, there is no good news in today's briefing. Our critical mandate has failed (or missed targets). I am not here to offer excuses, nor will I blame vendors or macroeconomic headwinds. As the leader, I take 100% Extreme Ownership of this failure. We have contained the immediate bleeding. Over the next 15 minutes, I will transparently detail exactly what broke in our system and the immediate Pivot strategy we must execute."
+      }
+    },
+    {
+      "slide_number": 2,
+      "slide_title": {
+        "zh": "損害控制與爆炸半徑 (Damage Control & Blast Radius)",
+        "en": "Damage Control & Defining the Blast Radius"
+      },
+      "bullet_points": {
+        "zh": [
+          "止血行動 (Immediate Bleeding Control)：在過去 48 小時內，我們已啟動緊急應變機制，凍結了 [X] 項高風險支出，確保虧損不會繼續擴大",
+          "爆炸半徑 (The Blast Radius)：精準匡列本次失敗的影響範圍。確認此事僅影響 [A 業務線]，並未對公司的核心現金流、頂級大客戶 (Tier-1) 或法規合規性造成蔓延",
+          "資訊透明 (Information Transparency)：已同步知會受牽連的 [IT/法務/行銷] 平行部門，確保跨部門利害關係人皆掌握最新狀況，消除資訊黑箱"
+        ],
+        "en": [
+          "Immediate Bleeding Control: Over the past 48 hours, we triggered emergency protocols, freezing [X] high-risk CapEx lines to mathematically cap the financial hemorrhage.",
+          "The Blast Radius: Surgically defining the impact zone. We confirm this failure is isolated to [Business Line A] and has not contaminated core enterprise cash flow, Tier-1 clients, or statutory compliance.",
+          "Information Transparency: We have proactively briefed lateral departments [IT/Legal/Marketing] exposed to this friction, ensuring zero informational black boxes across the matrix."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "在報告壞消息時，老闆最怕的是『這把火會燒多大？』。請各位放心，我們已經第一時間『止血』。我立刻凍結了相關的行銷預算，確保虧損不會再增加。我們也盤點了『爆炸半徑』：這次的失敗僅限於單一產品線，絕對沒有波及到我們的前十大客戶，也沒有碰到法務合規的紅線。同時，我也已經親自跟其他部門主管調解與通報過，沒有人會被突襲。",
+        "en": "When hearing bad news, the C-Suite's immediate fear is contagion: 'How far will this spread?' Rest assured, we have applied the tourniquet. I immediately froze associated CapEx to cap the losses. We have rigorously audited the 'Blast Radius': this failure is strictly isolated to a single product line. It has not breached our Top-10 client accounts, nor has it triggered any legal compliance tripwires. Furthermore, I have personally briefed all lateral department heads; there will be zero cross-silo surprises."
+      }
+    },
+    {
+      "slide_number": 3,
+      "slide_title": {
+        "zh": "無責備根因分析 (Blameless Root Cause Analysis)",
+        "en": "Blameless Root Cause Analysis (RCA)"
+      },
+      "bullet_points": {
+        "zh": [
+          "對事不對人 (Process over People)：拒絕獵巫。我們探討的是「為什麼流程允許這個錯誤發生」，而不是「是哪個員工按錯了按鈕」",
+          "五個為什麼 (The 5 Whys)：透過深度挖掘，發現表面的「供應商延遲」其實源自於我們內部「缺乏供應鏈備援機制的系統性缺陷」",
+          "認知偏誤檢討 (Cognitive De-biasing)：坦承在專案初期，管理層陷入了「過度自信 (Overconfidence)」與「規劃謬誤」，嚴重低估了技術落地的複雜度"
+        ],
+        "en": [
+          "Process over People: Banning witch-hunts. The inquiry is strictly focused on 'why our system architecture permitted this failure,' not 'which junior employee pushed the wrong button.'",
+          "The 5 Whys: Penetrating surface symptoms. What appeared as 'Vendor Delay' was fundamentally caused by our own systemic failure to architect 'Redundant Supply Chain Safeguards.'",
+          "Cognitive De-biasing: Transparently admitting that during initiation, leadership succumbed to 'Overconfidence Bias' and 'Planning Fallacy,' severely underestimating integration complexity."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "這不是一場批鬥大會，而是一場『無責備驗屍 (Blameless Post-mortem)』。如果我們只開除一個犯錯的員工，明天還會有別人犯同樣的錯。我們用了『5 Whys (五個為什麼)』追根究底，發現根本原因不是供應商爛，而是我們的採購系統沒有設計『備援機制 (Redundancy)』。我也必須坦承，身為主管，我在初期犯了『過度自信』的認知偏誤，這是我的決策失誤，我學到了深刻的教訓。",
+        "en": "This is not a witch-hunt; this is a 'Blameless Post-mortem.' Firing a scapegoat guarantees someone else makes the same mistake tomorrow. Deploying the '5 Whys,' we discovered the root cause was not a 'bad vendor,' but our own systemic failure to engineer redundancy into the procurement protocol. I must also transparently admit that as the leader, I fell victim to 'Overconfidence Bias' during scoping. That is my strategic misjudgment, and the lesson has been violently learned."
+      }
+    },
+    {
+      "slide_number": 4,
+      "slide_title": {
+        "zh": "戰略轉向與修復計畫 (The Pivot & Recovery Strategy)",
+        "en": "The Pivot & Tactical Recovery Strategy"
+      },
+      "bullet_points": {
+        "zh": [
+          "敏捷轉向 (The Strategic Pivot)：果斷放棄原先無效的 [A 計畫]，利用已回收的殘餘數據與資源，立刻將重心轉向具備更高成功率的 [B 計畫 (MVP)]",
+          "系統性修補 (Systemic Patching)：修改 SOP，將「強制性紅軍兵推 (Red Teaming)」與「自動化警報機制」正式寫入未來的專案啟動流程，防止悲劇重演",
+          "資源重分配 (Zero-Based Reallocation)：不向老闆要求額外資金來填補黑洞。我們將主動裁撤部門內 [X] 項低效益專案，自行籌措修復所需的預算"
+        ],
+        "en": [
+          "The Strategic Pivot: Decisively sunsetting the failed [Plan A]. Salvaging the remaining data and pivoting all residual momentum into a higher-probability [Plan B / MVP].",
+          "Systemic Patching: Rewriting operational SOPs. Hard-coding mandatory 'Red Team War-gaming' and 'Automated Telemetry Alerts' into all future project initiations to permanently immunize the enterprise.",
+          "Zero-Based Reallocation: We are not asking the C-Suite for a bailout. We are proactively cannibalizing [X] low-yield internal projects to self-fund our own recovery operations."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "沉沒成本不是成本。我們已經果斷砍掉了失敗的 A 計畫，並把剩下的資源全部『轉向 (Pivot)』到 B 計畫。為了保證這種事不再發生，我們已經修改了 SOP，未來所有專案都必須強制經過防撞測試。最重要的是，我今天不是來要錢收拾爛攤子的。我已經主動停掉了部門裡兩個不賺錢的案子，把預算挪過來補這個洞。我們自己闖的禍，我們自己出錢修。",
+        "en": "Sunk costs are irrelevant. We have ruthlessly sunsetted Plan A and are pivoting all remaining resources into a highly viable Plan B. To guarantee this never happens again, we have patched the SOP; no future initiative launches without surviving a Red Team crash-test. Most importantly, I am not here to beg for a financial bailout. I have proactively killed two low-yield internal projects to reallocate their budgets and self-fund this recovery. We broke it; we are paying to fix it."
+      }
+    },
+    {
+      "slide_number": 5,
+      "slide_title": {
+        "zh": "重設基準與決策訴求 (Re-baselining & Executive Ask)",
+        "en": "Re-baselining & The Executive Ask"
+      },
+      "bullet_points": {
+        "zh": [
+          "重設目標 (Re-baselining KPIs)：基於現實，懇請高層同意將本季度的 KPI 基準下修 [X]%，讓我們能專注於系統重建而非追趕不可能的幻影數字",
+          "30 天對賭承諾 (30-Day Recovery Pledge)：承諾在 30 天內完成 [B 計畫] 的上線與系統除錯，並每週五向 C-Suite 提交透明的復甦儀表板 (Recovery Dashboard)",
+          "決策訴求 (Call to Action)：請 CEO/CFO 批准本次的「停損與轉向計畫」，並給予團隊從失敗中學習與重生的心理安全感空間"
+        ],
+        "en": [
+          "Re-baselining KPIs: Based on empirical reality, requesting C-Suite authorization to re-baseline (revise down) this quarter's KPI by [X]%, allowing the team to focus on structural rebuilding rather than chasing a mathematically impossible phantom target.",
+          "30-Day Recovery Pledge: Pledging to execute the [Plan B] Go-Live within 30 days, delivering a transparent 'Recovery Dashboard' directly to the C-Suite every Friday at 17:00.",
+          "Call to Action: Requesting formal CEO/CFO approval for this 'Stop-Loss and Pivot' mandate, and asking for the psychological safety bandwidth required for the team to execute this turnaround."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "最後，這是我的具體訴求。因為這次的重創，原本的 Q3 目標已經在數學上不可能達成了。我懇請老闆『重設基準 (Re-baseline)』，把 KPI 下修 15%。這不是在討拍，而是為了讓團隊能專心重建系統，而不是為了追假數字而造假。如果您今天核准這個轉向計畫，我承諾 30 天內，我會把新的 B 計畫順利推上線，並每週親自向您匯報復原進度。請給我們一次從地獄爬回來的機會。",
+        "en": "Finally, my specific Ask. Due to this impact, our original Q3 target is mathematically unattainable. I formally request a 'Re-baselining,' adjusting the KPI downward by 15%. This is not seeking a free pass; it ensures the team focuses on structural rebuilding rather than manipulating data to chase a phantom metric. If you authorize this Pivot today, I pledge that Plan B will be live in 30 days, and you will receive a personal recovery briefing from me every Friday. Give us the mandate to climb out of this crater."
+      }
+    }
+  ],
+  "prompt_template": {
+    "zh": "請以繁體中文製作一份大師級的『向上管理：壞消息匯報與危機停損』簡報。受眾為對績效要求極高的 CEO 或 CFO。內容必須展現中高階主管 (Director/PM) 在面對失敗時的『極限當責 (Extreme Ownership)』與危機處理能力：1. 運用 SCQA 坦承失敗，拒絕推諉，2. 明確界定『損害半徑』，證明危機已被妥善封鎖 (Ring-fenced)，3. 進行『無責備根因分析 (Blameless RCA)』，將問題從『人為錯誤』拉高到『系統性缺陷』的視角，4. 展現果斷的戰略轉向 (Pivot)，並透過『零基資源重分配』自行籌措修復預算，絕不向高層討要救贖金，5. 結尾給出務實的 30 天修復承諾，並有理有據地要求高層『重設 KPI 基準 (Re-baselining)』。每張 Slide 不超過 3 個重點，語氣需極度誠懇、冷靜客觀、充滿擔當且展現絕地反攻的韌性。",
+    "en": "Please create a master-class 'Managing Up: Bad News Delivery & Damage Control' presentation in English. Audience: High-demanding CEO or CFO. Demonstrate the 'Extreme Ownership' and crisis-management grit of a Tier-1 Director/PM: 1. Use SCQA to transparently admit failure without excuses. 2. Define the 'Blast Radius,' proving the contagion has been mathematically ring-fenced. 3. Execute a 'Blameless RCA (Root Cause Analysis),' elevating the diagnosis from 'human error' to 'systemic architectural flaws.' 4. Pitch a decisive Strategic Pivot, utilizing 'Zero-Based Reallocation' to self-fund the recovery without begging for an executive bailout. 5. Conclude with a rigorous 30-Day Recovery Pledge and a highly empirical request to 'Re-baseline' the current KPIs. Max 3 bullet points per slide. The tone must project uncompromising integrity, clinical objectivity, extreme accountability, and the resilience of a turnaround leader."
+  }
+}
