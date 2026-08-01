@@ -1,0 +1,129 @@
+{
+  "topic_id": "iso42001_governance",
+  "keywords": ["iso 42001", "iso42001", "ai governance", "ai 治理", "合規", "compliance", "aigp", "人工智慧管理", "ai risk", "董事會", "board", "風險管理", "EU AI Act", "PDCA"],
+  "title": {
+    "zh": "ISO 42001 企業級 AI 治理與合規戰略 (董事會決策版)",
+    "en": "ISO 42001 Enterprise AI Governance & Compliance (Board-Level Strategy)"
+  },
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_title": {
+        "zh": "商業脈絡與戰略訴求 (SCQA & Strategic Ask)",
+        "en": "Business Context & Strategic Ask (SCQA)"
+      },
+      "bullet_points": {
+        "zh": [
+          "情境 (Situation)：AI 已成為驅動營收的戰略資產，但各部門「影子 AI (Shadow AI)」正游離於監管之外",
+          "衝突 (Complication)：面對《歐盟 AI 法案》等全球監管海嘯，缺乏標準化護欄將引發災難性合規與資安風險",
+          "訴求 (The Ask)：全面導入 ISO 42001 建立 AI 管理系統 (AIMS)，懇請董事會授權並成立跨部門治理委員會"
+        ],
+        "en": [
+          "Situation: AI is now a revenue-driving strategic asset, but departmental 'Shadow AI' operates outside regulatory oversight.",
+          "Complication: Amidst global regulatory tsunamis like the EU AI Act, lacking standardized guardrails invites catastrophic compliance risks.",
+          "The Ask: Implement an ISO 42001 AI Management System (AIMS). Requesting Board mandate to form a cross-functional Governance Committee."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "各位董事好。擁抱 AI 是維持競爭力的必然選擇，但目前各部門自發性的「影子 AI」應用，已讓公司暴露在極大的合規盲區中。今天的提案，是為了在創新與風險之間建立護欄，透過導入 ISO 42001，確保我們的 AI 應用不僅能極大化商業價值，更能合法、安全且可控。",
+        "en": "Members of the Board, embracing AI is essential for competitiveness, but unregulated 'Shadow AI' exposes us to severe compliance blind spots. Today's proposal establishes firm guardrails between innovation and risk via ISO 42001, ensuring our AI initiatives maximize business value while remaining lawful, safe, and governed."
+      }
+    },
+    {
+      "slide_number": 2,
+      "slide_title": {
+        "zh": "風險導向思維與不作為成本 (Risk-based Thinking & COI)",
+        "en": "Risk-based Thinking & Cost of Inaction (COI)"
+      },
+      "bullet_points": {
+        "zh": [
+          "法規與商譽風險：違規將面臨全球性鉅額罰款，且 AI 幻覺 (Hallucination) 與偏見將重挫品牌信任",
+          "生命週期風險 (AI Lifecycle)：從資料訓練到部署，全面盤點並量化資料毒化、模型漂移 (Model Drift) 等新興威脅",
+          "防禦 ROI (Cost of Inaction)：將合規視為「業務賦能工具」，以極低的建置成本對沖千萬等級的潛在損失"
+        ],
+        "en": [
+          "Regulatory & Reputational Risk: Breaching AI laws leads to massive fines, while AI Hallucinations and bias shatter brand trust.",
+          "AI Lifecycle Risks: Quantifying emerging threats from data poisoning to Model Drift across the entire AI pipeline.",
+          "Defensive ROI (COI): Treating compliance as a 'business enabler'—using a fraction of the cost to hedge against multi-million-dollar potential losses."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "我們採用 ISO 的核心『風險導向思維』來檢視現狀。在 AI 的生命週期中，從資料污染到模型漂移都充滿地雷。不作為的隱含成本 (Cost of Inaction) 極高；相比之下，投資合規治理的 ROI 是非常明確的，它是保護公司核心資產與商譽的最有效防線。",
+        "en": "We apply ISO's core 'Risk-based Thinking' to our current state. The AI lifecycle is fraught with landmines, from data poisoning to model drift. The Cost of Inaction is astronomical. In contrast, the ROI of investing in governance is definitive; it is the most robust defense for our corporate assets and reputation."
+      }
+    },
+    {
+      "slide_number": 3,
+      "slide_title": {
+        "zh": "MECE 治理框架與控制落地 (PDCA Governance Controls)",
+        "en": "MECE Governance Controls (The PDCA Framework)"
+      },
+      "bullet_points": {
+        "zh": [
+          "政策與評估 (Plan)：強制執行 AI 衝擊評估 (AIIA)，界定可容許的風險胃納 (Risk Appetite) 與資料分級",
+          "技術與防護 (Do)：針對高風險模型，強制嵌入「人類監督 (Human-in-the-loop)」與演算法透明度機制",
+          "人員與當責 (People)：融合現有 ISO 27001 資安框架，建立涵蓋法務、IT 與業務的 RACI 當責矩陣"
+        ],
+        "en": [
+          "Policy & Assessment (Plan): Mandate AI Impact Assessments (AIIA) to define acceptable Risk Appetite and data classifications.",
+          "Tech & Safeguards (Do): Embed 'Human-in-the-loop' oversight and algorithmic transparency mechanisms for high-risk models.",
+          "Accountability (People): Integrate with existing ISO 27001 frameworks, establishing a robust RACI matrix across Legal, IT, and Business."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "針對風險，我們設計了不重疊、不遺漏 (MECE) 的控制措施。首先，所有 AI 專案上線前都必須通過『AI 衝擊評估 (AIIA)』。系統面上，我們對高風險 AI 強制要求人類介入監督。最重要的是，我們將 AI 治理與現有的資安體系無縫融合，確立絕對的當責機制。",
+        "en": "To mitigate risks, we've designed MECE controls. First, all AI initiatives must pass an AI Impact Assessment (AIIA) before launch. Technologically, we mandate 'Human-in-the-loop' oversight for high-risk AI. Most importantly, we are seamlessly integrating AI governance with our existing InfoSec frameworks to guarantee strict accountability."
+      }
+    },
+    {
+      "slide_number": 4,
+      "slide_title": {
+        "zh": "持續改善與內部稽核 (Check & Act: Continuous Improvement)",
+        "en": "Check & Act: Internal Audit & Continuous Improvement"
+      },
+      "bullet_points": {
+        "zh": [
+          "績效監控 (Check)：設立關鍵風險指標 (KRI)，即時監測模型公平性、穩健性與資安事件通報時效",
+          "稽核與認證 (Audit)：啟動 ISO 42001 落差分析 (Gap Analysis)，目標於 [X] 季度取得國際第三方驗證",
+          "動態演進 (Act)：隨 AI 技術迭代與法規更新，動態調整治理框架，徹底落實 PDCA 循環精神"
+        ],
+        "en": [
+          "Performance Monitoring (Check): Establish Key Risk Indicators (KRIs) for real-time monitoring of model fairness, robustness, and incident response.",
+          "Audit & Certification (Audit): Launch ISO 42001 Gap Analysis, targeting global third-party certification by Quarter [X].",
+          "Dynamic Evolution (Act): Continuously adapt the governance framework to evolving AI tech and laws, fulfilling the true PDCA spirit."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "治理不是一次性專案，而是持續的 PDCA 循環。我們設定了量化的風險指標 (KRI)，並準備在近期進行嚴格的落差分析，最終目標是取得 ISO 42001 國際認證。由於 AI 技術與法規變動極快，我們的系統將保持敏捷，隨時動態調整。",
+        "en": "Governance is not a one-off project but a continuous PDCA cycle. We have established quantitative KRIs and are launching a rigorous gap analysis shortly, with the ultimate goal of ISO 42001 certification. Given the rapid evolution of AI and regulations, our system will remain highly agile and dynamically adaptable."
+      }
+    },
+    {
+      "slide_number": 5,
+      "slide_title": {
+        "zh": "負責任 AI 文化與決策訴求 (Responsible AI Culture & Next Steps)",
+        "en": "Responsible AI Culture & The Strategic Ask"
+      },
+      "bullet_points": {
+        "zh": [
+          "人員賦能 (Change Mgmt)：推動企業級 AI 素養培訓，引導員工在「安全護欄」內進行負責任的創新",
+          "降危機制 (De-risking)：第一階段僅鎖定「高風險/高價值」AI 應用納管，避免扼殺初期創新動能",
+          "資本授權 (Call to Action)：懇請核准 Phase 1 預算，以啟動外部顧問輔導與合規系統建置"
+        ],
+        "en": [
+          "People Empowerment (Change Mgmt): Drive enterprise AI literacy training, empowering employees to innovate responsibly within safe guardrails.",
+          "De-risking Strategy: Phase 1 strictly targets the regulation of 'High-Risk/High-Value' AI apps, avoiding stifling early-stage innovation.",
+          "Capital Authorization (Call to Action): Respectfully request approval for the Phase 1 budget to initiate external consulting and system setup."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "最終，落實治理的關鍵在於建立『負責任的 AI 文化』。為了避免新法規扼殺創新，我們第一階段會採取降危策略，只針對最高風險的 AI 系統進行強力納管。如果各位董事認同這個『在安全中求增長』的方向，希望能取得正式的授權與第一階段預算。",
+        "en": "Ultimately, the key to execution is building a 'Responsible AI Culture'. To avoid stifling innovation, our Phase 1 de-risking strategy will strictly corral only the highest-risk AI systems. If the Board aligns with this vision of 'secure, scalable growth,' we respectfully request formal authorization and Phase 1 budget."
+      }
+    }
+  ],
+  "prompt_template": {
+    "zh": "請以繁體中文製作一份大師級的『ISO 42001 AI 管理系統 (AIMS) 導入與治理戰略』簡報。受眾為董事會、C-Level 或法遵高層。內容必須嚴格展現 AIGP (AI Governance Professional) 級別的專業視野與 ISO 的 PDCA 精神：1. 運用 SCQA 架構說明影子 AI 的災難性風險與《歐盟 AI 法案》的衝擊，2. 將合規視為『業務賦能』，凸顯防禦投資的 ROI 與不作為成本 (COI)，3. 提出 MECE 結構的控制措施（強制納入 AI 衝擊評估 AIIA、人類監督 Human-in-the-loop 與 RACI 當責），4. 強調建立負責任 AI (Responsible AI) 文化與漸進式的降危納管策略 (De-risking)。每張 Slide 不超過 3 個重點，每字不超過一行，語氣需具備極高的戰略視野、風險防禦意識與推動跨部門合作的將才魄力。",
+    "en": "Please create a master-class 'ISO 42001 AIMS Implementation & Governance Strategy' presentation in English. Audience: Board of Directors, C-Suite, or Chief Compliance Officers. Strictly demonstrate AIGP (AI Governance Professional) level acumen and the ISO PDCA spirit: 1. Use SCQA framing to address the catastrophic risks of 'Shadow AI' and the impact of the EU AI Act. 2. Position compliance as a 'Business Enabler', highlighting the ROI of defense and the Cost of Inaction (COI). 3. Propose MECE controls (mandating AI Impact Assessments [AIIA], Human-in-the-loop, and RACI accountability). 4. Emphasize building a 'Responsible AI' culture and a phased, de-risking regulatory approach. Max 3 bullet points per slide, max one line per bullet. The tone must be highly strategic, fiercely risk-aware, and demonstrate executive leadership."
+  }
+}
