@@ -1,0 +1,129 @@
+{
+  "topic_id": "organizational_restructuring_rif",
+  "keywords": ["裁員", "組織重組", "rif", "layoff", "restructuring", "hr", "chro", "資遣", "勞資", "change management", "倖存者症候群", "調解"],
+  "title": {
+    "zh": "組織重組與精簡戰略 (CHRO 裁員與變革管理視角)",
+    "en": "Organizational Restructuring & RIF Strategy (CHRO Perspective)"
+  },
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_title": {
+        "zh": "組織現狀與戰略重組訴求 (SCQA & The Ask)",
+        "en": "Organizational Context & Strategic Ask (SCQA)"
+      },
+      "bullet_points": {
+        "zh": [
+          "情境 (Situation)：受限於宏觀經濟逆風與 [AI自動化/業務轉型]，公司目前的營收增速已無法支撐現有的組織規模與人事成本",
+          "衝突 (Complication)：若不立即進行結構性精簡，公司將在 [X] 個月內面臨現金流斷裂，且臃腫的架構正嚴重拖垮決策效率",
+          "戰略訴求 (The Ask)：提議啟動「組織敏捷化專案 (RIF)」，懇請董事會核准 [X]% 的精簡目標與對應的法定資遣/調解預算"
+        ],
+        "en": [
+          "Situation: Due to macroeconomic headwinds and [AI Automation/Business Pivot], our current top-line growth can no longer sustain the existing organizational scale and headcount CapEx.",
+          "Complication: Without immediate structural rightsizing, we face severe cash runway depletion within [X] months, while organizational bloat paralyzes decision-making.",
+          "The Ask: Proposing a strategic 'Reduction in Force (RIF)' initiative. Requesting Board approval for a [X]% headcount reduction and the associated severance/mediation budget."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "各位董事，這是一場艱難但必要的會議。目前的營收與人事成本已經出現死亡交叉。我們今天提出的『組織重組 (RIF)』，目的不是單純為了砍人，而是為了『拯救公司』並重塑敏捷度。我們需要外科手術般的精簡，而不是拿著大砍刀盲目亂揮。懇請核准此精簡目標與專項預算。",
+        "en": "Members of the Board, this is a difficult but imperative briefing. Our revenue and headcount costs are entering a death spiral. This 'Reduction in Force (RIF)' is not merely a cost-cutting exercise; it is a strategic necessity to 'save the enterprise' and restore agility. We require surgical rightsizing, not a blunt machete. I request approval for the reduction targets and severance budget."
+      }
+    },
+    {
+      "slide_number": 2,
+      "slide_title": {
+        "zh": "人才盤點與精簡矩陣 (Talent Mapping & Selection Criteria)",
+        "en": "Talent Mapping & Objective Selection Criteria"
+      },
+      "bullet_points": {
+        "zh": [
+          "客觀篩選機制 (Objective Criteria)：嚴格依據「績效考績」、「職務重疊率」與「未來技能需求」進行評估，排除任何主管主觀偏見",
+          "核心護城河 (Protecting the Core)：已鎖定前 15% 的關鍵人才 (A-Players) 與核心研發團隊，確保其不受本次重組名單影響",
+          "合規審查 (Adverse Impact Analysis)：由法務與 HR 進行多樣性審查，確保裁員名單未對特定性別、年齡或弱勢群體造成「不成比例的衝擊」"
+        ],
+        "en": [
+          "Objective Criteria: Vetting strictly based on documented performance reviews, role redundancy, and future skill requirements to eliminate managerial bias.",
+          "Protecting the Core: Ring-fencing the top 15% A-Players and mission-critical R&D teams to ensure business continuity and protect our moat.",
+          "Adverse Impact Analysis: HR and Legal co-auditing the reduction list to guarantee no disproportionate impact on protected classes (age, gender, minorities)."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "決定誰走誰留，是法律風險最高的一環。我們建立了絕對客觀的篩選矩陣，排除主管的個人好惡。最重要的是，HR 已經會同法務部完成了『衝擊影響分析』，確保這份名單不會引發就業歧視的集體訴訟。同時，我們已經為核心人才畫上了保護圈，確保公司的作戰大腦完好無損。",
+        "en": "Determining who exits is the area of highest legal exposure. We deployed an objective selection matrix, neutralizing managerial bias. Crucially, HR and Legal have conducted an 'Adverse Impact Analysis' to ensure this list does not trigger class-action discrimination lawsuits. Simultaneously, we have ring-fenced our core talent to protect the enterprise's operational brain."
+      }
+    },
+    {
+      "slide_number": 3,
+      "slide_title": {
+        "zh": "合規防禦與勞資調解 (Legal Defense & Severance Mediation)",
+        "en": "Compliance Defense & Severance Mediation"
+      },
+      "bullet_points": {
+        "zh": [
+          "法定通報 (Statutory Notice)：確保符合當地勞基法 (如美國 WARN Act 或在地大量解僱法規) 的提前預告期與主管機關通報義務",
+          "資遣方案 (Severance Packages)：提供優於法定的「協議離職方案 (Mutual Separation Agreement)」，包含轉職輔導 (Outplacement) 與延長保險",
+          "調解防線 (Mediation as Defense)：針對高風險個案，引入專業勞資調解機制 (ADR)，以優厚的和解金換取員工簽署「免責與保密條款 (Release of Claims)」"
+        ],
+        "en": [
+          "Statutory Notice: Strictly adhering to advance notice periods and regulatory reporting mandates (e.g., WARN Act or local mass layoff laws).",
+          "Severance Packages: Offering 'Mutual Separation Agreements' above statutory minimums, inclusive of outplacement services and extended health benefits.",
+          "Mediation as Defense: Deploying proactive Alternative Dispute Resolution (ADR) for high-risk cases, leveraging enhanced severance in exchange for a comprehensive 'Release of Claims'."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "在勞資關係中，『花錢買平安』往往是 ROI 最高的決策。我們設計了優於勞基法的資遣方案，並附帶轉職輔導。針對潛在的刺頭或高風險員工，我們將啟動專業調解 (Mediation)，目標是讓他們心平氣和地簽下『免責條款』。我們寧可把錢花在員工身上，也不要花在未來的律師費與公關災難上。",
+        "en": "In labor relations, 'buying peace' often yields the highest ROI. We have structured severance packages above statutory requirements, coupled with outplacement support. For high-risk individuals, we will deploy professional mediation (ADR). The objective is a peaceful signature on a 'Release of Claims.' We prefer investing in our outgoing employees rather than funding future litigation and PR disasters."
+      }
+    },
+    {
+      "slide_number": 4,
+      "slide_title": {
+        "zh": "「行動日」執行兵推 (The Day 1 Execution Protocol)",
+        "en": "The Day 1 Execution Protocol (Notification Day)"
+      },
+      "bullet_points": {
+        "zh": [
+          "主管賦能 (Manager Enablement)：所有參與面談的主管均需完成 1-on-1 劇本演練，確保溝通展現同理心，但不偏離官方定調",
+          "資安與權限 (IT Security & Access)：面談啟動的同一時間，IT 部門將精準控管系統權限與機密資料存取，防範內部破壞 (Insider Threat)",
+          "公關停損 (PR Containment)：同步準備好對內員工信與對外媒體聲明稿 (Holding Statement)，防止流言在社群媒體失控"
+        ],
+        "en": [
+          "Manager Enablement: All notifying managers must complete 1-on-1 script rehearsals, ensuring communication is empathetic yet strictly adheres to the official narrative.",
+          "IT Security & Access: Synchronized access revocation and endpoint security lockdown during notifications to neutralize any Insider Threats.",
+          "PR Containment: Pre-staging internal memos and external holding statements to instantly contain rumors and manage the narrative on social media."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "『宣佈日』當天就像一場精密的軍事行動。主管不能自由發揮，必須嚴格遵守 HR 提供的面談劇本，展現同理心但不留談判空間。與此同時，IT 部門會在後台同步進行權限管控，保護公司的營業秘密。我們也準備好了對外的公關聲明，確保外界聽到的是我們主動發布的戰略重組，而不是血流成河的裁員八卦。",
+        "en": "'Notification Day' requires military precision. Managers cannot improvise; they must strictly follow HR scripts—projecting empathy without opening doors for negotiation. Simultaneously, IT will lock down endpoints in the background to protect trade secrets. We also have PR holding statements ready, ensuring the market hears a narrative of 'strategic rightsizing' rather than chaotic gossip."
+      }
+    },
+    {
+      "slide_number": 5,
+      "slide_title": {
+        "zh": "倖存者管理與組織重塑 (Survivor Management & Rebuild)",
+        "en": "Survivor Management & 90-Day Rebuild"
+      },
+      "bullet_points": {
+        "zh": [
+          "倖存者症候群 (Survivor Syndrome)：CEO 於裁員翌日親自召開 全員大會 (Town Hall)，透明說明重組原因，安定留任軍心",
+          "工作重分配 (Workload Reallocation)：立刻停止非核心專案，重新對齊 OKR，避免留任員工因工作量倍增而引發過勞離職潮",
+          "文化修復 (Culture Reboot)：啟動 90 天組織修復計畫，透過脈搏調查 (Pulse Surveys) 監測士氣，重建員工對領導層的信任"
+        ],
+        "en": [
+          "Survivor Syndrome: CEO must host an all-hands Town Hall on Day +1, providing transparent rationale to stabilize morale and address 'Survivor Guilt'.",
+          "Workload Reallocation: Immediately halting non-core projects and realigning OKRs to prevent burnout-induced attrition among remaining staff.",
+          "Culture Reboot: Launching a 90-Day rebuilding plan, utilizing Pulse Surveys to monitor morale and aggressively reconstruct trust in leadership."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "裁員最大的後遺症，是留下來的人爆發『倖存者症候群』。他們會焦慮、會愧疚、甚至會因為工作量加倍而離職。因此，裁員的第二天，CEO 必須站出來開誠佈公。HR 會協助各部門重新盤點 OKR，砍掉不必要的專案。這 90 天，我們不談擴張，只談修復信任與穩定軍心，這才是變革管理的最後一哩路。",
+        "en": "The most dangerous aftermath of a RIF is 'Survivor Syndrome' among remaining staff. They feel anxiety, guilt, and burnout from doubled workloads. Therefore, on Day +1, the CEO must stand before the company with absolute transparency. HR will force a realignment of OKRs, killing non-essential projects. For the next 90 days, we don't talk about expansion; we focus purely on rebuilding trust. That is the final mile of Change Management."
+      }
+    }
+  ],
+  "prompt_template": {
+    "zh": "請以繁體中文製作一份大師級的『組織重組與精簡戰略 (RIF)』簡報。受眾為董事會或 CEO。內容必須展現 CHRO (首席人資長) 結合法規、調解與營運的頂尖變革管理視角：1. 運用 SCQA 點出財務困境與『外科手術式精簡』的必要性，2. 說明客觀的人才盤點矩陣與防範就業歧視的『衝擊分析』，3. 導入勞資調解 (ADR) 與優化資遣方案，將法律與公關風險降至最低，4. 制定『行動日 (Notification Day)』的 IT 資安、主管劇本與公關聯動兵推，5. 結尾必須聚焦於『倖存者症候群 (Survivor Syndrome)』的化解，要求重新對齊 OKR 與 90 天文化修復計畫。每張 Slide 不超過 3 個重點，語氣需極度冷靜、專業、合規，且在殘酷的商業決策中保有領導者的同理心。",
+    "en": "Please create a master-class 'Organizational Restructuring & RIF Strategy' presentation in English. Audience: Board of Directors or CEO. Demonstrate the CHRO's elite change management capability, blending legal compliance, mediation, and operations: 1. Use SCQA to frame the financial reality and the necessity of 'surgical rightsizing'. 2. Detail objective talent mapping and Adverse Impact Analysis to prevent discrimination claims. 3. Deploy ADR mediation and optimized severance to neutralize legal and PR risks. 4. Architect a flawless 'Notification Day' protocol integrating IT security, manager scripts, and PR containment. 5. Conclude with a rigorous focus on managing 'Survivor Syndrome', demanding immediate OKR reallocation and a 90-Day culture rebuild. Max 3 bullet points per slide. The tone must be fiercely analytical, legally bulletproof, yet underscored by profound executive empathy."
+  }
+}
