@@ -1,0 +1,129 @@
+{
+  "topic_id": "genai_adoption_governance",
+  "keywords": ["ai", "genai", "生成式ai", "iso 42001", "aigp", "治理", "governance", "風險管理", "risk management", "llm", "影子ai", "shadow ai", "合規"],
+  "title": {
+    "zh": "企業生成式 AI 導入與風險治理 (ISO 42001 架構)",
+    "en": "Enterprise GenAI Adoption & Risk Governance (ISO 42001 Framework)"
+  },
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_title": {
+        "zh": "生成式 AI 的戰略機遇與影子風險 (SCQA)",
+        "en": "GenAI Strategic Opportunity vs. Shadow AI Risks (SCQA)"
+      },
+      "bullet_points": {
+        "zh": [
+          "情境 (Situation)：競爭對手正全面導入大語言模型 (LLM) 以優化營運，我方員工也已私下頻繁使用各類 GenAI 工具",
+          "衝突 (Complication)：「影子 AI (Shadow AI)」正在蔓延，未經授權的數據輸入已對公司營業秘密、隱私法規與智財權構成極大曝險",
+          "戰略訴求 (The Ask)：全面叫停無序的 AI 試驗，懇請董事會授權導入符合 ISO 42001 標準的 AI 管理系統 (AIMS) 與專屬預算"
+        ],
+        "en": [
+          "Situation: Competitors are aggressively deploying Large Language Models (LLMs) to optimize operations, while our employees proactively use unvetted GenAI tools.",
+          "Complication: The proliferation of 'Shadow AI' creates massive, unmanaged exposure regarding trade secrets, data privacy, and IP infringement.",
+          "The Ask: Halt chaotic AI experimentation. Requesting Board mandate and budget to implement an ISO 42001-compliant AI Management System (AIMS)."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "各位董事，面對生成式 AI，我們現在最大的風險不是『沒有使用』，而是員工在缺乏護欄的情況下『隨便使用』。這種『影子 AI』隨時會把我們的核心代碼或客戶資料餵給公開模型。今天的提案，是要將 AI 導入從『員工個人的玩具』，升級為『具備 ISO 42001 治理標準的企業戰略武器』。",
+        "en": "Members of the Board, our greatest GenAI risk today isn't 'falling behind'; it's our workforce utilizing 'Shadow AI' without corporate guardrails, potentially feeding our trade secrets into public models. Today's proposal elevates AI from an 'unvetted employee toy' to an 'enterprise strategic weapon' governed by strict ISO 42001 standards."
+      }
+    },
+    {
+      "slide_number": 2,
+      "slide_title": {
+        "zh": "AI 治理基礎與法規框架 (Foundations & Legal Frameworks)",
+        "en": "AI Governance Foundations & Legal Frameworks"
+      },
+      "bullet_points": {
+        "zh": [
+          "法規雷達 (Legal Radar)：盤點全球最新 AI 法規（如歐盟 AI Act、NIST AI RMF），確保我們的 AI 應用避開「不可接受之風險 (Unacceptable Risk)」等級",
+          "ISO 42001 落地 (AIMS Integration)：將 AI 治理融入既有的資安與隱私體系，建立可稽核的政策、流程與當責機制",
+          "跨部門倫理委員會 (AI Ethics Board)：設立由法務、HR、IT 與業務主管組成的委員會，負責審查所有 AI 使用情境 (Use Cases)"
+        ],
+        "en": [
+          "Legal Radar: Auditing global mandates (e.g., EU AI Act, NIST AI RMF) to ensure our deployments strictly avoid 'Unacceptable Risk' categories.",
+          "ISO 42001 AIMS: Integrating AI governance into existing infosec and privacy architectures, establishing auditable policies and accountability.",
+          "AI Ethics Board: Chartering a cross-functional board (Legal, HR, IT, Business Lines) to review and vet all enterprise AI Use Cases."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "AI 治理不是單純的 IT 專案，而是高度的合規與法務挑戰。我們將以 ISO 42001 為骨幹，對齊國際法規，建立企業專屬的 AI 管理系統。同時，我們必須成立『跨部門 AI 倫理委員會』，因為 AI 的偏見、歧視與合規問題，需要法務與 HR 的深度介入，不能只讓工程師來做決定。",
+        "en": "AI governance is not merely an IT project; it is a profound compliance and legal challenge. We will use ISO 42001 as our backbone, aligning with global frameworks to build our AIMS. Crucially, we are establishing an 'AI Ethics Board.' Issues of algorithmic bias, discrimination, and compliance require deep Legal and HR oversight—engineers cannot make these decisions in a vacuum."
+      }
+    },
+    {
+      "slide_number": 3,
+      "slide_title": {
+        "zh": "AI 開發與採購治理 (Governing AI Development & Procurement)",
+        "en": "Governing AI Development & Vendor Procurement"
+      },
+      "bullet_points": {
+        "zh": [
+          "供應商風險管理 (Vendor Lock-in & Risk)：針對商用 GenAI 供應商，嚴格審查其模型透明度、數據留存政策與智慧財產權歸屬",
+          "封閉沙盒架構 (Secure Sandbox)：投資建置企業級私有雲 LLM 環境（如 Oracle GenAI），確保內部數據「絕對不出境」",
+          "資料投毒與資安 (Data Poisoning & Infosec)：強化訓練資料集的清洗機制，防範提示詞注入 (Prompt Injection) 等新型 AI 攻擊"
+        ],
+        "en": [
+          "Vendor Risk Management: Rigorously vetting commercial GenAI providers for model transparency, data retention policies, and IP indemnification.",
+          "Secure Sandbox Architecture: Investing in enterprise-grade, private cloud LLM environments (e.g., Oracle GenAI) to guarantee zero data leakage.",
+          "Infosec & Data Poisoning: Fortifying data sanitation protocols to defend against novel threats like Prompt Injection and Data Poisoning."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "在 AI 開發與採購上，我們絕不妥協於數據隱私。我們不會直接把 API 接到公開模型，而是要採購企業級的 GenAI 方案，建立封閉的沙盒環境，確保我們的數據只用來訓練我們自己的護城河。另外，針對新型態的 AI 資安攻擊，IT 與資安部門已制定全新的防禦準則。",
+        "en": "When developing and procuring AI, data privacy is non-negotiable. We will not wire APIs directly to public models. Instead, we will procure enterprise-grade GenAI solutions to build a secure sandbox, ensuring our data only trains our proprietary moat. Furthermore, IT has authored new protocols to neutralize emerging threats like Prompt Injection."
+      }
+    },
+    {
+      "slide_number": 4,
+      "slide_title": {
+        "zh": "AI 部署監督與人才賦能 (Deployment Oversight & HR Enablement)",
+        "en": "Deployment Oversight & Human-in-the-Loop"
+      },
+      "bullet_points": {
+        "zh": [
+          "人機協作護欄 (Human-in-the-Loop, HITL)：在所有涉及高風險決策（如招募、核貸）的 AI 應用中，強制保留人類最終裁量權",
+          "幻覺監控 (Hallucination Monitoring)：針對已部署的 AI 系統，建立持續性的輸出準確度監測與偏差修正機制",
+          "AI 素養培訓 (AI Literacy & Change Management)：由 HR 主導全軍 AI 素養重塑，制定員工 AI 使用守則 (Acceptable Use Policy)"
+        ],
+        "en": [
+          "Human-in-the-Loop (HITL): Mandating human ultimate authority and override capabilities in all high-risk AI decision-making (e.g., Hiring, Credit).",
+          "Hallucination Monitoring: Establishing continuous output monitoring and drift-correction mechanisms for deployed AI systems.",
+          "AI Literacy (HR Lead): HR will spearhead a company-wide AI literacy transformation, enforcing a strict AI Acceptable Use Policy (AUP)."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "AI 部署上線後，真正的考驗才開始。模型會產生『幻覺』，會產生偏見。因此，我們在所有高風險場景堅持『Human-in-the-Loop（人類介入）』原則。此外，導入 AI 是一場巨大的組織變革，HR 將負責推動全公司的 AI 素養培訓，確保每位員工都能安全、高效地指揮 AI，而不是被 AI 取代。",
+        "en": "The true test begins after AI is deployed. Models hallucinate and drift. Therefore, we mandate 'Human-in-the-Loop' protocols for all high-risk scenarios. Furthermore, AI adoption is fundamentally an organizational change initiative. HR will drive enterprise-wide AI literacy, ensuring our workforce knows how to securely command AI, rather than fear replacement."
+      }
+    },
+    {
+      "slide_number": 5,
+      "slide_title": {
+        "zh": "90 天治理藍圖與決策訴求 (90-Day Roadmap & The Ask)",
+        "en": "90-Day Governance Roadmap & Strategic Ask"
+      },
+      "bullet_points": {
+        "zh": [
+          "首 30 天 (Audit & Policy)：完成全公司「影子 AI」清查，發布首版 AI 使用守則，並正式成立跨部門 AI 倫理委員會",
+          "30-90 天 (Sandbox & Pilot)：完成企業級私有 GenAI 環境建置，並於 [特定業務線] 啟動第一個受控的 PoC 概念驗證",
+          "決策訴求 (Call to Action)：懇請董事會核准 [X 萬] 的 AI 基礎設施預算與 ISO 42001 輔導認證專案"
+        ],
+        "en": [
+          "First 30 Days (Audit & Policy): Complete the 'Shadow AI' audit, publish the Acceptable Use Policy, and charter the AI Ethics Board.",
+          "Days 30-90 (Sandbox & Pilot): Deploy the enterprise secure GenAI sandbox and launch a heavily governed PoC in [Specific Business Line].",
+          "Call to Action: Requesting Board approval for [$X] in AI infrastructure CapEx and funding for the ISO 42001 certification project."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "最後是我們的 90 天行動計畫。我們必須先踩煞車，用 30 天把政策與守則建立起來。接著我們再踩油門，打造安全的私有 AI 沙盒進行業務驗證。懇請董事會核准這筆基礎設施與 ISO 42001 認證預算，讓我們的 AI 發展能在絕對安全、合規的軌道上全速前進。",
+        "en": "Finally, our 90-Day Roadmap. We must first hit the brakes: spending 30 days to establish policies and the Ethics Board. Then, we hit the accelerator: deploying a secure private AI sandbox for business validation. I request the Board's approval for this CapEx and the ISO 42001 certification initiative, ensuring our AI strategy scales rapidly upon an impenetrable foundation of compliance."
+      }
+    }
+  ],
+  "prompt_template": {
+    "zh": "請以繁體中文製作一份大師級的『企業生成式 AI 導入與風險治理』簡報。受眾為董事會、CEO 或風險管理委員會。內容必須展現跨域整合 (IT/法務/HR) 的高階戰略視野：1. 運用 SCQA 強調『影子 AI (Shadow AI)』帶來的隱私與合規曝險，2. 導入 ISO 42001 AI 管理系統 (AIMS) 與全球法規雷達，3. 說明 AI 開發與採購的供應商風險管理及封閉沙盒架構，4. 強調 AI 部署後的持續監控、幻覺防範及 Human-in-the-Loop (人類介入) 原則，5. 結尾給出 90 天治理藍圖，並要求董事會授權成立 AI 倫理委員會及核准基礎設施預算。每張 Slide 不超過 3 個重點，語氣需充滿風險意識、合規底線與科技前瞻性。",
+    "en": "Please create a master-class 'Enterprise GenAI Adoption & Risk Governance' presentation in English. Audience: Board of Directors, CEO, or Risk Committee. Demonstrate elite cross-functional (IT/Legal/HR) strategic vision: 1. Use SCQA to highlight the privacy and compliance risks of 'Shadow AI'. 2. Introduce the ISO 42001 AI Management System (AIMS) and global regulatory alignment. 3. Detail vendor risk management in AI procurement and the necessity of secure sandbox architectures. 4. Emphasize post-deployment oversight, hallucination monitoring, and strict Human-in-the-Loop (HITL) protocols. 5. Conclude with a 90-Day Governance Roadmap, requesting Board mandate for an AI Ethics Board and infrastructure CapEx. Max 3 bullet points per slide. The tone must project rigorous risk awareness, unyielding compliance baselines, and technological foresight."
+  }
+}
