@@ -1,0 +1,129 @@
+{
+  "topic_id": "financial_review",
+  "keywords": ["財務", "財報", "預算", "finance", "budget", "financial", "會計", "營收", "成本", "cost", "revenue", "roi", "財政", "p&l", "損益"],
+  "title": {
+    "zh": "財務績效與預算執行匯報 (高階數據決策)",
+    "en": "Financial Performance & Budget Review (Executive Data Storytelling)"
+  },
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_title": {
+        "zh": "執行摘要與核心財務指標 (Executive Summary)",
+        "en": "Executive Summary & Key Financial Metrics"
+      },
+      "bullet_points": {
+        "zh": [
+          "營收概況 (Top-line)：本期總營收達 [X]，較去年同期成長/衰退 [X]%",
+          "獲利能力 (Bottom-line)：淨利潤 (Net Profit) 與毛利率 (Gross Margin) 表現總結",
+          "核心洞察 (Key Insight)：一句話總結本期財務健康度與驅動業績的關鍵因素"
+        ],
+        "en": [
+          "Top-line Performance: Total revenue reached [X], representing a YoY growth/decline of [X]%.",
+          "Bottom-line Profitability: Summary of Net Profit and Gross Margin performance.",
+          "Key Insight: A one-sentence summary of overall financial health and primary growth drivers."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "各位主管好。首先來看宏觀數字，本期我們的整體營收表現為 [X]。雖然數字表面上看起來如此，但真正驅動這個數字背後的原因是 [關鍵因素]。接下來我們將深入探討具體的預算執行狀況。",
+        "en": "Good morning. Let's start with the macro picture. Our top-line revenue for this period is [X]. While the surface numbers look like this, the true underlying driver is [Key Factor]. Let's dive deeper into our budget execution."
+      }
+    },
+    {
+      "slide_number": 2,
+      "slide_title": {
+        "zh": "預算執行與差異分析 (Budget vs. Actual Analysis)",
+        "en": "Budget vs. Actual (BVA) Variance Analysis"
+      },
+      "bullet_points": {
+        "zh": [
+          "預算達成率：整體營運支出 (OPEX) 佔年度預算的 [X]%，資本支出 (CAPEX) 為 [X]%",
+          "重大差異 (Significant Variances)：點出超支或大幅低於預算的 [前 3 大項目]",
+          "根本原因 (Root Causes)：運用 MECE 邏輯剖析超支是由於 [市場通膨/供應鏈/內部政策]"
+        ],
+        "en": [
+          "Budget Utilization: OPEX consumed [X]% of the annual budget; CAPEX is at [X]%.",
+          "Significant Variances: Highlighting the top 3 categories with major overspend or underspend.",
+          "Root Causes: Using MECE to explain if variances stem from [Market Inflation/Supply Chain/Internal Policy]."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "數字的落差就是管理的盲區或機會。我們特別拉出這三個與預算產生重大差異的項目。超支的部分，我們分析根本原因在於外部供應鏈成本的上升；而低於預算的部分，則是我們上季度優化流程的成果。",
+        "en": "Variances reveal our management blind spots and opportunities. We've highlighted three major deviations. The overspend is rooted in external supply chain inflation, whereas the underspend reflects the success of last quarter's process optimizations."
+      }
+    },
+    {
+      "slide_number": 3,
+      "slide_title": {
+        "zh": "成本優化與資源重分配 (Cost Optimization)",
+        "en": "Cost Optimization & Resource Reallocation"
+      },
+      "bullet_points": {
+        "zh": [
+          "成本控制行動：針對超支項目，已啟動 [供應商重新議價 / 凍結非必要招聘] 等止血措施",
+          "投資回報率 (ROI) 檢視：盤點正在進行的重大專案，及時終止 ROI 不如預期的 [某專案]",
+          "資源重分配：將節省下來的 [X] 預算，戰略性轉移至高增長的 [某新興業務/AI 專案]"
+        ],
+        "en": [
+          "Cost Control Actions: Initiated measures like [Vendor Renegotiation / Hiring Freeze] for over-budget items.",
+          "ROI Review: Auditing ongoing major projects and pulling the plug on underperforming [Project X].",
+          "Resource Reallocation: Strategically shifting [X] in saved budget to high-growth [New Business/AI Initiatives]."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "發現問題後，我們已經採取行動。針對虧損點，我們啟動了止血機制。更重要的是，我們將那些效益不佳專案的預算抽出，重新分配到目前最具戰略價值的高成長項目上，確保每一分錢都花在刀口上。",
+        "en": "Having identified the issues, we have taken action. We've initiated damage control on loss-making areas. More importantly, we are pulling budgets from underperforming projects and reallocating them to high-growth strategic initiatives, ensuring every dollar works harder."
+      }
+    },
+    {
+      "slide_number": 4,
+      "slide_title": {
+        "zh": "現金流與財務風險管控 (Cash Flow & Risk)",
+        "en": "Cash Flow & Financial Risk Management"
+      },
+      "bullet_points": {
+        "zh": [
+          "現金流水位 (Liquidity)：目前自由現金流 (Free Cash Flow) 狀態，足以支撐 [X] 個月營運",
+          "應收帳款風險 (AR Risk)：[X] 客戶群的應收帳款天數 (DSO) 增加，已加強催款機制",
+          "總體經濟風險防禦：針對潛在的 [匯率波動/利率調升/合規罰款]，已提撥 [X] 作為風險準備金"
+        ],
+        "en": [
+          "Liquidity Health: Current Free Cash Flow is sufficient to sustain operations for [X] months.",
+          "AR Risks: Days Sales Outstanding (DSO) increased for [X] client segment; aggressive collection initiated.",
+          "Macro Risk Defense: Allocated [X] in provisions against potential [FX Volatility/Rate Hikes/Compliance Fines]."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "利潤只是帳面數字，現金流才是公司的命脈。目前我們的流動性非常健康。不過，我們也注意到應收帳款有拖延的趨勢，財務部已經介入。同時，針對未來的總體經濟變數與合規風險，我們也預留了充足的緩衝資金。",
+        "en": "Profit is just a number on paper; cash flow is the lifeblood of the company. Our liquidity is healthy. However, we are monitoring an aging trend in accounts receivable and have intervened. We have also set aside adequate provisions for future macro-economic and compliance risks."
+      }
+    },
+    {
+      "slide_number": 5,
+      "slide_title": {
+        "zh": "財務預測與戰略決策 (Forecast & Strategic Ask)",
+        "en": "Financial Forecast & Strategic Ask"
+      },
+      "bullet_points": {
+        "zh": [
+          "次期展望 (Forecast)：基於目前 run-rate，保守預估下期營收將落在 [X] 至 [Y] 區間",
+          "戰略建議 (Strategic Move)：建議董事會/管理層核准 [擴大某項投資 / 啟動某項併購]",
+          "下一步行動 (Next Steps)：財務部將於 [日期] 提交修正版預算案，並與各部門對齊 KPI"
+        ],
+        "en": [
+          "Next Period Forecast: Based on current run-rates, conservatively projecting next period revenue between [X] and [Y].",
+          "Strategic Move: Recommending Board/Management approval for [Scaling Investment / Initiating M&A].",
+          "Next Steps: Finance will submit the revised budget by [Date] and align KPIs across departments."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "總結來說，基於目前的財務軌跡，我們對下個季度持保守樂觀的態度。為了維持競爭優勢，我們建議高層能支持這項新的戰略投資。會後我們將發布修正版的預算指引，請各部門主管協助配合。",
+        "en": "In summary, based on our financial trajectory, we remain conservatively optimistic for the next quarter. To maintain our competitive edge, we recommend leadership supports this new strategic investment. We will issue revised budget guidelines post-meeting for department heads to execute."
+      }
+    }
+  ],
+  "prompt_template": {
+    "zh": "請以繁體中文製作一份專業的『財務績效與預算執行』簡報。受眾為董事會、C-level 高階主管或跨部門部門主管。內容必須展現強大的商業洞察 (Data Storytelling)：1. 不要只報數字，必須解釋差異 (Variance) 背後的『根本原因』，2. 強調成本優化與高 ROI 的資源重分配，3. 帶入現金流管理與總體經濟風險防禦意識，4. 結尾必須給出具體的財務預測與高階戰略建議。每張 Slide 不超過 3 個重點，每字不超過一行，語氣需極具專業威信、客觀且數據導向。",
+    "en": "Please create a professional 'Financial Performance & Budget Review' presentation in English. Audience: Board of Directors, C-Suite, or Department Heads. Demonstrate strong Data Storytelling: 1. Don't just list numbers; explain the 'root causes' behind the budget variances. 2. Emphasize cost optimization and ROI-driven resource reallocation. 3. Address cash flow management and macroeconomic risk provisions. 4. Conclude with a clear financial forecast and strategic recommendations. Max 3 bullet points per slide, max one line per bullet. The tone must be authoritative, objective, and strictly data-driven."
+  }
+}
