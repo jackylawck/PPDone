@@ -1,0 +1,129 @@
+{
+  "topic_id": "caio_aigp_framework",
+  "keywords": ["ai治理", "ai governance", "caio", "aigp", "iso 42001", "eu ai act", "nist ai rmf", "模型開發", "ai部署", "合規", "倫理", "ethics"],
+  "title": {
+    "zh": "企業 AI 治理藍圖與全生命週期監督 (CAIO / 首席 AI 官視角)",
+    "en": "Enterprise AI Governance & Lifecycle Oversight (CAIO Perspective)"
+  },
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_title": {
+        "zh": "AI 治理基礎與戰略訴求 (Foundations of AI Governance & The Ask)",
+        "en": "Foundations of AI Governance & Strategic Ask"
+      },
+      "bullet_points": {
+        "zh": [
+          "情境 (Situation)：企業正大規模擴展 AI 應用，從提升生產力的內部工具到面向客戶的高風險自動化決策系統",
+          "衝突 (Complication)：缺乏系統性治理的 AI 將引發嚴重的演算法偏見、隱私侵犯與合規災難，導致商譽與市值的毀滅性打擊",
+          "戰略訴求 (The Ask)：提議正式設立隸屬董事會的「AI 治理委員會」，並懇請核准導入全面對齊國際標準的 AI 全生命週期管理架構"
+        ],
+        "en": [
+          "Situation: The enterprise is aggressively scaling AI applications, ranging from internal productivity tools to high-risk, customer-facing automated decision systems.",
+          "Complication: Unregulated AI proliferation risks algorithmic bias, severe privacy violations, and compliance disasters, threatening massive reputational and financial damage.",
+          "The Ask: Proposing the charter of a Board-level 'AI Governance Committee.' Requesting approval to mandate a full-lifecycle AI management framework aligned with global standards."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "各位董事，AI 已經過了『要不要用』的實驗階段，現在的核心問題是『如何負責任地用』。如果我們只看技術不看治理，AI 的黑盒子將成為公司最大的地雷。今天的匯報，是要確立企業 AI 治理的基石，將 AI 專案的掌控權從純技術部門，拉高到具備法理、倫理與風險意識的董事會層級。",
+        "en": "Members of the Board, AI has moved past the experimental 'adoption' phase; the imperative now is 'responsible governance.' If we prioritize deployment without oversight, the AI black box becomes our greatest liability. Today's briefing establishes the foundation of AI governance, elevating control from isolated technical silos to a Board-level mandate integrating legal, ethical, and risk perspectives."
+      }
+    },
+    {
+      "slide_number": 2,
+      "slide_title": {
+        "zh": "法規、標準與框架 (Laws, Standards, and Frameworks)",
+        "en": "Laws, Standards, and Global Frameworks"
+      },
+      "bullet_points": {
+        "zh": [
+          "合規基準 (Regulatory Baseline)：全面對齊《歐盟 AI 法案 (EU AI Act)》的風險分級制度，確保無「不可接受風險」之應用",
+          "風險管理框架 (NIST AI RMF)：導入美國 NIST 框架，落實「治理 (Govern)、對應 (Map)、衡量 (Measure)、管理 (Manage)」四大核心支柱",
+          "管理系統認證 (ISO 42001 AIMS)：將 AI 治理標準化為可稽核的流程，目標於本年度取得 ISO 42001 人工智慧管理系統認證"
+        ],
+        "en": [
+          "Regulatory Baseline: Strictly aligning with the EU AI Act's risk-tiering methodology, ensuring absolute avoidance of 'Unacceptable Risk' AI systems.",
+          "Risk Management (NIST AI RMF): Operationalizing the NIST framework by embedding the 'Govern, Map, Measure, and Manage' pillars into our operations.",
+          "AIMS Certification (ISO 42001): Standardizing AI governance into auditable workflows, targeting formal ISO 42001 Artificial Intelligence Management System certification this fiscal year."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "在國際法規版圖中，我們不能被動等待罰單。我們將以《歐盟 AI 法案》為紅線，嚴格檢視所有專案的風險等級。同時，我們不僅要遵守法規，更要建立系統。透過導入 NIST AI RMF 框架，並將最終目標鎖定在取得 ISO 42001 國際認證，這將向全球客戶與投資人證明，我們的 AI 產品是安全且值得信賴的。",
+        "en": "Navigating the global regulatory landscape requires proactive compliance. We use the EU AI Act as our strict baseline for risk categorization. Beyond mere compliance, we are building a resilient system. By operationalizing the NIST AI RMF and targeting ISO 42001 certification, we will empirically prove to global clients and investors that our AI assets are secure, auditable, and inherently trustworthy."
+      }
+    },
+    {
+      "slide_number": 3,
+      "slide_title": {
+        "zh": "治理 AI 開發流程 (Governing AI Development)",
+        "en": "Governing AI Development & Data Provenance"
+      },
+      "bullet_points": {
+        "zh": [
+          "數據溯源與隱私 (Data Provenance)：在模型訓練階段實施嚴格的資料清洗與匿名化，確保不侵害營業秘密與第三方版權",
+          "偏見緩解與公平性 (Bias Mitigation)：於演算法設計階段導入公平性測試，防止模型對特定群體產生系統性歧視",
+          "紅隊演練與透明度 (Red Teaming & Transparency)：部署前強制進行對抗性測試 (Adversarial Testing)，並要求開發團隊建立模型可解釋性 (Explainability) 報告"
+        ],
+        "en": [
+          "Data Provenance & Privacy: Enforcing rigorous data sanitation and anonymization during the training phase to protect trade secrets and third-party IP.",
+          "Bias Mitigation & Fairness: Integrating fairness testing early in algorithmic design to neutralize systemic discrimination against protected groups.",
+          "Red Teaming & Transparency: Mandating adversarial testing (Red Teaming) prior to deployment and requiring comprehensive 'Model Explainability' documentation."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "在 AI 的開發階段，『垃圾進，危險出 (Garbage in, Danger out)』。我們必須從源頭控管訓練數據，確保沒有侵害隱私或版權。此外，工程師不能自己寫完程式就上線，我們將強制要求進行『紅隊演練 (Red Teaming)』，模擬駭客或惡意使用者的攻擊，並確保模型的決策邏輯具備高度的『可解釋性』。",
+        "en": "During AI development, the rule is 'Garbage in, Danger out.' We must govern data provenance at the source, preventing privacy or IP contamination. Furthermore, engineers cannot self-certify deployments. We mandate independent 'Red Teaming' to simulate adversarial attacks, while demanding strict algorithmic 'Explainability' so we always understand how our models arrive at their outputs."
+      }
+    },
+    {
+      "slide_number": 4,
+      "slide_title": {
+        "zh": "治理 AI 部署與持續監督 (Governing AI Deployment and Use)",
+        "en": "Governing AI Deployment & Continuous Oversight"
+      },
+      "bullet_points": {
+        "zh": [
+          "人類當責機制 (Human-in-the-Loop, HITL)：針對自動核貸、招募篩選等高風險決策，強制設定人類審查節點，確保最終裁量權",
+          "模型漂移監控 (Model Drift Monitoring)：建立持續性監控儀表板，偵測上線後模型效能衰退或產生「幻覺 (Hallucination)」的風險",
+          "事件應變與終止機制 (Kill Switch)：賦予 CAIO 與治理委員會在 AI 系統發生失控或重大失誤時，立即切斷系統 (Kill Switch) 的絕對權力"
+        ],
+        "en": [
+          "Human-in-the-Loop (HITL): Mandating human oversight nodes for all high-stakes automated decisions (e.g., credit scoring, HR screening) to ensure ultimate accountability.",
+          "Model Drift Monitoring: Deploying continuous telemetry dashboards to detect post-deployment performance degradation, data drift, or 'Hallucinations'.",
+          "Incident Response & Kill Switch: Empowering the CAIO and Governance Committee with the absolute authority to trigger a 'Kill Switch' if an AI system exhibits autonomous failures."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "AI 部署上線，才是風險管理的開始。真實世界的數據會改變，模型會發生『漂移』或產生幻覺。因此，我們在所有關鍵業務流程中保留了『Human-in-the-Loop (人類介入)』。更重要的是，當 AI 系統的行為偏離預期時，治理團隊擁有隨時按下『終止開關 (Kill Switch)』的最高權限，絕不讓失控的演算法傷害公司。",
+        "en": "Deployment is where real risk management begins. Real-world data changes, causing models to drift or hallucinate. Therefore, we preserve 'Human-in-the-Loop' protocols across all critical business workflows. Most importantly, if an AI system exhibits unintended behavior, the governance team holds the ultimate 'Kill Switch' authority to terminate the system instantly, shielding the enterprise from runaway algorithms."
+      }
+    },
+    {
+      "slide_number": 5,
+      "slide_title": {
+        "zh": "CAIO 百日行動計畫 (CAIO 100-Day Action Plan)",
+        "en": "CAIO 100-Day Action Plan & Milestones"
+      },
+      "bullet_points": {
+        "zh": [
+          "首 30 天 (盤點與賦能)：完成全企業 AI 資產與風險等級盤點，並為高階主管啟動 AI 治理素養 (AI Literacy) 培訓",
+          "30-90 天 (體系建置)：正式發布企業內部 AI 政策 (Acceptable Use Policy)，並啟動 ISO 42001 內部稽核作業",
+          "決策訴求 (Call to Action)：懇請核准 CAIO 辦公室編制及 ISO 42001 外部稽核預算，將 AI 治理轉化為企業核心護城河"
+        ],
+        "en": [
+          "First 30 Days (Audit & Enablement): Execute an enterprise-wide AI asset and risk-tiering audit, while launching mandatory AI Literacy training for the C-Suite.",
+          "Days 30-90 (System Implementation): Publish the definitive enterprise AI Acceptable Use Policy (AUP) and commence internal ISO 42001 readiness audits.",
+          "Call to Action: Requesting Board approval for the CAIO Office headcount and external ISO 42001 audit CapEx, transforming AI governance into a verifiable corporate moat."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "為了將這套治理框架落地，我們制定了 CAIO 百日行動計畫。前 30 天，我們會徹底盤點現有系統，並針對管理層進行 AI 素養培訓；接下來的 60 天，我們將完成內部政策制定，並啟動 ISO 42001 的內稽。懇請董事會支持相關預算與編制，讓我們的 AI 發展能在安全的軌道上全速前行。",
+        "en": "To operationalize this framework, we have a precise 100-Day CAIO Action Plan. The first 30 days focus on comprehensive risk auditing and executive AI literacy. The subsequent 60 days will finalize internal policies and initiate ISO 42001 internal audits. I respectfully ask the Board to approve the CAIO Office resources and certification budget, ensuring our AI initiatives scale rapidly on a foundation of absolute safety."
+      }
+    }
+  ],
+  "prompt_template": {
+    "zh": "請以繁體中文製作一份大師級的『企業 AI 治理藍圖與全生命週期監督』簡報。受眾為董事會或最高管理層。內容必須展現 CAIO (首席 AI 官) 兼具法理合規與技術實踐的戰略高度：1. 運用 SCQA 點出 AI 缺乏治理帶來的商譽與合規風險，2. 明確對齊國際框架 (Domain II)，包括歐盟 AI 法案、NIST AI RMF 與 ISO 42001，3. 探討 AI 開發階段 (Domain III) 的數據溯源、偏見緩解與紅隊演練，4. 強調 AI 部署後 (Domain IV) 的模型漂移監控、Human-in-the-Loop 原則及終止開關 (Kill Switch)，5. 結尾給出 CAIO 100 天行動計畫，爭取 ISO 42001 認證預算。每張 Slide 不超過 3 個重點，語氣需極具專業權威，完美融合治理框架與企業落地實務。",
+    "en": "Please create a master-class 'Enterprise AI Governance & Lifecycle Oversight' presentation in English. Audience: Board of Directors or C-Suite. Demonstrate the strategic authority of a Chief AI Officer (CAIO) bridging legal compliance and technical execution: 1. Use SCQA to frame the existential risks of unregulated AI proliferation. 2. Align explicitly with global frameworks (Domain II) including the EU AI Act, NIST AI RMF, and ISO 42001. 3. Detail the governance of AI Development (Domain III), covering data provenance, bias mitigation, and Red Teaming. 4. Emphasize post-deployment oversight (Domain IV) via drift monitoring, Human-in-the-Loop (HITL), and Kill Switch mechanisms. 5. Conclude with a 100-Day CAIO Action Plan and request ISO 42001 certification CapEx. Max 3 bullet points per slide. The tone must project immense governance authority, seamlessly blending global standards with enterprise practicality."
+  }
+}
