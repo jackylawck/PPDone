@@ -1,0 +1,129 @@
+{
+  "topic_id": "aigp_scenario_wargame",
+  "keywords": ["aigp", "ai governance", "war-game", "沙盤推演", "domain i", "domain ii", "domain iii", "domain iv", "eu ai act", "iso 42001", "合規", "風險評估", "董事會"],
+  "title": {
+    "zh": "企業 AI 專案治理沙盤推演 (AIGP 實戰與合規視角)",
+    "en": "Enterprise AI Governance War-Game (AIGP Compliance Perspective)"
+  },
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_title": {
+        "zh": "Domain I: AI 基礎與專案風險分級 (Foundations & Risk Profiling)",
+        "en": "Domain I: AI Foundations & Risk Profiling"
+      },
+      "bullet_points": {
+        "zh": [
+          "應用情境 (Use Case Scenario)：人資部門擬導入一套基於 GenAI 的「全自動履歷篩選與面試分析系統」，以縮短 40% 的招募週期",
+          "技術與生命週期界定 (Taxonomy & Lifecycle)：確立該系統包含機器學習 (ML) 與自然語言處理 (NLP)，並正處於「設計與概念驗證 (PoC)」階段",
+          "風險分級 (Risk Tiering)：依據其可能對求職者產生就業歧視與權益剝奪，將此專案初步判定為「高風險 (High-Risk) AI 系統」，必須啟動最高級別治理協議"
+        ],
+        "en": [
+          "Use Case Scenario: HR proposes deploying a GenAI-driven 'Automated Resume Screening & Interview Analysis System' to compress recruitment cycles by 40%.",
+          "Taxonomy & Lifecycle: Defining the system's reliance on ML and NLP, explicitly mapping its current status at the 'Design & PoC' phase of the AI lifecycle.",
+          "Risk Tiering: Assessing potential employment discrimination and fundamental rights impacts, officially categorizing the project as a 'High-Risk AI System' requiring maximum governance protocols."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "各位董事，評估任何 AI 專案的第一步，是確立基礎與風險分級。人資部想用的這套 AI 系統確實能提高效率，但從 AIGP 的治理視角來看，這直接牽涉到人類的就業權益。我們不能只看到 40% 的效率提升，我們必須將其定調為『高風險系統』。這意味著，在沒有通過嚴格的合規審查前，這個專案絕對不能進入實質開發階段。",
+        "en": "Members of the Board, the first step in evaluating any AI initiative is establishing foundations and risk tiering. HR's proposed AI system promises efficiency, but from an AIGP governance perspective, it directly impacts fundamental employment rights. We cannot merely celebrate a 40% efficiency gain; we must classify this as a 'High-Risk System.' This dictates that without passing rigorous compliance audits, this project cannot proceed to development."
+      }
+    },
+    {
+      "slide_number": 2,
+      "slide_title": {
+        "zh": "Domain II: 法規、標準與框架對齊 (Laws, Standards & Frameworks)",
+        "en": "Domain II: Laws, Standards & Global Frameworks"
+      },
+      "bullet_points": {
+        "zh": [
+          "歐盟 AI 法案對齊 (EU AI Act Alignment)：作為高風險系統，必須依法建立風險管理系統、確保高質量數據集，並向主管機關註冊",
+          "NIST AI RMF 映射 (NIST Mapping)：啟動 NIST 框架中的「對應 (Map)」與「衡量 (Measure)」功能，量化系統可能產生的演算法偏見 (Algorithmic Bias)",
+          "ISO 42001 內部稽核 (AIMS Audit)：將此專案納入企業 ISO 42001 人工智慧管理系統的內部稽核範圍，確保決策過程具備完整的可追溯性 (Traceability)"
+        ],
+        "en": [
+          "EU AI Act Alignment: As a High-Risk system, we must legally mandate a risk management system, ensure high-quality datasets, and prepare for statutory registration.",
+          "NIST AI RMF Mapping: Activating the 'Map' and 'Measure' functions of the NIST framework to mathematically quantify potential algorithmic bias within the system.",
+          "ISO 42001 AIMS Audit: Integrating this specific project into our enterprise ISO 42001 Artificial Intelligence Management System audit scope, ensuring absolute traceability in all automated decisions."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "一旦定調為高風險，我們就必須將專案與國際法規框架對齊。根據《歐盟 AI 法案》，高風險系統有極其嚴格的義務。我們不僅要遵守法律，還要運用 NIST 框架來『衡量』潛在的偏見。最後，這整個專案的開發與決策流程，都必須符合 ISO 42001 的標準，確保未來面對主管機關調查時，我們拿得出無懈可擊的稽核軌跡。",
+        "en": "Once designated as High-Risk, we must align the project with global regulatory frameworks. Under the EU AI Act, High-Risk systems carry severe statutory obligations. Beyond legal compliance, we deploy the NIST framework to 'Measure' potential bias. Ultimately, the entire development and decision workflow must comply with ISO 42001 standards, guaranteeing an airtight audit trail when regulators inevitably investigate."
+      }
+    },
+    {
+      "slide_number": 3,
+      "slide_title": {
+        "zh": "Domain III: 治理 AI 開發流程 (Governing AI Development)",
+        "en": "Domain III: Governing AI Development"
+      },
+      "bullet_points": {
+        "zh": [
+          "數據溯源與隱私 (Data Provenance & Privacy)：嚴格審查訓練數據集，確保候選人的個資已經過脫敏處理，且未違反 GDPR 或當地隱私法規",
+          "公平性與偏見緩解 (Fairness & Bias Mitigation)：強制開發團隊對演算法進行交叉驗證，確保系統不會對特定性別、種族或年齡群體產生系統性降分",
+          "模型可解釋性 (Explainability/Interpretability)：要求供應商或內部 R&D 提供技術文件，清楚說明 AI 做出「淘汰某位候選人」決策的具體權重與邏輯"
+        ],
+        "en": [
+          "Data Provenance & Privacy: Rigorously auditing training datasets to ensure candidate PII is fully anonymized and perfectly compliant with GDPR and regional privacy laws.",
+          "Fairness & Bias Mitigation: Mandating cross-validation by the development team to guarantee the system does not systematically penalize protected classes (e.g., gender, race, age).",
+          "Explainability & Interpretability: Requiring the vendor or internal R&D to provide technical documentation explicitly detailing the weighted logic behind why the AI 'rejects' a specific candidate."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "進入開發階段後，治理的重點是『數據與邏輯』。第一，我們用什麼資料訓練 AI？這些履歷資料有沒有侵犯隱私？第二，AI 會不會歧視特定族群？我們必須進行除偏 (Bias Mitigation)。第三，也是最重要的一點，『可解釋性』。如果 AI 淘汰了一個優秀的候選人，系統必須能用人類聽得懂的語言告訴我們『為什麼』，絕對不能是一個黑盒子。",
+        "en": "Moving into the development phase, governance focuses on 'Data and Logic.' First, what data trains the AI, and does it violate privacy laws? Second, does the AI discriminate? We must enforce strict Bias Mitigation. Third, and most critically, 'Explainability.' If the AI rejects a highly qualified candidate, the system must explain 'why' in human-comprehensible terms. A 'black box' decision engine is completely unacceptable."
+      }
+    },
+    {
+      "slide_number": 4,
+      "slide_title": {
+        "zh": "Domain IV: 治理 AI 部署與使用 (Governing Deployment & Use)",
+        "en": "Domain IV: Governing AI Deployment & Use"
+      },
+      "bullet_points": {
+        "zh": [
+          "人類當責 (Human-in-the-Loop, HITL)：系統上線後，AI 僅能提供「建議清單」，最終的錄取或淘汰決策必須由具備資歷的 HR 進行實質的人為審核",
+          "上市後監控 (Post-market Monitoring)：建立動態儀表板，持續監控模型在真實環境中是否發生「模型漂移 (Model Drift)」或準確度衰退",
+          "終止開關與通報機制 (Kill Switch & Incident Reporting)：若發現 AI 產生嚴重偏見或數據外洩，授權 AI 治理委員會立即啟動 Kill Switch，並依法定時限通報主管機關"
+        ],
+        "en": [
+          "Human-in-the-Loop (HITL): Post-deployment, the AI functions strictly as a 'recommendation engine.' The final hiring or rejection decision mandates substantive review by a qualified HR professional.",
+          "Post-market Monitoring: Deploying dynamic telemetry dashboards to continuously track the model in the wild, instantly detecting 'Model Drift' or performance degradation.",
+          "Kill Switch & Incident Reporting: If the AI exhibits severe bias or a data breach, the Governance Committee is authorized to trigger the Kill Switch immediately and execute statutory regulatory reporting."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "系統上線不是結束，而是持續監控的開始。對於高風險的招募系統，我們堅守 HITL (人類介入) 原則，AI 只能建議，不能拍板定案，確保決策的『當責 (Accountability)』仍在人類身上。同時，模型在真實世界久了會產生漂移，我們必須持續監控。一旦發現 AI 失控，我們有權利立刻按下終止開關，並依法向主管機關通報。",
+        "en": "System deployment is not the end; it is the beginning of continuous oversight. For high-risk HR systems, we enforce HITL (Human-in-the-Loop). The AI recommends; humans decide. This ensures ultimate 'Accountability' remains with our leadership. Furthermore, models suffer 'Drift' in the real world, requiring continuous telemetry. If the AI goes rogue, we possess the authority to hit the Kill Switch instantly and execute mandatory regulatory reporting."
+      }
+    },
+    {
+      "slide_number": 5,
+      "slide_title": {
+        "zh": "董事會決議與專案放行條件 (Board Resolution & Go/No-Go)",
+        "en": "Board Resolution & Go/No-Go Decision"
+      },
+      "bullet_points": {
+        "zh": [
+          "合規成本精算 (Compliance Costing)：向董事會如實呈報，為滿足高風險 AI 系統的治理要求，專案的總體擁有成本 (TCO) 將額外增加 [X]%",
+          "風險與收益權衡 (Risk vs. Reward Trade-off)：評估 40% 的招募效率提升，是否足以抵銷潛在的法規罰款風險與商譽損害",
+          "決策訴求 (The Ask)：若同意放行，懇請授權由 [法務/人資/技術] 組成的跨部門小組進行每季的 AI 影響評估 (AIA)，落實全生命週期治理"
+        ],
+        "en": [
+          "Compliance Costing: Transparently reporting to the Board that meeting High-Risk AI governance requirements will inflate the project's Total Cost of Ownership (TCO) by an additional [X]%.",
+          "Risk vs. Reward Trade-off: Evaluating whether a 40% efficiency gain in recruitment mathematically justifies the tail-risk of regulatory fines and reputational destruction.",
+          "The Ask: If approved for Go-Live, requesting the mandate for a cross-functional [Legal/HR/Tech] tiger team to conduct quarterly AI Impact Assessments (AIA) across the entire lifecycle."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "最後，我們要向董事會攤牌。負責任的 AI 是有成本的，為了滿足這些治理框架，這個專案的預算必須追加。身為高階管理者，我們要把選擇權交給董事會：提升 40% 的效率，值不值得我們承擔高風險系統的合規成本？如果董事會決定放行 (Go)，我們就必須成立跨部門小組，嚴格落實每季的 AI 影響評估，確保我們永遠走在法規的前面。",
+        "en": "Finally, we present the bottom line to the Board. Responsible AI carries a cost; enforcing this governance framework will increase the project's CapEx. As executives, we present the trade-off: does a 40% efficiency gain justify the compliance overhead of a High-Risk system? If the Board votes 'Go,' we must mandate a cross-functional team to execute quarterly AI Impact Assessments, ensuring we forever remain ahead of the regulatory curve."
+      }
+    }
+  ],
+  "prompt_template": {
+    "zh": "請以繁體中文製作一份大師級的『企業 AI 專案治理沙盤推演』簡報。受眾為董事會、AI 治理委員會或 C-Suite。內容必須嚴格對齊 IAPP AIGP 四大領域的實務框架：1. 運用 SCQA 佈局一個具體的 AI 應用場景（如 HR 自動化），並在 Domain I 進行「高風險分級」，2. 在 Domain II 明確映射《歐盟 AI 法案》與 ISO 42001 的合規要求，3. 在 Domain III 探討開發階段的數據溯源、偏見緩解與模型可解釋性，4. 在 Domain IV 強調部署後的 Human-in-the-Loop (HITL) 當責機制、模型漂移監控與 Kill Switch，5. 結尾給出 Go/No-Go 的風險與 TCO (總體擁有成本) 權衡，並要求授權持續性的 AI 影響評估 (AIA)。每張 Slide 不超過 3 個重點，語氣需具備極高的法規嚴謹度、風險意識與董事會層級的決策高度。",
+    "en": "Please create a master-class 'Enterprise AI Governance War-Game' presentation in English. Audience: Board of Directors, AI Governance Committee, or C-Suite. Content must strictly align with the 4 Domains of the IAPP AIGP framework: 1. Use SCQA to frame a specific AI use case (e.g., HR Automation) and establish 'High-Risk Tiering' under Domain I. 2. Map statutory requirements to the EU AI Act and ISO 42001 under Domain II. 3. Detail data provenance, bias mitigation, and model Explainability during development (Domain III). 4. Emphasize post-deployment governance (Domain IV), including Human-in-the-Loop (HITL), Drift Monitoring, and Kill Switches. 5. Conclude with a Go/No-Go trade-off analyzing TCO vs. Risk, demanding authorization for continuous AI Impact Assessments (AIA). Max 3 bullet points per slide. The tone must project supreme regulatory rigor, acute risk awareness, and Board-level decision-making authority."
+  }
+}
