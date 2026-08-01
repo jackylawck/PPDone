@@ -1,0 +1,129 @@
+{
+  "topic_id": "market_operations",
+  "keywords": ["市場", "營運", "market", "operations", "gtm", "商業模式", "供應鏈", "擴張", "營銷", "營收", "運營", "operational excellence", "scale"],
+  "title": {
+    "zh": "商業拓展與營運卓越戰略 (GTM & 規模化藍圖)",
+    "en": "Go-to-Market & Operational Excellence Strategy (Scale & Growth)"
+  },
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_title": {
+        "zh": "戰略機遇與營運缺口 (Business Context & The Ask)",
+        "en": "Strategic Window & Operational Gap (SCQA)"
+      },
+      "bullet_points": {
+        "zh": [
+          "情境 (Situation)：[某新興市場/客群] 展現強勁的增長動能，我們具備切入的先發/產品優勢",
+          "衝突 (Complication)：然而，現有的 [產能/供應鏈/客服] 基礎設施無法支撐 3 倍的規模化擴張",
+          "決策訴求 (The Ask)：提出 GTM 與營運升級雙軌戰略，懇請董事會核准 [X 預算] 打通擴張瓶頸"
+        ],
+        "en": [
+          "Situation: [Emerging Market/Segment] shows massive growth tailwinds; we hold a strong product advantage.",
+          "Complication: However, our legacy [Capacity/Supply Chain/Ops] cannot sustain a 3X scaling trajectory.",
+          "The Ask: Propose a dual-track GTM & Ops Upgrade strategy, requesting [X Budget] to unblock growth."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "各位長官好。市場端傳來了好消息，我們看到了一個巨大的增長窗口。但今天我不只要談怎麼賣，更要談我們『接不接得住』這波增長。我們目前的營運基礎設施已經到了極限。今天的提案，是為了解決這個瓶頸，讓前線打下的江山，後勤能穩穩守住。",
+        "en": "Good morning. We have great news from the market—a massive window for growth is open. But today isn't just about selling; it's about our capacity to deliver. Our current operational infrastructure is at its limit. This pitch aims to unblock these bottlenecks so our backend can sustain our frontline conquests."
+      }
+    },
+    {
+      "slide_number": 2,
+      "slide_title": {
+        "zh": "市場潛力量化與競爭護城河 (TAM & Competitive Moat)",
+        "en": "Market Sizing (TAM) & Competitive Moat"
+      },
+      "bullet_points": {
+        "zh": [
+          "市場規模 (TAM/SAM/SOM)：精準定位目標市場，預計未來 3 年可獲取 [X] 的實質潛在營收",
+          "競爭格局 (Competitive Landscape)：對手在 [某領域] 存在弱點，我們的 [核心差異化] 正中客戶痛點",
+          "獲客經濟學 (CAC vs LTV)：目前獲客成本持續優化，終身價值達 [X] 倍，具備強烈擴張正當性"
+        ],
+        "en": [
+          "Market Sizing (TAM/SAM/SOM): Pinpointing the target segment, projecting a Serviceable Obtainable Market of [X] over 3 years.",
+          "Competitive Landscape: Competitors are vulnerable in [Area]; our [Core Differentiator] perfectly solves client pain points.",
+          "Unit Economics (CAC vs LTV): Customer Acquisition Cost is optimizing, yielding an LTV of [X]X—justifying aggressive scaling."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "先看前線戰況。這塊市場 (TAM) 夠大，而且對手的產品有明顯缺陷。從單位經濟效益來看，我們每花 1 塊錢獲客，能賺回 X 塊錢 (LTV/CAC)。這證明我們的商業模式已經跑通了，現在是踩油門加速擴張的最佳時機。",
+        "en": "Let's look at the frontline. The Total Addressable Market (TAM) is substantial, and competitors have clear product gaps. From a unit economics perspective, every dollar spent on acquisition yields X dollars (LTV/CAC). Our business model is proven; it's time to accelerate."
+      }
+    },
+    {
+      "slide_number": 3,
+      "slide_title": {
+        "zh": "營運瓶頸與不作為成本 (Ops Bottlenecks & COI)",
+        "en": "Operational Bottlenecks & Cost of Inaction (COI)"
+      },
+      "bullet_points": {
+        "zh": [
+          "產能與供應鏈風險 (Capacity Risks)：目前產能利用率高達 [X]%，供應鏈存在 [單點失效/缺料] 隱患",
+          "流程損耗 (Process Inefficiency)：跨部門的人工協作導致 [訂單到交付週期 (O2C)] 延長了 [X] 天",
+          "不作為成本 (COI)：若不升級後勤，強行擴張將導致客訴飆升與 [X] 的違約/流失成本"
+        ],
+        "en": [
+          "Capacity & Supply Chain: Current utilization is at [X]%; identifying single-points-of-failure in the supply chain.",
+          "Process Inefficiency: Manual cross-functional handoffs have extended the Order-to-Cash (O2C) cycle by [X] days.",
+          "Cost of Inaction (COI): Scaling without upgrading ops will trigger massive churn and [X] in SLA penalty costs."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "但如果我們現在貿然擴張，公司會面臨極大風險。我們用數據檢視了後勤：產能已經滿載，且「訂單到交付」的流程充滿人工斷點。如果我們不投資營運基礎設施，前線賣得越多，後端賠得越多，這就是我們巨大的不作為成本。",
+        "en": "However, scaling recklessly poses massive risks. Data shows our backend is maxed out, and the Order-to-Cash process is riddled with manual friction. If we don't invest in ops infrastructure, selling more will literally mean losing more. This is our immense Cost of Inaction."
+      }
+    },
+    {
+      "slide_number": 4,
+      "slide_title": {
+        "zh": "營運卓越與規模化解方 (Operational Excellence Plan)",
+        "en": "Operational Excellence & Scaling Playbook"
+      },
+      "bullet_points": {
+        "zh": [
+          "流程重構 (Lean/Six Sigma)：導入精實管理，剔除無附加價值之流程，將交付週期縮短 [X]%",
+          "數位賦能 (Tech & Automation)：部署 [ERP/自動化系統]，實現營運數據可視化與預測性補貨",
+          "彈性供應鏈 (Agile Supply Chain)：拓展第二供應商 (Dual Sourcing) 與委外合作，建立高韌性後勤"
+        ],
+        "en": [
+          "Process Reengineering (Lean): Applying Lean principles to eliminate non-value-added steps, cutting delivery cycles by [X]%.",
+          "Tech Enablement (Automation): Deploying [ERP/Automation] for real-time operational visibility and predictive replenishment.",
+          "Agile Supply Chain: Establishing dual-sourcing and strategic outsourcing to build a highly resilient backend."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "為了支撐 GTM 戰略，我們提出了『營運卓越藍圖』。我們不只是加人，而是透過精實管理優化流程，並導入自動化系統來取代人工。同時，我們會建立雙重供應商機制，打造具備高度韌性與彈性的供應鏈，確保前線毫無後顧之憂。",
+        "en": "To support the GTM strategy, we propose this 'Operational Excellence Playbook'. We aren't just adding headcount; we are reengineering processes via Lean principles and automating manual tasks. Simultaneously, we're building a resilient, dual-sourced supply chain so our frontline can scale fearlessly."
+      }
+    },
+    {
+      "slide_number": 5,
+      "slide_title": {
+        "zh": "財務預測與 90 天衝刺計畫 (Financials & Roadmap)",
+        "en": "Financial Projections & 90-Day Roadmap"
+      },
+      "bullet_points": {
+        "zh": [
+          "利潤率擴張 (Margin Expansion)：透過規模經濟與營運優化，預期整體 EBITDA 將於明年提升 [X]%",
+          "90 天里程碑 (First 90 Days)：前 30 天完成供應商簽約與系統 PoC，前 90 天完成核心流程切換",
+          "決策訴求 (Call to Action)：懇請核准 [X] 營運升級資本支出 (CapEx)，以鎖定明年的爆發性營收"
+        ],
+        "en": [
+          "Margin Expansion: Driven by economies of scale and ops optimization, projecting an EBITDA uplift of [X]% next year.",
+          "90-Day Milestones: Finalize vendor contracts/System PoC in 30 days; complete core process switch within 90 days.",
+          "Call to Action: Requesting approval for [X] in Ops Upgrade CapEx to secure next year's explosive revenue growth."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "市場份額與營運效率的雙重提升，將帶來利潤率 (EBITDA) 的顯著擴張。這是我們未來 90 天的嚴謹落地計畫。這筆營運升級的資本支出，是保障明年營收翻倍的關鍵鑰匙。如果各位對戰略方向沒有異議，我們懇請獲得預算授權，立刻啟動。",
+        "en": "The dual impact of market capture and operational efficiency will drive significant EBITDA margin expansion. Here is our rigorous 90-day execution roadmap. This CapEx for operational upgrades is the key to unlocking 2X revenue next year. If aligned, we respectfully request budget authorization to execute immediately."
+      }
+    }
+  ],
+  "prompt_template": {
+    "zh": "請以繁體中文製作一份大師級的『商業拓展與營運卓越 (GTM & Operations)』簡報。受眾為 CEO 或董事會。內容必須展現 COO/CCO (營運長/商務長) 的頂尖商業思維：1. 運用 SCQA 架構說明市場機遇與後勤瓶頸的衝突，2. 量化市場潛力 (TAM/SAM/SOM) 與單位經濟效益 (LTV/CAC)，3. 點出營運瓶頸與『不作為成本 (Cost of Inaction)』，避免盲目擴張帶來的災難，4. 提出涵蓋精實管理 (Lean)、自動化與彈性供應鏈的『營運卓越藍圖』，5. 結尾必須展示利潤率 (EBITDA) 的擴張預測，並給出 90 天落地計畫與明確的資本支出 (CapEx) 請求。每張 Slide 不超過 3 個重點，語氣需具備極強的擴張企圖心與嚴謹的營運防錯邏輯。",
+    "en": "Please create a master-class 'Go-to-Market & Operational Excellence' presentation in English. Audience: CEO or Board of Directors. Demonstrate elite COO/CCO level business acumen: 1. Use SCQA to frame the clash between market opportunities and backend bottlenecks. 2. Quantify market sizing (TAM) and Unit Economics (LTV/CAC). 3. Highlight operational limits and the 'Cost of Inaction (COI)' to prevent reckless scaling. 4. Propose an 'OpEx Playbook' utilizing Lean, automation, and agile supply chain principles. 5. Conclude with projected margin (EBITDA) expansion, a 90-day roadmap, and a specific CapEx ask. Max 3 bullet points per slide. The tone must aggressively target growth while maintaining rigorous operational risk-control logic."
+  }
+}
