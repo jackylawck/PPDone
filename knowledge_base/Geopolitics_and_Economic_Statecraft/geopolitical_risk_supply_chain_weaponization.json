@@ -1,0 +1,129 @@
+{
+  "topic_id": "geopolitical_risk_supply_chain_weaponization",
+  "keywords": ["地緣政治", "geopolitics", "供應鏈武器化", "weaponization", "經濟安全", "economic security", "出口管制", "export control", "脫鉤", "decoupling", "friend-shoring", "友岸外包", "cso", "首席戰略官"],
+  "title": {
+    "zh": "地緣政治風險與供應鏈武器化防禦戰略 (CSO/全球營運長 視角)",
+    "en": "Geopolitical Risk & Supply Chain Weaponization Defense (CSO/COO)"
+  },
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_title": {
+        "zh": "全球化碎片化與地緣經濟威脅 (SCQA & The Geopolitical Mandate)",
+        "en": "Global Fragmentation & The Geopolitical Mandate (SCQA)"
+      },
+      "bullet_points": {
+        "zh": [
+          "情境 (Situation)：我們的跨國供應鏈與核心市場高度集中於特定地緣政治熱點，長期依賴單一區域的低成本製造與稀缺原物料",
+          "衝突 (Complication)：隨著大國博弈升級、出口管制擴大與「供應鏈武器化 (Weaponization of Supply Chains)」，我們隨時面臨斷鏈、資產凍結或合規違憲的毀滅性打擊",
+          "戰略訴求 (The Ask)：提議終結「效率至上」的傳統供應鏈思維，全面導入「地緣經濟安全 (Economic Statecraft)」框架，啟動全球產線的重組與避險"
+        ],
+        "en": [
+          "Situation: Our cross-border supply chains and primary markets are heavily concentrated in geopolitical flashpoints, relying on single-region low-cost manufacturing and scarce raw materials.",
+          "Complication: With escalating great-power competition, expanding export controls, and the 'Weaponization of Supply Chains,' we face imminent catastrophic risks of embargoes, asset freezes, or sudden blacklisting.",
+          "The Ask: Proposing the immediate abandonment of traditional 'efficiency-first' supply chain models. Requesting Board mandate to implement an 'Economic Statecraft' framework and execute global footprint restructuring."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "各位董事，過去三十年，我們追求的是『成本最低、效率最高』的全球化供應鏈。但時代變了。現在的商業世界，供應鏈已經被『武器化』。只要一個出口管制或地緣衝突，我們的工廠就會立刻停擺。今天的提案，是要把地緣政治風險從『新聞頭條』拉進我們的『董事會風險雷達』，展開全球產線的戰略大洗牌。",
+        "en": "Members of the Board, for the past thirty years, our global supply chain strategy prioritized 'lowest cost, highest efficiency.' That era is dead. Today, supply chains are actively 'weaponized.' A single export control enactment or regional blockade instantly paralyzes our operations. Today's mandate elevates geopolitical risk from a 'news headline' to our 'Boardroom Risk Radar,' forcing a radical restructuring of our global footprint."
+      }
+    },
+    {
+      "slide_number": 2,
+      "slide_title": {
+        "zh": "友岸外包與中國加一戰略 (Friend-shoring & China Plus One)",
+        "en": "Friend-shoring & Diversified Footprint Architecture"
+      },
+      "bullet_points": {
+        "zh": [
+          "友岸外包 (Friend-shoring)：將高敏感度的技術研發與關鍵零組件產線，強制遷移至法律體系穩定、政治立場互信的友岸盟國 (如東南亞、東歐或拉美)",
+          "中國加一落地實施 (China Plus One Execution)：保留中國本土市場的在地化營運（以符合當地法規與內需），但將所有「出口全球」的產能進行雙軌備份",
+          "冗餘與多源採購 (Redundancy & Multi-sourcing)：打破單一供應商迷思，強制要求關鍵原物料必須具備至少三家不同司法管轄區 (Jurisdictions) 的合格供應商"
+        ],
+        "en": [
+          "Friend-shoring: Mandating the migration of sensitive R&D and critical component fabrication into politically aligned jurisdictions with robust legal stability (e.g., Southeast Asia, Eastern Europe).",
+          "China Plus One Execution: Preserving localized operations strictly for domestic Chinese consumption (maintaining in-country compliance), while dual-routing all global-export capacity out of the region.",
+          "Redundancy & Multi-sourcing: Dismantling single-source dependencies. Enforcing a strict requirement that all critical raw materials maintain validated suppliers across at least three distinct sovereign jurisdictions."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "我們必須徹底落實『友岸外包 (Friend-shoring)』與『中國加一 (China Plus One)』策略。這不是要我們撤出中國市場，而是要將『做給全球的貨』跟『做給中國內需的貨』徹底切開。我們會在友好國家建立備用產線，並確保關鍵原物料分散在三個不同的國家。這雖然會稍微增加資本支出，但這是買下公司永續生存的『保險費』。",
+        "en": "We must operationalize 'Friend-shoring' and 'China Plus One.' This is not about abandoning domestic Chinese consumption; it is about decoupling our 'global-export' lines from our 'local-for-local' operations. We will build mirrored capacity in trusted nations and mandate that critical inputs source from at least three separate sovereign states. While this slightly inflates CapEx, it is the mandatory 'insurance premium' required to guarantee enterprise survival."
+      }
+    },
+    {
+      "slide_number": 3,
+      "slide_title": {
+        "zh": "合規紅線與出口管制防禦 (Export Controls & Compliance Moats)",
+        "en": "Export Controls & Navigating Sanction Minefields"
+      },
+      "bullet_points": {
+        "zh": [
+          "實體清單預警 (Entity List Preemption)：建立嚴格的自動化篩查系統，實時監控所有交易對手是否遭到美歐或地方政府的「制裁或實體清單 (Entity List)」點名",
+          "雙重用途審查 (Dual-Use Technology Audit)：針對我方的軟硬體與 AI 演算法進行地毯式審查，確保不小心輸出的技術未觸碰軍民兩用 (Dual-use) 的紅線",
+          "法理防火牆 (Legal Ring-fencing)：在跨國子公司之間建立嚴格的防火牆，確保單一海外實體的合規違規，不會穿透並癱瘓母公司的全球資產"
+        ],
+        "en": [
+          "Entity List Preemption: Deploying automated, real-time screening engines to continuously verify that no trading partner, vendor, or customer intersects with expanding sovereign sanctions or Entity Lists.",
+          "Dual-Use Technology Audit: Conducting comprehensive forensic audits across our software, hardware, and AI algorithms to ensure we never inadvertently breach 'Dual-Use' export control thresholds.",
+          "Legal Ring-fencing: Establishing impenetrable legal firewalls between international subsidiaries, ensuring a localized regulatory infraction in a high-risk zone cannot pierce the corporate veil to paralyze Parent assets."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "在地緣政治衝突中，『合規』就是最高防線。我們不能再依賴人工審查客戶背景，必須導入實時自動化篩查，防止我們跟黑名單企業做生意而吃上巨額罰單。同時，法務與研發團隊必須聯合清查我們的技術，確保我們的 AI 或硬體沒有踩到『軍民兩用』的紅線。我們也要做好跨國子公司的隔離，防止海外踩雷波及母公司。",
+        "en": "In geopolitical warfare, 'Compliance' is our ultimate defense moat. Manual customer vetting is obsolete; we must deploy real-time automated screening to prevent transactions with blacklisted entities. Concurrently, Legal and R&D must execute forensic audits across our IP to ensure our tech doesn't trigger 'Dual-Use' restrictions. We must also ring-fence our international operating units to ensure a localized sanction breach cannot pierce the corporate veil to destroy the Parent."
+      }
+    },
+    {
+      "slide_number": 4,
+      "slide_title": {
+        "zh": "公共事務與國家級遊說 (Statecraft & Sovereign Diplomacy)",
+        "en": "Statecraft & Proactive Sovereign Engagement"
+      },
+      "bullet_points": {
+        "zh": [
+          "主權遊說佈局 (Sovereign Diplomacy)：主動與華盛頓、歐盟與主要亞洲政府的政策制定者溝通，將我們的技術定位為「國家戰略資產」，爭取政策補貼與豁免",
+          "危機應變指揮部 (Geopolitical War Room)：成立直屬 CSO 的地緣政治戰情室，全天候監控全球選舉、法規變動與潛在衝突，進行即時兵推",
+          "在地利益綁定 (Local Stakeholder Embedding)：在每一個海外營運國主動創造在地就業與技術轉移，將公司利益與當地政府的施政目標深度綁定，取得政治保護傘"
+        ],
+        "en": [
+          "Sovereign Diplomacy: Proactively engaging policymakers in D.C., Brussels, and key Asian capitals, framing our technology as a critical 'National Strategic Asset' to secure subsidies and regulatory exemptions.",
+          "Geopolitical War Room: Chartering a dedicated War Room reporting directly to the CSO, continuously monitoring global elections, regulatory shifts, and regional flashpoints via predictive war-gaming.",
+          "Local Stakeholder Embedding: Intentionally embedding local job creation and technology transfer in every host nation, deeply aligning our corporate footprint with local government political survival to secure a protective umbrella."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "面對政府的監管與地緣政治風暴，我們不能坐以待斃，必須進行『主權外交』。我們要主動走到華盛頓和布魯塞爾的政策制定者面前，讓他們明白：我們的技術不是國安威脅，而是你們國家科技競爭力的『關鍵資產』。同時，我們在各國落地生根時，必須跟當地的就業與經濟發展深度綁定，讓當地政府把我們當成寶，而不是當成箭靶。",
+        "en": "When confronting geopolitical storms, passivity is fatal; we must practice 'Sovereign Diplomacy.' We proactively engage policymakers in D.C. and Brussels, explicitly framing our enterprise not as a geopolitical risk, but as a 'National Strategic Asset' critical to their technological dominance. Furthermore, in every host nation, we hyper-embed local job creation and economic value, ensuring the host government views our survival as integral to their own political success."
+      }
+    },
+    {
+      "slide_number": 5,
+      "slide_title": {
+        "zh": "100 天全球供應鏈重構藍圖與決策訴求 (100-Day Blueprint)",
+        "en": "100-Day Supply Chain De-risking Blueprint"
+      },
+      "bullet_points": {
+        "zh": [
+          "第 1-30 天 (曝險盤點與清單審查)：完成全球供應鏈與客戶名單的地緣政治曝險盤點，產出高風險節點紅皮書",
+          "第 31-100 天 (產線備份與遊說啟動)：啟動東南亞備用產線的建置與多源採購合約談判，並向主要政府遞交戰略豁免與補貼申請",
+          "決策訴求 (Call to Action)：懇請董事會核准全球供應鏈重構之專項預算，授權 CSO 全權指揮地緣政治防禦與友岸外包執行"
+        ],
+        "en": [
+          "Days 1-30 (Exposure Audit): Complete a forensic audit of our global supply chains and customer matrices against geopolitical fault lines, delivering a high-risk vulnerability 'Red Paper.'",
+          "Days 31-100 (Footprint Migration & Diplomacy): Initiate secondary production line builds in aligned nations, execute multi-sourcing contracts, and submit sovereign subsidy/exemption petitions.",
+          "Call to Action: Requesting Board approval for the Global Supply Chain De-risking capital allocation, empowering the CSO with absolute operational command over our Friend-shoring execution."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "這是一份為期 100 天的全球供應鏈避險工程。第一個月，我們會把公司所有的產線與客戶造冊，找出那些隨時可能爆炸的地緣政治定時炸彈。接下來的兩個月，我們會把備用產線架起來，並同步展開政府遊說。懇請董事會核准這筆供應鏈重構預算，讓我們在暴風雨來臨前，把這艘船打造得堅不可摧。",
+        "en": "This is a 100-day global supply chain de-risking engineering project. Month one delivers a comprehensive 'Red Paper' pinpointing every ticking geopolitical time bomb across our ecosystem. Months two and three construct our mirrored manufacturing footprint and deploy our sovereign lobbying offensive. I ask the Board to authorize this capital allocation, ensuring that before the storm hits, our enterprise is structurally bulletproof."
+      }
+    }
+  ],
+  "prompt_template": {
+    "zh": "請以繁體中文製作一份大師級的『地緣政治風險與供應鏈武器化防禦』簡報。受眾為董事會、CEO 或全球營運長 (COO)。內容必須展現結合國際政經、法理合規與供應鏈重構的頂級 CSO 視角：1. 運用 SCQA 點出全球化碎片化與供應鏈武器化對企業資產的毀滅性威脅，2. 規劃『友岸外包 (Friend-shoring)』與『中國加一』的多源產線備份架構，3. 強化出口管制合規、實體清單篩查與跨國子公司的『法理防火牆』，4. 導入主權遊說 (Sovereign Diplomacy)，將企業技術定位為國家戰略資產以爭取豁免，5. 結尾給出 100 天供應鏈重構藍圖，要求董事會核准避險專項預算。每張 Slide 不超過 3 個重點，語氣需極具大國博弈的宏觀格局、冷靜嚴密的風險意識與不容妥協的戰略決心。",
+    "en": "Please create a master-class 'Geopolitical Risk & Supply Chain Weaponization Defense' presentation in English. Audience: Board of Directors, CEO, or Global COO. Demonstrate the elite macroeconomic, compliance, and supply chain restructuring vision of a Chief Strategy Officer (CSO): 1. Use SCQA to frame the existential threat of global fragmentation and supply chain weaponization. 2. Architect diversified Friend-shoring and China Plus One redundancy frameworks. 3. Enforce strict export control compliance, automated Entity List screening, and international legal ring-fencing. 4. Deploy Sovereign Diplomacy, strategically framing enterprise technology as a 'National Strategic Asset' to secure exemptions and subsidies. 5. Conclude with a 100-Day Supply Chain De-risking Blueprint, demanding Board CapEx authorization for resilience architecture. Max 3 bullet points per slide. The tone must project grand-strategic macroeconomic command, clinical risk awareness, and unshakeable strategic resolve."
+  }
+}
