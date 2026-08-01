@@ -1,0 +1,129 @@
+{
+  "topic_id": "general_management_lecture",
+  "keywords": ["教學", "內訓", "management", "lecture", "商管", "個案", "case study", "高階培訓", "general management", "總經理學", "實務", "引導", "facilitation"],
+  "title": {
+    "zh": "總經理學與高階管理實務 (商管授課與引導教案)",
+    "en": "General Management & Executive Practice (Academic Lecture & Facilitation)"
+  },
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_title": {
+        "zh": "課程破冰與學習痛點 (SCQA & Learning Objectives)",
+        "en": "Course Icebreaker & Learning Objectives (SCQA)"
+      },
+      "bullet_points": {
+        "zh": [
+          "情境 (Situation)：各位在各自的專業領域 (如財會、工程、行銷) 都已是極具經驗的菁英",
+          "衝突 (Complication)：然而，當晉升為「總經理 (General Manager)」時，過度依賴單一功能的思維，往往會導致跨部門決策的失明與戰略短視",
+          "學習目標 (The Ask)：本課程將打破穀倉效應，透過 [X 個真實商業個案]，培養各位具備「見樹又見林」的 C-Level 綜合治理視角"
+        ],
+        "en": [
+          "Situation: You have all achieved mastery and elite status within your respective functional silos (e.g., Finance, Engineering, Marketing).",
+          "Complication: However, upon ascending to the 'General Manager' role, relying solely on functional thinking leads to cross-departmental blindness and strategic myopia.",
+          "Learning Objectives: This module breaks down those silos. Through [X real-world case studies], we will cultivate your 'see the forest and the trees' C-Level governance perspective."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "各位學員好，歡迎來到總經理學的課堂。在過去，你們是因為『專精』而成功；但從今天起，你們必須學會『通才』的思維。專業主管看的是單一 KPI，總經理看的是整張 P&L 損益表與企業的存亡。這堂課不是要教你們理論，而是要逼你們換上一顆 C-Level 的大腦來做決策。",
+        "en": "Welcome, everyone, to the General Management module. Historically, you've succeeded through 'specialization'; starting today, you must master the mindset of a 'generalist.' Functional leaders obsess over isolated KPIs; General Managers own the entire P&L and the enterprise's survival. We aren't here for theory; we are here to wire your brains for C-Level decision-making."
+      }
+    },
+    {
+      "slide_number": 2,
+      "slide_title": {
+        "zh": "核心框架：總經理的治理矩陣 (The GM Framework)",
+        "en": "Core Framework: The General Manager's Matrix"
+      },
+      "bullet_points": {
+        "zh": [
+          "戰略與執行 (Strategy vs. Execution)：總經理不僅要能看懂頂層的商業模式，更要具備將戰略拆解為日常營運指標 (OKR) 的手腕",
+          "資源與資本 (Resource Allocation)：學會以「投資回報率 (ROI)」與「機會成本」為核心，進行跨部門的無情資源分配",
+          "組織與文化 (People & Culture)：硬技巧決定公司的底線，但軟實力（如：多元共融 DEI、跨國文化融合）決定公司的天花板"
+        ],
+        "en": [
+          "Strategy vs. Execution: A GM must decipher top-level business models and possess the operational chops to translate strategy into daily OKRs.",
+          "Resource Allocation: Mastering ruthless, cross-departmental capital allocation driven strictly by ROI and Opportunity Cost.",
+          "People & Culture: Hard skills define the company's baseline, but soft power (e.g., DEI, cross-cultural integration) determines its absolute ceiling."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "總經理的核心任務可以濃縮為三個維度：戰略、資源與人。你們不能只會畫大餅，必須能落地成 OKR；你們不能當爛好人，必須學會無情地將資源分配給高回報專案；最後，一家公司的天花板是由文化決定的，這也是為什麼跨國管理與組織行為學是各位必修的硬功夫。",
+        "en": "A GM's core mandate boils down to three dimensions: Strategy, Resources, and People. You cannot just preach vision; you must translate it to OKRs. You cannot be a people-pleaser; you must ruthlessly allocate capital to high-ROI projects. Finally, culture dictates the enterprise ceiling, making cross-cultural management a mandatory hard skill."
+      }
+    },
+    {
+      "slide_number": 3,
+      "slide_title": {
+        "zh": "實戰個案演練 (Harvard Case Study Simulation)",
+        "en": "Case Study Simulation (Harvard Method)"
+      },
+      "bullet_points": {
+        "zh": [
+          "個案背景 (Case Context)：回顧 [某知名企業/跨國併購] 在面臨 [技術顛覆/市場危機] 時的決策兩難",
+          "角色扮演 (Roleplay & Debate)：將學員分組，分別從 CFO、法務長、HR 總監與 CEO 的視角進行利益衝突辯論",
+          "決策盲點 (Cognitive Blindspots)：引導學員發現「確認偏誤 (Confirmation Bias)」與「沉沒成本 (Sunk Cost)」如何摧毀理性決策"
+        ],
+        "en": [
+          "Case Context: Analyzing the strategic dilemma faced by [Company/M&A Case] during a severe [Tech Disruption/Market Crisis].",
+          "Roleplay & Debate: Assigning participants to represent conflicting C-Suite interests (CFO, General Counsel, CHRO, CEO) to simulate boardroom friction.",
+          "Cognitive Blindspots: Facilitating the discovery of how 'Confirmation Bias' and 'Sunk Cost Fallacy' routinely destroy rational governance."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "接下來我們進入哈佛個案演練。請各位把桌上的名牌換掉，現在你們不是工程師或業務，你們是這家公司的董事會成員。面對這個資金快燒完、核心團隊要離職的危機，你們只有 20 分鐘達成共識。我不會給你們標準答案，我只要你們在利益衝突中做出抉擇，並為此負責。",
+        "en": "We now transition to the Harvard Case simulation. Forget your actual job titles; you are now the Board of Directors for this company. Facing a severe cash burn and key talent exodus, you have 20 minutes to reach a consensus. I will not provide a textbook answer. I need you to navigate the friction, make a definitive choice, and own the consequences."
+      }
+    },
+    {
+      "slide_number": 4,
+      "slide_title": {
+        "zh": "教學引導與反思 (Facilitation & Debriefing)",
+        "en": "Facilitation & Executive Debriefing"
+      },
+      "bullet_points": {
+        "zh": [
+          "結果揭曉 (The Reveal)：對比學員的決策與該企業當年真實做出的選擇，分析成功或失敗的關鍵轉捩點",
+          "高階引導 (Socratic Questioning)：運用蘇格拉底式提問：「如果我們當時擁有這項數據，各位的決策會改變嗎？」",
+          "跨域思維 (Cross-Domain Thinking)：總結法理防禦 (Legal)、風險控管 (Risk) 與人才資本 (HR) 在本次決策中的交織影響"
+        ],
+        "en": [
+          "The Reveal: Contrasting the cohort's decision against the historical reality of the case, dissecting the exact pivot point of failure or success.",
+          "Socratic Facilitation: Deploying Socratic questioning: 'If you possessed this specific data point, how would your vote have changed?'",
+          "Cross-Domain Synthesis: Summarizing the intricate interplay between Legal defense, Risk management, and Human Capital in ultimate corporate outcomes."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "剛才各組的討論非常激烈，現在我們來看看當年這家公司真實的結局是什麼。大家剛剛是不是都掉進了『過度樂觀』的陷阱？在真實的商戰中，法務合規、財務底線跟人才流失是綁在一起的。這就是為什麼一個合格的總經理，不能只聽單一部門的聲音，你必須具備跨域整合的直覺。",
+        "en": "The boardroom debate was intense. Now, let's reveal what actually happened in history. Notice how many of you fell into the 'optimism bias' trap? In real commercial warfare, legal compliance, financial constraints, and talent drain are inextricably linked. This is why a competent GM cannot listen to just one functional silo; you must develop the instinct for cross-domain synthesis."
+      }
+    },
+    {
+      "slide_number": 5,
+      "slide_title": {
+        "zh": "落地應用與行動承諾 (Kirkpatrick Level 3/4 & Action Plan)",
+        "en": "Action Plan & Business Impact (Kirkpatrick L3/L4)"
+      },
+      "bullet_points": {
+        "zh": [
+          "行為改變 (Behavioral Shift)：要求每位學員寫下明天回到崗位後，將立刻停止做的一件事 (Stop-doing list)",
+          "實踐計畫 (Actionable Plan)：擬定一項跨部門的微型專案 (Micro-project)，在未來 30 天內驗證今日的學習成果",
+          "成效追蹤 (Impact Measurement)：與 HR 及直屬主管對接，確保本次培訓能實質反映在未來的領導力評鑑與商業績效上"
+        ],
+        "en": [
+          "Behavioral Shift: Requiring every participant to write down a 'Stop-Doing List' to enact immediately upon returning to their desk tomorrow.",
+          "Actionable Plan: Designing a cross-functional micro-project to validate today's insights within the next 30 days.",
+          "Impact Measurement: Aligning with HR and line managers to ensure this intervention tangibly reflects in future leadership assessments and P&L impact."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "最好的培訓，不是下課時覺得熱血沸騰，而是明天上班時，你們的行為真的改變了。請大家現在寫下你們的『Stop-doing list (不辦清單)』，停止微觀管理，停止只看自己的 KPI。未來 30 天，我們將透過具體的跨部門專案，來驗證各位是否真正長出了總經理的翅膀。今天的課到此結束，謝謝大家。",
+        "en": "The hallmark of elite executive education isn't walking out feeling inspired; it's walking into the office tomorrow and changing your behavior. Please write down your 'Stop-Doing List' now—stop micromanaging, stop obsessing over siloed KPIs. Over the next 30 days, we will track micro-projects to prove you've sprouted GM wings. Class dismissed, thank you."
+      }
+    }
+  ],
+  "prompt_template": {
+    "zh": "請以繁體中文製作一份大師級的『總經理學與高階管理實務 (General Management)』授課教案。受眾為大學商管課程學生或企業內部的高階儲備幹部。內容必須展現頂尖商學院教授 (Professor of Practice) 的引導功力：1. 運用 SCQA 點出從『功能型主管』轉型為『總經理』的痛點與盲區，2. 建立涵蓋戰略、財務與人資的 GM 治理矩陣，3. 導入『哈佛個案教學法 (Case Study)』設計角色扮演與利益衝突辯論，4. 運用蘇格拉底式提問 (Socratic Questioning) 進行決策反思，5. 結尾必須扣緊 Kirkpatrick 培訓評估的 L3/L4 落地應用，要求學員產出『不辦清單 (Stop-doing list)』與 30 天行動計畫。每張 Slide 不超過 3 個重點，語氣需充滿學術嚴謹度，同時具備強烈的實戰啟發性與講台魅力。",
+    "en": "Please create a master-class 'General Management & Executive Practice' lecture deck in English. Audience: University business students or corporate high-potential executives. Demonstrate the facilitation mastery of a top-tier Professor of Practice: 1. Use SCQA to highlight the painful transition from 'functional expert' to 'General Manager'. 2. Establish a GM matrix covering Strategy, Finance, and HR. 3. Integrate the 'Harvard Case Method' via roleplay and boardroom conflict simulation. 4. Deploy Socratic questioning for rigorous executive debriefing. 5. Conclude with Kirkpatrick L3/L4 actionable impact, demanding a 'Stop-Doing List' and a 30-day cross-functional action plan. Max 3 bullet points per slide. The tone must be academically rigorous yet fiercely practical, projecting immense podium presence and facilitative leadership."
+  }
+}
