@@ -97,11 +97,11 @@ with st.sidebar:
         openrouter_key = st.secrets.get("OPENROUTER_API_KEY", None)
         st.success(ui["pub_success"])
         st.warning(ui["pub_warn"])
-        st.markdown("*(Engine: OpenRouter Free Models)*")
+        st.markdown("*(Engine: OpenRouter Auto Free Models)*")
     else:
         openrouter_key = st.text_input(ui["own_key_label"], type="password")
         st.info(ui["own_key_info"])
-        st.markdown("*(Engine: OpenRouter Free Models)*")
+        st.markdown("*(Engine: OpenRouter Auto Free Models)*")
 
 st.divider()
 
@@ -192,12 +192,11 @@ if st.button(ui["btn_generate"], type="primary"):
                 Generate a specific prompt for {target_tool}. Wrap it in a Markdown Code Block.
                 """
                 
-                # OpenRouter 官方最新免費模型名單 (順序輪換，確保 100% 成功)
+                # 使用 OpenRouter 動態免費路由 (Auto Free Route) 及當前高可用免費模型列表
                 free_models = [
-                    "google/gemini-2.0-flash-lite-preview-02-05:free",
-                    "google/gemini-2.0-pro-exp-02-05:free",
-                    "deepseek/deepseek-r1:free",
-                    "qwen/qwen-2.5-coder-32b-instruct:free"
+                    "openrouter/auto",
+                    "meta-llama/llama-3.3-70b-instruct:free",
+                    "mistralai/mistral-7b-instruct:free"
                 ]
                 
                 response = None
