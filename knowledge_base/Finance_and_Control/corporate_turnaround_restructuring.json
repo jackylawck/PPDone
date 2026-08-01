@@ -1,0 +1,129 @@
+{
+  "topic_id": "corporate_turnaround_restructuring",
+  "keywords": ["重整", "turnaround", "restructuring", "cro", "債務重組", "現金流", "13-week cash flow", "破產防禦", "chapter 11", "急救", "調解", "止血"],
+  "title": {
+    "zh": "企業重整與起死回生戰略 (首席重整官 CRO 視角)",
+    "en": "Corporate Turnaround & Restructuring Strategy (CRO Perspective)"
+  },
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_title": {
+        "zh": "流動性危機與重整授權 (SCQA & The CRO Mandate)",
+        "en": "Liquidity Crisis & Restructuring Mandate (SCQA)"
+      },
+      "bullet_points": {
+        "zh": [
+          "情境 (Situation)：公司目前面臨極端的流動性枯竭，若未採取緊急干預，現有現金儲備將在 [X] 週內耗盡",
+          "衝突 (Complication)：債權銀行正威脅抽銀根與發動凍結，供應商拒絕供貨，傳統的管理層已失去市場與董事會的信任",
+          "戰略訴求 (The Ask)：正式任命「首席重整官 (CRO)」，懇請董事會賦予 CRO 辦公室對資金調度、資產處分與組織裁員的「絕對控制權」"
+        ],
+        "en": [
+          "Situation: The enterprise is in acute liquidity distress; without immediate intervention, cash reserves will be completely depleted within [X] weeks.",
+          "Complication: Creditor banks threaten credit line freezes, vendors demand cash-on-delivery (COD), and incumbent leadership has lost market and Board confidence.",
+          "The Ask: Formally appointing a Chief Restructuring Officer (CRO). Requesting the Board grant the CRO absolute operational control over cash disbursements, asset sales, and headcount reduction."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "各位董事，這不是常態營運，這是一場急診室搶救。公司現在正面臨流動性斷崖，再過幾週我們連薪水都發不出來。常規的管理思維已經救不了這家公司。今天的提案，是要任命重整官，並授予我切斷無效支出、掌控每一筆現金流出入的絕對控制權。我們要先活下來，才有資格談未來。",
+        "en": "Members of the Board, this is not business as usual; this is enterprise trauma surgery. We are facing a liquidity cliff; in a matter of weeks, we will miss payroll. Conventional management frameworks cannot save this company. Today's mandate establishes the CRO position, granting me direct, unilateral control over all cash disbursements and operational rationalization. Survival is the sole priority."
+      }
+    },
+    {
+      "slide_number": 2,
+      "slide_title": {
+        "zh": "13 週現金流戰情模型 (13-Week Cash Flow Model)",
+        "en": "13-Week Direct Cash Flow Rolling Model"
+      },
+      "bullet_points": {
+        "zh": [
+          "拋棄權責發生制 (Focus on Cash, Not Accrual)：全面暫停會計損益表 (P&L) 的運作，一切決策以「每日現金實際進出 (Direct Cash In/Out)」為唯一指標",
+          "13 週流動性預測 (13-Week Rolling Forecast)：建立極度精密的 13 週滾動現金流模型，每週進行壓力測試，精算每一筆應付帳款的付款優先順序",
+          "水龍頭管理 (Centralized Disbursements)：所有超過 [X 萬] 的支出必須由 CRO 親自簽核，非生產必需的 CapEx 立即凍結"
+        ],
+        "en": [
+          "Cash over Accrual: Abandoning P&L-based evaluation. Shifting 100% of executive decision-making to daily direct cash inflows and outflows.",
+          "13-Week Liquidity Model: Implementing a rigorous 13-week rolling cash forecast, stress-testing weekly, and prioritizing vendor payments with surgical precision.",
+          "Centralized Disbursements: Freezing all non-essential CapEx. Requiring direct CRO authorization for any cash disbursement exceeding [$X]."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "在重整階段，『利潤是幻想，現金才是國王』。我們不再看帳面上的營收，我們只看銀行帳戶裡今天有多少錢。我們導入了全球重整黃金標準的『13 週現金流模型』。所有採購與款項支付全部回收由 CRO 辦公室親自簽核。我們要像關緊水龍頭一樣，把所有不必要的漏水點全部堵住。",
+        "en": "In a turnaround, 'Profit is sanity, cash is reality.' We cease looking at accrual revenue; we look solely at our bank balances today. We have deployed the 13-Week Cash Flow Model—the global gold standard for corporate restructuring. All corporate disbursements are centralized under my office. We are shutting off every non-essential tap to stop the cash bleed immediately."
+      }
+    },
+    {
+      "slide_number": 3,
+      "slide_title": {
+        "zh": "債務重組與債權人高壓調解 (Debt Restructuring & Creditor Mediation)",
+        "en": "Debt Restructuring & Creditor Mediation"
+      },
+      "bullet_points": {
+        "zh": [
+          "債務展延協議 (Standstill Agreement)：與主要債權銀行進行商業調解，爭取 [X 個月] 的債務本金展延期 (Standstill)，換取公司營運重整的時間與空間",
+          "債轉股方案 (Debt-for-Equity Swap)：向非核心債權人提出債轉股或折扣償還 (Haircut) 方案，將短期沉重債務轉化為長期資本結構",
+          "極限博弈與調解 (The Mediation Leverage)：向債權人展現「破產清算 vs. 繼續經營 (Going Concern)」的價值差異，逼迫其回到談判桌達成和解"
+        ],
+        "en": [
+          "Standstill Agreements: Facilitating commercial mediation with primary lenders to secure a [X]-month debt principal Standstill, creating operational runway.",
+          "Debt-for-Equity Swaps: Proposing Debt-for-Equity or structured Haircut agreements to secondary creditors, converting toxic short-term debt into permanent capital.",
+          "Mediation Leverage: Demonstrating the mathematical starkness between 'Liquidation Value' versus 'Going Concern Value,' compelling creditors to accept mediated settlements."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "面對凶神惡煞的銀行與債權人，我們必須運用極高強度的『商業調解 (Mediation)』手腕。我們要給債權人算一筆帳：如果現在逼我們破產，清算後的拍賣價你們連 20% 都拿不回來；但如果給我們半年的展延期 (Standstill)，公司活過來，你們能拿回 80%。這不是討好對方，而是用冷酷的數學邏輯，逼銀行簽下債務重組協議。",
+        "en": "Navigating aggressive creditors requires high-stakes commercial mediation. We present a brutal mathematical choice to lenders: Force bankruptcy today, and liquidation yields less than 20 cents on the dollar. Grant us a 6-month Standstill to execute our turnaround, and going-concern value preserves 80% of your principal. This is not pleading; it is using cold financial reality to compel mediated debt restructuring."
+      }
+    },
+    {
+      "slide_number": 4,
+      "slide_title": {
+        "zh": "外科手術式營運重整 (Surgical Operational Rightsizing)",
+        "en": "Surgical Operational & Portfolio Rightsizing"
+      },
+      "bullet_points": {
+        "zh": [
+          "止血與處分 (Asset Divestiture & Carve-out)：無情關閉連年虧損的事業部，並將非核心的房產、專利或子公司進行賤價拍賣 (Fire-sale) 以換取即時流動性",
+          "極限成本控制 (Zero-Based Budgeting)：導入零基預算法 (ZBB)，所有部門的營運費用 (OpEx) 歸零重算，只保留維持核心交貨所必需的最低人力與資源",
+          "供應鏈重生 (Supplier Alignment)：與前 20 大核心供應商重新談判付款條件，以「關鍵產品優先付款」換取供應鏈不中斷"
+        ],
+        "en": [
+          "Asset Divestitures: Instantly shuttering chronically loss-making units; executing fire-sales of non-core real estate and non-essential IP to inject instant liquidity.",
+          "Zero-Based Budgeting (ZBB): Enforcing Zero-Based Budgeting across all BUs. Re-justifying every line-item from zero, stripping operations down to minimum viable fulfillment capacity.",
+          "Supplier Alignment: Renegotiating payment terms with top-20 mission-critical vendors, leveraging 'Priority Cash Status' for essential inventory to maintain fulfillment."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "止血之後，就是外科手術。我們沒有時間慢慢改善了。連年虧損的部門今天就關掉，不賺錢的固定資產立刻變現換現金。我們導入『零基預算 (ZBB)』，過去的預算全部歸零，每個主管必須重新證明為什麼這筆錢不花公司就會死。同時，我們跟核心供應商談判，保證關鍵物料的付款，確保生產線不能停。",
+        "en": "Following liquidity stabilization comes surgical operational restructuring. We lack the luxury of gradual optimization. Unprofitable units are terminated today; non-core real estate is liquidated for cash. We enforce Zero-Based Budgeting—historical baselines are wiped clean. BUs must prove a budget item is necessary to prevent immediate operational death. Concurrently, we ring-fence core suppliers to keep factories running."
+      }
+    },
+    {
+      "slide_number": 5,
+      "slide_title": {
+        "zh": "100 天起死回生藍圖與決策訴求 (100-Day Turnaround Blueprint)",
+        "en": "100-Day Turnaround Roadmap & Strategic Ask"
+      },
+      "bullet_points": {
+        "zh": [
+          "第 1-30 天 (止血與控管)：成立 CRO 戰情室，全面掌控現金發放，並與銀行簽署暫緩追債 (Standstill) 協議",
+          "第 31-100 天 (剝離與重構)：完成虧損部門關閉與非核心資產拍賣，並重組資本結構，恢復正向的經營活動現金流 (OCF)",
+          "決策訴求 (Call to Action)：懇請董事會核准重整計畫，賦予 CRO 簽署債務重組與資產處分合約之完全授權，帶領企業走出破產陰霾"
+        ],
+        "en": [
+          "Days 1-30 (Containment & Control): Establish the CRO War Room, lock down all cash disbursements, and execute Standstill Agreements with primary lenders.",
+          "Days 31-100 (Carve-out & Restructure): Complete shuttering of toxic BUs, liquidate non-core assets, and stabilize Operating Cash Flow (OCF) back into positive territory.",
+          "Call to Action: Requesting Board approval for the comprehensive Turnaround Plan and granting the CRO full binding authority to execute debt restructuring and asset liquidation agreements."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "這是企業重生的 100 天時間表。第一個 30 天，我們要控管現金、安撫銀行，把公司從加護病房推出來；接下來的 70 天，我們要完成資產變現與組織瘦身，讓營運現金流轉正。這是一條艱辛但唯一的生路。懇請董事會給予我完全授權，讓我們一起把這家公司從破產边缘拉回來！",
+        "en": "This is our 100-day enterprise survival roadmap. Days 1 to 30 focus on cash containment, lender standstills, and acute stabilization. Days 31 to 100 execute asset sales, rightsizing, and restoring Operating Cash Flow to positive territory. This is a brutal path, but it is the singular path forward. I ask for your full authorization to execute this plan and pull this enterprise back from the brink of insolvency."
+      }
+    }
+  ],
+  "prompt_template": {
+    "zh": "請以繁體中文製作一份大師級的『企業重整與起死回生戰略 (Turnaround & Restructuring)』簡報。受眾為董事會、債權人委員會或救火隊團隊。內容必須展現首席重整官 (CRO) 冷酷、極致財務紀律與高壓談判的急救視角：1. 運用 SCQA 點出企業流動性枯竭的破產危機與 CRO 奪權的必要性，2. 導入 13 週現金流模型 (13-Week Cash Flow)，強調「現金至上、暫停 P&L」的極致控管，3. 展現與債權銀行的高壓商業調解手腕，運用 Standstill 展延協議與債轉股，4. 實施零基預算 (ZBB) 與非核心資產賤價拍賣 (Fire-sale) 的外科手術重整，5. 結尾給出 180 天/100 天起死回生藍圖，要求董事會賦予 CRO 簽署處分合約的絕對授權。每張 Slide 不超過 3 個重點，語氣需極具商業威懾力、絕對冷靜、不帶情緒且展現強大的領導力。",
+    "en": "Please create a master-class 'Corporate Turnaround & Restructuring Strategy' presentation in English. Audience: Board of Directors, Creditors' Committee, or Crisis Taskforce. Demonstrate the clinical, ruthlessly disciplined, and high-pressure negotiation mastery of a Chief Restructuring Officer (CRO): 1. Use SCQA to frame an acute liquidity crisis and the necessity of granting absolute operational control to the CRO. 2. Deploy the 13-Week Direct Cash Flow Rolling Model, mandating cash-over-accrual discipline. 3. Detail high-stakes commercial mediation with lender banks, utilizing Standstill Agreements and Debt-for-Equity swaps. 4. Execute surgical operational rightsizing via Zero-Based Budgeting (ZBB) and non-core asset fire-sales. 5. Conclude with a 100-Day Turnaround Blueprint, demanding complete Board authorization to execute restructuring and liquidation agreements. Max 3 bullet points per slide. The tone must project immense commercial authority, clinical emotional detachment, and uncompromising executive command."
+  }
+}
