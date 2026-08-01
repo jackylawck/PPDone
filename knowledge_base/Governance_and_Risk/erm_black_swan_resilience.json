@@ -1,0 +1,129 @@
+{
+  "topic_id": "erm_black_swan_resilience",
+  "keywords": ["erm", "企業風險管理", "風險", "cro", "黑天鵝", "black swan", "風險胃納", "risk appetite", "coso", "營運連續性", "bcp", "情境兵推", "scenario planning", "壓力測試"],
+  "title": {
+    "zh": "企業風險管理 (ERM) 與黑天鵝韌性戰略 (CRO 視角)",
+    "en": "Enterprise Risk Management (ERM) & Black Swan Resilience (CRO Perspective)"
+  },
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_title": {
+        "zh": "極端波動與系統性風險現狀 (SCQA & The CRO Ask)",
+        "en": "Systemic Volatility & The CRO Mandate (SCQA)"
+      },
+      "bullet_points": {
+        "zh": [
+          "情境 (Situation)：我們過去的風險管理流於「各自為政 (Siloed)」，各部門僅針對自身的合規與工安進行點狀控管",
+          "衝突 (Complication)：面對地緣政治、極端氣候與供應鏈斷裂等「黑天鵝」事件，這種碎片化的防禦已無法抵擋能瞬間摧毀公司資產負債表的系統性衝擊",
+          "戰略訴求 (The Ask)：提議從被動合規轉向主動防禦，懇請董事會授權導入 COSO ERM 框架，並正式設立直屬董事會的「企業風險委員會」"
+        ],
+        "en": [
+          "Situation: Historically, our risk management has been siloed, with individual departments executing fragmented compliance and safety protocols.",
+          "Complication: Facing 'Black Swan' events like geopolitical shocks, extreme weather, and supply chain collapses, this fragmented defense cannot withstand systemic impacts that threaten our balance sheet.",
+          "The Ask: Proposing a pivot from reactive compliance to proactive defense. Requesting Board mandate to implement the COSO ERM framework and charter a Board-level Enterprise Risk Committee."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "各位董事，過去我們以為買了保險、做了工安稽核就叫風險管理，但在黑天鵝滿天飛的時代，這遠遠不夠。各部門各自為政的『穀倉效應 (Silos)』，會讓我們在面臨系統性危機時全線潰敗。今天的提案，是要把風險管理從『基層的合規清單』，拉高到『董事會的戰略雷達』，確保我們在下一次全球危機中不僅能活下來，還能併吞那些倒下的對手。",
+        "en": "Members of the Board, we used to believe that buying insurance and passing safety audits constituted risk management. In an era of Black Swans, that is dangerously insufficient. Departmental silos guarantee catastrophic failure during systemic crises. Today's mandate elevates risk from a 'bottom-up compliance checklist' to a 'Board-level strategic radar,' ensuring we don't just survive the next global shock, but position ourselves to acquire our fallen competitors."
+      }
+    },
+    {
+      "slide_number": 2,
+      "slide_title": {
+        "zh": "風險胃納與容忍度邊界 (Risk Appetite & Tolerance)",
+        "en": "Defining Risk Appetite & Tolerance Boundaries"
+      },
+      "bullet_points": {
+        "zh": [
+          "風險胃納 (Risk Appetite)：與董事會確立公司為追求戰略目標，願意承擔的整體風險總量（例如：每年最多可承受 X 億的營收波動）",
+          "風險容忍度 (Risk Tolerance)：將抽象的胃納量化為日常營運指標（例如：單一供應商斷鏈不得超過 72 小時、外匯曝險不得超過總淨值的 X%）",
+          "決策護欄 (Strategic Guardrails)：所有重大資本支出 (CapEx) 與併購案 (M&A) 在進入董事會前，必須先通過 CRO 辦公室的「風險胃納對齊審查」"
+        ],
+        "en": [
+          "Risk Appetite: Aligning with the Board on the aggregate quantum of risk the enterprise is willing to absorb in pursuit of strategic objectives (e.g., maximum acceptable revenue volatility of $X).",
+          "Risk Tolerance: Quantifying abstract appetite into granular operational metrics (e.g., single-supplier disruption capped at 72 hours; FX exposure strictly under X% of equity).",
+          "Strategic Guardrails: Mandating that all major CapEx and M&A proposals clear a 'Risk Appetite Alignment Audit' by the CRO before reaching the Board."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "風險管理不是要公司『不冒險』，而是要『聰明地冒險』。第一步，我們必須定出『風險胃納 (Risk Appetite)』：公司為了賺錢，最多願意輸多少？接著，我們把這個額度切碎，變成各部門的『容忍度 (Tolerance)』KPI。未來，所有要花大錢的專案，如果超出了這個容忍邊界，CRO 辦公室有權直接行使否決權。",
+        "en": "Risk management is not about 'eliminating risk'; it is about 'taking intelligent risks.' Step one is defining our 'Risk Appetite': How much are we willing to lose to achieve our growth targets? Next, we translate that macro threshold into granular departmental 'Tolerance' KPIs. Moving forward, any major capital deployment that breaches these boundaries will face an immediate veto from the CRO's office."
+      }
+    },
+    {
+      "slide_number": 3,
+      "slide_title": {
+        "zh": "COSO 框架與企業風險圖譜 (COSO ERM & Risk Mapping)",
+        "en": "COSO ERM Framework & Enterprise Risk Mapping"
+      },
+      "bullet_points": {
+        "zh": [
+          "COSO 整合框架 (COSO Integration)：將風險管理與企業戰略、績效考核深度綁定，確保『風險考量』嵌入每一個日常商業決策中",
+          "風險熱圖 (Risk Heat Map)：透過「衝擊程度 (Impact)」與「發生機率 (Likelihood)」雙維度，盤點出全公司 Top 10 的一級戰略風險",
+          "動態監控 (Dynamic KRI)：捨棄落後指標 (KPI)，導入「關鍵風險指標 (KRI)」，透過數據儀表板提前偵測潛在的危機訊號"
+        ],
+        "en": [
+          "COSO Integration: Deeply embedding risk management into corporate strategy and performance metrics, ensuring 'risk-adjusted thinking' drives daily commercial decisions.",
+          "Risk Heat Map: Evaluating risks across dual dimensions—'Impact' and 'Likelihood'—to definitively map the enterprise's Top 10 Tier-1 strategic threats.",
+          "Dynamic KRI Monitoring: Pivoting from lagging KPIs to forward-looking 'Key Risk Indicators (KRIs),' utilizing telemetry dashboards to preemptively detect crisis signals."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "我們將導入國際黃金標準的 COSO ERM 框架。我們不再寫厚厚一本沒人看的風險報告，而是產出具備高度視覺化的『風險熱圖 (Heat Map)』。我們會精準標出目前威脅最大的 10 個地雷。同時，我們不看落後的 KPI，我們看的是領先的 KRI (關鍵風險指標)，讓董事會能像看氣象預報一樣，提前知道風暴正在形成。",
+        "en": "We are deploying the gold standard COSO ERM framework. We will stop producing massive, unread risk manuals and instead deliver highly visual 'Risk Heat Maps,' surgically pinpointing our Top 10 existential threats. Furthermore, we are pivoting from lagging KPIs to leading KRIs (Key Risk Indicators), providing the Board with a weather-radar equivalent for preemptively detecting forming storms."
+      }
+    },
+    {
+      "slide_number": 4,
+      "slide_title": {
+        "zh": "情境兵推與極端壓力測試 (Scenario Planning & Stress Testing)",
+        "en": "Scenario Planning & Extreme Stress Testing"
+      },
+      "bullet_points": {
+        "zh": [
+          "黑天鵝兵推 (Black Swan War-gaming)：針對極端情境（如：台海衝突導致斷鏈、主機房遭毀滅性駭客攻擊）進行跨部門實兵演練",
+          "財務壓力測試 (Financial Stress Testing)：模擬營收瞬間掉 [X]%、應收帳款違約率飆升的情境下，公司的自由現金流 (FCF) 能支撐幾個月",
+          "營運持續計畫 (BCP/DR)：確保各事業單位皆具備隨時可啟動的 BCP 備案，確保在災難發生時能維持最低限度的服務級別協議 (SLA)"
+        ],
+        "en": [
+          "Black Swan War-gaming: Conducting cross-functional, tabletop simulations for extreme tail-risks (e.g., geopolitical blockades, catastrophic ransomware encryption).",
+          "Financial Stress Testing: Simulating a sudden [X]% top-line collapse and spiking A/R defaults to mathematically calculate the endurance of our Free Cash Flow (FCF) runway.",
+          "BCP & Disaster Recovery: Mandating that all BUs possess fully actionable Business Continuity Plans (BCP) to sustain minimum viable SLAs during catastrophic shocks."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "風險不能只停留在紙上，必須經過『壓力測試』。我們會針對那些『發生機率極低、但一發生就會死』的黑天鵝事件進行兵推。財務部必須算出，如果明天主要市場突然封鎖，我們的現金流還能活幾個月？各部門的 BCP (營運持續計畫) 也將進行實戰演練，確保災難來臨時，我們依然能對客戶履行最基本的承諾。",
+        "en": "Risk cannot exist solely on paper; it must be 'stress-tested.' We will execute war-games against Black Swan events—those 'low-probability, highly-lethal' tail-risks. Finance must calculate our exact cash runway if our primary market shuts down tomorrow. Departmental BCPs will be pressure-tested to ensure we can sustain minimum contractual SLAs when catastrophe strikes."
+      }
+    },
+    {
+      "slide_number": 5,
+      "slide_title": {
+        "zh": "100 天防禦藍圖與決策訴求 (100-Day Defense Blueprint & Ask)",
+        "en": "100-Day Defense Blueprint & Strategic Ask"
+      },
+      "bullet_points": {
+        "zh": [
+          "第 1-30 天 (風險盤點)：完成全企業 Top 20 戰略風險盤點，並由董事會正式核定本年度之「風險胃納聲明書 (Risk Appetite Statement)」",
+          "第 31-100 天 (體系建置與兵推)：建置 KRI 戰情儀表板，並針對最高風險項目完成第一次高階主管情境兵推演練",
+          "決策訴求 (Call to Action)：懇請核准設立由獨立董事領軍的「企業風險委員會」，並授權 CRO 具備對重大高風險專案的「一票否決權 (Veto Power)」"
+        ],
+        "en": [
+          "Days 1-30 (Risk Audit): Finalize the enterprise Top 20 strategic risk audit and secure formal Board ratification of the 'Risk Appetite Statement.'",
+          "Days 31-100 (Systems & War-games): Deploy the KRI telemetry dashboard and execute the inaugural executive tabletop war-game against our apex threats.",
+          "Call to Action: Requesting the charter of an Independent-Director-led 'Enterprise Risk Committee' and granting the CRO definitive 'Veto Power' over highly non-compliant, high-risk projects."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "這是一份為期 100 天的防禦工程。前一個月，我們會完成全身的健康檢查，並請董事會簽署『風險胃納聲明』，劃定紅線。接下來，我們將建置戰情儀表板，並進行高階兵推。為了讓這套系統擁有真正的牙齒，懇請董事會賦予 CRO 對於違規專案的『一票否決權』。只有這樣，我們才能真正守住公司的底線。",
+        "en": "This is a 100-day defense operation. Month one is a full diagnostic audit, culminating in the Board signing the 'Risk Appetite Statement' to draw the red lines. Subsequently, we deploy the telemetry dashboards and execute executive war-games. To ensure this system has actual teeth, I request the Board grant the CRO definitive 'Veto Power' over reckless projects. That is the only way we truly defend the enterprise baseline."
+      }
+    }
+  ],
+  "prompt_template": {
+    "zh": "請以繁體中文製作一份大師級的『企業風險管理 (ERM) 與黑天鵝韌性』簡報。受眾為董事會、風險委員會或 CEO。內容必須展現 CRO (首席風險官) 的頂級防禦與治理視野：1. 運用 SCQA 點出碎片化風險管理的致命傷與系統性黑天鵝威脅，2. 明確定義『風險胃納 (Risk Appetite)』與容忍度，並要求設立決策護欄，3. 導入 COSO ERM 框架，運用『風險熱圖』與『KRI 領先指標』進行動態監控，4. 著重於財務壓力測試、情境兵推 (War-gaming) 與營運持續計畫 (BCP) 的實戰價值，5. 結尾給出 100 天防禦建置藍圖，並要求董事會賦予 CRO 一票否決權。每張 Slide 不超過 3 個重點，語氣需充滿危機意識、法理嚴謹度與堅不可摧的戰略底氣。",
+    "en": "Please create a master-class 'Enterprise Risk Management (ERM) & Black Swan Resilience' presentation in English. Audience: Board of Directors, Risk Committee, or CEO. Demonstrate the elite defensive and governance vision of a Chief Risk Officer (CRO): 1. Use SCQA to frame the lethal vulnerability of siloed risk management amidst Black Swan threats. 2. Define 'Risk Appetite' and Tolerances, mandating strict strategic guardrails. 3. Deploy the COSO ERM framework, utilizing Risk Heat Maps and forward-looking KRIs for dynamic telemetry. 4. Emphasize the tactical necessity of Financial Stress Testing, Scenario War-gaming, and actionable BCPs. 5. Conclude with a 100-Day Defense Blueprint, demanding Board authorization for an Enterprise Risk Committee and CRO Veto Power. Max 3 bullet points per slide. The tone must project intense risk awareness, rigorous governance, and unshakeable strategic authority."
+  }
+}
