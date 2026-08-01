@@ -94,7 +94,7 @@ tool_format_hint = {
 }
 
 # -------------------------
-# 2. 升級版知識庫匹配邏輯 (Scoring-Based Matcher)
+# 2. 升級版知識庫匹配邏輯 (Scoring & Threshold Matcher)
 # -------------------------
 def search_knowledge_base(user_topic):
     kb_dir = "knowledge_base"
@@ -119,7 +119,8 @@ def search_knowledge_base(user_topic):
             except Exception:
                 continue
     
-    return best_match if max_score > 0 else None
+    # 門檻防呆：必須至少命中 1 個有效關鍵字才算命中
+    return best_match if max_score >= 1 else None
 
 # -------------------------
 # 3. 頁面渲染 (極簡 UX 設計)
@@ -169,9 +170,12 @@ if st.button(ui["btn_generate"], type="primary"):
     if not topic.strip():
         st.warning(ui["err_topic"])
     else:
-        # 自動補全邏輯（無腦生成支援）
+        # 自動補全與精確風格判定
         final_audience = audience.strip() if audience.strip() else ("General Audience" if is_en else "一般目標聽眾")
-        final_tone = tone if "Auto" not in tone and "自動" not in tone else ("Adaptive Business Tone" if is_en else "自適應專業商業風格")
+        
+        # 精確比對第一個選項（Auto 選項）
+        auto_tone_option = ui["tone_opts"][0]
+        final_tone = tone if tone != auto_tone_option else ("Adaptive Business Tone" if is_en else "自適應專業商業風格")
 
         with st.spinner(ui["sp_loading"]):
             
@@ -201,7 +205,7 @@ if st.button(ui["btn_generate"], type="primary"):
                     disp_s_notes = s_notes.get(lang_key, s_notes) if isinstance(s_notes, dict) else s_notes
                     st.markdown(f"🗣️ **Speaker Notes**: {disp_s_notes}\n")
                 
-                # Part 2：專屬 Prompt
+                # Part 2：專屬 Prompt（融合動態輸入與工具特化）
                 st.markdown("---")
                 st.markdown(f"### Part 2: {target_tool} AI Prompt")
                 
