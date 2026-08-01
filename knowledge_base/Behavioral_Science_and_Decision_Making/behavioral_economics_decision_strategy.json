@@ -1,0 +1,129 @@
+{
+  "topic_id": "behavioral_economics_decision_strategy",
+  "keywords": ["行為經濟學", "behavioral economics", "心理學", "認知偏誤", "cognitive bias", "推力", "nudge", "定錨效應", "anchoring", "事前驗屍", "premortem", "調解", "mediation", "定價", "決策"],
+  "title": {
+    "zh": "行為經濟學與高階決策防禦戰略 (CEO/決策科學視角)",
+    "en": "Behavioral Economics & Executive Decision Strategy (CEO/Decision Science)"
+  },
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_title": {
+        "zh": "理性人的迷思與決策失靈 (SCQA & The Behavioral Mandate)",
+        "en": "The Rational Actor Myth & Decision Failure (SCQA)"
+      },
+      "bullet_points": {
+        "zh": [
+          "情境 (Situation)：公司目前依賴傳統的財務模型 (如 DCF) 與市場調查來制定重大戰略、併購報價與產品定價",
+          "衝突 (Complication)：由於忽略了人類的「非理性與認知偏誤」，我們在併購中屢屢陷入「贏家詛咒 (Winner's Curse)」，且市場擴張常因誤判對手與消費者的行為而失敗",
+          "戰略訴求 (The Ask)：提議導入「行為經濟學 (Behavioral Economics)」框架，在董事會與高管團隊中建立反脆弱的「決策除偏 (De-biasing) 機制」"
+        ],
+        "en": [
+          "Situation: The enterprise currently relies on orthodox financial models (e.g., DCF) and traditional market research to dictate strategy, M&A bidding, and pricing.",
+          "Complication: By ignoring human 'irrationality and cognitive biases,' we repeatedly fall victim to the 'Winner's Curse' in M&A, and our market expansions fail due to misjudging competitor and consumer behavior.",
+          "The Ask: Proposing the integration of a 'Behavioral Economics' framework. Requesting the mandate to institutionalize anti-fragile 'De-biasing Mechanisms' within the Boardroom and C-Suite."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "各位董事，傳統商學院教我們人類是理性的，但現實是，包含在座的各位，我們每天都在做出非理性的決策。我們因為『過度自信』而高估了併購的綜效，因為『沉沒成本』而不敢砍掉虧損的專案。今天的提案，是要把『行為經濟學』變成我們的戰略武器。我們不僅要防止自己犯下認知錯誤，更要利用對手與消費者的非理性，來獲取超額利潤。",
+        "en": "Members of the Board, traditional business schools assume humans are rational actors. The reality is that everyone, including this room, makes profoundly irrational decisions daily. We suffer from 'Overconfidence Bias,' overestimating M&A synergies, and the 'Sunk Cost Fallacy,' refusing to terminate bleeding projects. Today's mandate weaponizes 'Behavioral Economics.' We will mathematically de-bias our own strategic decisions while aggressively exploiting the cognitive blind spots of our competitors and consumers for outsized alpha."
+      }
+    },
+    {
+      "slide_number": 2,
+      "slide_title": {
+        "zh": "董事會決策除偏：事前驗屍與紅軍 (De-biasing the Boardroom)",
+        "en": "De-biasing the Boardroom: Premortems & Red Teaming"
+      },
+      "bullet_points": {
+        "zh": [
+          "打破團體迷思 (Shattering Groupthink)：高管團隊常因追求和諧而陷入「團體迷思」。必須在重大決策會議中指定「紅軍 (Red Team)」，強制扮演魔鬼代言人",
+          "事前驗屍 (The Premortem)：在推動重大 CapEx 或併購前，假設專案在三年後「已經徹底失敗」，強迫全體高管寫下導致失敗的具體死因，精準挖出盲點",
+          "沉沒成本停損 (Sunk Cost Rationalization)：將專案的「初始決策者」與「後續評估者」分離，避免主管為掩飾錯誤而持續向無底洞注資"
+        ],
+        "en": [
+          "Shattering Groupthink: C-Suites frequently default to 'Groupthink' to preserve harmony. We must institutionalize a 'Red Team' in major strategic committees to forcefully act as the Devil's Advocate.",
+          "The Premortem: Before finalizing major CapEx or M&A, we assume it is 3 years later and the project has 'catastrophically failed.' Executives must reverse-engineer the causes of death, surgically exposing blind spots.",
+          "Sunk Cost Rationalization: Separating the 'initial sponsor' of a project from its 'ongoing evaluator' to prevent executives from irrationally throwing good money after bad to mask their original misjudgments."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "高階會議室裡最可怕的沉默，就是『團體迷思』。當 CEO 提出一個大案子，沒人敢反對。為了打破這個認知偏誤，我們將導入『事前驗屍 (Premortem)』。在簽約前，我要求大家閉上眼睛想像：『三年後，這個案子讓我們破產了。請告訴我為什麼？』這能瞬間解除大家的心理防衛，逼出最真實的風險評估。此外，我們將切斷決策者與評估者的關聯，徹底根除沉沒成本謬誤。",
+        "en": "The deadliest silence in a Boardroom is 'Groupthink.' When a CEO proposes a pet project, dissent vanishes. To shatter this cognitive bias, we are deploying the 'Premortem.' Before we sign the term sheet, I require everyone to imagine: 'It is three years later. This project bankrupted us. Tell me exactly why.' This psychologically disarms defensiveness and extracts authentic risk intelligence. Furthermore, we will decouple project sponsors from project auditors to ruthlessly eliminate Sunk Cost Fallacies."
+      }
+    },
+    {
+      "slide_number": 3,
+      "slide_title": {
+        "zh": "心理定價與價值認知 (Behavioral Pricing & Market Capture)",
+        "en": "Behavioral Pricing & Psychological Market Capture"
+      },
+      "bullet_points": {
+        "zh": [
+          "定錨效應 (The Anchoring Effect)：放棄「成本加成定價」。在談判或產品發表時，優先展示一個極高價的「定錨選項」，使後續的主力產品顯得物超所值",
+          "誘餌效應 (The Decoy Effect)：若消費者在 A（低價/低規）與 B（高價/高規）之間猶豫，刻意推出 C（極高價/略高規）作為誘餌，從數學上引導消費者選擇利潤最豐厚的 B",
+          "損失規避 (Loss Aversion)：人類對「失去」的痛苦是「獲得」的兩倍。行銷論述應從「使用我們的軟體能賺多少」轉向「不用我們的軟體，你每天正在流失多少錢」"
+        ],
+        "en": [
+          "The Anchoring Effect: Abandoning 'Cost-Plus Pricing.' In negotiations or product launches, proactively introduce an extreme high-price 'Anchor' first, forcing the primary product to appear as a highly rational bargain.",
+          "The Decoy Effect: If consumers hesitate between Option A (Cheap) and B (Premium), we surgically introduce Option C (Exorbitant/Slightly better) as an asymmetrical 'Decoy,' mathematically driving volume to our highest-margin Option B.",
+          "Loss Aversion: Humans feel the pain of loss twice as intensely as the joy of gain. Marketing narratives must pivot from 'how much you will gain' to 'exactly how much cash you are bleeding daily without our product.'"
+        ]
+      },
+      "speaker_notes": {
+        "zh": "在市場定價上，我們不能再當老實人。價值不是算出來的，是『比較』出來的。利用『定錨效應』，我們先丟出一個天價版本，消費者大腦被定錨後，就會覺得我們的主力產品很划算。同時，我們要善用『損失規避』。不要跟客戶說『買我們的 AI 可以多賺一百萬』，要告訴他們『不買我們的 AI，你今年會被對手搶走兩百萬』。恐懼，永遠是比貪婪更強大的驅動力。",
+        "en": "Regarding pricing, we must stop playing fair with arithmetic. Value is not calculated; it is 'comparative.' By deploying the 'Anchoring Effect,' we introduce an exorbitant tier first. The consumer's brain anchors to that price, making our primary offering feel like a massive discount. Simultaneously, we leverage 'Loss Aversion.' Stop telling clients they will 'make $1M' with our AI. Tell them 'you will bleed $2M to competitors this year without it.' Fear is a mathematically superior driver to greed."
+      }
+    },
+    {
+      "slide_number": 4,
+      "slide_title": {
+        "zh": "推力理論、HR 與高階調解 (Nudge Theory, HR & Mediation)",
+        "en": "Nudge Theory, HR Architecture & Advanced Mediation"
+      },
+      "bullet_points": {
+        "zh": [
+          "選擇架構 (Choice Architecture / Nudge)：在推動組織變革或員工福利時，與其用強制力，不如將我們期望的行為設定為「預設值 (Default Option)」，利用人類的「現狀偏誤 (Status Quo Bias)」達成目的",
+          "反應性貶值 (Reactive Devaluation)：在跨部門衝突或工會談判中，對方常因「提案是我們提出的」而直覺性反對。必須透過第三方調解員 (Mediator) 來拋出相同方案以消除敵意",
+          "稟賦效應 (Endowment Effect)：員工對「已經擁有的權力/預算」估值過高。變革管理不能直接「剝奪」，必須透過「等價交換 (Trade-offs)」與心理補償來降低抗拒"
+        ],
+        "en": [
+          "Choice Architecture (Nudge): Instead of forcing change through mandates, we design the 'Default Option' to align with our strategic goals, exploiting the human 'Status Quo Bias' to achieve seamless compliance.",
+          "Reactive Devaluation: In hostile cross-silo or union negotiations, opponents reflexively reject proposals simply because *we* offered them. We must utilize Third-Party Mediators to present the exact same terms to neutralize origin-bias.",
+          "Endowment Effect: Employees irrationally overvalue the budgets or authority they already possess. DX and Change Management cannot rely on 'stripping power'; they require psychological 'Trade-offs' and perceived equivalent exchange to lower resistance."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "在處理人資議題與內部衝突時，硬碰硬是最笨的方法。我們要善用諾貝爾獎得主的『推力理論 (Nudge)』。把我們想要的變革設定成『預設值』，因為人類天生懶惰（現狀偏誤），多數人會順水推舟。在談判與調解時，一定要小心『反應性貶值』：同樣一個好方案，你提出來對方一定反對，但如果透過公正的第三方調解員提出來，對方就會接受。這就是操控認知盲點的藝術。",
+        "en": "When handling HR friction and internal disputes, brute force is highly inefficient. We must deploy Nobel-winning 'Nudge Theory.' We set our desired strategic shift as the 'Default Option.' Because humans are inherently lazy (Status Quo Bias), the vast majority will simply comply without friction. In hostile mediation, beware of 'Reactive Devaluation.' If you offer a great deal, they reject it because *you* offered it. If a neutral Mediator offers the exact same deal, they accept it. That is the art of exploiting cognitive blind spots."
+      }
+    },
+    {
+      "slide_number": 5,
+      "slide_title": {
+        "zh": "100 天決策架構升級藍圖 (100-Day Decision Architecture Blueprint)",
+        "en": "100-Day Decision Architecture Overhaul Blueprint"
+      },
+      "bullet_points": {
+        "zh": [
+          "第 1-30 天 (定價與行銷除偏)：全面審視現有產品線的定價策略，導入「定錨」與「誘餌」設計，並將行銷論述全面轉向「損失規避」框架",
+          "第 31-100 天 (董事會決策重塑)：修改高階會議的議事規則 (Bylaws)，強制所有超過千萬級的 CapEx 與 M&A 專案，必須附上標準化的「事前驗屍報告 (Premortem)」",
+          "決策訴求 (Call to Action)：懇請董事會核准成立直屬 CEO 的「決策科學辦公室 (Decision Science Office)」，用行為科學確保每一次資本配置的最佳化"
+        ],
+        "en": [
+          "Days 1-30 (Pricing & Marketing Overhaul): Comprehensively audit existing product pricing matrices, injecting 'Anchors' and 'Decoys,' while pivoting all GTM messaging to a 'Loss Aversion' framework.",
+          "Days 31-100 (Boardroom Protocol Rewire): Amending C-Suite operational bylaws to mandate that any CapEx or M&A exceeding $10M must be accompanied by a rigorously audited 'Premortem Report.'",
+          "Call to Action: Requesting Board approval to charter a 'Decision Science Office' reporting directly to the CEO, leveraging behavioral economics to mathematically de-bias and optimize all future capital allocation."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "這是一場為期 100 天的企業大腦升級手術。前一個月，我們會立刻把行為經濟學應用在『定價與行銷』上，這能最快看到營收的增長。接下來，我們要修改董事會的遊戲規則，未來任何大案子，沒有經過『事前驗屍』與紅軍挑戰，絕對不准過關。懇請董事會支持成立決策科學辦公室，讓這家公司徹底告別非理性的決策失誤。",
+        "en": "This is a 100-day upgrade to our enterprise brain. The first month focuses on immediate revenue capture by re-engineering our pricing and GTM narratives through a behavioral lens. The subsequent phase rewires our governance. Moving forward, no major CapEx clears the Boardroom without surviving a 'Premortem' and a Red Team assault. I ask the Board to mandate a Decision Science Office to permanently eradicate cognitive blind spots from our capital allocation processes."
+      }
+    }
+  ],
+  "prompt_template": {
+    "zh": "請以繁體中文製作一份大師級的『行為經濟學與高階決策戰略』簡報。受眾為董事會、CEO 或商學院高階學員。內容必須展現結合心理學與商業戰略的『決策科學』視野：1. 運用 SCQA 點出『理性人迷思』導致的併購過度自信與定價失敗，2. 導入『事前驗屍 (Premortem)』與紅軍機制，破解董事會的團體迷思與沉沒成本謬誤，3. 探討如何運用『定錨效應』、『誘餌效應』與『損失規避』重新設計產品定價與行銷論述，4. 結合高階調解 (Mediation) 與變革管理，說明『推力 (Nudge)』與防範『反應性貶值』的實務應用，5. 結尾給出 100 天決策架構重塑藍圖，要求成立決策科學辦公室。每張 Slide 不超過 3 個重點，語氣需極具透視人性盲點的犀利度、科學嚴謹度與戰略降維打擊的氣場。",
+    "en": "Please create a master-class 'Behavioral Economics & Executive Decision Strategy' presentation in English. Audience: Board of Directors, CEO, or Executive MBA candidates. Demonstrate the 'Decision Science' mastery that bridges cognitive psychology and corporate strategy: 1. Use SCQA to frame how the 'Rational Actor Myth' causes M&A overconfidence and pricing failures. 2. Introduce 'Premortems' and Red Teaming to systematically eradicate Groupthink and the Sunk Cost Fallacy in the Boardroom. 3. Architect pricing and GTM strategies by exploiting 'Anchoring,' 'Decoy Effects,' and 'Loss Aversion.' 4. Integrate advanced Mediation and Change Management, utilizing 'Nudge Theory' and neutralizing 'Reactive Devaluation.' 5. Conclude with a 100-Day Decision Architecture Overhaul, demanding the charter of a Decision Science Office. Max 3 bullet points per slide. The tone must project surgical psychological insight, rigorous scientific discipline, and an asymmetrical strategic advantage."
+  }
+}
