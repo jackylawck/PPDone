@@ -1,0 +1,129 @@
+{
+  "topic_id": "gm_capstone_evaluation_rubric",
+  "keywords": ["capstone", "期末專題", "總經理學", "general management", "rubric", "評分指南", "決策", "defense", "答辯", "教授", "mba", "董事會", "評估"],
+  "title": {
+    "zh": "總經理學：期末實戰專題與高階決策評分指南 (教授/評委 視角)",
+    "en": "General Management Capstone & Executive Grading Rubric (Professor/Board Perspective)"
+  },
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_title": {
+        "zh": "期末專題設定與答辯訴求 (SCQA & The Capstone Mandate)",
+        "en": "Capstone Context & The Defense Mandate (SCQA)"
+      },
+      "bullet_points": {
+        "zh": [
+          "情境 (Situation)：本次期末專題 (Capstone) 模擬真實的董事會提案，各組團隊將扮演企業的 C-Suite (總經理與一級主管) 進行戰略匯報",
+          "衝突 (Complication)：多數商學院企劃流於「學術框架堆砌」，缺乏對現金流斷裂、跨部門利益衝突與合規地雷的真實體悟",
+          "戰略訴求 (The Ask)：確立本次答辯 (Defense) 的唯一評分標準——「這份提案是否具備足夠的財務紀律、法理防禦與執行力，讓董事會願意為你簽下千萬支票？」"
+        ],
+        "en": [
+          "Situation: This Capstone project simulates an authentic Boardroom pitch. Student teams will act as the enterprise C-Suite (GM and executive team) delivering a strategic mandate.",
+          "Complication: Most business school proposals devolve into 'academic framework stuffing,' entirely disconnected from the brutal realities of cash burn, cross-silo friction, and compliance minefields.",
+          "The Ask: Establishing the singular grading criterion for this Defense: 'Does this proposal possess the financial discipline, legal defense, and operational grit to convince the Board to sign a multi-million dollar check?'"
+        ]
+      },
+      "speaker_notes": {
+        "zh": "各位同學，歡迎來到總經理學的期末答辯。今天，請把你們的學生證收起來。站在台上，你們就是這家公司的 CEO 與高階主管，而台下的我與評審們，是掌握生殺大權的董事會。我們不看你們套用了多少個麥肯錫模型，我們只在乎：你的戰略能不能落地？現金流會不會斷？如果不幸被告，公司會不會倒？準備好迎接真實商戰的洗禮吧。",
+        "en": "Welcome to the General Management Capstone Defense. Today, put away your student IDs. On this stage, you are the CEO and C-Suite; we in the audience are the Board of Directors controlling the capital. We do not care how many McKinsey frameworks you memorized. We only care: Can this strategy be executed? Will it bankrupt us? If sued, does it survive? Prepare for the baptism of authentic corporate warfare."
+      }
+    },
+    {
+      "slide_number": 2,
+      "slide_title": {
+        "zh": "評估維度一：戰略穿透力與底層邏輯 (Strategic Penetration)",
+        "en": "Dimension 1: Strategic Penetration & Underlying Logic"
+      },
+      "bullet_points": {
+        "zh": [
+          "拒絕虛榮指標 (Rejecting Vanity Metrics)：提案是否過度依賴「流量、曝光度」等虛榮指標？是否精準鎖定能驅動 EBITDA (稅息折舊及攤銷前利潤) 的核心商業模式？",
+          "競爭護城河 (Competitive Moat)：戰略優勢是基於「砸錢買市佔」的短期補貼，還是建立在「專利、轉換成本或網路效應」等真正的結構性護城河上？",
+          "風險對沖 (Risk Hedging)：有沒有主動提出「B 計畫 (Plan B)」？當假設條件（如：新法規通過、競品降價）被推翻時，企業的存活率有多高？"
+        ],
+        "en": [
+          "Rejecting Vanity Metrics: Does the proposal rely on fluffy 'traffic or brand exposure,' or does it surgically target the core business model driving actual EBITDA?",
+          "Competitive Moat: Is the strategic advantage merely based on 'burning cash for market share,' or is it anchored in true structural moats like IP, switching costs, or network effects?",
+          "Risk Hedging: Is there a proactive 'Plan B'? If core assumptions (e.g., regulatory approvals, competitor pricing) are invalidated, what is the mathematical probability of survival?"
+        ]
+      },
+      "speaker_notes": {
+        "zh": "第一個評分維度，我看的是『底層邏輯』。很多組別喜歡在簡報裡放一堆市調數據，告訴我市場有多大。但市場大，不代表你能賺到錢。我會嚴格審視你們的護城河：對手明天降價 20%，你們還活得下去嗎？一個成熟的總經理，在提出極度樂觀的 A 計畫時，永遠會把用來保命的 B 計畫放在抽屜裡。",
+        "en": "The first grading dimension evaluates your 'Underlying Logic.' Many teams pad decks with massive TAM (Total Addressable Market) data. A large market does not guarantee you capture any profit. I will ruthlessly audit your moat: if your competitor drops prices by 20% tomorrow, do you survive? A seasoned GM always keeps a life-saving 'Plan B' in their back pocket while pitching a highly optimistic 'Plan A'."
+      }
+    },
+    {
+      "slide_number": 3,
+      "slide_title": {
+        "zh": "評估維度二：財務紀律與資源配置 (Financial Discipline)",
+        "en": "Dimension 2: Financial Discipline & Resource Allocation"
+      },
+      "bullet_points": {
+        "zh": [
+          "資金跑道與燒錢率 (Runway & Burn Rate)：是否清晰計算了專案前期的每月燒錢率？在自由現金流 (FCF) 轉正之前，需要多少外部資金支撐？",
+          "投資回報門檻 (ROIC vs. WACC)：資本支出 (CapEx) 的投入資本回報率 (ROIC) 是否大於資金成本？是否具備說服 CFO 點頭的財務正當性？",
+          "零基思維 (Zero-Based Thinking)：在爭取新資源時，是否展現了「關閉無效舊業務以籌措資金」的資源重分配 (Reallocation) 魄力？"
+        ],
+        "en": [
+          "Runway & Burn Rate: Has the monthly burn rate been precisely calculated? Exactly how much external capital is required to bridge the gap until Free Cash Flow (FCF) turns positive?",
+          "Hurdle Rates (ROIC vs. WACC): Does the Return on Invested Capital (ROIC) for this CapEx mathematically exceed our cost of capital? Does it possess the rigorous justification required to clear a CFO?",
+          "Zero-Based Thinking: When requesting new CapEx, does the team demonstrate the executive grit to propose 'sunsetting legacy operations' to reallocate and fund the new initiative?"
+        ]
+      },
+      "speaker_notes": {
+        "zh": "第二個維度是『財務紀律』。在學校裡，你們預算可以隨便寫；但在這裡，每一塊錢都是成本。我會盯著你們的現金流看。你們說這個專案三年後會賺大錢，那請問前 18 個月的『死亡幽谷』你們要燒掉多少錢？真正的高管提案，不會只向董事會伸手要錢，他們會主動提出砍掉哪些不賺錢的舊業務，來支撐新的創新。",
+        "en": "Dimension two is 'Financial Discipline.' In academia, budgets are fictional; here, every dollar bleeds. I will scrutinize your cash flow. You project massive profits in Year 3, but exactly how much cash do you incinerate during the 18-month 'Valley of Death'? Authentic executives don't just beg the Board for money; they proactively propose sunsetting dead legacy units to self-fund their new innovations."
+      }
+    },
+    {
+      "slide_number": 4,
+      "slide_title": {
+        "zh": "評估維度三：跨部門協調與法理防禦 (Silos & Legal Defense)",
+        "en": "Dimension 3: Silos, Execution, and Legal Defense"
+      },
+      "bullet_points": {
+        "zh": [
+          "化解組織抗拒 (Change Management & HR)：新的商業模式勢必會動搖既有利益，提案是否包含了針對「員工抗拒、績效指標 (KPI) 重塑」的具體人資與調解方案？",
+          "法規與合規地雷 (Regulatory Minefields)：對於涉及 AI、數據採集或跨國擴張的戰略，是否已預判並對齊了 GDPR、歐盟 AI 法案等合規底線？",
+          "談判與退場機制 (Negotiation & Exit Strategy)：若是併購或合資 (JV) 提案，是否具備保護母公司 IP 的思維，並設定了明確的退場/停損條款？"
+        ],
+        "en": [
+          "Change Management (HR): New business models inevitably threaten existing fiefdoms. Does the proposal include concrete HR and mediation tactics to neutralize employee resistance and rewire KPIs?",
+          "Regulatory Minefields: For strategies involving AI, data scraping, or cross-border expansion, have the legal baselines (e.g., GDPR, EU AI Act) been proactively addressed?",
+          "Negotiation & Exit Strategy: If proposing an M&A or Joint Venture, is there a clear architectural defense for the Parent's IP, coupled with a ruthless, pre-defined exit/stop-loss clause?"
+        ]
+      },
+      "speaker_notes": {
+        "zh": "第三個維度，也是淘汰最多人的地方：『法理與人的防禦』。再完美的戰略，只要員工罷工或被政府重罰，就會瞬間歸零。如果你們提議數位轉型，我要聽你們怎麼說服那些害怕被裁員的老員工（變革管理）。如果你們提議搞 AI，我要聽你們怎麼保證不會侵犯版權（合規防禦）。總經理不是只有踩油門，你必須懂得踩煞車跟調解衝突。",
+        "en": "The third dimension is where most fail: 'Legal and Human Defense.' A perfect strategy is instantly vaporized by an employee strike or a massive regulatory fine. If you pitch Digital Transformation, I want to hear how you mediate the fears of veteran employees facing redundancy. If you pitch AI, prove to me you won't trigger a massive IP lawsuit. A GM doesn't just push the gas pedal; you must master the brakes and conflict mediation."
+      }
+    },
+    {
+      "slide_number": 5,
+      "slide_title": {
+        "zh": "評委高壓 Q&A 與決策防禦 (Boardroom Q&A Defense)",
+        "en": "Boardroom Q&A: Stress-Testing the Defense"
+      },
+      "bullet_points": {
+        "zh": [
+          "壓力測試 (Stress Test)：評委將針對提案中最薄弱的財務假設或合規漏洞，進行極具攻擊性的冷呼叫 (Cold Call)，測試團隊的臨場抗壓性",
+          "不防禦原則 (The Non-Defensive Pivot)：觀察學生面對尖銳批評時，是否會陷入情緒性的「狡辯」，還是能展現高管風範，運用「架橋技巧 (Bridging)」引導回商業價值",
+          "最終裁決 (The Verdict)：基於「戰略邏輯、財務紀律、風險控管」三大維度綜合打分，決定給予「投資放行 (Funded)」、「退回重審 (Pivot)」或「駁回 (Rejected)」"
+        ],
+        "en": [
+          "Stress Test: The Board (Panel) will launch aggressive 'Cold Calls' targeting the weakest financial assumptions or compliance loopholes to test real-time grace under fire.",
+          "The Non-Defensive Pivot: Observing if the team descends into emotional, defensive arguing, or if they demonstrate executive maturity by using 'Bridging Tactics' to pivot back to core value.",
+          "The Verdict: Aggregating scores across 'Logic, Finance, and Risk' to issue the final Board ruling: 'Funded (Go),' 'Pivot (Revise),' or 'Rejected (No-Go).'"
+        ]
+      },
+      "speaker_notes": {
+        "zh": "簡報報完，真正的地獄才剛開始。在 Q&A 階段，我跟其他評委會專挑你們邏輯最脆弱的地方打。我們看的不只是答案的對錯，更是你們『面對壓力的姿態』。被質疑時，不要情緒化地狡辯，要展現高管的氣度，把問題引導回你們的核心價值上。準備好了嗎？現在，請你們開始捍衛你們的戰略。",
+        "en": "Once the presentation ends, the real hell begins. During Q&A, the panel will surgically attack your weakest logical links. We are evaluating not just the accuracy of your answers, but your 'posture under pressure.' When challenged, do not descend into emotional excuses; project executive grace and bridge the attack back to your core commercial value. Are you ready? Now, defend your strategy."
+      }
+    }
+  ],
+  "prompt_template": {
+    "zh": "請以繁體中文製作一份大師級的『總經理學：期末實戰專題與高階決策評分指南』簡報。受眾為即將進行期末答辯的商學院學生、MBA 學員或企業內訓幹部。內容必須展現評委 (教授/董事會) 極其嚴苛的實戰檢驗視角：1. 運用 SCQA 確立答辯的唯一標準：提案是否具備讓董事會掏錢的真實落地性，2. 評估『戰略穿透力』，拒絕虛榮指標並檢視真實的護城河與 B 計畫，3. 評估『財務紀律』，要求精算燒錢率 (Burn Rate) 並具備零基思維，4. 評估『跨部門協調與法理防禦』，強迫學生面對變革管理的 HR 阻力與 AI/跨國合規地雷，5. 結尾佈局高壓 Q&A 壓力測試，檢視團隊面對敵意提問的從容度與架橋技巧。每張 Slide 不超過 3 個重點，語氣需極具權威感、學術與實務並重的嚴謹度，以及不容挑戰的董事會氣場。",
+    "en": "Please create a master-class 'General Management Capstone & Executive Grading Rubric' presentation in English. Audience: Business school students, MBA candidates, or corporate trainees facing their final defense. Demonstrate the ruthlessly practical perspective of a Professor/Board Member evaluator: 1. Use SCQA to establish the sole defense standard: Does this pitch possess the operational reality to secure Board funding? 2. Evaluate 'Strategic Penetration,' rejecting vanity metrics and interrogating true moats and Plan B contingencies. 3. Evaluate 'Financial Discipline,' demanding precise Burn Rate calculations and Zero-Based resource reallocation. 4. Evaluate 'Cross-Silo & Legal Defense,' forcing teams to address HR resistance (Change Management) and regulatory/AI compliance minefields. 5. Conclude with a blueprint for a high-stress Q&A session, testing the team's executive composure and 'Bridging' skills under hostile fire. Max 3 bullet points per slide. The tone must project immense academic and practical authority, strict rigor, and an uncompromising Boardroom presence."
+  }
+}
