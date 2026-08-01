@@ -1,0 +1,129 @@
+{
+  "topic_id": "training_workshop",
+  "keywords": ["培訓", "教學", "training", "workshop", "課程", "course", "學習", "learning", "員工培訓", "教育", "education", "教案", "工作坊", "引導", "facilitation", "個案研究", "case study"],
+  "title": {
+    "zh": "企業培訓與實務工作坊 (哈佛式個案與高互動教案)",
+    "en": "Corporate Training & Workshop (Harvard-style Case & Facilitation)"
+  },
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_title": {
+        "zh": "建構情境與痛點共鳴 (The Hook & Objectives)",
+        "en": "Context Setting & The Hook"
+      },
+      "bullet_points": {
+        "zh": [
+          "破冰與共鳴 (The Hook)：點出學員在實務運作或跨部門協調中最常踩的 [具體痛點/地雷]",
+          "WIIFM (What's in it for me)：具體說明掌握今日主題能如何幫大家「省時、避險、拿績效」",
+          "學習目標 (Objectives)：預告課程結束後，各位將能熟練運用 [某項管理思維或實務框架]"
+        ],
+        "en": [
+          "The Hook: Highlighting the most painful [Specific Blindspot/Bottleneck] faced in daily operations.",
+          "WIIFM (What's in it for me): Translating today's topic into tangible benefits: saving time, mitigating risks, or driving KPI.",
+          "Learning Objectives: Forecasting the specific [Management Framework/Tool] participants will master by the end."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "各位好。實務上我們常遇到 [痛點]，這不僅耗損資源，更引發無謂的衝突。今天這堂課不是來談高深理論的，而是要給大家一套能立刻帶回辦公室用的「武器」。上完這堂課，你們面對類似難題時，就能有一套標準的拆解邏輯。",
+        "en": "Welcome. In practice, we constantly face [Pain Point], which drains resources and sparks friction. Today isn't about ivory-tower theories; it's about equipping you with a practical 'weapon' you can take back to your desk. By the end, you'll have a standard logic to dismantle similar challenges."
+      }
+    },
+    {
+      "slide_number": 2,
+      "slide_title": {
+        "zh": "核心思維模型與黃金法則 (Mental Models & Frameworks)",
+        "en": "Mental Models & Core Frameworks"
+      },
+      "bullet_points": {
+        "zh": [
+          "底層邏輯 (First Principles)：以最接地氣的商業語言，拆解 [管理學原理 / 治理準則] 的核心運作機制",
+          "黃金法則 (The Golden Rule)：提出易於記憶與落地的「3 步驟原則」或「MECE 結構分類」",
+          "反面教材 (Anti-patterns)：盤點實務上最常見的 [X] 個錯誤決策或迷思，提前建立防禦機制"
+        ],
+        "en": [
+          "First Principles: Demystifying the core mechanism of [Management Principle / Governance Rule] using plain business language.",
+          "The Golden Rule: Introducing a highly actionable and memorable '3-Step Principle' or 'MECE Structure'.",
+          "Anti-patterns: Identifying the top [X] most common execution errors or myths to build proactive defense mechanisms."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "理論的價值在於指導實踐。這套框架的底層邏輯其實就是這三個關鍵步驟。請特別注意簡報上的『反面教材』，這是過去無數專案失敗換來的血淚教訓，請大家務必把這些迷思從腦海中根除。",
+        "en": "The value of theory lies in guiding practice. The underlying logic of this framework boils down to these three key steps. Please pay special attention to the 'Anti-patterns' on the slide—these are expensive lessons learned from past failures that we must avoid."
+      }
+    },
+    {
+      "slide_number": 3,
+      "slide_title": {
+        "zh": "哈佛式個案解析與兩難決策 (Case Study & The Dilemma)",
+        "en": "Harvard-style Case Study & The Dilemma"
+      },
+      "bullet_points": {
+        "zh": [
+          "擬真情境 (Realistic Context)：帶入一個具備「資源限制」與「時程壓力」的真實商業挑戰",
+          "利害關係人分析 (Stakeholder Mapping)：展示各方部門 (如 HR, IT, 業務) 的利益衝突與兩難",
+          "推演與破局 (Resolution)：示範如何套用剛才的「黃金法則」，客觀切入並找出最佳平衡解"
+        ],
+        "en": [
+          "Realistic Context: Immersing learners in a real-world business challenge characterized by limited resources and tight deadlines.",
+          "Stakeholder Mapping: Showcasing the conflicting interests and dilemmas among different departments (e.g., HR, IT, Sales).",
+          "Resolution: Demonstrating how to apply the 'Golden Rule' to objectively break the deadlock and find the optimal balance."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "現在我們來看這個真實個案。在這個情境中，業務要業績、IT 要資安、HR 要合規，所有人的訴求都在打架。如果是你坐在這個決策位置上，該怎麼辦？我們試著用剛剛學到的框架，一層層把情緒剝離，用客觀邏輯找出破局點。",
+        "en": "Let's examine this real-world case. In this scenario, Sales wants revenue, IT wants security, and HR wants compliance—everyone's priorities are clashing. If you were in the decision-maker's seat, what would you do? Let's use our framework to strip away emotions and find the logical breakthrough."
+      }
+    },
+    {
+      "slide_number": 4,
+      "slide_title": {
+        "zh": "角色扮演與沙盤推演 (Role-play & Group Simulation)",
+        "en": "Role-play & Group Simulation"
+      },
+      "bullet_points": {
+        "zh": [
+          "任務指派 (The Task)：請各小組針對 [特定變形情境]，在 10 分鐘內產出行動方案或進行角色對話",
+          "決策限制 (Constraints)：討論過程中必須考慮 [預算上限 / 法規底線 / 團隊士氣] 等變數",
+          "引導式復盤 (Debriefing & Coaching)：邀請小組發表，講師不給標準答案，而是透過提問引發深度反思"
+        ],
+        "en": [
+          "The Task: Assigning groups a [Specific Variant Scenario] to draft an action plan or conduct a role-play within 10 minutes.",
+          "Constraints: Mandating that discussions account for variables like [Budget Caps / Regulatory Baselines / Team Morale].",
+          "Debriefing & Coaching: Inviting group read-outs where the facilitator uses Socratic questioning instead of giving 'correct' answers."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "紙上談兵不如親自上陣。現在換各位實戰，請分組討論螢幕上的變形情境。記住，你們只有 10 分鐘，且預算被砍了 20%。稍後分享時，我不只要聽你們的解決方案，更要聽你們做決策時『捨棄了什麼』以及『為什麼』。",
+        "en": "Theory is nothing without execution. Now it's your turn. Break into groups and tackle the variant scenario on the screen. Remember, you only have 10 minutes, and your budget was just slashed by 20%. When sharing, I don't just want your solution; I want to know what you 'sacrificed' to get there and 'why'."
+      }
+    },
+    {
+      "slide_number": 5,
+      "slide_title": {
+        "zh": "學習轉化與 30 天落地計畫 (Actionable Commitments)",
+        "en": "Actionable Commitments & 30-Day Plan"
+      },
+      "bullet_points": {
+        "zh": [
+          "知識濃縮 (Golden Nuggets)：快速回顧今日最核心的 3 個管理心法與避坑指南",
+          "落地承諾 (30-Day Action Plan)：要求學員寫下明天起 30 天內，立刻會運用此框架改變的 1 件事",
+          "持續優化 (Continuous Learning)：提供後續評估機制或進階參考資料，確保學習成效轉化為真實績效"
+        ],
+        "en": [
+          "Golden Nuggets: A rapid recap of the top 3 core mental models and anti-pitfall guidelines from today.",
+          "30-Day Action Plan: Requiring learners to write down 1 specific behavioral change they will implement starting tomorrow.",
+          "Continuous Learning: Providing follow-up assessment mechanisms or advanced reading to ensure learning translates into real ROI."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "今天的腦力激盪非常精彩。離開這間教室前，請大家務必把這三個核心心法帶走。培訓不是結束，而是改變的開始。請各位花一分鐘寫下你的『30 天落地計畫』，明天一早，你要用今天學到的哪一招來解決手邊的難題？",
+        "en": "The brainstorming today was excellent. Before leaving, make sure you take these three core mental models with you. Training isn't the end; it's the beginning of change. Take a minute to write down your '30-Day Action Plan'. Which technique will you use tomorrow morning to solve the challenge on your desk?"
+      }
+    }
+  ],
+  "prompt_template": {
+    "zh": "請以繁體中文製作一份大師級的『培訓與工作坊 (Training & Workshop)』教學教案簡報。受眾為企業主管、員工或大學生。內容必須嚴格遵循成人學習理論與哈佛個案教學法：1. 開場必須精準打中受眾的實務痛點 (WIIFM)，2. 將艱澀理論轉化為『3步驟法則』並列出常見的『反面教材』，3. 引入具備資源限制與利害關係人衝突的『高擬真商業個案 (Case Study)』，4. 設計沙盤推演或角色扮演的互動環節，並提供引導反思的提問，5. 結尾必須引導學員產出具體的 30 天落地行動承諾。每張 Slide 不超過 3 個重點，語氣需具備教練式引導 (Coaching) 的啟發性、高專業度與權威感。",
+    "en": "Please create a master-class 'Training & Workshop' presentation in English. Audience: Corporate executives, employees, or university students. Strictly follow Adult Learning Principles and the Harvard Case Method: 1. Hook the audience by hitting their operational pain points (WIIFM). 2. Distill complex theories into a '3-Step Rule' and list common 'Anti-patterns'. 3. Introduce a highly realistic Case Study featuring resource constraints and stakeholder conflicts. 4. Design an interactive simulation or role-play exercise with Socratic debriefing questions. 5. Conclude by driving a concrete 30-Day Action Commitment. Max 3 bullet points per slide. The tone must be facilitative, coaching-oriented, inspiring, and highly authoritative."
+  }
+}
