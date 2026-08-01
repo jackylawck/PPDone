@@ -1,5 +1,5 @@
 import streamlit as st
-import google.generativeai as genai
+from openai import OpenAI
 
 # 頁面基本設定
 st.set_page_config(
@@ -21,6 +21,7 @@ with st.sidebar:
 
 is_en = "English" in lang_choice
 
+# UI 文字字典
 ui = {
     "main_title": "✅ P.P.Done Generator" if is_en else "✅ 稿定 P.P.Done",
     "sub_title": '"Nail the Outline & Prompt, Get your PPT Done!"' if is_en else "「稿定大綱同 Prompt，PPT 輕鬆 Done！」",
@@ -28,12 +29,12 @@ ui = {
     
     "sys_settings": "⚙️ System Settings" if is_en else "⚙️ 系統設定",
     "api_mode_title": "Select API Key Mode:" if is_en else "選擇 AI 金鑰模式：",
-    "api_mode_opts": ["🔴 Public Free Quota (1 outline/run)", "⚪ Own Gemini API Key (Unlimited)"] if is_en else ["🔴 使用公共免費額度 (單次 1 份大綱)", "⚪ 使用自備 Gemini API Key (無限制)"],
+    "api_mode_opts": ["🔴 Public Free Quota (1 outline/run)", "⚪ Own GitHub Token (Unlimited)"] if is_en else ["🔴 使用公共免費額度 (單次 1 份大綱)", "⚪ 使用自備 GitHub Token (無限制)"],
     "pub_success": "🌱 **Public Resource Loaded (Trial).**" if is_en else "🌱 **公共資源已載入 (免費體驗)。**",
-    "pub_warn": "⚠️ **Security Notice:** This mode is for demonstration only. For boardroom-level data, please switch to 'Own Key'." if is_en else "⚠️ **資安提示**：此模式僅供演示。處理包含高度機密數據時，強烈建議切換為「自備 Key」。",
+    "pub_warn": "⚠️ **Security Notice:** This mode is for demonstration only. For boardroom-level data, please switch to 'Own Key'." if is_en else "⚠️ **資安提示**：此模式僅供演示。處理包含高度機密數據時，強烈建議切換為「自備 Token」。",
     
-    "own_key_label": "🔑 Enter Gemini API Key" if is_en else "🔑 請輸入 Gemini API Key",
-    "own_key_info": "💡 **Privacy:** Key runs only in this session. \n\n🔗 [Click here to get a FREE Key](https://aistudio.google.com/)" if is_en else "💡 **隱私保證**：Key 僅於當前 Session 運行，系統絕不儲存。\n\n🔗 **未有 Key？** [👉 按此免費獲取](https://aistudio.google.com/)",
+    "own_key_label": "🔑 Enter GitHub Token (PAT)" if is_en else "🔑 請輸入 GitHub Token (PAT)",
+    "own_key_info": "💡 **Privacy:** Key runs only in this session.\n\n🔗 [Get FREE Token](https://github.com/settings/tokens/new)" if is_en else "💡 **隱私保證**：Token 僅於當前 Session 運行，系統絕不儲存。\n\n🔗 **未有 Token？** [👉 按此免費獲取](https://github.com/settings/tokens/new) *(無需勾選任何權限)*",
     
     "target_tool_title": "🎯 Target AI Tool" if is_en else "🎯 目標 AI 工具",
     "tools": [
@@ -72,7 +73,7 @@ ui = {
     "add_info_ph": "e.g., Must incorporate NIST AI RMF, mediation frameworks..." if is_en else "例如：需涵蓋調解技巧、溝通框架或 ISO 標準...",
     
     "btn_generate": "🚀 Generate Outline & Prompt" if is_en else "🚀 開始生成大綱與專屬 Prompt",
-    "err_key": "❌ Please enter your API Key in the sidebar or check Secrets." if is_en else "❌ 系統未能讀取 API Key。請確保已在左側輸入或 Secrets 已正確設定。",
+    "err_key": "❌ Unable to read GITHUB_TOKEN. Please check your Streamlit Secrets or sidebar input." if is_en else "❌ 系統未能讀取 GITHUB_TOKEN。請確保 Secrets 正確設定或已喺左側輸入。",
     "err_topic": "Please enter a topic!" if is_en else "請填寫簡報主題！",
     "err_aud": "Please specify the audience!" if is_en else "請填寫目標聽眾！",
     "sp_loading": "Integrating frameworks & presentation logic..." if is_en else "AI 正在融合專業架構與排版，打磨大綱與 Prompt...",
@@ -91,17 +92,18 @@ with st.sidebar:
     st.header(ui["sys_settings"])
     
     api_mode = st.radio(ui["api_mode_title"], ui["api_mode_opts"], index=0, label_visibility="collapsed")
-    gemini_key = None
+    github_token = None
 
     if "🔴" in api_mode:
-        gemini_key = st.secrets.get("GEMINI_API_KEY", None)
+        # 正確指定讀取 GITHUB_TOKEN
+        github_token = st.secrets.get("GITHUB_TOKEN", None)
         st.success(ui["pub_success"])
         st.warning(ui["pub_warn"])
-        st.markdown("*(Engine: Google Gemini 1.5 Flash)*")
+        st.markdown("*(Engine: GitHub Models / GPT-4o-mini)*")
     else:
-        gemini_key = st.text_input(ui["own_key_label"], type="password")
+        github_token = st.text_input(ui["own_key_label"], type="password")
         st.info(ui["own_key_info"])
-        st.markdown("*(Engine: Google Gemini 1.5 Flash)*")
+        st.markdown("*(Engine: GitHub Models / GPT-4o-mini)*")
 
 st.divider()
 
@@ -120,10 +122,10 @@ with col2:
 additional_info = st.text_area(ui["add_info_label"], placeholder=ui["add_info_ph"])
 
 # -------------------------
-# 3. 邏輯處理與 AI 生成 (Gemini API)
+# 3. 邏輯處理與 AI 生成 (GitHub Models API)
 # -------------------------
 if st.button(ui["btn_generate"], type="primary"):
-    if not gemini_key:
+    if not github_token:
         st.error(ui["err_key"])
     elif not topic:
         st.warning(ui["err_topic"])
@@ -138,15 +140,18 @@ if st.button(ui["btn_generate"], type="primary"):
             slides_count = time_minutes * 2  
 
         try:
-            genai.configure(api_key=gemini_key)
-            model = genai.GenerativeModel('gemini-1.5-flash')
+            # 建立 GitHub Models API 連線
+            client = OpenAI(
+                base_url="https://models.inference.ai.azure.com",
+                api_key=github_token,
+            )
             
             with st.spinner(ui["sp_loading"]):
                 
                 lang_instruction = "IMPORTANT: Please output ALL content entirely in English." if is_en else "重要提示：請使用繁體中文 (Traditional Chinese) 輸出所有內容（包括大綱、重點、演講備註及 Prompt 指令）。"
 
                 prompt = f"""
-                You are a senior presentation architect and executive consultant. 
+                You are a senior presentation architect, management consultant, and governance expert. 
                 {lang_instruction}
 
                 【Context】
@@ -177,11 +182,19 @@ if st.button(ui["btn_generate"], type="primary"):
                 Generate a specific prompt for {target_tool}. Wrap it in a Markdown Code Block.
                 """
                 
-                response = model.generate_content(prompt)
+                # 呼叫 GitHub Models 上的 gpt-4o-mini
+                response = client.chat.completions.create(
+                    messages=[
+                        {"role": "system", "content": "You are an expert presentation consultant."},
+                        {"role": "user", "content": prompt}
+                    ],
+                    model="gpt-4o-mini",
+                    temperature=0.7,
+                )
                 
                 st.success(ui["success_msg"])
                 st.markdown("---")
-                st.markdown(response.text)
+                st.markdown(response.choices[0].message.content)
                 
         except Exception as e:
             st.error(f"Error: {e}" if is_en else f"生成失敗，錯誤訊息：{e}")
