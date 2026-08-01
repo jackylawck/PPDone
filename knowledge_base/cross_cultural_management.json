@@ -1,0 +1,129 @@
+{
+  "topic_id": "cross_cultural_management",
+  "keywords": ["跨國", "文化", "cross-cultural", "global", "管理", "m&a", "併購", "pmi", "dei", "多樣性", "globalization", "全球化", "glocalization", "出海", "跨文化"],
+  "title": {
+    "zh": "跨國營運與多元文化融合戰略 (全球化與 PMI 視角)",
+    "en": "Global Operations & Cultural Integration (Glocalization & PMI)"
+  },
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_title": {
+        "zh": "全球化擴張與文化融合痛點 (SCQA & The Ask)",
+        "en": "Global Expansion & Integration Friction (SCQA)"
+      },
+      "bullet_points": {
+        "zh": [
+          "情境 (Situation)：公司正處於 [海外出海/跨國併購 M&A] 的高速擴張期，全球版圖持續擴大",
+          "衝突 (Complication)：然而，總部與海外分公司間的「文化壁壘」與「溝通斷層」，正導致營運效率重挫與人才流失",
+          "戰略訴求 (The Ask)：提議啟動「跨國文化整合計畫 (PMI)」，懇請核准 [X 預算] 建立統一且具彈性的全球治理框架"
+        ],
+        "en": [
+          "Situation: The enterprise is in a hyper-growth phase driven by [Global Expansion/M&A], expanding our global footprint.",
+          "Complication: However, 'cultural silos' and communication breakdowns between HQ and regional offices are triggering talent drain and operational drag.",
+          "Strategic Ask: Propose a Post-Merger Integration (PMI) / Cultural Alignment initiative. Requesting [X Budget] to deploy a unified yet agile global framework."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "各位長官好。我們在海外市場的擴張非常迅速，但財報上的成功掩蓋了內部的隱憂。總部與海外團隊正在產生嚴重的『我們 vs. 他們 (Us vs. Them)』對立情緒，這直接拖慢了決策速度。今天的提案，是為了打破文化壁壘，讓全球團隊真正發揮協同效應 (Synergy)。",
+        "en": "Good morning. Our global footprint is expanding rapidly, but our financial success masks an internal crisis. We are seeing a severe 'Us vs. Them' mentality between HQ and regional teams, severely throttling decision speed. Today's pitch is about breaking these cultural silos to unlock true global synergy."
+      }
+    },
+    {
+      "slide_number": 2,
+      "slide_title": {
+        "zh": "CAGE 距離分析與不作為成本 (CAGE Framework & COI)",
+        "en": "CAGE Distance Analysis & Cost of Inaction"
+      },
+      "bullet_points": {
+        "zh": [
+          "CAGE 框架診斷：精準辨識雙方在 文化 (Culture)、行政 (Admin)、地理 (Geography) 與 經濟 (Economic) 上的真實落差",
+          "隱含成本 (Cost of Friction)：跨文化溝通成本與「陽奉陰違」導致專案延遲，每月折損約 [X] 的潛在營收",
+          "人才流失風險 (Brain Drain)：併購/擴張後的高管流失率已達 [X]%，核心技術與在地市場人脈正流失給競爭對手"
+        ],
+        "en": [
+          "CAGE Framework: Diagnosing the true gaps across Cultural, Administrative, Geographic, and Economic distances.",
+          "Cost of Friction: Miscommunication and 'malicious compliance' delay projects, costing [X] in potential revenue monthly.",
+          "Brain Drain Risk: Post-M&A executive turnover has hit [X]%, leaking core IP and local market networks to competitors."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "跨國管理的挑戰絕不只是『語言不通』。我們用哈佛的 CAGE 框架進行診斷，發現真正的落差在於權力距離與決策習慣。這些摩擦是有真實代價的：高階人才的流失與專案延宕，正讓我們每個月損失巨大的隱含成本。如果不解決，這次擴張將成為災難。",
+        "en": "Cross-border challenges go far beyond 'language barriers.' Using the CAGE framework, we've identified that the real gaps lie in power distance and decision-making habits. This friction has a real price tag: brain drain and project delays are burning massive hidden costs. Unresolved, this expansion will become a liability."
+      }
+    },
+    {
+      "slide_number": 3,
+      "slide_title": {
+        "zh": "全球在地化戰略與矩陣對齊 (Glocalization & Matrix Alignment)",
+        "en": "Glocalization Strategy & Matrix Alignment"
+      },
+      "bullet_points": {
+        "zh": [
+          "全球標準 (Global Guardrails)：確立不可妥協的核心底線 (如：合規、品牌 DNA、資安與財報紀律)",
+          "在地賦能 (Local Agility)：在安全護欄內，充分授權海外總經理 (Country Manager) 調整 GTM 與營運策略",
+          "矩陣破冰 (Matrix Alignment)：重組跨國敏捷小組，消除「總部產品開發」與「在地市場需求」的嚴重脫節"
+        ],
+        "en": [
+          "Global Guardrails: Establishing non-negotiable baselines (e.g., Compliance, Brand DNA, InfoSec, Financial Discipline).",
+          "Local Agility: Empowering Country Managers with full autonomy to adapt GTM and operational strategies within the guardrails.",
+          "Matrix Alignment: Restructuring global agile squads to eliminate the severe disconnect between 'HQ Product Dev' and 'Local Market Needs'."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "我們的解方是『全球在地化 (Glocalization)』。我們不能用總部視角去微觀管理 (Micromanage) 全世界。我們必須畫出清晰的安全護欄（如合規與財報紀律），但在這個護欄內，給予在地團隊 100% 的決策彈性。同時，透過重整矩陣組織，確保總部的資源能精準支援前線。",
+        "en": "Our solution is 'Glocalization'. We cannot micromanage the world from HQ. We must establish clear, non-negotiable guardrails (like compliance and financial discipline), but within those, give local teams 100% autonomy. Simultaneously, by realigning our matrix organization, we ensure HQ resources perfectly support the frontline."
+      }
+    },
+    {
+      "slide_number": 4,
+      "slide_title": {
+        "zh": "第三文化建立與 DEI 投資回報 (Third Culture & DEI ROI)",
+        "en": "Creating a 'Third Culture' & DEI ROI"
+      },
+      "bullet_points": {
+        "zh": [
+          "第三文化 (Third Culture)：放棄「強迫同化 (Assimilation)」，截取雙方優勢，共創全新的跨國協作文化",
+          "心理安全感 (Psychological Safety)：推動高管跨文化智商 (CQ) 培訓，確保在地團隊敢於向總部提出挑戰 (Speak-up Culture)",
+          "DEI 商業價值 (ROI of DEI)：多元共融不再是公關口號，而是推動在地創新與防堵決策同溫層的實質商業武器"
+        ],
+        "en": [
+          "The 'Third Culture': Abandoning forced 'Assimilation' in favor of extracting the best from both to co-create a new collaborative culture.",
+          "Psychological Safety: Driving Cultural Intelligence (CQ) training for execs to foster a 'Speak-up Culture' where local teams challenge HQ.",
+          "ROI of DEI: Diversity, Equity, and Inclusion is not a PR stunt; it's a commercial weapon for driving local innovation and breaking echo chambers."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "在文化融合上，我們絕不能強迫海外公司『完全變成我們的形狀』。我們要建立的是融合雙方優勢的『第三文化』。為此，我們必須導入 DEI（多元公平共融）戰略與文化智商 (CQ) 培訓，建立心理安全感，讓海外團隊敢於對總部說真話，這才是全球化成功的關鍵。",
+        "en": "In cultural integration, we must never force overseas teams to 'assimilate completely.' We must build a 'Third Culture' combining the best of both worlds. To achieve this, we will deploy DEI strategies and Cultural Intelligence (CQ) training, building psychological safety so local teams dare to speak truth to HQ. This is the key to global success."
+      }
+    },
+    {
+      "slide_number": 5,
+      "slide_title": {
+        "zh": "90 天融合藍圖與決策訴求 (90-Day PMI Plan & The Ask)",
+        "en": "90-Day PMI Roadmap & Strategic Ask"
+      },
+      "bullet_points": {
+        "zh": [
+          "跨國專案小組 (Task Force)：前 30 天成立由雙方高管組成的「文化整合指導委員會 (Steering Committee)」",
+          "早期勝利 (Quick Wins)：前 90 天統一核心通訊/協作平台，並完成第一輪跨國高管 (Expat/Local) 輪調計畫",
+          "決策訴求 (Call to Action)：懇請核准 [X 預算] 啟動跨國融合計畫，確保海外市場營收達標率躍升至 [X]%"
+        ],
+        "en": [
+          "Joint Task Force: Form a 'Cultural Integration Steering Committee' comprised of executives from both sides within 30 days.",
+          "Quick Wins: Unify core collaboration platforms and execute the first round of Expat/Local executive rotations within 90 days.",
+          "Call to Action: Requesting [X Budget] to launch this integration initiative, ensuring overseas revenue hits [X]% of target."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "文化改變無法一蹴可幾，但我們必須立刻行動。這是我們未來 90 天的 PMI 融合藍圖：從成立跨國指導委員會，到推動高階主管輪調。這筆預算是為了確保我們買下的海外資產能真正兌現其商業價值。懇請董事會核准，讓我們立刻啟動融合計畫。",
+        "en": "Culture doesn't change overnight, but we must act immediately. Here is our 90-day PMI roadmap: from forming a joint steering committee to initiating executive rotations. This budget is the insurance policy that guarantees our overseas acquisitions deliver their promised commercial value. We respectfully request Board approval to initiate."
+      }
+    }
+  ],
+  "prompt_template": {
+    "zh": "請以繁體中文製作一份大師級的『跨國營運與多元文化融合 (Cross-Cultural Management & PMI)』簡報。受眾為 CEO 或董事會。內容必須展現跨國高階主管 (Global VP / COO) 的格局：1. 運用 SCQA 架構點出全球化擴張或跨國併購 (M&A) 後的文化衝突危機，2. 導入 CAGE 距離框架量化跨國摩擦的『隱含成本 (Cost of Inaction)』，3. 提出『全球在地化 (Glocalization)』戰略，明確界定總部護欄與在地授權，4. 探討建立『第三文化 (Third Culture)』與 DEI (多元共融) 的商業投資回報，5. 結尾給出包含高管輪調與跨國專案小組的 90 天落地藍圖，並爭取整合預算。每張 Slide 不超過 3 個重點，語氣需具備極高的國際化視野、同理心與推動全球協同效應的將才魄力。",
+    "en": "Please create a master-class 'Global Operations & Cultural Integration' presentation in English. Audience: CEO or Board of Directors. Demonstrate Global VP/COO level acumen: 1. Use SCQA to frame the cultural crisis post-M&A or during global expansion. 2. Apply the CAGE framework to quantify the 'Cost of Friction' and brain drain. 3. Propose a 'Glocalization' strategy, clearly defining HQ guardrails versus local autonomy. 4. Discuss the creation of a 'Third Culture' and the commercial ROI of DEI (Diversity, Equity, and Inclusion). 5. Conclude with a 90-day PMI execution roadmap (including executive rotations) and a specific budget ask. Max 3 bullet points per slide. The tone must be fiercely international, empathetic, yet decisively focused on driving global synergy."
+  }
+}
