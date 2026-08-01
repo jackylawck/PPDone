@@ -1,0 +1,129 @@
+{
+  "topic_id": "management_principles",
+  "keywords": ["管理原理", "實務", "management principles", "mgt", "個案研究", "case study", "決策", "領導", "激勵", "基礎管理"],
+  "title": {
+    "zh": "管理原理與實務：核心理論與個案分析",
+    "en": "Management Principles & Practice: Core Theory & Case Studies"
+  },
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_title": {
+        "zh": "管理學概論與當代挑戰 (Intro & Challenges)",
+        "en": "Intro to Management & Contemporary Challenges"
+      },
+      "bullet_points": {
+        "zh": [
+          "核心概念：界定管理者的角色，以及內外環境因素對組織運作的影響",
+          "當代議題：探討全球化趨勢、員工多樣化，以及企業社會責任與管理道德",
+          "學習目標：建立將西方管理理論結合本地實務情境的分析能力"
+        ],
+        "en": [
+          "Core Concepts: Defining managerial roles and the impact of internal/external environments on organizations.",
+          "Contemporary Issues: Exploring globalization, workforce diversity, CSR, and management ethics.",
+          "Learning Objective: Bridging Western management theories with local, practical business scenarios."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "各位同學/主管好。管理不僅是一門理論，更是一門實踐的藝術。今天我們將從管理學的基礎出發，探討在當前全球化與多樣化的挑戰下，管理者應當如何自處與應變。",
+        "en": "Welcome everyone. Management is not just theory; it's a practical art. Today, we begin with the foundations of management and explore how leaders must adapt to contemporary challenges like globalization and diversity."
+      }
+    },
+    {
+      "slide_number": 2,
+      "slide_title": {
+        "zh": "個案研究：背景評估與 SWOT 分析 (Case Background)",
+        "en": "Case Study: Context Assessment & SWOT"
+      },
+      "bullet_points": {
+        "zh": [
+          "機構現狀：運用系統性視角，評估案例機構當前的生產、財務與人事運作模式",
+          "外在環境：辨識行業的重大趨勢與客觀限制因素 (如政策、市場變動)",
+          "SWOT 應用：全面盤點機構內部的「優勢與劣勢」，及外部的「機遇與威脅」"
+        ],
+        "en": [
+          "Current State: Assessing the organization's operational, financial, and HR models systematically.",
+          "External Environment: Identifying major industry trends and objective constraints (e.g., regulations).",
+          "SWOT Application: Conducting a comprehensive analysis of internal Strengths/Weaknesses and external Opportunities/Threats."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "在進入具體理論前，我們引入個案研究的方法。要解決問題，首先要看懂全局。請大家試著運用 SWOT 分析工具，拆解這個機構目前正面臨的內在瓶頸與外在客觀限制。",
+        "en": "Before diving into specific theories, let's introduce the case study methodology. To solve problems, we must first see the big picture. Let's apply a SWOT analysis to break down the organization's internal bottlenecks and external constraints."
+      }
+    },
+    {
+      "slide_number": 3,
+      "slide_title": {
+        "zh": "決策制定、規劃與控制 (Decision & Planning)",
+        "en": "Decision Making, Planning & Control"
+      },
+      "bullet_points": {
+        "zh": [
+          "辨識癥結：釐清表象問題 (Symptoms) 與根本問題 (Root Causes) 的因果關聯",
+          "方案擬定：建立解決方案的評估準則 (如成本、文化衝擊、可行性)，不急於斷定單一解法",
+          "規劃與控制：制定具體的策略藍圖與控制機制，確保目標在變動環境中得以落實"
+        ],
+        "en": [
+          "Identifying Root Causes: Mapping the causal relationship between surface symptoms and core problems.",
+          "Generating Options: Establishing criteria (cost, culture, feasibility) to evaluate multiple solutions.",
+          "Planning & Control: Formulating strategic roadmaps and control mechanisms to ensure execution."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "管理者就像醫生，看到業績下滑的『癥狀』，必須精準診斷出背後的『病因』。在決策過程中，我們要擬定多個替代方案，並利用明確的控制機制來確保方案能順利推進。",
+        "en": "Managers are like doctors: seeing the 'symptom' of declining sales requires diagnosing the true 'root cause.' In decision-making, we must evaluate multiple alternatives and set up clear control mechanisms to track progress."
+      }
+    },
+    {
+      "slide_number": 4,
+      "slide_title": {
+        "zh": "組織設計與團隊管理 (Org Design & Teams)",
+        "en": "Organization Design & Team Management"
+      },
+      "bullet_points": {
+        "zh": [
+          "組織結構：比較不同組織設計 (如矩陣式、扁平化) 對資源分配與溝通效率的影響",
+          "群體與團隊：分析組織內部團隊動態，探討如何將個人專長轉化為團隊協同效應",
+          "變革適應：探討組織設計應如何保持敏捷，以應對外部環境的快速變遷"
+        ],
+        "en": [
+          "Structural Models: Comparing how different org designs (e.g., Matrix, Flat) impact resource allocation.",
+          "Group Dynamics: Analyzing team behaviors and turning individual expertise into collective synergy.",
+          "Agility in Change: Exploring how organizational structures must remain agile to adapt to fast-paced environments."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "好的決策需要適合的骨架來支撐。這部分我們將探討組織設計的要素。不同的結構會直接影響團隊溝通的效率；如何建立具備敏捷性與協同效應的高效團隊，是管理者的核心課題。",
+        "en": "Great decisions require the right structural backbone. Here, we explore the elements of organizational design. Structure dictates communication efficiency, and building agile, highly synergistic teams is a core managerial task."
+      }
+    },
+    {
+      "slide_number": 5,
+      "slide_title": {
+        "zh": "溝通、激勵與領導力展現 (Leadership & Motivation)",
+        "en": "Communication, Motivation & Leadership"
+      },
+      "bullet_points": {
+        "zh": [
+          "有效溝通：破除層級障礙，建立透明且具備建設性的跨部門溝通渠道",
+          "激勵機制：運用多元激勵理論，對齊個人目標與組織利益，提升團隊士氣",
+          "領導實務：整合上述概念，展現能在不確定性中帶領團隊達成目標的領導力"
+        ],
+        "en": [
+          "Effective Comms: Breaking down hierarchical barriers to build transparent, constructive channels.",
+          "Motivation Theories: Applying diverse motivational models to align personal goals with organizational interests.",
+          "Leadership in Action: Synthesizing concepts to demonstrate leadership that guides teams through uncertainty."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "所有的管理最終都要回歸到『人』。如何透過有效的溝通凝聚共識？如何激發員工的內在動機？這不僅是理論，更是各位未來在職場上帶兵打仗不可或缺的領導實務。",
+        "en": "Ultimately, all management comes down to 'People.' How do we forge consensus through communication? How do we trigger intrinsic motivation? These aren't just theories; they are essential leadership practices for navigating the real business world."
+      }
+    }
+  ],
+  "prompt_template": {
+    "zh": "請以繁體中文製作一份專業的『管理原理與實務』教學/培訓簡報。受眾為大學生或初中階主管。內容需揉合學術理論與實務個案分析 (Case Study)，著重於：1. 涵蓋管理學基礎、當代挑戰與組織設計，2. 引導受眾運用 SWOT 分析與 MECE 邏輯辨識問題癥結，3. 探討決策制定、控制機制與領導激勵技巧。每張 Slide 不超過 3 個重點，每字不超過一行，語氣需具備啟發性與教育引導意義。",
+    "en": "Please create a professional 'Management Principles & Practice' training/lecture presentation in English. Audience: University students or Junior/Mid-level managers. Combine academic theory with practical Case Studies. Focus on: 1. Management fundamentals, contemporary challenges, and org design, 2. Guiding the audience to use SWOT and MECE to identify root causes, 3. Exploring decision-making, control mechanisms, and leadership/motivation tactics. Max 3 bullet points per slide, max one line per bullet. The tone should be inspiring, educational, and highly engaging."
+  }
+}
