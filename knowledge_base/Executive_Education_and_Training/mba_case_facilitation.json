@@ -1,0 +1,129 @@
+{
+  "topic_id": "mba_case_facilitation",
+  "keywords": ["case study", "個案教學", "mba", "總經理學", "general management", "引導", "facilitation", "哈佛個案", "harvard case", "冷呼叫", "cold call", "決策", "教授", "培訓"],
+  "title": {
+    "zh": "總經理學個案教學與高階引導 (MBA / 客座教授視角)",
+    "en": "General Management Case Facilitation (MBA/Professor Perspective)"
+  },
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_title": {
+        "zh": "商業情境與主角的終極兩難 (SCQA & The Protagonist's Dilemma)",
+        "en": "Context & The Protagonist's Dilemma (SCQA)"
+      },
+      "bullet_points": {
+        "zh": [
+          "情境 (Situation)：[公司名稱] 目前面臨 [市場劇變/內部危機]，主角 (CEO/總經理) 只有 48 小時能做出決定",
+          "衝突 (Complication)：選項 A 將帶來短期現金流但破壞長期品牌；選項 B 能確保合規但可能導致公司破產",
+          "課堂提問 (The Cold Call)：如果是你坐在這個總經理的位子上，你的第一個決策是什麼？為什麼？"
+        ],
+        "en": [
+          "Situation: [Company Name] is facing an unprecedented [Market Shock/Internal Crisis]. The protagonist (CEO/GM) has 48 hours to make a definitive call.",
+          "Complication: Option A secures short-term cash flow but destroys long-term brand equity; Option B ensures strict compliance but risks immediate bankruptcy.",
+          "The Cold Call: If you are sitting in the General Manager's chair right now, what is your first directive? And why?"
+        ]
+      },
+      "speaker_notes": {
+        "zh": "各位同學，歡迎來到總經理學的課堂。在真實的商戰中，你永遠等不到『完美的資訊』。我們今天的個案主角正面臨一個生死存亡的兩難。請記住，總經理的工作不是做『對的決定』，而是在兩個爛蘋果中，選出一個能讓公司活下去的決策。現在，把你們自己代入主角的視角，我們準備開始投票。",
+        "en": "Welcome to General Management. In real-world business, you will never possess 'perfect information.' Today's case protagonist faces an existential dilemma. Remember, a General Manager's job isn't making the 'perfect' choice; it's choosing the least destructive option from a menu of bad choices to keep the enterprise alive. Put yourselves in the protagonist's chair. We are about to vote."
+      }
+    },
+    {
+      "slide_number": 2,
+      "slide_title": {
+        "zh": "解構財報與營運真相 (Unpacking the Exhibits & Reality Check)",
+        "en": "Unpacking the Exhibits & Reality Check"
+      },
+      "bullet_points": {
+        "zh": [
+          "隱藏的財務危機 (Financial Reality)：分析附錄表 1，公司的自由現金流 (FCF) 已經連續三個季度為負，真實的資金跑道 (Runway) 只剩 3 個月",
+          "營運瓶頸 (Operational Bottleneck)：從附錄表 3 看出，供應鏈的集中度過高，導致單一供應商的斷鏈風險被嚴重低估",
+          "魔鬼藏在細節裡 (The Blind Spot)：多數人忽略了附錄表 5 中 HR 的離職率數據——核心研發團隊的流失，才是這家公司真正的致命傷"
+        ],
+        "en": [
+          "Financial Reality: Analyzing Exhibit 1 reveals negative Free Cash Flow (FCF) for three consecutive quarters. The true cash runway is merely 3 months.",
+          "Operational Bottleneck: Exhibit 3 exposes hyper-concentration in the supply chain; the catastrophic risk of a single-supplier failure has been chronically undervalued.",
+          "The Blind Spot: Most analysts ignore the HR attrition rates in Exhibit 5—the exodus of the core R&D team is the actual terminal threat to this company."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "在我們開始爭論戰略之前，讓我們先看數字。個案最後的附錄 (Exhibits) 不是裝飾品。很多人憑直覺說要擴張，但如果我們仔細看表 1 的現金流，這家公司再過 90 天就要發不出薪水了。身為高階主管，我們不能被表面的營收增長騙了，你要能從枯燥的報表裡看出公司『失血』的真相。",
+        "en": "Before we debate strategy, let's confront the math. The case Exhibits are not decorative. Many intuitively suggest aggressive expansion, yet Exhibit 1 reveals this company will miss payroll in exactly 90 days. As executives, you cannot be blinded by top-line vanity metrics. You must possess the analytical rigor to diagnose corporate 'bleeding' buried deep within mundane spreadsheets."
+      }
+    },
+    {
+      "slide_number": 3,
+      "slide_title": {
+        "zh": "戰略選項與魔鬼代言人 (Strategic Options & Devil's Advocate)",
+        "en": "Strategic Options & The Devil's Advocate"
+      },
+      "bullet_points": {
+        "zh": [
+          "選項 A (保守防禦)：裁員 20% 並出售非核心資產。這能立即止血，但代價是引發工會罷工與股價暴跌",
+          "選項 B (激進擴張)：發行高收益債，強行併購競爭對手。這能解決市佔率問題，但若整合失敗 (PMI)，公司將直接面臨清算",
+          "魔鬼代言人 (Devil's Advocate)：針對支持選項 A 的同學：如果裁掉了核心技術人員，三年後我們拿什麼跟對手競爭？"
+        ],
+        "en": [
+          "Option A (Defensive Consolidation): Implement a 20% RIF and divest non-core assets. This halts the bleeding immediately, but risks triggering union strikes and a stock crash.",
+          "Option B (Aggressive Expansion): Issue high-yield debt to force a hostile takeover of our rival. This solves market share, but a failed Post-Merger Integration (PMI) triggers liquidation.",
+          "Devil's Advocate: To the proponents of Option A: If we terminate our core engineering talent today, what exactly is our competitive moat three years from now?"
+        ]
+      },
+      "speaker_notes": {
+        "zh": "好，現在我們有兩條路。選 A，你今天是英雄，但明天可能被工會告；選 B，你是在賭命，贏了稱王，輸了下台。這就是總經理每天要面對的真實世界。現在我要扮演『魔鬼代言人』來挑戰你們。剛才支持 A 的同學，請你站起來回答我：如果你把研發大將都裁了，這家公司未來三年的核心競爭力在哪裡？",
+        "en": "Alright, we have two paths. Choose A: you survive today but face union litigation tomorrow. Choose B: you are betting the entire company on a single roll of the dice. This is the authentic reality of General Management. Now, I will play 'Devil's Advocate' to stress-test your logic. To those defending Option A: please stand up and explain—if you terminate the R&D team today, what exactly constitutes our competitive moat in 36 months?"
+      }
+    },
+    {
+      "slide_number": 4,
+      "slide_title": {
+        "zh": "董事會表決與利益調解 (The Boardroom Vote & Mediation)",
+        "en": "The Boardroom Vote & Stakeholder Mediation"
+      },
+      "bullet_points": {
+        "zh": [
+          "強制表態 (Forced Commitment)：全體學員必須在 30 秒內做出最終選擇 (A 或 B)，不允許「再觀察」或「兩者兼顧 (Hedging)」的妥協答案",
+          "跨部門衝突 (Cross-Silo Friction)：請代表「財務長」的同學與代表「行銷長」的同學，針對預算分配進行 3 分鐘的公開辯論",
+          "高階調解 (Executive Mediation)：總經理不能只是聽報告，必須在雙方僵持不下時，運用「談判與調解 (ADR)」技巧，促成具備戰略共識的決議"
+        ],
+        "en": [
+          "Forced Commitment: All participants must lock in their final decision (Option A or B) within 30 seconds. Neutrality or 'wait and see' hedging is strictly prohibited.",
+          "Cross-Silo Friction: I want the student acting as 'CFO' and the student acting as 'CMO' to engage in a 3-minute public debate regarding budget allocation.",
+          "Executive Mediation: A GM cannot merely observe; they must mediate. When stalemates occur, you must deploy Advanced Dispute Resolution (ADR) tactics to forge a strategic consensus."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "現在，把課堂想像成董事會。沒有『我再考慮看看』這種選項。請所有人舉手投票。接著，這堂課最精采的來了：部門衝突。行銷長要預算，財務長要砍預算。身為總經理，你不能只會下命令，你必須懂得『調解 (Mediation)』。你如何在這兩個憤怒的高管之間找到平衡點，讓他們走出會議室時，願意為了同一個戰略目標奮戰？",
+        "en": "Transform this classroom into a Boardroom. 'Wait and see' is not an option. Everyone must vote now. Next comes the crux of management: Departmental Friction. The CMO demands CapEx; the CFO demands cuts. As a GM, you cannot rely purely on dictatorial authority; you must master 'Mediation.' How do you negotiate between two furious executives so that when they exit the room, they are aligned on a singular strategic mission?"
+      }
+    },
+    {
+      "slide_number": 5,
+      "slide_title": {
+        "zh": "戰略框架提煉與真實大結局 (Framework Synthesis & Real Epilogue)",
+        "en": "Framework Synthesis & The Real Epilogue"
+      },
+      "bullet_points": {
+        "zh": [
+          "管理學框架 (The Framework)：從今天的混戰中，我們可以提煉出「領導力與變革管理」的核心模型（例如：Kotter 的 8 步變革模型）",
+          "真實結局 (The Epilogue)：揭曉現實世界中，這家公司的總經理最終做了什麼決定？這項決策在三年後導致了什麼後果？",
+          "課堂總結 (Key Takeaways)：決策沒有絕對的對錯，關鍵在於你的「底層邏輯」是否經得起財務、法規與人性的三重考驗"
+        ],
+        "en": [
+          "The Framework: From today's chaotic debate, we extract the core model of 'Leadership & Change Management' (e.g., Kotter's 8-Step Change Model).",
+          "The Epilogue: Revealing what the actual CEO did in the real-world scenario, and the concrete consequences that unfolded 3 years later.",
+          "Key Takeaways: In business, decisions are rarely objectively 'right or wrong.' What matters is whether your 'underlying logic' survives the brutal intersection of finance, law, and human nature."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "經過剛才激烈的辯論，我們來做個總結。今天我們用到的，其實就是商學院裡經典的『變革管理框架』。大家一定很好奇，現實生活中這家公司最後怎麼了？(揭曉結局...)。請記住，我們研究個案，不是為了背誦他的成功，而是為了學習他在壓力下的決策邏輯。希望這堂課，能為各位未來的管理之路裝上最好的避震器。",
+        "en": "Following that intense debate, let's synthesize. The chaos we navigated today perfectly maps onto classic 'Change Management Frameworks.' I know you are eager for the real-world epilogue: What did the actual CEO do? (Reveals Epilogue...). Remember, we study cases not to memorize past successes, but to absorb decision-making logic under extreme duress. I hope this session equips you with the strategic shock-absorbers required for your future leadership journeys."
+      }
+    }
+  ],
+  "prompt_template": {
+    "zh": "請以繁體中文製作一份大師級的『總經理學：哈佛個案教學引導 (Case Facilitation)』簡報。受眾為 MBA 學生或企業高管學員。內容必須展現客座教授/資深顧問具備強大控場力與引導技巧的視角：1. 運用 SCQA 佈局個案情境，拋出無可迴避的 Cold Call (冷呼叫) 逼迫學員表態，2. 強制解構個案附錄 (Exhibits) 中的財務與營運陷阱，3. 列出戰略選項，並化身『魔鬼代言人 (Devil's Advocate)』挑戰學員的邏輯，4. 模擬董事會表決，並融入跨部門衝突的『高階調解 (Executive Mediation)』技巧，5. 結尾提煉出管理學框架，並揭曉真實商業世界的殘酷大結局。每張 Slide 不超過 3 個重點，語氣需充滿學術嚴謹度、高壓的課堂張力與引導反思的智慧。",
+    "en": "Please create a master-class 'General Management: Harvard Case Facilitation' presentation in English. Audience: MBA students or Executive Trainees. Demonstrate the commanding classroom presence and facilitation mastery of a Guest Professor/Senior Advisor: 1. Use SCQA to frame the case context, deploying an aggressive 'Cold Call' to force immediate student commitment. 2. Force the rigorous unpacking of quantitative traps hidden in the case Exhibits. 3. Lay out the strategic alternatives and assume the role of 'Devil's Advocate' to stress-test student logic. 4. Simulate a Boardroom Vote, integrating 'Executive Mediation' tactics to resolve simulated cross-silo conflicts. 5. Conclude by synthesizing a formal management framework and revealing the brutal real-world Epilogue. Max 3 bullet points per slide. The tone must project academic rigor, intense classroom pressure, and the profound wisdom of reflective leadership."
+  }
+}
