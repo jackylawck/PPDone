@@ -1,129 +1,129 @@
 {
   "topic_id": "incident_postmortem",
-  "keywords": ["事故", "檢討", "危機", "出事", "post-mortem", "incident", "拆彈", "問題分析", "失誤", "troubleshooting", "危機處理"],
+  "keywords": ["事故", "檢討", "危機", "出事", "post-mortem", "incident", "拆彈", "問題分析", "失誤", "troubleshooting", "危機處理", "CAPA", "風險", "RCA"],
   "title": {
-    "zh": "事故檢討與系統性防錯報告 (SCQA 結構)",
-    "en": "Incident Post-Mortem & Systemic Prevention Report"
+    "zh": "事故檢討與企業韌性報告 (董事會級 CAPA 防護)",
+    "en": "Incident Post-Mortem & Enterprise Resilience (Board-Level CAPA)"
   },
   "slides": [
     {
       "slide_number": 1,
       "slide_title": {
-        "zh": "執行摘要與結論先行 (Executive Summary)",
-        "en": "Executive Summary & Bottom Line"
+        "zh": "執行摘要與危機收攏 (Executive Summary & Containment)",
+        "en": "Executive Summary & Incident Containment"
       },
       "bullet_points": {
         "zh": [
-          "情境 (Situation)：[日期] 發生 [事件]，第一時間已啟動跨部門止血，營運已恢復",
-          "衝擊 (Complication)：本次事件造成 [X] 財務/工時損失，並暴露了 [某流程] 的防禦漏洞",
-          "解法 (Answer)：今日將確立根本原因，並申請 [資源] 導入長期防錯機制 (Fail-safes)"
+          "情境與收攏 (Situation)：[日期] 發生 [事件]，目前已 100% 止血並完成災難復原 (Disaster Recovery)",
+          "衝擊與破口 (Complication)：本次事件造成 [X] 損失，並暴露出我們在 [某治理流程/系統] 的關鍵控制失效",
+          "決策訴求 (The Ask)：今日不追究單一人為疏失，而是尋求高層核准 [預防性資源]，將防禦機制寫入組織 SOP"
         ],
         "en": [
-          "Situation: [Incident] occurred on [Date]. Immediate cross-functional mitigation restored operations.",
-          "Complication: The incident cost [X] in financials/hours and exposed vulnerabilities in [Process].",
-          "Answer: Today we align on root causes and request [Resources] for long-term fail-safes."
+          "Situation & Containment: [Incident] occurred on [Date]. The bleeding is 100% contained and Disaster Recovery is complete.",
+          "Complication & Gap: The event cost [X] and exposed a critical control failure within our [Governance/System] process.",
+          "The Ask: Today is blameless. We seek executive approval for [Preventive Resources] to hardwire fail-safes into our SOPs."
         ]
       },
       "speaker_notes": {
-        "zh": "各位主管，秉持「早報憂」的原則，我們今天直接切入重點。前幾天的突發事件已經完全平息，沒有持續擴大的風險。今天的目標是向各位報告損失的數據底線，以及我們如何從系統層面徹底解決這個漏洞。",
-        "en": "Management team, following the principle of escalating bad news early, let's get straight to the point. The recent incident is fully contained. Today's goal is to present the bottom-line impact and how we will systematically close this vulnerability."
+        "zh": "各位長官，面對危機我們的原則是『透明且迅速』。好消息是，現場已經完全控制，業務已恢復正常。今天這份報告不是來抓戰犯的，而是要向各位呈報我們如何從治理層面補破網，並請求資源將這次的教訓轉化為長期的企業韌性。",
+        "en": "Management team, our crisis principle is 'transparency and speed.' The good news: the situation is fully contained and operations are restored. Today isn't about witch hunts; it's about presenting our governance-level fixes and requesting resources to turn this expensive lesson into long-term enterprise resilience."
       }
     },
     {
       "slide_number": 2,
       "slide_title": {
-        "zh": "客觀時間軸與業務衝擊 (Timeline & Business Impact)",
-        "en": "Timeline & Business Impact Analysis"
+        "zh": "爆炸半徑與業務衝擊量化 (Blast Radius & Impact)",
+        "en": "Blast Radius & Business Impact Quantification"
       },
       "bullet_points": {
         "zh": [
-          "時間節點 (Milestones)：從發現異常到完全修復共耗時 [X] 小時，警報機制反應速度符合/低於預期",
-          "量化損失 (Data Literacy)：導致 [X]% 產能下降或 [X] 金額損失，後續賠償/重工成本約 [X]",
-          "質化衝擊 (Risk Radar)：短暫影響了 [客戶信任/跨部門協作]，已主動啟動期望值管理"
+          "爆炸半徑 (Blast Radius)：事件影響了 [X] 個核心系統與 [X]% 的外部客戶/內部營運",
+          "量化財損 (Financial Impact)：直接復原成本為 [X]，加上潛在的違約金或重工成本約 [X]",
+          "質化聲譽 (Reputational Risk)：短暫引發了 [客戶/跨部門] 的信任危機，已啟動公關與期望值調解機制"
         ],
         "en": [
-          "Timeline Milestones: [X] hours from detection to resolution. Alerting speed was [within/below] expectations.",
-          "Quantifiable Loss: Resulted in a [X]% capacity drop or [X] financial loss; rework costs est. at [X].",
-          "Qualitative Impact: Temporarily affected [Client Trust / Team Morale]; expectation management initiated."
+          "Blast Radius: The incident compromised [X] core systems, affecting [X]% of external clients/internal operations.",
+          "Financial Impact: Direct recovery costs stand at [X], with potential SLA penalties/rework totaling [X].",
+          "Reputational Risk: Triggered a temporary trust deficit with [Clients/Stakeholders]; mediation and PR protocols activated."
         ]
       },
       "speaker_notes": {
-        "zh": "我們用數據來還原現場。這次的修復時間是 X 小時，造成的顯性與隱性成本大約是 Y。把這個成本數字算出來，是為了讓我們稍後評估「預防措施的投資報酬率 (ROI)」時，有清晰的基準點。",
-        "en": "Let's review the data. Resolution took X hours, and the direct/indirect costs are approximately Y. Quantifying this cost sets a clear baseline for evaluating the ROI of our proposed preventive measures later."
+        "zh": "我們客觀攤開這次的『爆炸半徑』。除了帳面上的直接財務與工時損失外，更關鍵的是無形的聲譽與信任折損。我們已經第一時間介入調解，安撫受影響的利害關係人。把這些代價量化，是為了凸顯後續預防投資的必要性。",
+        "en": "Let's objectively examine the 'Blast Radius'. Beyond the direct financial and man-hour losses on paper, the critical damage is to our reputation and stakeholder trust. We immediately initiated mediation to stabilize these relationships. Quantifying this pain is crucial to justify the ROI of our upcoming preventive investments."
       }
     },
     {
       "slide_number": 3,
       "slide_title": {
-        "zh": "根本原因分析 (Root Cause & MECE Analysis)",
-        "en": "Root Cause Analysis (MECE Approach)"
+        "zh": "根本原因：瑞士起司理論 (Root Cause: Swiss Cheese Model)",
+        "en": "Root Cause Analysis: The Swiss Cheese Model"
       },
       "bullet_points": {
         "zh": [
-          "表層現象：第一線人員操作失誤 / 系統瞬間超載 (避免將問題停留在『人為疏失』)",
-          "系統性漏洞 (Governance)：缺乏事前 [雙重驗證機制]，以及事中 [自動化攔截工具]",
-          "管理盲點 (Manager's Perspective)：資源錯配導致前線工作超載，風險容忍度界定不清"
+          "表象觸發點 (Trigger)：第一線操作異常 / 系統瞬間負載過高 (僅為導火線)",
+          "控制失效 (Control Failures)：依據瑞士起司理論，[審核機制]、[系統攔截] 與 [權限控管] 同時被穿透",
+          "治理盲區 (Governance Gap)：深層原因在於 [流程設計缺陷/資源過度緊繃]，導致缺乏容錯空間 (Margin of Error)"
         ],
         "en": [
-          "Surface Issue: Frontline operational error / Sudden system overload (Moving beyond 'human error').",
-          "Systemic Gap: Lack of pre-action [Dual-verification] and in-process [Automated interception].",
-          "Management Blindspot: Resource mismatch causing frontline burnout; vague risk tolerance definitions."
+          "The Trigger (Surface): Frontline operational anomaly / sudden load spike (This is just the catalyst).",
+          "Control Failures: Per the Swiss Cheese Model, our [Audit rules], [System blocks], and [Access controls] were simultaneously bypassed.",
+          "Governance Gap: The deepest root cause is [Flawed process design / Severe resource strain], leaving zero margin for error."
         ]
       },
       "speaker_notes": {
-        "zh": "依照 MECE 不重疊、不遺漏的原則，我們不能把問題推給「人為疏失」。真正的根本原因，在於我們的流程設計缺乏「防錯機制 (Fool-proofing)」，且前線資源的配置增加了出錯的機率。",
-        "en": "Applying the MECE principle, we cannot simply blame 'human error.' The true root causes are governance gaps—specifically, the lack of fool-proofing mechanisms and resource allocations that increase the probability of errors."
+        "zh": "在根本原因分析上，我們採用『瑞士起司理論』。問題絕對不在單一員工身上，而是我們的『多重防護網』剛好都在同一個時間點失效了。這暴露了我們在治理流程上的深層盲區：我們把系統逼得太緊，完全沒有給前線容錯的空間。",
+        "en": "For Root Cause Analysis, we apply the 'Swiss Cheese Model.' The fault doesn't lie with a single employee; rather, our multiple layers of defense failed simultaneously. This exposes a deep governance blindspot: we are running our systems and people so tight that we've eliminated any margin for error."
       }
     },
     {
       "slide_number": 4,
       "slide_title": {
-        "zh": "跨部門調解與止血措施 (Immediate Alignment)",
-        "en": "Cross-Functional Alignment & Mitigation"
+        "zh": "矯正措施與跨部門調解 (Immediate CAPA & Mediation)",
+        "en": "Corrective Actions (CAPA) & Stakeholder Mediation"
       },
       "bullet_points": {
         "zh": [
-          "責任共擔 (No Blame Game)：已與 [相關部門] 召開檢討，不追究個人，專注修補流程",
-          "立即止血 (Short-term Fix)：實施臨時的 [人工抽檢/額外審批] 確保營運安全",
-          "資訊同步 (Communication)：已向受影響的內外部利害關係人發送說明，挽回信任"
+          "矯正措施 (Corrective Actions)：已於 [X] 小時內強制上線臨時 [雙重簽核/系統降級] 確保絕對安全",
+          "無責備復盤 (Blameless Culture)：與 [部門 X] 完成透明檢討，將情緒對立轉化為共同修補流程的共識",
+          "風險溝通 (Risk Comms)：向受影響的高層與客戶發布『事件調查摘要』，以專業態度化解信任危機"
         ],
         "en": [
-          "Shared Accountability: Conducted blameless reviews with [Dept]; focused purely on process repair.",
-          "Immediate Mitigation: Implemented temporary [Manual checks / Extra approvals] to secure operations.",
-          "Transparent Comms: Dispatched clear explanations to affected stakeholders to restore trust."
+          "Corrective Actions (Short-term): Forced deployment of temporary [Dual-signoffs / System degradation] within [X] hours to guarantee safety.",
+          "Blameless Post-Mortem: Conducted transparent reviews with [Dept X], mediating emotional friction into a shared mandate to fix the process.",
+          "Risk Communications: Issued formal 'Incident Summaries' to affected executives and clients, leveraging professionalism to restore trust."
         ]
       },
       "speaker_notes": {
-        "zh": "在危機發生當下，我們運用了調解思維，聯合各部門先解決問題，而不是互相指責。目前已經上了臨時的控制措施，並主動對外溝通，確保所有利害關係人的期望值都在掌控中。",
-        "en": "During the crisis, we applied a mediation mindset—partnering across departments to solve the problem rather than pointing fingers. Temporary controls are in place, and proactive communication has stabilized stakeholder expectations."
+        "zh": "為了立即止血，我們採取了強制的短期矯正措施 (Corrective Actions)。同時，在跨部門會議中，我們運用了調解技巧，化解了可能發生的推諉卸責，讓大家聚焦在『修補流程』而非『指責個人』。專業的風險溝通已經幫我們穩住了陣腳。",
+        "en": "To stop the bleeding, we deployed aggressive, short-term Corrective Actions. In parallel, during cross-departmental syncs, we used mediation techniques to defuse finger-pointing, aligning everyone entirely on 'fixing the process, not blaming the person.' Professional risk communication has stabilized the situation."
       }
     },
     {
       "slide_number": 5,
       "slide_title": {
-        "zh": "長期預防投資與變革推動 (Prevention ROI & Change Mgmt)",
-        "en": "Prevention ROI & Change Management"
+        "zh": "預防投資與企業韌性升級 (Preventive CAPA & Resilience)",
+        "en": "Preventive Actions & Enterprise Resilience Upgrade"
       },
       "bullet_points": {
         "zh": [
-          "防禦升級 (The Ask)：申請 [預算/資源] 導入 [自動化/新系統]，取代高風險的人工操作",
-          "投資回報 (ROI)：該筆投資僅佔本次事故損失的 [X]%，具備極高的風險防禦效益",
-          "變革管理 (Change Mgmt)：本月底前完成新 SOP 培訓，確保前線人員無縫過渡並確實遵循"
+          "預防措施 (Preventive Actions)：申請 [預算] 導入 [自動化防禦/AI 監控]，從源頭鎖死出錯可能",
+          "投資回報 (ROI of Resilience)：該筆防禦預算僅佔本次事故成本的 [X]%，是極具經濟效益的避險投資",
+          "韌性升級 (Next Steps)：將此風險納入公司風險登記表 (Risk Register)，並於 [日期] 完成全員新版 SOP 培訓"
         ],
         "en": [
-          "The Ask: Requesting [Budget] to deploy [Automated tools] to replace high-risk manual steps.",
-          "ROI Justification: This investment is only [X]% of the incident's cost, offering massive risk-defense value.",
-          "Change Management: Completing new SOP training by month-end to ensure smooth frontline adoption."
+          "Preventive Actions (Long-term): Requesting [Budget] to deploy [Automated defense / AI monitoring], physically preventing recurrence at the source.",
+          "ROI of Resilience: This defense budget is only [X]% of the incident's cost—a highly economical hedge.",
+          "Resilience Upgrade: Adding this to the corporate Risk Register and completing mandatory new SOP training by [Date]."
         ]
       },
       "speaker_notes": {
-        "zh": "為了徹底根除風險，我們提議導入新系統。從 ROI 的角度來看，這筆預防投資遠低於事故再次發生的代價。同時，我們會做好變革管理與人員培訓，確保新流程能被團隊接受並嚴格執行。懇請主管核准。",
-        "en": "To permanently eliminate this risk, we propose a new system. From an ROI perspective, this preventive investment is a fraction of the cost of recurrence. We will also drive change management and training to ensure strict adherence. We ask for your approval."
+        "zh": "最後是我們的長期預防措施 (Preventive Actions)。我們提議導入新系統，從源頭防呆。相比於事故重演的代價，這筆預算的 ROI 極高。我們會將這次教訓正式寫入公司的風險管理體系中，並完成全員培訓，讓組織變得更具韌性。",
+        "en": "Finally, our long-term Preventive Actions. We propose deploying a new system for root-level fool-proofing. Compared to the cost of a repeat incident, the ROI on this budget is massive. We will formally codify this lesson into the enterprise Risk Register and drive mandatory training, upgrading our overall organizational resilience."
       }
     }
   ],
   "prompt_template": {
-    "zh": "請以繁體中文製作一份專業的『事故檢討與系統性防錯報告』簡報。受眾為高階主管。內容需展現強大的管理與商業思維，著重於：1. 運用 SCQA 架構破題，2. 將損失數據化，並以此凸顯預防措施的投資報酬率 (ROI)，3. 運用 MECE 原則找出系統性漏洞，絕不歸咎於單一人為疏失，4. 納入跨部門調解與未來的變革管理 (Change Management) 培訓計畫。每張 Slide 不超過 3 個重點，每字不超過一行，語氣需具備『危機處理專家』的沉穩與建設性。",
-    "en": "Please create a professional 'Incident Post-Mortem & Systemic Prevention' presentation in English. Audience: Senior Management. Demonstrate strong business acumen by focusing on: 1. SCQA framing, 2. Quantifying losses to justify the ROI of preventive measures, 3. Using MECE to identify systemic gaps (no scapegoating), 4. Incorporating cross-functional alignment and Change Management training. Max 3 bullet points per slide, max one line per bullet. The tone must be composed, highly constructive, and expert in crisis management."
+    "zh": "請以繁體中文製作一份大師級的『事故檢討與企業韌性報告』。受眾為董事會、C-Level 或審計/風險管理委員會。內容必須展現 ISO 稽核級別的嚴謹度與高階治理思維：1. 開場直接說明危機收攏狀況 (Containment) 與決策訴求，2. 客觀量化『爆炸半徑 (Blast Radius)』與聲譽損失，3. 運用『瑞士起司理論 (Swiss Cheese Model)』剖析多重控制失效與治理盲區，嚴禁指責單一個人，4. 展現跨部門調解 (Mediation) 與無責備文化 (Blameless Culture) 的溝通手腕，5. 結尾必須提出明確的 CAPA (矯正與預防措施)，並以『投資報酬率 (ROI)』說服高層核准長期防禦預算。每張 Slide 不超過 3 個重點，語氣需極度沉穩、客觀、具備強烈的風險防禦與大局觀。",
+    "en": "Please create a master-class 'Incident Post-Mortem & Enterprise Resilience Report' in English. Audience: Board of Directors, C-Suite, or Risk/Audit Committees. Demonstrate ISO-level audit rigor and high-level governance acumen: 1. Start with immediate Containment status and the strategic ask. 2. Objectively quantify the 'Blast Radius' and reputational damage. 3. Use the 'Swiss Cheese Model' to expose multiple control failures and governance gaps—strictly NO scapegoating. 4. Showcase conflict mediation skills and the establishment of a Blameless Culture. 5. Conclude with a clear CAPA (Corrective and Preventive Action) framework, using ROI to justify the preventive budget ask. Max 3 bullet points per slide. The tone must be intensely composed, objective, and deeply rooted in enterprise risk management."
   }
 }
