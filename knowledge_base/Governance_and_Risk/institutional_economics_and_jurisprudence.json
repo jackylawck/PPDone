@@ -1,0 +1,129 @@
+{
+  "topic_id": "institutional_economics_and_jurisprudence",
+  "keywords": ["法理學", "jurisprudence", "制度經濟學", "institutional economics", "不完全契約", "incomplete contracts", "剩餘控制權", "residual control rights", "code is law", "程式碼即法律", "代理問題", "agency problem", "調解", "mediation", "clo", "法務長"],
+  "title": {
+    "zh": "法理學與制度經濟學：不完全契約與底層治理架構 (CEO/法務長 視角)",
+    "en": "Jurisprudence & Institutional Economics: Incomplete Contracts & Fundamental Governance (CEO/CLO)"
+  },
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_title": {
+        "zh": "完美合約的幻覺與治理盲區 (SCQA & The Institutional Mandate)",
+        "en": "The Illusion of Perfect Contracts & Governance Blind Spots (SCQA)"
+      },
+      "bullet_points": {
+        "zh": [
+          "情境 (Situation)：在推動重大併購、跨國合資 (JV) 或導入生成式 AI 時，我們仰賴法務團隊撰寫了數百頁的嚴密合約與合規手冊",
+          "衝突 (Complication)：商業現實是，所有契約都是「不完全契約 (Incomplete Contracts)」。未知的黑天鵝（如技術突變、地緣政治）不斷穿透合約漏洞，導致無止盡的法律訴訟與合資破裂",
+          "戰略訴求 (The Ask)：提議從「條文撰寫」升級為「制度設計 (Institutional Design)」。懇請董事會授權，透過確立「剩餘控制權」與「程式碼即法律」來重構企業的底層治理"
+        ],
+        "en": [
+          "Situation: When executing major M&A, cross-border Joint Ventures (JV), or deploying GenAI, we rely on hundreds of pages of ironclad contracts and compliance manuals crafted by Legal.",
+          "Complication: The commercial reality is that all agreements are 'Incomplete Contracts.' Unforeseeable black swans (e.g., tech mutations, geopolitics) pierce contractual loopholes, triggering endless litigation and collapsing JVs.",
+          "The Ask: Proposing an elevation from 'contract drafting' to 'Institutional Design.' Requesting Board mandate to re-architect our fundamental governance by institutionalizing 'Residual Control Rights' and 'Code is Law.'"
+        ]
+      },
+      "speaker_notes": {
+        "zh": "各位董事，我們常常以為簽了合約，風險就排除了。但諾貝爾經濟學獎得主奧利弗·哈特告訴我們：所有的合約都是『不完全』的。你永遠無法在合約裡寫明未來 AI 會怎麼演化，或者明年會不會爆發戰爭。當合約沒寫到的意外發生時，雙方就會陷入互信破裂與訴訟泥淖。今天的提案，是要帶領公司跳脫字面上的條文，進入最高維度的『制度經濟學』。我們不只要設計合約，我們要設計一套在合約失效時，依然能讓組織順利運作的底層架構。",
+        "en": "Members of the Board, we suffer from the illusion that a signed contract eliminates risk. Nobel laureate Oliver Hart proved that all contracts are fundamentally 'Incomplete.' You cannot legally codify how AI will mutate tomorrow or predict the next geopolitical war. When unwritten contingencies occur, trust shatters and litigation ensues. Today's mandate elevates our strategy from mere text to 'Institutional Economics.' We are not just drafting rules; we are architecting the fundamental governance framework that dictates survival when the contract inevitably fails."
+      }
+    },
+    {
+      "slide_number": 2,
+      "slide_title": {
+        "zh": "不完全契約與剩餘控制權 (Incomplete Contracts & Residual Rights)",
+        "en": "Incomplete Contracts & Residual Control Rights"
+      },
+      "bullet_points": {
+        "zh": [
+          "合約的極限 (The Limits of Contracting)：放棄預測所有未來情境的徒勞之舉。將談判與治理重心從「利潤分配」轉移至「權力分配」",
+          "剩餘控制權 (Residual Control Rights)：在合約未明文規定的灰色地帶，誰擁有最終的決策權？企業治理的核心，在於透過股權結構或董事會席次，牢牢掌握關鍵資產（如數據與 IP）的剩餘控制權",
+          "調解作為填縫劑 (Mediation as the Gap-Filler)：當不完全契約引發僵局時，訴訟將毀滅雙方的商業價值。必須在制度中內建「強制性商業調解 (Mandatory Commercial Mediation)」機制，動態填補合約空白"
+        ],
+        "en": [
+          "The Limits of Contracting: Abandon the futile attempt to legally predict every future contingency. Shift the negotiation and governance focus from 'profit distribution' directly to 'power distribution.'",
+          "Residual Control Rights: In the gray areas where the contract is silent, who holds the ultimate authority? True governance secures the 'Residual Control Rights' over critical assets (e.g., Data, IP) through equity structures or Board seats.",
+          "Mediation as the Gap-Filler: When incomplete contracts trigger deadlocks, litigation destroys mutual value. We must embed 'Mandatory Commercial Mediation' directly into the institutional architecture to dynamically fill contractual voids."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "既然合約寫不完，那我們該爭取什麼？答案是『剩餘控制權』。在合約沒寫到的灰色地帶，誰說了算？在併購或合資談判中，我們寧可讓出一部份的短期利潤，也必須拿到關鍵技術與數據的剩餘控制權。此外，當漏洞真的引發衝突時，打官司只會雙輸。我們要在治理架構中直接寫入『強制調解機制』。調解員不是來判斷誰違約的，而是來『填補合約空白』的，讓雙方能在新現實下繼續合作。",
+        "en": "If we cannot draft perfect contracts, what do we negotiate for? The answer is 'Residual Control Rights.' When the contract is silent, who makes the call? In M&A or JV negotiations, we willingly trade short-term profit margins to secure absolute residual control over critical IP and data. Furthermore, when loopholes inevitably trigger disputes, litigation is mutual destruction. We must hard-code 'Mandatory Mediation' into our governance. Mediators do not adjudicate breaches; they dynamically 'fill the gaps' of the incomplete contract to preserve commercial value."
+      }
+    },
+    {
+      "slide_number": 3,
+      "slide_title": {
+        "zh": "程式碼即法律：合規的架構化 (Code is Law & Architectural Governance)",
+        "en": "Code is Law: The Architecture of Compliance"
+      },
+      "bullet_points": {
+        "zh": [
+          "法理學的轉向 (The Jurisprudential Shift)：勞倫斯·雷席格 (Lawrence Lessig) 提出「程式碼即法律」。在數位與 AI 時代，約束員工行為的不再是紙本手冊，而是系統的 UI/UX 與演算法護欄",
+          "合規即架構 (Compliance by Design)：停止要求員工「閱讀並簽署」合規聲明。直接從 IT 系統底層拔除違規的可能性（如：無權限者在系統介面上根本看不到下載按鈕）",
+          "演算法審查 (Algorithmic Auditing)：AI 的演算法就是企業的「數位法官」。法務長 (CLO) 與人資長 (CHRO) 必須介入系統設計，確保 AI 的判斷邏輯符合企業的倫理與勞動法規"
+        ],
+        "en": [
+          "The Jurisprudential Shift: Lawrence Lessig established that 'Code is Law.' In the AI era, human behavior is no longer governed by paper manuals; it is dictated by UI/UX architecture and algorithmic guardrails.",
+          "Compliance by Design: Cease demanding employees 'read and sign' compliance policies. Eradicate the physical possibility of non-compliance at the IT architectural level (e.g., stripping the 'download' button entirely for unauthorized tiers).",
+          "Algorithmic Auditing: The AI algorithm acts as the enterprise's 'Digital Judge.' The CLO and CHRO must intervene in system architecture to guarantee algorithmic logic complies with corporate ethics and labor laws."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "哈佛法學院教授雷席格說過：『程式碼即法律 (Code is Law)』。這句話徹底改變了我們對合規的認知。現在的員工不看員工手冊了，他們只看系統允許他們按哪個按鈕。如果我們不想讓機密數據外洩，與其發佈懲處規定，不如直接在系統架構上把『下載』按鈕拿掉。我們要把合規『寫進程式碼裡』。對於未來的 AI 系統，演算法就是法官，法務跟人資必須從一開始就參與系統架構設計，這才是真正的源頭治理。",
+        "en": "Harvard Law Professor Lawrence Lessig coined a defining truth: 'Code is Law.' This shatters our legacy view of compliance. Employees do not read policy manuals; they are governed strictly by what the IT system allows them to click. If we want to prevent data exfiltration, we don't threaten punishments; we physically remove the 'download' button from the architecture. We must hard-code compliance. In AI systems, the algorithm is the absolute judge. Legal and HR must architect the code from day one to ensure structural governance."
+      }
+    },
+    {
+      "slide_number": 4,
+      "slide_title": {
+        "zh": "多中心治理與代理問題防禦 (Polycentricity & The Agency Problem)",
+        "en": "Polycentric Governance & Defeating Agency Problems"
+      },
+      "bullet_points": {
+        "zh": [
+          "委託-代理問題 (Principal-Agent Problem)：高管（代理人）的利益往往與股東（委託人）不一致。過度集權的總部無法防範邊陲地帶的道德風險與數據造假",
+          "多中心治理 (Polycentric Governance)：借鑑埃莉諾·奧斯特羅姆 (Elinor Ostrom) 的理論，打破單一權力中心。在跨國分公司建立「具備重疊權限與互相監督」的局部自治節點",
+          "利益綁定機制 (Skin in the Game)：將地方主管的長效薪酬與其所管理系統的「長期存活率與合規性」深度綁定，利用制度設計讓代理人自發性地維護系統秩序"
+        ],
+        "en": [
+          "Principal-Agent Problem: The interests of executives (Agents) frequently misalign with shareholders (Principals). A hyper-centralized HQ cannot prevent moral hazards or data manipulation at the extreme edges of the empire.",
+          "Polycentric Governance: Adopting Elinor Ostrom’s framework to shatter singular power centers. Architecting 'overlapping jurisdictions and mutual oversight' across regional subsidiaries to create self-policing autonomous nodes.",
+          "Skin in the Game: Deeply tethering the long-term deferred compensation of regional leaders directly to the 'long-term survival and compliance metrics' of their specific nodes, engineering self-enforcing systemic order."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "公司最大的內部風險就是『代理問題』：員工為了自己的 KPI，犧牲公司的長期利益。總部是不可能管到每一個角落的。我們必須引入『多中心治理』，讓各個分公司或部門形成互相監督的自治節點。更重要的是，我們要設計出『切膚之痛 (Skin in the Game)』的獎酬制度。主管的獎金不能只看今年的營收，必須與他部門未來三年的合規與穩定度綁定。用制度的設計，讓他們主動成為公司的防護網。",
+        "en": "The greatest internal existential threat is the 'Principal-Agent Problem': employees cannibalizing corporate longevity for personal KPIs. HQ cannot micromanage the empire's edge. We must deploy 'Polycentric Governance,' architecting regional nodes with overlapping authorities that naturally police each other. Crucially, we must engineer 'Skin in the Game.' An executive's bonus cannot be tied solely to this year's revenue; it must be locked into the 3-year compliance and stability of their node. We use institutional design to force agents to organically protect the enterprise."
+      }
+    },
+    {
+      "slide_number": 5,
+      "slide_title": {
+        "zh": "100 天底層架構重塑藍圖 (100-Day Institutional Re-architecture)",
+        "en": "100-Day Institutional Re-architecture Blueprint"
+      },
+      "bullet_points": {
+        "zh": [
+          "第 1-30 天 (剩餘控制權與程式碼審查)：全面盤點現有合資合約與 AI 系統，標定出缺乏「剩餘控制權」的法律盲區，以及存在越權風險的 IT 系統漏洞",
+          "第 31-100 天 (架構硬編碼與調解庭成立)：協同 IT 部門將合規政策「硬編碼 (Hard-code)」至核心系統，並在董事會轄下正式設立常設性的「內部商業調解委員會」",
+          "決策訴求 (Call to Action)：懇請董事會批准成立由 CEO、法務長與人資長組成的「制度設計委員會」，將法理學原則徹底嵌入企業的數位與營運 DNA 中"
+        ],
+        "en": [
+          "Days 1-30 (Residual Rights & Code Audit): Executing a forensic audit across all JV contracts and AI systems to map legal blind spots lacking 'Residual Control Rights' and IT architecture vulnerable to unauthorized bypasses.",
+          "Days 31-100 (Hard-coding & Mediation Board): Partnering with IT to structurally 'Hard-code' compliance policies into the UI/UX, while formally chartering a permanent 'Internal Commercial Mediation Board' under the Directors.",
+          "Call to Action: Requesting Board mandate to convene an 'Institutional Design Committee' led by the CEO, CLO, and CHRO, permanently embedding jurisprudential principles into our digital and operational DNA."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "這是一場為期 100 天的企業底層架構升級。第一個月，法務跟 IT 要聯手抓漏，找出那些我們沒有剩餘控制權的合約，以及隨便就能繞過合規的系統漏洞。接下來的兩個月，我們要把員工手冊上的規定，全部變成系統裡無法更改的程式碼。同時，在董事會下設立專屬的內部調解委員會，處理合約無法涵蓋的衝突。懇請董事會支持，讓我們用最高級別的法理學與經濟學，打造一家無法被輕易摧毀的偉大企業。",
+        "en": "This is a 100-day systemic upgrade of our foundational architecture. In Month 1, Legal and IT execute a joint forensic sweep to isolate contracts lacking Residual Control Rights and digital workflows bypassing compliance. In Months 2 and 3, we translate paper policies into unalterable IT code—enforcing 'Compliance by Design'—while chartering a permanent Internal Mediation Board to dynamically resolve contractual voids. I ask the Board to mandate this evolution, utilizing elite jurisprudence and economics to forge an indestructible enterprise."
+      }
+    }
+  ],
+  "prompt_template": {
+    "zh": "請以繁體中文製作一份大師級的『法理學與制度經濟學』簡報。受眾為董事會、CEO 或法務長 (CLO)。內容必須將高階法學與經濟學理論降維至企業真實治理場景：1. 運用 SCQA 點出完美合約的幻覺，2. 導入『不完全契約』與『剩餘控制權』，說明在合約失效時為何必須依靠股權結構與『商業調解 (Mediation)』來動態填補空白，3. 運用雷席格的『程式碼即法律 (Code is Law)』，主張將 AI 治理與合規政策直接硬編碼至 IT 架構中 (Compliance by Design)，4. 借鑑奧斯特羅姆的『多中心治理』來防範企業內部的代理問題，5. 結尾給出 100 天制度重構藍圖，要求成立跨越法務、IT 與人資的制度設計委員會。每張 Slide 不超過 3 個重點，語氣需極具法理邏輯的嚴密性、制度設計的宏觀視野與看透商業底層規則的權威感。",
+    "en": "Please create a master-class 'Jurisprudence & Institutional Economics' presentation in English. Audience: Board of Directors, CEO, or Chief Legal Officer (CLO). Demonstrate the elite application of advanced legal philosophy and economic theory to real-world corporate governance: 1. Use SCQA to shatter the illusion of perfect contracts. 2. Introduce 'Incomplete Contracts' and 'Residual Control Rights,' proving why equity structures and 'Commercial Mediation' are mandatory to dynamically fill contractual voids. 3. Deploy Lessig’s 'Code is Law' to demand that AI governance and compliance policies be physically hard-coded into the IT architecture (Compliance by Design). 4. Utilize Ostrom’s 'Polycentric Governance' to architect defense mechanisms against internal Principal-Agent moral hazards. 5. Conclude with a 100-Day Institutional Re-architecture Blueprint, demanding a cross-functional Institutional Design Committee. Max 3 bullet points per slide. The tone must project airtight jurisprudential logic, panoramic institutional vision, and absolute authoritative command over foundational commercial mechanics."
+  }
+}
