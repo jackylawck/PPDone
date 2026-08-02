@@ -1,0 +1,129 @@
+{
+  "topic_id": "mechanism_design_incentive_compatibility",
+  "keywords": ["機制設計", "mechanism design", "激勵相容", "incentive compatibility", "揭示原理", "revelation principle", "逆向賽局", "reverse game theory", "演算法賽局", "algorithmic game theory", "資訊不對稱", "information asymmetry", "ai 治理", "調解", "mediation", "ceo"],
+  "title": {
+    "zh": "機制設計與逆向賽局：激勵相容、揭示原理與上帝視角 (CEO/首席談判官 視角)",
+    "en": "Mechanism Design & Reverse Game Theory: Incentive Compatibility & The God Mode (CEO/CNO)"
+  },
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_title": {
+        "zh": "道德管理的破產與逆向賽局覺醒 (SCQA & The Mechanism Mandate)",
+        "en": "The Bankruptcy of Moral Management & The Mechanism Mandate (SCQA)"
+      },
+      "bullet_points": {
+        "zh": [
+          "情境 (Situation)：企業在推動 AI 合規 (ISO 42001) 與跨部門協作時，依賴「道德呼籲、企業文化宣導與嚴格懲罰」來規範員工行為",
+          "衝突 (Complication)：在利益面前，「道德與忠誠」是極度脆弱的。只要合規政策與員工的「自私 KPI」相衝突，理性的員工必然會尋找漏洞、隱瞞風險，導致管理層在資訊不對稱下被徹底蒙蔽",
+          "戰略訴求 (The Ask)：提議徹底埋葬天真的「道德管理學」。懇請授權導入諾貝爾獎級別的「機制設計 (Mechanism Design)」，化身為系統的造物主：設計一套數學法則，讓極度自私的玩家在追求私利的過程中，自動完成公司想要的戰略目標"
+        ],
+        "en": [
+          "Situation: When driving AI Compliance (ISO 42001) and cross-silo collaboration, the enterprise relies on 'moral appeals, culture campaigns, and strict punitive rules' to govern behavior.",
+          "Complication: In the face of profit, 'morality and loyalty' are fragile illusions. If compliance conflicts with an employee's 'selfish KPI,' rational actors will mathematically exploit loopholes and hide risks, leaving the C-Suite blinded by information asymmetry.",
+          "The Ask: Proposing the absolute burial of naive 'Moral Management.' Requesting the mandate to deploy Nobel-winning 'Mechanism Design.' We elevate to the 'Creator Mode': architecting mathematical rules where hyper-selfish players, in the pure pursuit of their own greed, automatically execute our exact strategic outcome."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "各位董事，我們花太多錢在做『企業文化培訓』了，我們妄想用道德和忠誠來讓員工遵守法規。這在經濟學上叫作『無視人性的傲慢』。只要你的 KPI 是逼著業務去賺錢，他們就一定會繞過 ISO 42001 的安全護欄，而且他們會騙你。這不是他們壞，這是理性的賽局選擇。今天的提案，是要把公司的治理升級到諾貝爾獎等級的『機制設計 (Mechanism Design)』。這叫逆向賽局：我們不求員工無私，我們承認並利用他們的自私！我們重新設計機制的物理法則，讓他們只有在『絕對合規』的情況下，才能賺到最多的錢。",
+        "en": "Members of the Board, we burn millions on 'Corporate Culture Seminars,' hallucinating that morality and loyalty will enforce compliance. Economically, this is arrogant ignorance of human nature. If your KPIs demand revenue, Sales will inherently bypass ISO 42001 guardrails, and they will lie to you about it. This isn't malice; it's rational game theory. Today's mandate elevates our governance to Nobel-winning 'Mechanism Design.' This is Reverse Game Theory: we stop demanding selflessness. We weaponize their selfishness! We re-architect the laws of physics in this company so that 'absolute compliance' becomes the only mathematical path to maximizing their personal wealth."
+      }
+    },
+    {
+      "slide_number": 2,
+      "slide_title": {
+        "zh": "激勵相容：AI 治理的終極數學解 (Incentive Compatibility & AI Governance)",
+        "en": "Incentive Compatibility: The Ultimate Math of AI Governance"
+      },
+      "bullet_points": {
+        "zh": [
+          "激勵相容 (Incentive Compatibility)：機制設計的聖杯。如果一個系統設計得當，使得每個參與者在「最大化個人私利」時，其行為恰好等於「最大化系統整體利益」，則稱該系統具備激勵相容",
+          "傳統合規的激勵悖論 (The Compliance Paradox)：傳統的 AI 審查是「激勵不相容」的。業務部如果誠實申報風險，專案就會被擋，獎金歸零。因此，數學上最優的策略是「隱瞞與造假」",
+          "重構利益向量 (Restructuring Incentive Vectors)：在 ISO 42001 框架中引入機制設計。法務長與 HR 必須將「發現並修補 AI 漏洞」的獎金（Bug Bounty），設定得高於「冒險上線的短期收益」。讓合規不再是成本，而是員工最豐厚的利潤來源"
+        ],
+        "en": [
+          "Incentive Compatibility: The Holy Grail of Mechanism Design. If a system is architected so that every participant 'maximizing their personal greed' mathematically equals 'maximizing the systemic global good,' the system is Incentive Compatible.",
+          "The Compliance Paradox: Legacy AI auditing is 'Incentive Incompatible.' If a business unit honestly reports a risk, their project is halted, and bonuses zeroed. Therefore, the mathematically dominant strategy is 'concealment and fraud.'",
+          "Restructuring Incentive Vectors: Hard-coding Mechanism Design into ISO 42001. The CLO and HR must scale 'Bug Bounty (identifying and patching AI risks) bonuses' to vastly exceed 'short-term reckless deployment profits.' Compliance ceases to be a cost center; it becomes the most lucrative path for the employee."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "機制設計的最高境界，叫作『激勵相容』。什麼意思？就是讓員工的『私心』跟公司的『大局』完美重合。我們現在的 AI 審核機制是極度智障的。業務部誠實說出 AI 有風險，專案就被法務卡死，獎金沒了。你這是在用制度『逼迫』他們說謊！要落實 ISO 42001，我們必須修改遊戲規則：誰能抓出我們 AI 系統裡的偏見或合規漏洞，我們發給他的獎金，必須比他蠻幹硬推上線賺得還要多！當『當個吹哨者或除錯者』比『當個違規者』更賺錢時，不需要法務去盯，員工自己就會把 AI 治理做到滴水不漏。",
+        "en": "The supreme zenith of Mechanism Design is 'Incentive Compatibility.' What does it mean? It means perfectly aligning the employee's 'personal greed' with the enterprise's 'global mandate.' Our current AI auditing is structurally moronic. If a PM honestly reports an AI risk, Legal kills the project and zeros their bonus. You are structurally forcing them to lie! To execute ISO 42001, we rewrite the matrix: the financial bonus for 'identifying and patching an AI compliance vulnerability' must massively exceed the payout for reckless deployment. When 'auditing the AI' is more lucrative than 'violating the rules,' you don't need Legal police. The workforce will relentlessly secure the AI themselves."
+      }
+    },
+    {
+      "slide_number": 3,
+      "slide_title": {
+        "zh": "揭示原理：調解員的「逼迫誠實」機制 (The Revelation Principle & Mediation)",
+        "en": "The Revelation Principle: Forcing Honesty in Mediation"
+      },
+      "bullet_points": {
+        "zh": [
+          "揭示原理 (The Revelation Principle)：諾貝爾獎得主邁爾森提出。任何複雜賽局能達成的結果，都可以透過設計一個「直接機制」，讓玩家發現「說實話 (Truth-telling)」是唯一能利益最大化的策略",
+          "分蛋糕機制 (The 'Divide and Choose' Mechanism)：「我切蛋糕，你先選」。這是一個完美的無信任機制。切蛋糕的人因為怕拿到小塊，被迫（在自私的驅動下）將蛋糕切得絕對公平",
+          "調解員即機制設計師 (The Mediator as the Architect)：在商業死結中，高階調解員不哀求雙方坦誠。調解員運用「揭示原理」設計談判規則（如：盲出價、最終報價仲裁），在數學上讓「虛張聲勢與說謊」受到最嚴厲的懲罰，逼出雙方的真實底線"
+        ],
+        "en": [
+          "The Revelation Principle: Proposed by Nobel Laureate Roger Myerson. Any outcome achievable in a complex game can be replicated by a 'Direct Mechanism' where players realize that 'Truth-telling' is the absolute, mathematically dominant strategy.",
+          "The 'Divide and Choose' Mechanism: 'I cut the cake, you choose the piece.' This is flawless trustless design. Driven by pure selfishness (fear of getting the smaller piece), the cutter is mathematically forced to cut the cake with absolute fairness.",
+          "The Mediator as the Architect: In corporate deadlocks, Elite Mediators never beg for honesty. The Mediator deploys the 'Revelation Principle' to architect the negotiation rules (e.g., Blind Bidding, Final-Offer Arbitration). We design a mathematical construct where 'bluffing and lying' incur lethal penalties, forcing the extraction of true bottom lines."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "調解談判時，雙方都在說謊、虛張聲勢，怎麼辦？平庸的調解員會說：『請大家誠實一點』。這毫無用處！機制設計裡有一個『揭示原理』，最經典的例子就是『分蛋糕』：兩個小孩搶蛋糕，你不用教他們孔融讓梨。你只要定一個規則：『A 負責切，B 先選』。A 為了不讓自己吃虧，絕對會切得超級公平！這就是『高階調解 (Mediation)』的上帝視角。我不求你們說實話，我直接設計一套談判機制（比如最終報價仲裁法），讓你們發現，只要敢獅子大開口或隱瞞底線，就會輸得很慘。我用數學，逼你們誠實。",
+        "en": "In negotiations, both sides bluff and lie. What do we do? A mediocre mediator begs, 'Please be honest.' Pathetic! Mechanism Design gives us the 'Revelation Principle.' The classic example: two kids fighting over a cake. Don't teach them morality. Mandate a rule: 'Kid A cuts the cake, Kid B chooses the piece.' Driven by pure greed to not get the small piece, Kid A will execute a mathematically perfect 50/50 cut! This is the God-Mode of 'Advanced Mediation.' I don't beg for truth. I architect a negotiation protocol (like Final-Offer Arbitration) where bluffing or hiding bottom lines incurs massive mathematical penalties. I use physics to force your honesty."
+      }
+    },
+    {
+      "slide_number": 4,
+      "slide_title": {
+        "zh": "VCG 機制與內部定價：量化組織的外部性 (VCG Mechanisms & Internal Pricing)",
+        "en": "VCG Mechanisms: Quantifying Organizational Externalities"
+      },
+      "bullet_points": {
+        "zh": [
+          "外部性成本 (Externalities)：部門 A 為了搶業績，犧牲了資安，導致部門 B 必須連夜擦屁股。傳統管理無法量化這種「將成本轉嫁給他人的外部性」，導致穀倉效應惡化",
+          "VCG 機制 (Vickrey-Clarke-Groves)：拍賣理論的巔峰。其核心邏輯是：每個參與者必須為他「對整個系統造成的社會成本（外部性）」支付精準的價格，從而迫使其為大局著想",
+          "AI 算力與風險的內部計價 (Internal Pricing of AI Risk)：在分配極其昂貴的 AI 算力與承擔合規風險時，導入 VCG 機制。強迫各業務部門在爭奪資源時，必須為其帶給法務與 IT 的「風險處理成本」買單，實現全系統的自動平衡"
+        ],
+        "en": [
+          "Externalities: Department A chases revenue by bypassing cybersecurity, forcing Department B to work overnight to patch the vulnerability. Legacy management fails to quantify this 'Externality' (shifting costs to others), breeding toxic silos.",
+          "VCG Mechanisms (Vickrey-Clarke-Groves): The zenith of auction theory. The core logic: Every participant must mathematically pay the exact price of the 'Social Cost (Externality)' their presence imposes on the entire system, forcing them to internalize the global impact.",
+          "Internal Pricing of AI Risk: When allocating hyper-expensive AI compute and assuming compliance risks, we deploy VCG mechanisms. Business units fighting for AI resources are mathematically forced to pay for the 'Risk Mitigation Cost' they impose on Legal and IT, executing automated systemic equilibrium."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "公司裡最討厭的現象，就是某個部門為了自己的 KPI，把爛攤子丟給別人收（外部性）。業務部亂答應客戶，法務部加班擦屁股。怎麼治？機制設計給了我們『VCG 機制』。它的邏輯很殘酷：你給別人帶來多少麻煩，你就必須從你的獎金裡扣除對應的『社會成本』。在我們大舉投資 AI 算力與 ISO 42001 時，我們必須在內部實施 VCG 計價。業務部想上線高風險 AI？可以，但你們必須為法務部承擔的風險與 IT 的算力支付『內部價格』。當外部成本被精準量化並扣款時，部門間的惡鬥就會瞬間消失，因為沒有人想當冤大頭。",
+        "en": "The most toxic corporate disease is 'Externalities'—one department maxing their KPI by forcing another department to clean up their mess. Sales makes wild promises; Legal works weekends to fix it. The cure? 'VCG Mechanisms.' The logic is ruthless: You mathematically pay the exact 'Social Cost' of the burden you impose on the rest of the enterprise, deducted straight from your P&L. As we scale massive AI compute and ISO 42001, we deploy internal VCG pricing. Sales wants to deploy a high-risk AI? Fine. But they internally pay the exact premium for Legal's risk assumption and IT's compute. When externalities are priced and charged, silo warfare instantly evaporates. It becomes too expensive to be a toxic colleague."
+      }
+    },
+    {
+      "slide_number": 5,
+      "slide_title": {
+        "zh": "100 天逆向賽局與機制重構藍圖 (100-Day Mechanism Design Reboot)",
+        "en": "100-Day Mechanism Design & Reverse Game Theory Blueprint"
+      },
+      "bullet_points": {
+        "zh": [
+          "第 1-30 天 (激勵不相容體檢與廢除)：由 CHRO 啟動「KPI 逆向審查」，找出所有逼迫員工「為達標而違反 AI 合規」的激勵不相容制度，執行立即廢除與重構",
+          "第 31-100 天 (揭示原理上線與 VCG 計價)：針對核心跨部門談判，高階調解員全面啟用基於「揭示原理」的無信任談判機制；同時由 CFO 與策略長聯手，針對 AI 專案導入 VCG 內部風險計價模型",
+          "決策訴求 (Call to Action)：懇請董事會認知「不要測試人性，要設計機制」。授權我們啟動造物主模式，用諾貝爾級的演算法賽局，打造一家能在極度自私中自發走向絕對卓越的企業"
+        ],
+        "en": [
+          "Days 1-30 (Incompatibility Audit & Eradication): CHRO launches a 'Reverse KPI Audit,' hunting down every 'Incentive Incompatible' protocol that structurally forces employees to violate AI compliance to hit targets. Executing immediate eradication and restructure.",
+          "Days 31-100 (Revelation Deployment & VCG Pricing): For core cross-silo negotiations, Executive Mediators fully deploy 'Revelation Principle' trustless mechanisms. Concurrently, CFO and CSO co-deploy VCG internal risk pricing models for all AI initiatives.",
+          "Call to Action: Requesting the Board acknowledge that 'We must stop testing human nature, and start designing mathematical mechanisms.' Authorizing the deployment of Creator Mode, utilizing Nobel-winning algorithmic game theory to forge an enterprise that achieves absolute excellence driven by pure self-interest."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "這是我們未來 100 天的企業機制重構藍圖。第一個月，HR 要做『激勵不相容體檢』。把所有那些逼著員工去說謊、去規避資安的智障 KPI 全部砍掉！接下來的兩個月，我們兵分兩路：調解員在處理衝突時，捨棄道德勸說，改用『揭示原理（我切你選）』的無信任談判機制逼出真話；財務長則啟動 VCG 機制，對各部門佔用的 AI 資源與合規風險進行內部收費。懇請董事會授權，別再測試人性了，人性經不起測試。讓我們化身造物主，設計一套完美的數學機制，讓員工在自私追逐獎金的同時，順手把公司推向巔峰。",
+        "en": "This is our 100-day Mechanism Design Reboot Blueprint. In Month 1, HR executes an 'Incentive Incompatibility Audit.' We ruthlessly slaughter every moronic KPI that structurally forces our workforce to lie or bypass security to get paid! Over Months 2 and 3, a dual assault: Mediators abandon moral pleading, deploying 'Revelation Principle' trustless mechanisms (I cut, you choose) to force honesty. Simultaneously, the CFO deploys VCG mechanisms to charge internal pricing on all AI compute and compliance risk. I ask the Board to mandate this. Stop testing human nature; human nature always fails the test. Let us activate Creator Mode, designing perfect mathematical mechanisms where employees, in the pure selfish pursuit of their bonuses, inadvertently drive this enterprise to absolute supremacy."
+      }
+    }
+  ],
+  "prompt_template": {
+    "zh": "請以繁體中文製作一份大師級的『機制設計與演算法賽局』簡報。受眾為董事會、CEO 或首席談判官 (CNO)。內容必須將諾貝爾經濟學獎的『逆向賽局』降維應用於企業政治、AI 治理與高階調解：1. 運用 SCQA 點出企業妄想用『道德宣導』來抗衡『自私 KPI』的愚蠢，主張化身為系統機制的造物主，2. 導入『激勵相容 (Incentive Compatibility)』，證明 AI 合規 (ISO 42001) 必須設計成比違規帶來更大的利潤，讓員工自發維護，3. 將『高階調解 (Mediation)』昇華為『揭示原理 (Revelation Principle)』，說明調解員如何透過『分蛋糕機制』等數學規則，讓說謊成為最虧本的策略以逼出真實底線，4. 運用『VCG 機制』量化跨部門惡鬥的『外部性成本』，實施內部風險計價，5. 結尾給出 100 天機制重構藍圖。每張 Slide 不超過 3 個重點，語氣需極具操弄人性的造物主霸氣、經濟學的絕對理性，以及戰略大師的降維視角。",
+    "en": "Please create a master-class 'Mechanism Design & Algorithmic Game Theory' presentation in English. Audience: Board of Directors, CEO, or Chief Negotiation Officer. Demonstrate the elite application of Nobel-winning 'Reverse Game Theory' to corporate politics, AI Governance, and Advanced Mediation: 1. Use SCQA to frame the idiocy of combating 'selfish KPIs' with 'moral corporate values,' advocating for elevating to the 'Creator Mode' of systemic design. 2. Introduce 'Incentive Compatibility,' proving that AI Governance (ISO 42001) must be architected so compliance is mathematically more lucrative than violating the rules. 3. Elevate 'Advanced Mediation' into the 'Revelation Principle,' explaining how Mediators deploy mathematical rules (like the 'Divide and Choose' cake mechanism) to make lying lethal and force the extraction of true bottom lines. 4. Utilize 'VCG Mechanisms' to quantify the 'Externalities' of silo warfare, demanding internal pricing for AI risk and compute. 5. Conclude with a 100-Day Mechanism Design Reboot Blueprint. Max 3 bullet points per slide. The tone must project the absolute dominance of a systemic Creator, the ruthless rationality of economics, and the omniscient perspective of a master strategist."
+  }
+}
