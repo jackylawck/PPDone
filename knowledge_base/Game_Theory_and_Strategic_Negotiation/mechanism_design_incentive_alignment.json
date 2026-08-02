@@ -1,0 +1,129 @@
+{
+  "topic_id": "mechanism_design_incentive_alignment",
+  "keywords": ["機制設計", "mechanism design", "逆向賽局", "reverse game theory", "誘因相容", "incentive compatibility", "顯示原理", "revelation principle", "資訊不對稱", "information asymmetry", "ai 對齊", "ai alignment", "kpi 設計", "chro"],
+  "title": {
+    "zh": "機制設計與逆向賽局：誘因相容與底層規則重構 (CEO/CHRO 視角)",
+    "en": "Mechanism Design & Reverse Game Theory: Incentive Compatibility & Rule Architecture (CEO/CHRO)"
+  },
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_title": {
+        "zh": "KPI 毒藥與資訊不對稱的死局 (SCQA & The Mechanism Mandate)",
+        "en": "Toxic KPIs & The Deadlock of Information Asymmetry (SCQA)"
+      },
+      "bullet_points": {
+        "zh": [
+          "情境 (Situation)：我們為各部門設定了明確的 KPI 與豐厚的獎金，期待驅動公司整體的高速增長",
+          "衝突 (Complication)：傳統 KPI 引發了災難性的「反噬效應」。各部門為了達標而互相排擠資源，前線主管利用「資訊不對稱」隱瞞專案風險，導致公司在看似一片大好的報表中突然暴雷",
+          "戰略訴求 (The Ask)：提議停止在現有破敗的規則下玩遊戲。懇請授權導入諾貝爾獎級的「機制設計 (Mechanism Design)」框架，從根本上重寫企業的遊戲規則"
+        ],
+        "en": [
+          "Situation: We deployed aggressive KPIs and lucrative bonuses across all divisions, expecting this to drive holistic enterprise growth.",
+          "Complication: Traditional KPIs have triggered catastrophic cannibalization. Silos hoard resources to hit localized targets, and frontline leaders weaponize 'Information Asymmetry' to hide project risks, leading to sudden, systemic implosions despite 'green' status reports.",
+          "The Ask: Proposing we stop playing a broken game. Requesting the mandate to deploy Nobel-winning 'Mechanism Design' frameworks to fundamentally re-architect the mathematical rules of our enterprise."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "各位董事，當員工的行為損害公司利益時，我們習慣責怪他們『沒有大局觀』。但經濟學告訴我們，這不是道德問題，這是我們『遊戲規則（機制）』設計錯誤。在目前的 KPI 制度下，隱瞞壞消息對主管最有利，跨部門合作反而會吃虧。這是一個注定走向毀滅的賽局。今天的提案，是要運用『機制設計（逆向賽局理論）』。我們不再苦口婆心地勸導員工，我們要直接改變地心引力，設計一套讓『自私自利』自然轉化為『公司利益』的全新機制。",
+        "en": "Members of the Board, when employees sabotage cross-silo initiatives, we blame their 'lack of big-picture thinking.' Economics proves this is not a moral failure; it is our failure in Mechanism Design. Under our current KPIs, hiding bad news is mathematically profitable, and cross-functional collaboration is penalized. We are forcing them to play a toxic game. Today's mandate deploys 'Reverse Game Theory.' We will stop preaching corporate values. Instead, we will alter the gravity of the organization, engineering a mechanism where 'selfish behavior' mathematically guarantees the exact strategic outcomes we desire."
+      }
+    },
+    {
+      "slide_number": 2,
+      "slide_title": {
+        "zh": "逆向賽局與誘因相容 (Reverse Game Theory & Incentive Compatibility)",
+        "en": "Reverse Game Theory & Incentive Compatibility"
+      },
+      "bullet_points": {
+        "zh": [
+          "逆向工程 (Reverse Game Theory)：傳統賽局是「給定規則，預測行為」。機制設計是「給定想要的最終目標，反向設計能逼出該行為的規則」",
+          "誘因相容 (Incentive Compatibility)：這是制度設計的聖杯。設計一套獎酬與晉升機制，讓員工在「極度自私、追求個人利益最大化」的同時，剛好能 100% 達成公司的戰略目標",
+          "終結零和博弈 (Ending Zero-Sum Battles)：利用動態的利潤共享矩陣取代絕對的預算競爭。當 A 部門的成功在數學上直接增加 B 部門的年終獎金時，跨部門調解便不再需要，因為系統已自動對齊"
+        ],
+        "en": [
+          "Reverse Game Theory: Traditional game theory asks, 'Given the rules, what will players do?' Mechanism Design asks, 'Given the exact outcome we want, what mathematical rules force players to achieve it?'",
+          "Incentive Compatibility: The Holy Grail of HR and Strategy. Architecting compensation and promotion structures where an employee acting with 'absolute, ruthless selfishness' mathematically executes the exact strategic will of the enterprise.",
+          "Ending Zero-Sum Battles: Replacing siloed budget wars with dynamic profit-sharing matrices. When Department A's success mathematically inflates Department B's bonus, cross-silo mediation becomes obsolete; the system self-aligns."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "這就是人資與戰略管理的最高境界：『誘因相容』。我們不需要員工大公無私。機制設計的奧義在於：我們反向設計出一套規則，讓員工在最自私、最想為自己賺錢的時候，他採取的行動剛好就是公司最需要的行動。比如，當我們把 IT 部門 30% 的獎金與業務部的營收直接綁定時，我們就不再需要開會去『調解』他們的衝突了，因為在數學上，幫助業務部已經變成了 IT 部門最自私的渴望。",
+        "en": "This is the zenith of HR and Strategic Management: 'Incentive Compatibility.' We do not need selfless employees. The genius of Mechanism Design is reverse-engineering the rules so that when an employee acts to maximize their own selfish wealth, their actions flawlessly execute the C-Suite's exact strategic mandate. For example, by algorithmically tethering 30% of IT's bonus directly to Sales revenue, we permanently eliminate the need for cross-silo 'mediation.' Mathematically, accelerating Sales becomes IT's most selfish desire."
+      }
+    },
+    {
+      "slide_number": 3,
+      "slide_title": {
+        "zh": "顯示原理：擊破資訊不對稱 (The Revelation Principle)",
+        "en": "The Revelation Principle: Shattering Information Asymmetry"
+      },
+      "bullet_points": {
+        "zh": [
+          "資訊黑洞 (The Information Black Hole)：高階主管最大的危機是「聽不到真話」。前線主管為了自保，會刻意低報預測營收或隱瞞專案的致命缺陷",
+          "顯示原理 (The Revelation Principle)：設計一套「防偽合約」。透過設立不對稱的懲罰與獎勵機制（如：準確預測壞消息的獎金，高於隱瞞後被發現的懲罰），在數學上逼迫代理人說出絕對的真話",
+          "無責備吹哨機制 (Blameless Whistleblowing)：建立具備最高心理安全感的獨立通道，將「提前揭露系統性風險」設定為直升最高績效 (Tier-1) 的捷徑，徹底摧毀報喜不報憂的毒性文化"
+        ],
+        "en": [
+          "The Information Black Hole: The C-Suite's greatest vulnerability is a lack of truth. To protect themselves, frontline managers systematically sandbag revenue forecasts and obfuscate fatal project risks.",
+          "The Revelation Principle: Architecting 'Truth-Forcing Contracts.' By calibrating asymmetric risks and rewards (e.g., the bonus for accurately forecasting a failure is vastly higher than the penalty for a missed target), we mathematically compel absolute honesty.",
+          "Blameless Whistleblowing: Establishing high-security, independent channels where 'preemptively exposing systemic risk' is the fastest track to Tier-1 promotion. This structurally annihilates the toxic 'good news only' culture."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "董事會最怕的就是『資訊不對稱』，前線在流血，財報卻一片綠燈。機制設計中的『顯示原理』教我們如何逼出真話。如果一個 PM 提早三個月告訴我專案會失敗，我給他的獎金，必須比他隱瞞到底還要高。我們要設計一套『說真話最賺錢，隱瞞風險會破產』的數學合約。只要機制對了，我們不需要測謊機，員工為了自己的利益，也會主動把最核心的情報與危機攤在我們面前。",
+        "en": "The Board's deadliest enemy is 'Information Asymmetry'—the frontline is bleeding while status reports show green. The 'Revelation Principle' teaches us how to architect honesty. If a PM alerts me 90 days early that a project will fail, their bonus must mathematically exceed the payoff of hiding it. We must design a contract where 'telling the truth is overwhelmingly profitable, and hiding risk guarantees bankruptcy.' With the right mechanism, we don't need micromanagement; employees will eagerly expose critical intelligence out of pure self-interest."
+      }
+    },
+    {
+      "slide_number": 4,
+      "slide_title": {
+        "zh": "AI 對齊與機制設計 (AI Alignment & Mechanism Design)",
+        "en": "AI Alignment & Algorithmic Mechanism Design"
+      },
+      "bullet_points": {
+        "zh": [
+          "AI 的委託代理問題 (AI Principal-Agent Problem)：將 Generative AI 視為極度聰明但毫無道德感的「外包代理人」。若獎勵函數 (Reward Function) 設計錯誤，AI 將以毀滅性的方式達標",
+          "演算法誘因相容 (Algorithmic Incentive Compatibility)：在 ISO 42001 的框架下，將「合規性」與「無偏見」直接寫入 AI 訓練的底層損失函數 (Loss Function) 中，使其在數學上無法繞過安全護欄",
+          "雙層機制驗證 (Dual-Layer Mechanism Validation)：不僅審查 AI 的輸出，更要利用「紅軍測試 (Red Teaming)」反覆攻擊我們所設定的『遊戲規則』，確保機制本身不會引發 AI 的惡意突變"
+        ],
+        "en": [
+          "AI Principal-Agent Problem: Treat Generative AI as a hyper-intelligent, completely amoral outsourced agent. If the Reward Function is flawed, the AI will achieve its goal via catastrophic, unaligned methods.",
+          "Algorithmic Incentive Compatibility: Under ISO 42001, we must hard-code 'Compliance' and 'Zero-Bias' directly into the core Loss Function during model training. We make safety mathematically unavoidable.",
+          "Dual-Layer Mechanism Validation: We do not just audit the AI's output; we deploy 'Red Teaming' to relentlessly attack our own engineered 'Rules of the Game,' ensuring the mechanism itself doesn't incentivize malicious algorithmic mutations."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "機制設計不只用來管人，更是『AI 治理 (AIGP)』的最核心底層邏輯。AI 就像一個極度聰明但沒有良知的超級員工。如果你只給它『最大化點擊率』的 KPI，它就會推播假新聞。我們必須將 ISO 42001 的合規要求，變成 AI 在數學上的『誘因相容』。我們要把『不歧視』和『保護隱私』直接寫進它的演算法獎勵機制裡。當做壞事會讓它的模型分數暴跌時，這套機制就成功地把 AI 從潛在的威脅，馴化成了我們最可靠的武器。",
+        "en": "Mechanism Design is not just for human HR; it is the fundamental core of AI Governance (AIGP). AI is a hyper-intelligent, amoral super-employee. If you give it a KPI of 'maximize engagement,' it will weaponize fake news. We must translate ISO 42001 compliance into algorithmic 'Incentive Compatibility.' We hard-code 'non-discrimination' and 'privacy' directly into its mathematical reward loop. When unethical behavior mathematically tanks the model's score, we successfully domesticate the AI from an existential threat into our most reliable weapon."
+      }
+    },
+    {
+      "slide_number": 5,
+      "slide_title": {
+        "zh": "100 天機制重塑與誘因對齊藍圖 (100-Day Mechanism Reboot)",
+        "en": "100-Day Mechanism Reboot & Alignment Blueprint"
+      },
+      "bullet_points": {
+        "zh": [
+          "第 1-30 天 (毒性 KPI 審查與除錯)：由 CHRO 與營運長聯手，全面盤點並強制廢止導致「跨部門內耗」與「隱瞞壞消息」的毒性獎酬機制",
+          "第 31-100 天 (誘因相容矩陣上線)：部署全新的「逆向賽局」考核框架，將主管薪酬與跨部門共享利潤及提早揭露風險深度綁定；同時發布新版 AI 獎勵函數設計規範",
+          "決策訴求 (Call to Action)：懇請董事會認知到「人性和演算法一樣，只能被引導無法被強迫」。授權成立最高級別的『機制設計委員會』，徹底改寫企業運作的物理定律"
+        ],
+        "en": [
+          "Days 1-30 (Toxic KPI Audit & Debugging): CHRO and COO execute a joint forensic sweep to identify and immediately terminate all toxic KPIs that mathematically incentivize siloed hoarding and risk obfuscation.",
+          "Days 31-100 (Incentive Matrix Deployment): Launching the new 'Reverse Game Theory' compensation framework, inextricably linking executive bonuses to cross-silo profit sharing and early risk revelation. Concurrently publishing AI Reward Function Guardrails.",
+          "Call to Action: Requesting the Board acknowledge that 'human nature, like algorithms, cannot be forced, only mathematically channeled.' Mandating the charter of an elite 'Mechanism Design Committee' to rewrite the physics of our enterprise."
+        ]
+      },
+      "speaker_notes": {
+        "zh": "這是為期 100 天的企業底層規則重構藍圖。第一個月，我們要像抓病毒一樣，把公司裡所有鼓勵員工自私內鬥的『毒性 KPI』全部砍掉。接下來的兩個月，我們將重新設計獎酬矩陣與 AI 的獎勵函數，確保未來的每一分錢獎金，都能在數學上完美對齊公司的長遠戰略。懇請董事會支持，讓我們停止無效的道德勸說，用『機制設計』來改寫這家公司的物理定律，讓成功成為一個必然的數學結果。",
+        "en": "This is our 100-day blueprint to re-architect the fundamental rules of the enterprise. In Month 1, we hunt down and terminate all 'Toxic KPIs' that currently incentivize tribal warfare and information hiding. Over Months 2 and 3, we deploy a new incentive matrix and AI Reward Guardrails, ensuring every future bonus dollar is mathematically tethered to long-term enterprise strategy. I ask the Board to mandate this transformation. We must abandon futile moral preaching and use 'Mechanism Design' to rewrite our corporate physics, rendering our success a mathematical certainty."
+      }
+    }
+  ],
+  "prompt_template": {
+    "zh": "請以繁體中文製作一份大師級的『機制設計與誘因對齊』簡報。受眾為董事會、CEO 或 CHRO。內容必須將諾貝爾經濟學獎的機制設計理論降維應用於 HR 變革與 AI 治理：1. 運用 SCQA 點出傳統 KPI 如何引發跨部門互斥與隱瞞風險的死局，2. 導入『逆向賽局 (Reverse Game Theory)』與『誘因相容 (Incentive Compatibility)』，說明如何讓員工極度的自私行為自然對齊公司戰略，3. 運用『顯示原理 (Revelation Principle)』設計防偽合約，在數學上逼迫前線主管說出真相，4. 將機制設計應用於 AI 治理 (AIGP)，探討如何透過設計底層獎勵函數來防止 AI 的越界行為，5. 結尾給出 100 天機制重塑藍圖，要求董事會賦予廢除毒性 KPI 並重建獎酬機制的最高授權。每張 Slide 不超過 3 個重點，語氣需極具數學與經濟學的冷酷嚴密性、看透人性的通透感，以及系統架構師的絕對權威。",
+    "en": "Please create a master-class 'Mechanism Design & Incentive Alignment' presentation in English. Audience: Board of Directors, CEO, or CHRO. Demonstrate an elite synthesis of Nobel-winning economics applied to HR transformation and AI Governance: 1. Use SCQA to frame how traditional KPIs cause fatal cross-silo cannibalization and risk obfuscation. 2. Introduce 'Reverse Game Theory' and 'Incentive Compatibility,' proving how to mathematically channel absolute employee selfishness into perfect strategic execution. 3. Deploy the 'Revelation Principle' to architect truth-forcing contracts, legally compelling frontline leaders to expose systemic risks. 4. Apply Mechanism Design to AI Governance (AIGP), detailing how to architect foundational reward functions to immunize models against malicious compliance. 5. Conclude with a 100-Day Mechanism Reboot Blueprint, demanding Board authorization to terminate toxic KPIs and re-architect compensation. Max 3 bullet points per slide. The tone must project the clinical precision of mathematical economics, profound psychological insight, and the absolute authority of an elite systems architect."
+  }
+}
