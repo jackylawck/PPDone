@@ -14,7 +14,7 @@ with st.sidebar:
     lang = st.radio("Language / 語言", ["繁體中文", "English"], index=0)
     st.markdown("---")
     
-    # 方案 B：精簡優雅風 (中英文對照)
+    # 精簡優雅風 (中英文對照)
     st.markdown("""
     <div style="font-size: 0.85rem; color: #64748B; line-height: 1.6;">
         💡 如有系統使用問題或交流，歡迎聯絡作者。<br>
@@ -23,7 +23,203 @@ with st.sidebar:
     </div>
     """, unsafe_allow_html=True)
 
-# 3. 根據語言設定雙語字典
+# 3. 23 大領域與 53 個模組的純中文/純英文對照資料結構
+DOMAINS_DATA = {
+    "繁體中文": {
+        "向上管理與高階溝通": [
+            "戰略資源爭取",
+            "壞消息通報與危機停損",
+            "矩陣組織跨部門利益對齊"
+        ],
+        "AI 治理與科技倫理": [
+            "企業 AI 專案治理沙盤推演 (AIGP)",
+            "AI 影響評估與合規框架"
+        ],
+        "公司治理與董事會": [
+            "董事會報告與公司治理",
+            "股東溝通與重大決議"
+        ],
+        "財務工程與企業重整": [
+            "企業重整與起死回生戰略",
+            "13 週現金流控管與債務重組"
+        ],
+        "併購與資本運作": [
+            "跨國合資企業 (JV) 與戰略聯盟",
+            "企業併購 (M&A) 與投資後整合",
+            "企業創投 (CVC) 戰略"
+        ],
+        "董事會與投資人關係": [
+            "季度法說會與財測指引戰略",
+            "投資人關係與預期管理"
+        ],
+        "政府關係與公共政策": [
+            "反壟斷與跨國監管調查防禦",
+            "公共政策與政府遊說戰略"
+        ],
+        "地緣政治與經濟安全": [
+            "地緣政治風險與供應鏈武器化防禦",
+            "友岸外包與區域產線備份"
+        ],
+        "高管教育與企業內訓": [
+            "總經理學：期末實戰專題與評分指南",
+            "哈佛個案引導與高管培訓"
+        ],
+        "組織社會學與行為科學": [
+            "企業人類學與影子組織權力動態",
+            "次文化衝突與組織變革"
+        ],
+        "行為科學與決策科學": [
+            "行為經濟學與高階決策防禦",
+            "事前驗屍與董事會除偏機制"
+        ],
+        "賽局理論與戰略談判": [
+            "賽局理論與不對稱戰略談判",
+            "BATNA 建構與非零和商業調解"
+        ],
+        "複雜性科學與系統思考": [
+            "系統思考與第二階效應推演",
+            "系統槓桿點與反脆弱組織建構"
+        ],
+        "戰略規劃與執行": [
+            "年度戰略規劃與 OKR 對齊",
+            "業務擴張與 GTM 市場進入"
+        ],
+        "風險管理與企業韌性": [
+            "企業全面風險管理 (ERM)",
+            "營運中斷與危機應變"
+        ],
+        "人力資源與組織變革": [
+            "組織重組與高階人才留任",
+            "勞資調解與變革管理"
+        ],
+        "數據隱私與資訊安全": [
+            "GDPR / 數據合規防禦",
+            "資安勒索事件應變"
+        ],
+        "供應鏈與營運管理": [
+            "全球供應鏈韌性建構",
+            "零基預算與營運優化"
+        ],
+        "ESG 與永續發展": [
+            "ESG 戰略與碳中和轉型",
+            "永續治理與社會責任報告"
+        ],
+        "市場競爭與品牌戰略": [
+            "競品防禦與市場反擊",
+            "品牌危機公關處置"
+        ],
+        "創新與產品管理": [
+            "新產品開發與 PoC 驗證",
+            "產品停產與退場機制"
+        ],
+        "客戶關係與營收增長": [
+            "大客戶保留與續約戰略",
+            "客戶定價與商業模式調整"
+        ],
+        "法務與智慧財產權": [
+            "智慧財產權防禦與專利訴訟",
+            "跨國商業合約談判"
+        ]
+    },
+    "English": {
+        "Executive Communication & Upward Management": [
+            "Strategic Resource Pitch",
+            "Bad News Delivery & Damage Control",
+            "Matrix Leadership & Cross-Functional Alignment"
+        ],
+        "AI Governance & Ethics": [
+            "Enterprise AI Governance War-Game (AIGP)",
+            "AI Impact Assessment & Compliance Framework"
+        ],
+        "Corporate Governance & Board Relations": [
+            "Board Reporting & Corporate Governance",
+            "Shareholder Communications & Key Resolutions"
+        ],
+        "Financial Engineering & Restructuring": [
+            "Corporate Turnaround & Restructuring Strategy",
+            "13-Week Cash Flow Control & Debt Restructuring"
+        ],
+        "Mergers & Acquisitions": [
+            "Cross-Border Joint Venture (JV) & Strategic Alliance",
+            "M&A Expansion & Post-Merger Integration",
+            "Corporate Venture Capital (CVC) Strategy"
+        ],
+        "Board & Investor Relations": [
+            "Earnings Call & Forward Guidance Strategy",
+            "Investor Relations & Expectation Management"
+        ],
+        "Government Relations & Public Policy": [
+            "Antitrust & Regulatory Investigation Defense",
+            "Public Policy & Government Lobbying Strategy"
+        ],
+        "Geopolitics & Economic Statecraft": [
+            "Geopolitical Risk & Supply Chain Weaponization Defense",
+            "Friend-shoring & Regional Footprint Backup"
+        ],
+        "Executive Education & Training": [
+            "General Management Capstone & Grading Rubric",
+            "Harvard Case Facilitation & Executive Training"
+        ],
+        "Organizational Sociology & Behavior": [
+            "Corporate Anthropology & Shadow Org Power Dynamics",
+            "Subculture Friction & Organizational Change"
+        ],
+        "Behavioral Science & Decision Science": [
+            "Behavioral Economics & Executive Decision Strategy",
+            "Premortem & Boardroom De-biasing Protocols"
+        ],
+        "Game Theory & Strategic Negotiation": [
+            "Game Theory & Asymmetric Negotiation Strategy",
+            "BATNA Construction & Non-Zero-Sum Commercial Mediation"
+        ],
+        "Complexity Science & Systems Thinking": [
+            "Systems Thinking & Second-Order Effects Modeling",
+            "Systemic Leverage Points & Antifragile Architecture"
+        ],
+        "Strategy & Execution": [
+            "Annual Strategic Planning & OKR Alignment",
+            "Business Expansion & GTM Market Entry"
+        ],
+        "Risk Management & Enterprise Resilience": [
+            "Enterprise Risk Management (ERM)",
+            "Business Continuity & Crisis Response"
+        ],
+        "Human Resources & Organizational Change": [
+            "Organizational Restructuring & Key Talent Retention",
+            "Labor Mediation & Change Management"
+        ],
+        "Data Privacy & Cybersecurity": [
+            "GDPR & Data Privacy Defense",
+            "Ransomware & Cybersecurity Incident Response"
+        ],
+        "Supply Chain & Operations": [
+            "Global Supply Chain Resilience Building",
+            "Zero-Based Budgeting & Operational Optimization"
+        ],
+        "ESG & Sustainability": [
+            "ESG Strategy & Carbon Neutrality Transformation",
+            "Sustainability Governance & Corporate Social Responsibility"
+        ],
+        "Market Competition & Brand Strategy": [
+            "Competitive Defense & Market Counter-Offensive",
+            "Brand PR Crisis Management"
+        ],
+        "Innovation & Product Management": [
+            "New Product Development & PoC Validation",
+            "Product Sunset & Exit Architecture"
+        ],
+        "Customer Relations & Revenue Growth": [
+            "Key Account Retention & Renewal Strategy",
+            "Pricing Architecture & Business Model Adjustment"
+        ],
+        "Legal & Intellectual Property": [
+            "IP Defense & Patent Litigation Strategy",
+            "Cross-Border Commercial Contract Negotiation"
+        ]
+    }
+}
+
+# 4. 界面雙語字典
 if lang == "繁體中文":
     TEXTS = {
         "title": "📄 P.P.Done 簡報與專案內容生成器",
@@ -32,14 +228,14 @@ if lang == "繁體中文":
         "overview_content": """
         ### 知識庫涵蓋範疇
         本系統整理了 23 個管理與專案執行領域，共 53 份結構化簡報範本：
-        * **經營與戰略**：公司治理、企業重整、合資企業、法說會溝通
+        * **經營與戰略**：公司治理、企業重整、合資企業、法說會溝通、地緣政治防禦
         * **營運與管理**：向上管理、壞消息通報、跨部門協調、專案啟動
         * **合規與科技**：AI 治理與風險管理、數據隱私、資安防護、監管回應
         * **分析與思維**：系統思考、賽局應用、行為經濟學、組織權力分析
         """,
         "input_label": "請輸入簡報主題或想解決的問題（簡易選擇）：",
         "input_placeholder": "例如：向 CFO 爭取自動化系統預算、通報專案延宕與修復計畫、AI 專案風險評估...",
-        "expander_advanced": "⚙️ 精細選擇：手動指定領域與模組 (有需要才展開)",
+        "expander_advanced": "⚙️ 精細選擇：手動指定領域與模組",
         "domain_label": "選擇管理領域：",
         "module_label": "選擇簡報模組：",
         "btn_generate": "生成簡報結構與講稿",
@@ -77,14 +273,14 @@ else:
         "overview_content": """
         ### Knowledge Base Scope
         This system aggregates 23 management domains and 53 structured presentation templates:
-        * **Governance & Strategy**: Corporate Governance, Restructuring, Joint Ventures, Earnings Calls
+        * **Governance & Strategy**: Corporate Governance, Restructuring, Joint Ventures, Earnings Calls, Geopolitical Defense
         * **Operations & Leadership**: Managing Up, Delivering Bad News, Cross-Functional Alignment, Project Kickoffs
         * **Compliance & Tech**: AI Governance & Risk Management, Data Privacy, Cybersecurity, Regulatory Response
         * **Analytics & Thinking**: Systems Thinking, Game Theory, Behavioral Economics, Power Dynamics
         """,
         "input_label": "Enter your presentation topic or goal (Quick Selection):",
         "input_placeholder": "e.g., Pitching an automation budget to CFO, Reporting project delay & recovery, AI risk assessment...",
-        "expander_advanced": "⚙️ Fine-Grained Selection: Specify Domain & Module (Optional)",
+        "expander_advanced": "⚙️ Fine-Grained Selection: Specify Domain & Module",
         "domain_label": "Select Management Domain:",
         "module_label": "Select Presentation Module:",
         "btn_generate": "Generate Outline & Speaker Notes",
@@ -115,52 +311,45 @@ else:
         """
     }
 
-# 4. 主頁面內容
+# 5. 主頁面標頭
 st.title(TEXTS["title"])
 st.caption(TEXTS["subtitle"])
 
-# 5. 可摺疊的知識庫概況 (預設收起)
+# 6. 可摺疊的知識庫概況 (預設收起)
 with st.expander(TEXTS["expander_overview"], expanded=False):
     st.markdown(TEXTS["overview_content"])
 
 st.markdown("---")
 
-# 6. 簡易選擇 (最主要的操作區域)
+# 7. 簡易選擇 (輸入主題即生成)
 user_topic = st.text_input(
     TEXTS["input_label"],
     placeholder=TEXTS["input_placeholder"]
 )
 
-# 7. 精細選擇 (預設收起，有需要才選)
+# 8. 精細選擇 (已刪除 "(有需要才展開)" 標註，預設收合)
 with st.expander(TEXTS["expander_advanced"], expanded=False):
     col1, col2 = st.columns(2)
+    
+    current_domains = list(DOMAINS_DATA[lang].keys())
+    
     with col1:
-        domain = st.selectbox(
+        selected_domain = st.selectbox(
             TEXTS["domain_label"],
-            [
-                "Executive_Communication_and_Upward_Management",
-                "AI_Governance_and_Ethics",
-                "Strategy_and_Execution",
-                "Finance_and_Control",
-                "Mergers_and_Acquisitions"
-            ]
+            current_domains
         )
+        
     with col2:
-        module = st.selectbox(
+        current_modules = DOMAINS_DATA[lang][selected_domain]
+        selected_module = st.selectbox(
             TEXTS["module_label"],
-            [
-                "upward_management_resource_pitch",
-                "upward_management_bad_news_delivery",
-                "matrix_leadership_cross_functional_alignment",
-                "aigp_scenario_wargame"
-            ]
+            current_modules
         )
 
-# 8. 生成按鈕
+# 9. 生成按鈕與結果呈現
 if st.button(TEXTS["btn_generate"], type="primary"):
     st.success(TEXTS["success_msg"])
     
-    # 頁籤輸出
     tab1, tab2 = st.tabs([TEXTS["tab_slide1"], TEXTS["tab_slide2"]])
     
     with tab1:
