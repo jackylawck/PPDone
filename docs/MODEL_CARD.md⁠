@@ -1,0 +1,35 @@
+# 📋 System Model Card & Technical Specifications
+
+**System Name:** P.P.Done AI Governance & Strategic Intelligence Engine  
+**Release Date:** August 2026  
+**Primary Developer:** Jacky Law (羅子淇)  
+
+---
+
+## 1. Model Overview & Architecture
+* **Base Architectures**: Multi-provider support (OpenAI GPT-4o / Anthropic Claude 3.5 / Llama 3 via Local API Gateways).
+* **Retrieval Architecture**: RAG (Retrieval-Augmented Generation) utilizing local vector databases and cosine similarity search.
+* **Filtering Engine**: Rule-Based Regex Boundary Gatekeeper & SHA-256 Audit Hasher.
+
+---
+
+## 2. Intended Use & Target Audience
+* **Intended Use**: Enterprise AI governance pre-auditing, ISO 42001 compliance evaluation, HK PCPD 2024 alignment, executive mediation scenario planning, and C-Suite strategic intelligence support.
+* **Intended Users**: HR Directors, Compliance Officers, Chief Risk Officers (CRO), Legal Counsel, and Executive Mediators.
+
+---
+
+## 3. System Out-of-Scope & Prohibited Uses
+⚠️ **Strict Out-of-Scope Warning:**
+This system is **NOT** designed or authorized for:
+* Fully autonomous legal judgments or binding contract execution.
+* Direct medical diagnosis or therapeutic advice.
+* Autonomous credit scoring or employment termination without human intervention.
+* Any prohibited AI practices defined under Article 5 of the EU AI Act.
+
+---
+
+## 4. Safety & Ethical Considerations
+* **Hallucination Control**: Strictly bounded by RAG retrieval context. Temperature hardcoded to `0.0`.
+* **Privacy Assurance**: Operating under a **Zero Data Retention** protocol. No user inputs are sent to external providers for AI training purposes.
+
