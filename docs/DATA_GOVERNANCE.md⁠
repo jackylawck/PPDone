@@ -1,0 +1,33 @@
+# 🔒 Data & Privacy Governance Policy (PCPD / GDPR / ISO 42001)
+
+**Scope:** Ingestion, Processing, Storage, and Vectorization of Data  
+**Compliance Standards:** HK PDPO (Cap. 486), EU GDPR, ISO/IEC 42001 Clause 7.5  
+
+---
+
+## 1. Data Processing Architecture
+The system enforces a **Zero Data Retention (ZDR)** and **Local-First Architecture**.
+
+\\\
+[User Input] ➔ [PII Auto-Masking Engine] ➔ [Local Embedding / RAG Retrieval] ➔ [In-Memory Session Processing] ➔ [Instant Session Destruction]
+\\\
+
+## 2. Data Governance Rules
+
+### A. Data Minimization & PII Isolation
+* **No Raw PII Storage**: System never stores names, Hong Kong Identity Card (HKID) numbers, credit card details, or phone numbers in persistent storage.
+* **Regex Pre-Processing**: Inputs containing PII are automatically redacted (`[REDACTED_PII]`) before hitting the vector database or model endpoints.
+
+### B. Intellectual Property & Copyright Compliance
+* **Copyrighted Material**: Only licensed, open-source, or corporate-owned documents may be vectorized into the RAG repository.
+* **Excluded Data Types**: Unlicensed proprietary books, restricted third-party legal databases, and unverified web scrapes are strictly banned from `.gitignore` tracked files.
+
+### C. Local Vector Database Security
+* **Access Control**: Vector indexes are encrypted at rest using AES-256.
+* **Isolation**: Dev, Staging, and Production environments maintain completely separate API keys and database namespaces.
+
+---
+
+## 3. Data Subject Rights (DSR) Handling
+Since the system operates under a **Session-Only Memory Protocol**, user session data is destroyed immediately upon tab/application termination. No persistent user query history is stored, natively satisfying the **Right to be Forgotten (Article 17 GDPR)**.
+
