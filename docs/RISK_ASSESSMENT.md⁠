@@ -1,0 +1,29 @@
+# 🛡️ AI Risk Assessment & Mitigation Report (ISO 42001 / EU AI Act)
+
+**System Name:** P.P.Done AI Governance & Strategic Intelligence Engine  
+**Version:** v2.0-AuditReady  
+**Framework Alignment:** ISO/IEC 42001:2023, EU AI Act (High-Risk Classification Matrix), Hong Kong PCPD 2024 Framework  
+
+---
+
+## 1. Executive Summary
+This document establishes the official AI Risk Assessment matrix for the system. It identifies potential failure modes, safety threats, and regulatory non-compliance risks, providing documented risk mitigation techniques.
+
+---
+
+## 2. Risk Evaluation Matrix
+
+| Risk ID | Threat Category | Scenario Description | Initial Impact | Initial Likelihood | Mitigation Strategy & Safeguards | Residual Risk |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **R-01** | Hallucination / Misinformation | System outputs inaccurate legal or governance advice to C-Suite. | High | Medium | **RAG Deterministic Boundary**: System is restricted strictly to retrieved knowledge bases. Temperature set to 0.0. Citation required for all claims. | **LOW** |
+| **R-02** | Prompt Injection | User inputs malicious prompts attempting to bypass safety rules or exfiltrate prompts. | High | Medium | **Regex Input Filtering**: Hardcoded pre-execution regex gatekeepers intercept malicious patterns before hitting LLM. | **LOW** |
+| **R-03** | Data Exfiltration / PII Leakage | Confidential corporate scenario or PII sent to external third-party model providers. | Critical | Low | **Privacy-by-Design & Zero Retention**: System operates in local-first/session-only memory. Automated PII masking prior to embedding. | **VERY LOW** |
+| **R-04** | Bias & Discrimination | AI generates unfair performance evaluation or biased mediation options. | High | Low | **Algorithmic Fairness Audit**: System audited using ISO 42001 bias evaluation protocols. Human-in-the-loop required for final decisions. | **LOW** |
+| **R-05** | Service Outage (Single Point Failure) | External API outage disrupts C-Suite decision-making or mediation sessions. | Medium | Medium | **Local-First Failover**: Knowledge base fallback to static local vector stores and offline rule engines. | **LOW** |
+
+---
+
+## 3. High-Risk System Classification (EU AI Act Compliance)
+* **System Classification**: Limited Risk / High-Risk Auxiliary Engine.
+* **Prohibited AI Practices Check**: The system **DOES NOT** perform social scoring, biometric categorization, or subliminal manipulation.
+* **Continuous Monitoring Protocol**: Risk evaluations are reassessed every **90 days** or upon major model updates.
