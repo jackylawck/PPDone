@@ -1,0 +1,33 @@
+# 👨‍💼 Human Oversight & Emergency Kill-Switch Protocol (EU AI Act Article 14)
+
+**Purpose:** Ensuring meaningful human control, oversight, and decision-override capabilities for AI-assisted workflows.
+
+---
+
+## 1. Human-in-the-Loop (HITL) Architecture
+
+[AI Evaluation / RAG Suggestion] ➔ [Human Executive Review] ➔ [Final Approval / Manual Override] ➔ [Execution]
+
+1. **Advisory Role**: The AI system acts exclusively as a strategic decision-support engine. It possesses **zero autonomous execution power**.
+2. **Mandatory Review**: All generated mediation strategies, HR recommendations, and compliance assessment reports must be reviewed and countersigned by a qualified human governance professional before corporate adoption.
+
+---
+
+## 2. Emergency Kill-Switch (System Disablement)
+
+### A. Automatic Circuit Breakers
+The system automatically disables API inference and reverts to static rule-based templates if:
+* Prompt injection or malicious activity is detected.
+* Confidence scores for retrieved context fall below **0.70**.
+* Toxic or non-compliant output is flagged by the content safety filter.
+
+### B. Manual Kill-Switch Protocol
+Administrators can trigger an instant system halt via:
+* **Environment Variable Toggle**: Setting `SYSTEM_KILL_SWITCH=TRUE` instantly kills all active sessions.
+* **API Key Revocation**: Rotating endpoint keys immediately terminates all third-party model connections.
+
+---
+
+## 3. Feedback & Error Correction Loop
+Users can flag inaccurate or hallucinated outputs. Flagged logs are hashed (`SHA-256`) and reviewed during weekly compliance audits to update the deterministic RAG knowledge base.
+
